@@ -92,11 +92,11 @@ def generate_launch_description():
         parameters=[{'uwb_url': LaunchConfiguration('uwb_url')}]
     )
 
-    # kf_node = Node(
-    #     package='kf',
-    #     executable='kf_uwb.py',
-    #     name='kalman_filter_node'
-    # )
+    kf_node = Node(
+        package='kf',
+        executable='kf_uwb.py',
+        name='kalman_filter_node'
+    )
 
     return LaunchDescription([
         fcu_url_arg,
