@@ -1,0 +1,274 @@
+[0.449s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.449s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fb2f53e20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb30d8520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb30d8520>>, mixin_verb=('build',))
+[1.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.028s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/mavlab/ros2_ws'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[1.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/kf) by extensions ['ignore', 'ignore_ament_install']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/kf) by extension 'ignore'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/kf) by extension 'ignore_ament_install'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/kf) by extensions ['colcon_pkg']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/kf) by extension 'colcon_pkg'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/kf) by extensions ['colcon_meta']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/kf) by extension 'colcon_meta'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/kf) by extensions ['ros']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/kf) by extension 'ros'
+[1.104s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kf' with type 'ros.ament_cmake' and name 'kf'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb) by extensions ['ignore', 'ignore_ament_install']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb) by extension 'ignore'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb) by extension 'ignore_ament_install'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb) by extensions ['colcon_pkg']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb) by extension 'colcon_pkg'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb) by extensions ['colcon_meta']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb) by extension 'colcon_meta'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb) by extensions ['ros']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb) by extension 'ros'
+[1.110s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uwb' with type 'ros.ament_cmake' and name 'uwb'
+[1.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.195s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.195s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.195s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.195s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.195s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.195s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.195s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/mavlab/ros2_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/mavlab/ros2_ws/install/custom_interfaces', 'merge_install': False, 'path': '/workspaces/mavlab/ros2_ws/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'kf' build argument 'cmake_args' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'kf' build argument 'cmake_target' from command line to 'None'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'kf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'kf' build argument 'cmake_clean_cache' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'kf' build argument 'cmake_clean_first' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'kf' build argument 'cmake_force_configure' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'kf' build argument 'ament_cmake_args' from command line to 'None'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'kf' build argument 'catkin_cmake_args' from command line to 'None'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'kf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.198s] DEBUG:colcon.colcon_core.verb:Building package 'kf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/mavlab/ros2_ws/build/kf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/mavlab/ros2_ws/install/kf', 'merge_install': False, 'path': '/workspaces/mavlab/ros2_ws/src/kf', 'symlink_install': False, 'test_result_base': None}
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'uwb' build argument 'cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'uwb' build argument 'cmake_target' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'uwb' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'uwb' build argument 'cmake_clean_cache' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'uwb' build argument 'cmake_clean_first' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'uwb' build argument 'cmake_force_configure' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'uwb' build argument 'ament_cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'uwb' build argument 'catkin_cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'uwb' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.202s] DEBUG:colcon.colcon_core.verb:Building package 'uwb' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/mavlab/ros2_ws/build/uwb', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/mavlab/ros2_ws/install/uwb', 'merge_install': False, 'path': '/workspaces/mavlab/ros2_ws/src/uwb', 'symlink_install': False, 'test_result_base': None}
+[1.203s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.208s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/mavlab/ros2_ws/src/custom_interfaces' with build type 'ament_cmake'
+[1.209s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/mavlab/ros2_ws/src/custom_interfaces'
+[1.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/mavlab/ros2_ws/src/kf' with build type 'ament_cmake'
+[1.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/mavlab/ros2_ws/src/kf'
+[1.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/mavlab/ros2_ws/src/uwb' with build type 'ament_cmake'
+[1.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/mavlab/ros2_ws/src/uwb'
+[1.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/mavlab/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/custom_interfaces -- -j4 -l4
+[1.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/mavlab/ros2_ws/build/kf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/kf -- -j4 -l4
+[1.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/mavlab/ros2_ws/build/uwb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/uwb -- -j4 -l4
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/mavlab/ros2_ws/build/kf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/kf -- -j4 -l4
+[1.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/mavlab/ros2_ws/build/uwb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/uwb -- -j4 -l4
+[1.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/mavlab/ros2_ws/build/kf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/kf
+[1.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/mavlab/ros2_ws/build/uwb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/uwb
+[1.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kf)
+[1.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/mavlab/ros2_ws/build/kf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/kf
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf' for CMake module files
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf' for CMake config files
+[1.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('kf', 'cmake_prefix_path')
+[1.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/kf/share/kf/hook/cmake_prefix_path.ps1'
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/mavlab/ros2_ws/install/kf/share/kf/hook/cmake_prefix_path.dsv'
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/kf/share/kf/hook/cmake_prefix_path.sh'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf/lib'
+[1.712s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf/bin'
+[1.713s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf/lib/pkgconfig/kf.pc'
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf/lib/python3.10/site-packages'
+[1.727s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf/bin'
+[1.729s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/kf/share/kf/package.ps1'
+[1.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/mavlab/ros2_ws/install/kf/share/kf/package.dsv'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/kf/share/kf/package.sh'
+[1.739s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/kf/share/kf/package.bash'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/kf/share/kf/package.zsh'
+[1.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/mavlab/ros2_ws/install/kf/share/colcon-core/packages/kf)
+[1.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uwb)
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb' for CMake module files
+[1.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/mavlab/ros2_ws/build/uwb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/uwb
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb' for CMake config files
+[1.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb', 'cmake_prefix_path')
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/hook/cmake_prefix_path.ps1'
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/hook/cmake_prefix_path.dsv'
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/hook/cmake_prefix_path.sh'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb/lib'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb/bin'
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb/lib/pkgconfig/uwb.pc'
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb/lib/python3.10/site-packages'
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb/bin'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.ps1'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.dsv'
+[1.779s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.sh'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.bash'
+[1.783s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.zsh'
+[1.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/mavlab/ros2_ws/install/uwb/share/colcon-core/packages/uwb)
+[1.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kf)
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf' for CMake module files
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf' for CMake config files
+[1.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('kf', 'cmake_prefix_path')
+[1.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/kf/share/kf/hook/cmake_prefix_path.ps1'
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/mavlab/ros2_ws/install/kf/share/kf/hook/cmake_prefix_path.dsv'
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/kf/share/kf/hook/cmake_prefix_path.sh'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf/lib'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf/bin'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf/lib/pkgconfig/kf.pc'
+[1.851s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf/lib/python3.10/site-packages'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/kf/bin'
+[1.854s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/kf/share/kf/package.ps1'
+[1.857s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/mavlab/ros2_ws/install/kf/share/kf/package.dsv'
+[1.859s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/kf/share/kf/package.sh'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/kf/share/kf/package.bash'
+[1.863s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/kf/share/kf/package.zsh'
+[1.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/mavlab/ros2_ws/install/kf/share/colcon-core/packages/kf)
+[1.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uwb)
+[1.881s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb' for CMake module files
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb' for CMake config files
+[1.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb', 'cmake_prefix_path')
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/hook/cmake_prefix_path.ps1'
+[1.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/hook/cmake_prefix_path.dsv'
+[1.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/hook/cmake_prefix_path.sh'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb/lib'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb/bin'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb/lib/pkgconfig/uwb.pc'
+[1.894s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb/lib/python3.10/site-packages'
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/uwb/bin'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.ps1'
+[1.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.dsv'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.sh'
+[1.903s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.bash'
+[1.905s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.zsh'
+[1.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/mavlab/ros2_ws/install/uwb/share/colcon-core/packages/uwb)
+[2.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/mavlab/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/custom_interfaces -- -j4 -l4
+[2.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/mavlab/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/custom_interfaces
+[3.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[3.202s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces' for CMake module files
+[3.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/mavlab/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/custom_interfaces
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces' for CMake config files
+[3.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[3.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[3.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib'
+[3.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[3.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[3.221s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces/bin'
+[3.222s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[3.223s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[3.224s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces/bin'
+[3.225s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[3.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[3.229s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[3.230s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[3.231s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[3.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[3.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[3.388s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces' for CMake module files
+[3.391s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces' for CMake config files
+[3.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[3.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[3.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[3.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[3.400s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib'
+[3.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[3.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[3.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[3.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[3.405s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces/bin'
+[3.406s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[3.408s] Level 1:colcon.colcon_core.environment:checking '/workspaces/mavlab/ros2_ws/install/custom_interfaces/bin'
+[3.409s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[3.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[3.413s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[3.415s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[3.416s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[3.418s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/mavlab/ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[3.419s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.421s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.422s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.443s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.443s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.444s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.444s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.444s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[3.445s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/mavlab/ros2_ws/install/local_setup.ps1'
+[3.450s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/mavlab/ros2_ws/install/_local_setup_util_ps1.py'
+[3.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/mavlab/ros2_ws/install/setup.ps1'
+[3.461s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/mavlab/ros2_ws/install/local_setup.sh'
+[3.463s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/mavlab/ros2_ws/install/_local_setup_util_sh.py'
+[3.465s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/mavlab/ros2_ws/install/setup.sh'
+[3.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/mavlab/ros2_ws/install/local_setup.bash'
+[3.473s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/mavlab/ros2_ws/install/setup.bash'
+[3.477s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/mavlab/ros2_ws/install/local_setup.zsh'
+[3.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/mavlab/ros2_ws/install/setup.zsh'

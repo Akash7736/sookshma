@@ -1,0 +1,67 @@
+# Start from ROS Humble base image
+FROM ros:humble
+
+# Install basic dependencies
+RUN apt-get update && apt-get -y install software-properties-common && \
+    add-apt-repository universe && \
+    apt-get update && apt-get -y install \
+    gcc gfortran git python3-pip python3-serial \
+    libsm6 libxext6 libxrender1 libfontconfig1 libgl1 sudo xauth htop udev \
+    libboost-all-dev curl libasio-dev \
+    ros-humble-diagnostic-updater ros-humble-nmea-msgs ros-humble-rtcm-msgs \
+    wget
+    
+
+# Install MAVROS dependencies
+RUN apt-get -y install ros-humble-mavros ros-humble-mavros-extras ros-humble-mavlink ros-humble-angles
+RUN /opt/ros/humble/lib/mavros/install_geographiclib_datasets.sh
+
+# Install NVIDIA drivers and CUDA support
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    nvidia-driver-525 nvidia-cuda-toolkit && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Add non-root user
+ENV USERNAME=mavlab
+RUN useradd -m $USERNAME && \
+    echo "$USERNAME:$USERNAME" | chpasswd && \
+    usermod --shell /bin/bash $USERNAME && \
+    usermod -aG sudo $USERNAME && \
+    usermod -a -G dialout $USERNAME && \
+    echo "$USERNAME ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/$USERNAME && \
+    chmod 0440 /etc/sudoers.d/$USERNAME
+
+# Symlink python3 to python
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
+USER mavlab
+WORKDIR /home/mavlab
+
+# Install PyTorch with CUDA (adjust version as needed)
+RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Copy and run SBG driver setup
+COPY sbg_setup.sh /home/mavlab/
+RUN ./sbg_setup.sh
+
+# Install Python dependencies
+COPY requirements_ros2.txt /home/mavlab/
+RUN pip install -r requirements_ros2.txt
+
+
+# Configure PATH and PYTHONPATH
+ENV PATH=$PATH:/home/mavlab/.local/bin
+ENV PYTHONPATH=$PYTHONPATH:/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/
+
+# Set up ROS environment
+RUN echo "source /opt/ros/humble/setup.bash" >> /home/mavlab/.bashrc
+RUN echo "alias sros2='source /opt/ros/humble/setup.bash && source /workspaces/mavlab/ros2_ws/install/setup.bash'" >> /home/mavlab/.bashrc
+RUN echo "alias sbg='sros2 && ros2 launch sbg_driver sbg_device_launch.py'" >> /home/mavlab/.bashrc
+RUN echo "alias uwb='sros2 && ros2 run uwb_driver uwb'" >> /home/mavlab/.bashrc
+RUN echo "alias gnc='sros2 && ros2 run gnc gnc'" >> /home/mavlab/.bashrc
+RUN echo "alias mavsim='sros2 && ros2 run mav_simulator simulate'" >> /home/mavlab/.bashrc
+RUN echo "alias ardusimple='sros2 && ros2 launch ublox_gps ublox_gps_node-launch.py'" >> /home/mavlab/.bashrc
+
+
+# Expose ports
+EXPOSE 9000 9001 9002 9003

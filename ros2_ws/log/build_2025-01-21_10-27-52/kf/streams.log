@@ -1,0 +1,23 @@
+[0.058s] Invoking command in '/workspaces/mavlab/ros2_ws/build/kf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/kf -- -j4 -l4
+[0.227s] Invoked command in '/workspaces/mavlab/ros2_ws/build/kf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/kf -- -j4 -l4
+[0.354s] Invoking command in '/workspaces/mavlab/ros2_ws/build/kf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/kf
+[0.418s] -- Install configuration: ""
+[0.419s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/launch
+[0.419s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/launch/kf_launch.py
+[0.420s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/lib/kf/kf.py
+[0.420s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/ament_index/resource_index/package_run_dependencies/kf
+[0.421s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/ament_index/resource_index/parent_prefix_path/kf
+[0.421s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/ament_prefix_path.sh
+[0.425s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/ament_prefix_path.dsv
+[0.426s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/path.sh
+[0.426s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/path.dsv
+[0.427s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.bash
+[0.427s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.sh
+[0.428s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.zsh
+[0.429s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.dsv
+[0.429s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/package.dsv
+[0.430s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/ament_index/resource_index/packages/kf
+[0.430s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/cmake/kfConfig.cmake
+[0.430s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/cmake/kfConfig-version.cmake
+[0.431s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/kf/share/kf/package.xml
+[0.473s] Invoked command in '/workspaces/mavlab/ros2_ws/build/kf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/kf

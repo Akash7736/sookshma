@@ -1,0 +1,13 @@
+{
+    "name": "Ship Simulator Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile_ros2",
+        "context": ".."
+    },
+    "runArgs": ["--privileged","--network=host"],
+    "forwardPorts": [9000]
+    // "mounts": [
+    //     "/dev/ttyACM0:/dev/ttyACM0"
+    // ]
+    // Add other configurations like port forwarding, settings, etc.
+}

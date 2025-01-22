@@ -1,0 +1,59 @@
+[0.060s] Invoking command in '/workspaces/mavlab/ros2_ws/build/kf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/kf -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/kf
+[0.660s] -- The C compiler identification is GNU 11.4.0
+[1.156s] -- The CXX compiler identification is GNU 11.4.0
+[1.191s] -- Detecting C compiler ABI info
+[1.405s] -- Detecting C compiler ABI info - done
+[1.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.440s] -- Detecting C compile features
+[1.441s] -- Detecting C compile features - done
+[1.454s] -- Detecting CXX compiler ABI info
+[1.721s] -- Detecting CXX compiler ABI info - done
+[1.754s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.754s] -- Detecting CXX compile features
+[1.756s] -- Detecting CXX compile features - done
+[1.779s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.298s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.761s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.020s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.052s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.103s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.514s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.531s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.915s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.011s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.169s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.222s] -- Looking for pthread.h
+[4.486s] -- Looking for pthread.h - found
+[4.487s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.715s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.718s] -- Found Threads: TRUE  
+[5.040s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[5.315s] -- Configuring done
+[5.337s] -- Generating done
+[5.342s] -- Build files have been written to: /workspaces/mavlab/ros2_ws/build/kf
+[5.371s] Invoked command in '/workspaces/mavlab/ros2_ws/build/kf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/kf -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/kf
+[5.375s] Invoking command in '/workspaces/mavlab/ros2_ws/build/kf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/kf -- -j4 -l4
+[5.488s] Invoked command in '/workspaces/mavlab/ros2_ws/build/kf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/kf -- -j4 -l4
+[5.547s] Invoking command in '/workspaces/mavlab/ros2_ws/build/kf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/kf
+[5.569s] -- Install configuration: ""
+[5.570s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/launch
+[5.572s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/launch/kf_launch.py
+[5.573s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/lib/kf/kf.py
+[5.574s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/ament_index/resource_index/package_run_dependencies/kf
+[5.576s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/ament_index/resource_index/parent_prefix_path/kf
+[5.577s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/ament_prefix_path.sh
+[5.579s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/ament_prefix_path.dsv
+[5.580s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/path.sh
+[5.581s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/path.dsv
+[5.583s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.bash
+[5.585s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.sh
+[5.587s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.zsh
+[5.587s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.dsv
+[5.587s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/package.dsv
+[5.588s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/ament_index/resource_index/packages/kf
+[5.588s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/cmake/kfConfig.cmake
+[5.589s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/cmake/kfConfig-version.cmake
+[5.589s] -- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/package.xml
+[5.590s] Invoked command in '/workspaces/mavlab/ros2_ws/build/kf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/kf

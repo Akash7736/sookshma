@@ -1,0 +1,9 @@
+pynput
+numpy
+scipy
+websockets
+setuptools==58.2.0
+websocket-client
+flask
+matplotlib
+pyproj

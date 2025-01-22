@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.002370] (kf) JobQueued: {'identifier': 'kf', 'dependencies': OrderedDict()}
+[0.002572] (uwb) JobQueued: {'identifier': 'uwb', 'dependencies': OrderedDict()}
+[0.002698] (kf) JobStarted: {'identifier': 'kf'}
+[0.041046] (uwb) JobStarted: {'identifier': 'uwb'}
+[0.059216] (kf) JobProgress: {'identifier': 'kf', 'progress': 'cmake'}
+[0.059904] (kf) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/mavlab/ros2_ws/src/kf', '-DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/kf'], 'cwd': '/workspaces/mavlab/ros2_ws/build/kf', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/.local/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/kf'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/opt/ros/humble')]), 'shell': False}
+[0.070983] (uwb) JobProgress: {'identifier': 'uwb', 'progress': 'cmake'}
+[0.073412] (uwb) JobProgress: {'identifier': 'uwb', 'progress': 'build'}
+[0.076382] (uwb) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/mavlab/ros2_ws/build/uwb', '--', '-j4', '-l4'], 'cwd': '/workspaces/mavlab/ros2_ws/build/uwb', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/.local/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/uwb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/opt/ros/humble')]), 'shell': False}
+[0.098410] (-) TimerEvent: {}
+[0.199342] (-) TimerEvent: {}
+[0.200285] (uwb) CommandEnded: {'returncode': 0}
+[0.255775] (uwb) JobProgress: {'identifier': 'uwb', 'progress': 'install'}
+[0.280243] (uwb) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/mavlab/ros2_ws/build/uwb'], 'cwd': '/workspaces/mavlab/ros2_ws/build/uwb', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/.local/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/uwb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/opt/ros/humble')]), 'shell': False}
+[0.299580] (-) TimerEvent: {}
+[0.303496] (uwb) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.304336] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/launch\n'}
+[0.305046] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/launch/uwb_launch.py\n'}
+[0.305582] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/lib/uwb/uwb.py\n'}
+[0.306437] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/ament_index/resource_index/package_run_dependencies/uwb\n'}
+[0.307066] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/ament_index/resource_index/parent_prefix_path/uwb\n'}
+[0.307572] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/environment/ament_prefix_path.sh\n'}
+[0.308113] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/environment/ament_prefix_path.dsv\n'}
+[0.310280] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/environment/path.sh\n'}
+[0.311504] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/environment/path.dsv\n'}
+[0.312314] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/local_setup.bash\n'}
+[0.313021] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/local_setup.sh\n'}
+[0.314311] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/local_setup.zsh\n'}
+[0.315382] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/local_setup.dsv\n'}
+[0.315955] (uwb) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.dsv\n'}
+[0.317133] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/ament_index/resource_index/packages/uwb\n'}
+[0.317588] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/cmake/uwbConfig.cmake\n'}
+[0.318051] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/cmake/uwbConfig-version.cmake\n'}
+[0.318598] (uwb) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/uwb/share/uwb/package.xml\n'}
+[0.319093] (uwb) CommandEnded: {'returncode': 0}
+[0.399720] (-) TimerEvent: {}
+[0.448720] (uwb) JobEnded: {'identifier': 'uwb', 'rc': 0}
+[0.499891] (-) TimerEvent: {}
+[0.600613] (-) TimerEvent: {}
+[0.661164] (kf) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.700814] (-) TimerEvent: {}
+[0.801582] (-) TimerEvent: {}
+[0.903031] (-) TimerEvent: {}
+[1.006272] (-) TimerEvent: {}
+[1.107219] (-) TimerEvent: {}
+[1.158732] (kf) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.193678] (kf) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.207418] (-) TimerEvent: {}
+[1.308130] (-) TimerEvent: {}
+[1.407572] (kf) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.408153] (-) TimerEvent: {}
+[1.440249] (kf) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.441921] (kf) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.443704] (kf) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.456526] (kf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.508369] (-) TimerEvent: {}
+[1.609613] (-) TimerEvent: {}
+[1.710833] (-) TimerEvent: {}
+[1.723530] (kf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.755932] (kf) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.756943] (kf) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.758670] (kf) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.780838] (kf) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.810982] (-) TimerEvent: {}
+[1.911691] (-) TimerEvent: {}
+[2.012426] (-) TimerEvent: {}
+[2.113109] (-) TimerEvent: {}
+[2.213803] (-) TimerEvent: {}
+[2.300609] (kf) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.314285] (-) TimerEvent: {}
+[2.416111] (-) TimerEvent: {}
+[2.517463] (-) TimerEvent: {}
+[2.620835] (-) TimerEvent: {}
+[2.721690] (-) TimerEvent: {}
+[2.762967] (kf) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.821900] (-) TimerEvent: {}
+[2.923347] (-) TimerEvent: {}
+[3.021866] (kf) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.023435] (-) TimerEvent: {}
+[3.053842] (kf) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.105223] (kf) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.123624] (-) TimerEvent: {}
+[3.184405] (kf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.223832] (-) TimerEvent: {}
+[3.275017] (kf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.323986] (-) TimerEvent: {}
+[3.424898] (-) TimerEvent: {}
+[3.516007] (kf) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.525033] (-) TimerEvent: {}
+[3.532221] (kf) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.625193] (-) TimerEvent: {}
+[3.726126] (-) TimerEvent: {}
+[3.827403] (-) TimerEvent: {}
+[3.916931] (kf) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.927607] (-) TimerEvent: {}
+[4.012247] (kf) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.027805] (-) TimerEvent: {}
+[4.128750] (-) TimerEvent: {}
+[4.170948] (kf) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.224669] (kf) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.228879] (-) TimerEvent: {}
+[4.329713] (-) TimerEvent: {}
+[4.430714] (-) TimerEvent: {}
+[4.488564] (kf) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.489716] (kf) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.530948] (-) TimerEvent: {}
+[4.631982] (-) TimerEvent: {}
+[4.717242] (kf) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.720725] (kf) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.732178] (-) TimerEvent: {}
+[4.833060] (-) TimerEvent: {}
+[4.933992] (-) TimerEvent: {}
+[5.034216] (kf) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[5.043618] (-) TimerEvent: {}
+[5.144574] (-) TimerEvent: {}
+[5.245493] (-) TimerEvent: {}
+[5.317263] (kf) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.339448] (kf) StdoutLine: {'line': b'-- Generating done\n'}
+[5.344498] (kf) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/mavlab/ros2_ws/build/kf\n'}
+[5.345607] (-) TimerEvent: {}
+[5.370675] (kf) CommandEnded: {'returncode': 0}
+[5.376135] (kf) JobProgress: {'identifier': 'kf', 'progress': 'build'}
+[5.376602] (kf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/mavlab/ros2_ws/build/kf', '--', '-j4', '-l4'], 'cwd': '/workspaces/mavlab/ros2_ws/build/kf', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/.local/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/kf'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/opt/ros/humble')]), 'shell': False}
+[5.445792] (-) TimerEvent: {}
+[5.488565] (kf) CommandEnded: {'returncode': 0}
+[5.546320] (kf) JobProgress: {'identifier': 'kf', 'progress': 'install'}
+[5.546524] (-) TimerEvent: {}
+[5.547835] (kf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/mavlab/ros2_ws/build/kf'], 'cwd': '/workspaces/mavlab/ros2_ws/build/kf', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/.local/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/kf'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/opt/ros/humble')]), 'shell': False}
+[5.570203] (kf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.572100] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/launch\n'}
+[5.573572] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/launch/kf_launch.py\n'}
+[5.574874] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/lib/kf/kf.py\n'}
+[5.576105] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/ament_index/resource_index/package_run_dependencies/kf\n'}
+[5.577472] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/ament_index/resource_index/parent_prefix_path/kf\n'}
+[5.578762] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/ament_prefix_path.sh\n'}
+[5.579945] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/ament_prefix_path.dsv\n'}
+[5.581665] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/path.sh\n'}
+[5.583117] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/environment/path.dsv\n'}
+[5.584376] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.bash\n'}
+[5.585676] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.sh\n'}
+[5.588860] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.zsh\n'}
+[5.589385] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/local_setup.dsv\n'}
+[5.589868] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/package.dsv\n'}
+[5.590317] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/ament_index/resource_index/packages/kf\n'}
+[5.590688] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/cmake/kfConfig.cmake\n'}
+[5.591183] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/cmake/kfConfig-version.cmake\n'}
+[5.591660] (kf) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/kf/share/kf/package.xml\n'}
+[5.592186] (kf) CommandEnded: {'returncode': 0}
+[5.646677] (-) TimerEvent: {}
+[5.691352] (kf) JobEnded: {'identifier': 'kf', 'rc': 0}
+[5.694418] (-) EventReactorShutdown: {}

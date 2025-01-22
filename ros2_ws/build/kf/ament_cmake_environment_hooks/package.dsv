@@ -1,0 +1,4 @@
+source;share/kf/local_setup.bash
+source;share/kf/local_setup.dsv
+source;share/kf/local_setup.sh
+source;share/kf/local_setup.zsh
