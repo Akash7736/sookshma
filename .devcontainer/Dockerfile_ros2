@@ -48,9 +48,15 @@ RUN ./sbg_setup.sh
 COPY requirements_ros2.txt /home/mavlab/
 RUN pip install -r requirements_ros2.txt
 
+RUN curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+
+
+
 
 # Configure PATH and PYTHONPATH
+ENV PATH=$PATH:/home/mavlab/bin
 ENV PATH=$PATH:/home/mavlab/.local/bin
+
 ENV PYTHONPATH=$PYTHONPATH:/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/
 
 # Set up ROS environment

@@ -1,4 +1,5 @@
 /workspaces/mavlab/ros2_ws/install/kf/share/kf/launch/kf_launch.py
+/workspaces/mavlab/ros2_ws/install/kf/share/kf/launch/kf_alone.py
 /workspaces/mavlab/ros2_ws/install/kf/lib/kf/kf_uwb.py
 /workspaces/mavlab/ros2_ws/install/kf/share/ament_index/resource_index/package_run_dependencies/kf
 /workspaces/mavlab/ros2_ws/install/kf/share/ament_index/resource_index/parent_prefix_path/kf

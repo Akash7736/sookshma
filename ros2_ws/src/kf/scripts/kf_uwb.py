@@ -65,10 +65,11 @@ class KalmanFilterNode(Node):
             self.origin_y = y
             return
         
-
-            
-        x, y = self.uwb_to_xy_ENU(self.origin_lat, self.origin_lon, lat, lon)
-        measured_pos = np.array([[x], [y]])
+        # Transform measurements to be relative to the stored origin
+        x_relative = x - self.origin_x
+        y_relative = y - self.origin_y
+        
+        measured_pos = np.array([[x_relative], [y_relative]])
         
         H = np.zeros((2, 6))
         H[0,3] = 1.0
@@ -114,6 +115,7 @@ class KalmanFilterNode(Node):
                 msg.orientation.z, msg.orientation.w]
         euler = Rotation.from_quat(quat).as_euler('xyz')
         psi = euler[2]
+        self.get_logger().info(f"psi {psi}")
         r = msg.angular_velocity.z
         
         self.update_imu(r, psi)
