@@ -56,8 +56,28 @@ RUN curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/inst
 # Configure PATH and PYTHONPATH
 ENV PATH=$PATH:/home/mavlab/bin
 ENV PATH=$PATH:/home/mavlab/.local/bin
+ENV ARDUINO_CLI_PATH=/root/.arduino15
 
 ENV PYTHONPATH=$PYTHONPATH:/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/
+RUN arduino-cli config init
+RUN arduino-cli core update-index
+# RUN arduino-cli core install arduino:sam
+RUN arduino-cli core update-index --additional-urls https://per1234.github.io/ArduinoCore-sam/package_per1234_samarm64_index.json
+# COPY ~/.arduino15/packages/arduino/hardware/sam/ $ARDUINO_CLI_PATH/packages/arduino/hardware/sam/
+RUN arduino-cli core update-index
+RUN arduino-cli core list
+RUN arduino-cli core install per1234:sam
+# Ensure the Arduino CLI is functional
+
+RUN arduino-cli core install arduino:samd
+RUN arduino-cli core update-index
+RUN arduino-cli board listall
+RUN arduino-cli lib install Servo
+RUN arduino-cli lib install --zip-path micro_ros_arduino-humble.zip
+RUN arduino-cli lib install --zip-path FlySkyIBus-master.zip
+RUN arduino-cli lib install IBusBM
+
+# RUN curl https://raw.githubusercontent.com/micro-ROS/micro_ros_arduino/main/extras/patching_boards/platform_arduinocore_sam.txt > ~/.arduino15/packages/arduino/hardware/sam/1.6.12/platform.txt
 
 # Set up ROS environment
 RUN echo "source /opt/ros/humble/setup.bash" >> /home/mavlab/.bashrc
