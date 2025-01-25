@@ -9,7 +9,7 @@ fi
 docker run --gpus all -it --rm --privileged --name sookshma_docker \
     --net=host \
     --env="DISPLAY" \
-    --env="ROS_DOMAIN_ID=42" \
+    --env="ROS_DOMAIN_ID=0" \
     --workdir="/workspaces/mavlab" \
     --volume="$(pwd)":"/workspaces/mavlab" \
     --volume="/dev/shm":"/dev/shm" \

@@ -1,0 +1,368 @@
+[0.000000] (-) TimerEvent: {}
+[0.000473] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000629] (-) JobUnselected: {'identifier': 'kf'}
+[0.000802] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.000938] (-) JobUnselected: {'identifier': 'uwb'}
+[0.001058] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.001161] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs')])}
+[0.004181] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.055799] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.060071] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/mavlab/ros2_ws/src/uros/micro_ros_msgs', '-DUAGENT_BUILD_EXECUTABLE=OFF', '-DUAGENT_P2P_PROFILE=OFF', '--no-warn-unused-cli', '-DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/micro_ros_msgs'], 'cwd': '/workspaces/mavlab/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_agent/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib:/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/bin:/home/mavlab/.local/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/micro_ros_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.095546] (-) TimerEvent: {}
+[0.163123] (micro_ros_msgs) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[0.194906] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.195626] (-) TimerEvent: {}
+[0.296253] (-) TimerEvent: {}
+[0.396896] (-) TimerEvent: {}
+[0.497516] (-) TimerEvent: {}
+[0.598108] (-) TimerEvent: {}
+[0.698783] (-) TimerEvent: {}
+[0.786337] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.797801] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.798832] (-) TimerEvent: {}
+[0.814736] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.899034] (-) TimerEvent: {}
+[0.975004] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.999175] (-) TimerEvent: {}
+[1.099805] (-) TimerEvent: {}
+[1.139837] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.199903] (-) TimerEvent: {}
+[1.300498] (-) TimerEvent: {}
+[1.401125] (-) TimerEvent: {}
+[1.501762] (-) TimerEvent: {}
+[1.602432] (-) TimerEvent: {}
+[1.703100] (-) TimerEvent: {}
+[1.803943] (-) TimerEvent: {}
+[1.905455] (-) TimerEvent: {}
+[2.006102] (-) TimerEvent: {}
+[2.106765] (-) TimerEvent: {}
+[2.207433] (-) TimerEvent: {}
+[2.217842] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.307587] (-) TimerEvent: {}
+[2.408240] (-) TimerEvent: {}
+[2.508887] (-) TimerEvent: {}
+[2.609608] (-) TimerEvent: {}
+[2.710328] (-) TimerEvent: {}
+[2.811013] (-) TimerEvent: {}
+[2.885980] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.911212] (-) TimerEvent: {}
+[3.012569] (-) TimerEvent: {}
+[3.113212] (-) TimerEvent: {}
+[3.213843] (-) TimerEvent: {}
+[3.314527] (-) TimerEvent: {}
+[3.415310] (-) TimerEvent: {}
+[3.515888] (-) TimerEvent: {}
+[3.616462] (-) TimerEvent: {}
+[3.717049] (-) TimerEvent: {}
+[3.746365] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.817287] (-) TimerEvent: {}
+[3.818595] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.893619] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.894174] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.894516] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.917500] (-) TimerEvent: {}
+[3.961053] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.007227] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.017717] (-) TimerEvent: {}
+[4.031648] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.062905] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.117897] (-) TimerEvent: {}
+[4.218788] (-) TimerEvent: {}
+[4.264223] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.275326] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/mavlab/ros2_ws/build/micro_ros_msgs\n'}
+[4.292346] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[4.294226] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[4.297428] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/mavlab/ros2_ws/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/workspaces/mavlab/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_agent/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib:/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/bin:/home/mavlab/.local/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/micro_ros_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.318978] (-) TimerEvent: {}
+[4.419703] (-) TimerEvent: {}
+[4.438580] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_c\x1b[0m\n'}
+[4.470896] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] Built target micro_ros_msgs__cpp\n'}
+[4.484172] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[4.508780] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.517979] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.518822] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[4.519874] (-) TimerEvent: {}
+[4.536363] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.560403] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.574045] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[4.574682] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.591991] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.616509] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.618908] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.620028] (-) TimerEvent: {}
+[4.622036] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.661075] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[4.662293] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[4.720195] (-) TimerEvent: {}
+[4.728600] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[4.794191] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[4.820402] (-) TimerEvent: {}
+[4.831349] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_py\x1b[0m\n'}
+[4.883854] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[4.920160] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.920847] (-) TimerEvent: {}
+[4.922736] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.923263] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.967574] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.968416] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[4.974564] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.021014] (-) TimerEvent: {}
+[5.121593] (-) TimerEvent: {}
+[5.222220] (-) TimerEvent: {}
+[5.322845] (-) TimerEvent: {}
+[5.423496] (-) TimerEvent: {}
+[5.524201] (-) TimerEvent: {}
+[5.624860] (-) TimerEvent: {}
+[5.663444] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.666313] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[5.666945] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[5.668448] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[5.680961] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[5.684039] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[5.725100] (-) TimerEvent: {}
+[5.800271] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[5.825328] (-) TimerEvent: {}
+[5.835147] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[5.925474] (-) TimerEvent: {}
+[6.026170] (-) TimerEvent: {}
+[6.126932] (-) TimerEvent: {}
+[6.145125] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[6.177890] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/mavlab/ros2_ws/build/micro_ros_msgs'], 'cwd': '/workspaces/mavlab/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_agent/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib:/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/bin:/home/mavlab/.local/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/micro_ros_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[6.202168] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.202846] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[6.203337] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.203877] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.204392] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[6.204880] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[6.205283] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[6.205737] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.206127] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[6.206510] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[6.206844] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[6.207194] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[6.207507] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[6.207883] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[6.208239] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[6.208552] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[6.208854] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[6.209205] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[6.209537] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[6.209982] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[6.210320] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.210753] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[6.211161] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[6.211603] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[6.212017] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.212334] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.212655] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.213038] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.213361] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[6.213726] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[6.214128] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[6.214516] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.214935] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.215353] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.215735] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.216151] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[6.216472] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[6.216795] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[6.217181] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[6.217497] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[6.217830] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[6.218139] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.218448] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.218823] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[6.219223] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.219635] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.220144] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[6.220589] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[6.221016] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[6.221458] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.221868] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[6.222258] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[6.222650] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[6.223052] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[6.223371] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[6.223675] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[6.224042] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[6.224363] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[6.224669] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[6.224969] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.225278] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.225659] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.225994] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.226444] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.226848] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.227233] (-) TimerEvent: {}
+[6.227671] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.228234] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[6.228618] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.228947] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.229260] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.229568] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.229996] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[6.230336] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.230677] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[6.230991] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.231305] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[6.231624] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.232135] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.232494] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[6.232949] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[6.233286] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[6.233669] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info\n'}
+[6.234034] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[6.234414] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[6.234859] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[6.235464] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[6.236128] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[6.236531] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.236938] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.237295] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[6.237730] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.238132] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[6.238661] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.239255] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[6.239629] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[6.240139] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[6.240500] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[6.240850] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[6.241184] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[6.241529] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[6.241843] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[6.242168] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.242504] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.327479] (-) TimerEvent: {}
+[6.381401] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[6.382006] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...\n"}
+[6.382511] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[6.404878] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.406599] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.408361] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.410153] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[6.410820] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[6.411212] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[6.411619] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[6.412166] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[6.412685] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[6.413096] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[6.413445] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[6.413773] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[6.414190] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[6.414603] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[6.415035] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[6.415570] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[6.416028] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[6.416376] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[6.416754] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[6.417095] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[6.417416] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[6.417837] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[6.418237] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[6.418556] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.418927] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.419299] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.420053] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.420465] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.421199] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.421639] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.422248] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.423094] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.423455] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.424409] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.424841] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.425557] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.425960] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.426669] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.427048] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.427449] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.427849] (-) TimerEvent: {}
+[6.428486] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.429172] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.429721] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.430079] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.430457] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.430833] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.431194] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[6.431560] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[6.432025] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[6.436065] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[6.528050] (-) TimerEvent: {}
+[6.629043] (-) TimerEvent: {}
+[6.729685] (-) TimerEvent: {}
+[6.830508] (-) TimerEvent: {}
+[6.875284] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[6.879325] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[6.911368] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[6.916088] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/mavlab/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent', '-DUAGENT_BUILD_EXECUTABLE=OFF', '-DUAGENT_P2P_PROFILE=OFF', '--no-warn-unused-cli', '-DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/micro_ros_agent'], 'cwd': '/workspaces/mavlab/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_agent/lib:/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/bin:/home/mavlab/.local/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/micro_ros_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[6.930661] (-) TimerEvent: {}
+[6.940487] (micro_ros_agent) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[6.960360] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.030881] (-) TimerEvent: {}
+[7.131666] (-) TimerEvent: {}
+[7.232626] (-) TimerEvent: {}
+[7.333230] (-) TimerEvent: {}
+[7.433945] (-) TimerEvent: {}
+[7.534623] (-) TimerEvent: {}
+[7.622966] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 3.1.5 (/opt/ros/humble/share/rosidl_cmake/cmake)\n'}
+[7.623995] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.634819] (-) TimerEvent: {}
+[7.703559] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)\n'}
+[7.707018] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)\n'}
+[7.734993] (-) TimerEvent: {}
+[7.801916] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.835223] (-) TimerEvent: {}
+[7.836219] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.871638] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.921384] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.935452] (-) TimerEvent: {}
+[8.010455] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[8.035605] (-) TimerEvent: {}
+[8.136343] (-) TimerEvent: {}
+[8.205763] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.210311] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[8.214228] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 3.0.1 (/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)\n'}
+[8.236573] (-) TimerEvent: {}
+[8.337988] (-) TimerEvent: {}
+[8.438674] (-) TimerEvent: {}
+[8.539356] (-) TimerEvent: {}
+[8.567733] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.614407] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[8.619356] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/mavlab/ros2_ws/build/micro_ros_agent\n'}
+[8.638203] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[8.640053] (-) TimerEvent: {}
+[8.641103] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[8.642159] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/mavlab/ros2_ws/build/micro_ros_agent', '--', '-j4', '-l4'], 'cwd': '/workspaces/mavlab/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_agent/lib:/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/bin:/home/mavlab/.local/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/micro_ros_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[8.740243] (-) TimerEvent: {}
+[8.780454] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_agent\x1b[0m\n'}
+[8.840409] (-) TimerEvent: {}
+[8.877691] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[8.910126] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[8.940583] (-) TimerEvent: {}
+[9.011147] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[9.014301] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/mavlab/ros2_ws/build/micro_ros_agent'], 'cwd': '/workspaces/mavlab/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_agent/lib:/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/bin:/home/mavlab/.local/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/micro_ros_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[9.037224] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.037953] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[9.038488] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[9.038848] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[9.039330] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[9.039683] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[9.040340] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[9.040767] (-) TimerEvent: {}
+[9.041102] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[9.041604] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[9.042082] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[9.042538] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[9.042940] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[9.044152] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[9.044513] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.044824] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[9.045141] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[9.045528] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[9.046630] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[9.047285] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[9.047720] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[9.052689] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[9.140956] (-) TimerEvent: {}
+[9.222528] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[9.226444] (-) EventReactorShutdown: {}
