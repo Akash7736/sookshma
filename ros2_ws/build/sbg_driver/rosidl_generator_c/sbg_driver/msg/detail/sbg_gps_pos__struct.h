@@ -57,9 +57,7 @@ typedef struct sbg_driver__msg__SbgGpsPos
   ///   y: North
   ///   z: Vertical
   geometry_msgs__msg__Vector3 position_accuracy;
-  /// Number of space vehicles tracked by the GNSS. 0xFF if N/A
-  uint8_t num_sv_tracked;
-  /// Number of space vehicles used in GNSS solution. 0xFF if N/A
+  /// Number of space vehicles used in GNSS solution
   uint8_t num_sv_used;
   /// ID of the DGPS/RTK base station in use
   uint16_t base_station_id;

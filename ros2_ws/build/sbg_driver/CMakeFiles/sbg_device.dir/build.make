@@ -139,38 +139,10 @@ CMakeFiles/sbg_device.dir/src/sbg_device.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbg_device.dir/src/sbg_device.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/src/sbg_device.cpp -o CMakeFiles/sbg_device.dir/src/sbg_device.cpp.s
 
-CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o: CMakeFiles/sbg_device.dir/flags.make
-CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/src/sbg_utm.cpp
-CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o: CMakeFiles/sbg_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o -MF CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o.d -o CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/src/sbg_utm.cpp
-
-CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/src/sbg_utm.cpp > CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.i
-
-CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/src/sbg_utm.cpp -o CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.s
-
-CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o: CMakeFiles/sbg_device.dir/flags.make
-CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/src/sbg_ros_helpers.cpp
-CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o: CMakeFiles/sbg_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o -MF CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o.d -o CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/src/sbg_ros_helpers.cpp
-
-CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/src/sbg_ros_helpers.cpp > CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.i
-
-CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/src/sbg_ros_helpers.cpp -o CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.s
-
 CMakeFiles/sbg_device.dir/src/main.cpp.o: CMakeFiles/sbg_device.dir/flags.make
 CMakeFiles/sbg_device.dir/src/main.cpp.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/src/main.cpp
 CMakeFiles/sbg_device.dir/src/main.cpp.o: CMakeFiles/sbg_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sbg_device.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sbg_device.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbg_device.dir/src/main.cpp.o -MF CMakeFiles/sbg_device.dir/src/main.cpp.o.d -o CMakeFiles/sbg_device.dir/src/main.cpp.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/src/main.cpp
 
 CMakeFiles/sbg_device.dir/src/main.cpp.i: cmake_force
@@ -188,8 +160,6 @@ sbg_device_OBJECTS = \
 "CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o" \
 "CMakeFiles/sbg_device.dir/src/config_store.cpp.o" \
 "CMakeFiles/sbg_device.dir/src/sbg_device.cpp.o" \
-"CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o" \
-"CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o" \
 "CMakeFiles/sbg_device.dir/src/main.cpp.o"
 
 # External object files for target sbg_device
@@ -200,11 +170,9 @@ sbg_device: CMakeFiles/sbg_device.dir/src/message_publisher.cpp.o
 sbg_device: CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o
 sbg_device: CMakeFiles/sbg_device.dir/src/config_store.cpp.o
 sbg_device: CMakeFiles/sbg_device.dir/src/sbg_device.cpp.o
-sbg_device: CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o
-sbg_device: CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o
 sbg_device: CMakeFiles/sbg_device.dir/src/main.cpp.o
 sbg_device: CMakeFiles/sbg_device.dir/build.make
-sbg_device: external/sbgECom/libsbgECom.a
+sbg_device: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a
 sbg_device: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 sbg_device: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 sbg_device: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
@@ -222,19 +190,7 @@ sbg_device: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.
 sbg_device: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
 sbg_device: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so
 sbg_device: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so
-sbg_device: /opt/ros/humble/lib/librtcm_msgs__rosidl_typesupport_fastrtps_c.so
-sbg_device: /opt/ros/humble/lib/librtcm_msgs__rosidl_typesupport_fastrtps_cpp.so
-sbg_device: /opt/ros/humble/lib/librtcm_msgs__rosidl_typesupport_introspection_c.so
-sbg_device: /opt/ros/humble/lib/librtcm_msgs__rosidl_typesupport_introspection_cpp.so
-sbg_device: /opt/ros/humble/lib/librtcm_msgs__rosidl_typesupport_cpp.so
-sbg_device: /opt/ros/humble/lib/librtcm_msgs__rosidl_generator_py.so
 sbg_device: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
-sbg_device: /opt/ros/humble/lib/libnmea_msgs__rosidl_typesupport_fastrtps_c.so
-sbg_device: /opt/ros/humble/lib/libnmea_msgs__rosidl_typesupport_introspection_c.so
-sbg_device: /opt/ros/humble/lib/libnmea_msgs__rosidl_typesupport_fastrtps_cpp.so
-sbg_device: /opt/ros/humble/lib/libnmea_msgs__rosidl_typesupport_introspection_cpp.so
-sbg_device: /opt/ros/humble/lib/libnmea_msgs__rosidl_typesupport_cpp.so
-sbg_device: /opt/ros/humble/lib/libnmea_msgs__rosidl_generator_py.so
 sbg_device: libsbg_driver__rosidl_typesupport_cpp.so
 sbg_device: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 sbg_device: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
@@ -243,8 +199,6 @@ sbg_device: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
 sbg_device: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
 sbg_device: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so
 sbg_device: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so
-sbg_device: /opt/ros/humble/lib/librtcm_msgs__rosidl_typesupport_c.so
-sbg_device: /opt/ros/humble/lib/librtcm_msgs__rosidl_generator_c.so
 sbg_device: /opt/ros/humble/lib/libtf2_ros.so
 sbg_device: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 sbg_device: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
@@ -309,36 +263,34 @@ sbg_device: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.
 sbg_device: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 sbg_device: /opt/ros/humble/lib/libtf2.so
 sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-sbg_device: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
 sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 sbg_device: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 sbg_device: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 sbg_device: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 sbg_device: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 sbg_device: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 sbg_device: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 sbg_device: /opt/ros/humble/lib/librmw.so
-sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 sbg_device: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 sbg_device: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 sbg_device: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-sbg_device: /opt/ros/humble/lib/libnmea_msgs__rosidl_typesupport_c.so
-sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-sbg_device: /opt/ros/humble/lib/libnmea_msgs__rosidl_generator_c.so
-sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 sbg_device: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 sbg_device: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 sbg_device: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 sbg_device: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+sbg_device: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
 sbg_device: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 sbg_device: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 sbg_device: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
@@ -348,7 +300,7 @@ sbg_device: /opt/ros/humble/lib/librcpputils.so
 sbg_device: /opt/ros/humble/lib/librosidl_runtime_c.so
 sbg_device: /opt/ros/humble/lib/librcutils.so
 sbg_device: CMakeFiles/sbg_device.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable sbg_device"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable sbg_device"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sbg_device.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

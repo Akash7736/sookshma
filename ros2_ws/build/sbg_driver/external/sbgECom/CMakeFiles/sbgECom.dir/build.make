@@ -69,192 +69,262 @@ include external/sbgECom/CMakeFiles/sbgECom.dir/progress.make
 # Include the compile flags for this target's objects.
 include external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/crc/sbgCrc.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o -MF CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o.d -o CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/crc/sbgCrc.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogAirData.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogAirData.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/crc/sbgCrc.c > CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogAirData.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/crc/sbgCrc.c -o CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogAirData.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/debug/sbgDebug.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o -MF CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o.d -o CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/debug/sbgDebug.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDebug.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDebug.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/debug/sbgDebug.c > CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDebug.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/debug/sbgDebug.c -o CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDebug.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDepth.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDepth.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDepth.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDepth.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceFile.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceFile.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDiag.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDiag.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceFile.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDiag.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceFile.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDiag.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDvl.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDvl.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDvl.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogDvl.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceUdp.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceUdp.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogEkf.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogEkf.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceUdp.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogEkf.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceUdp.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogEkf.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/network/sbgNetwork.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o -MF CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o.d -o CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/network/sbgNetwork.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogEvent.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogEvent.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/network/sbgNetwork.c > CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogEvent.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/network/sbgNetwork.c -o CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogEvent.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/platform/sbgPlatform.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o -MF CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o.d -o CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/platform/sbgPlatform.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogGps.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogGps.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/platform/sbgPlatform.c > CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogGps.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/platform/sbgPlatform.c -o CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogGps.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/splitBuffer/sbgSplitBuffer.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o -MF CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o.d -o CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/splitBuffer/sbgSplitBuffer.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogImu.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogImu.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/splitBuffer/sbgSplitBuffer.c > CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogImu.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/splitBuffer/sbgSplitBuffer.c -o CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogImu.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBuffer.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o -MF CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o.d -o CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBuffer.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogImuRaw.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogImuRaw.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBuffer.c > CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogImuRaw.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBuffer.c -o CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogImuRaw.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/string/sbgString.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/string/sbgString.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/string/sbgString.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/string/sbgString.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/string/sbgString.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/string/sbgString.c.o -MF CMakeFiles/sbgECom.dir/common/string/sbgString.c.o.d -o CMakeFiles/sbgECom.dir/common/string/sbgString.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/string/sbgString.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogMag.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogMag.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/string/sbgString.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/string/sbgString.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/string/sbgString.c > CMakeFiles/sbgECom.dir/common/string/sbgString.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogMag.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/string/sbgString.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/string/sbgString.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/string/sbgString.c -o CMakeFiles/sbgECom.dir/common/string/sbgString.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogMag.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/swap/sbgSwap.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o -MF CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o.d -o CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/swap/sbgSwap.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogOdometer.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogOdometer.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/swap/sbgSwap.c > CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogOdometer.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/swap/sbgSwap.c -o CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogOdometer.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/version/sbgVersion.c
-external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o -MF CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o.d -o CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/version/sbgVersion.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogShipMotion.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogShipMotion.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/version/sbgVersion.c > CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogShipMotion.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/version/sbgVersion.c -o CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogShipMotion.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogStatus.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogStatus.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogStatus.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogStatus.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogUsbl.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogUsbl.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogUsbl.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogUsbl.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogUtc.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogUtc.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogUtc.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogUtc.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogs.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o -MF CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o.d -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogs.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogs.c > CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogs.c -o CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmd.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmd.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmd.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmd.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.s
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdAdvanced.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdAdvanced.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.i: cmake_force
@@ -268,7 +338,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.s: cma
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdAirData.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdAirData.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.i: cmake_force
@@ -279,24 +349,10 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.s"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdAirData.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdApi.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdApi.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdApi.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdApi.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.s
-
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.i: cmake_force
@@ -310,7 +366,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.s: cmake
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdDvl.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdDvl.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.i: cmake_force
@@ -324,7 +380,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.s: cmake_fo
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdEthernet.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdEthernet.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.i: cmake_force
@@ -338,7 +394,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.s: cma
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdEvent.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdEvent.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.i: cmake_force
@@ -352,7 +408,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.s: cmake_
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdFeatures.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdFeatures.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.i: cmake_force
@@ -366,7 +422,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.s: cma
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdGnss.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdGnss.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.i: cmake_force
@@ -380,7 +436,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.s: cmake_f
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdInfo.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdInfo.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.i: cmake_force
@@ -394,7 +450,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.s: cmake_f
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdInterface.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdInterface.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.i: cmake_force
@@ -408,7 +464,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.s: cm
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdLicense.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdLicense.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.i: cmake_force
@@ -422,7 +478,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.s: cmak
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.i: cmake_force
@@ -436,7 +492,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.s: cmake_fo
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.i: cmake_force
@@ -450,7 +506,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.s: cmake_fo
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.i: cmake_force
@@ -464,7 +520,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.s: cmake
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.i: cmake_force
@@ -478,7 +534,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.s: cmake
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSettings.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSettings.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.i: cmake_force
@@ -489,304 +545,24 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.s: cma
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.s"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSettings.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/defs/sbgEComDefsGnss.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o -MF CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o.d -o CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/defs/sbgEComDefsGnss.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/transfer/sbgEComTransfer.c
+external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o -MF CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/transfer/sbgEComTransfer.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/defs/sbgEComDefsGnss.c > CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/transfer/sbgEComTransfer.c > CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/defs/sbgEComDefsGnss.c -o CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLog.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLog.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLog.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLog.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogAirData.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogAirData.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogAirData.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogAirData.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDepth.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDepth.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDepth.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDepth.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDiag.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDiag.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDiag.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDiag.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDvl.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDvl.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDvl.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDvl.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEkf.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEkf.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEkf.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEkf.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEkfRotAccel.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEkfRotAccel.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEkfRotAccel.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEkfRotAccel.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEvent.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEvent.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEvent.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEvent.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssHdt.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssHdt.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssHdt.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssHdt.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssPos.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssPos.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssPos.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssPos.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssVel.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssVel.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssVel.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssVel.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogImu.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogImu.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogImu.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogImu.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogMag.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogMag.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogMag.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogMag.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogOdometer.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogOdometer.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogOdometer.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogOdometer.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogRawData.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogRawData.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogRawData.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogRawData.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogSat.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogSat.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogSat.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogSat.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogShipMotion.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogShipMotion.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogShipMotion.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogShipMotion.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogStatus.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogStatus.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogStatus.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogStatus.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogUsbl.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogUsbl.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogUsbl.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogUsbl.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.s
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogUtc.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogUtc.c
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogUtc.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.i
-
-external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogUtc.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/transfer/sbgEComTransfer.c -o CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.s
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/protocol/sbgEComProtocol.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o -MF CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o.d -o CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/protocol/sbgEComProtocol.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.i: cmake_force
@@ -800,7 +576,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.s: cmake_
 external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgECom.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.o -MF CMakeFiles/sbgECom.dir/src/sbgECom.c.o.d -o CMakeFiles/sbgECom.dir/src/sbgECom.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgECom.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.i: cmake_force
@@ -814,7 +590,7 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.s: cmake_force
 external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
 external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComGetVersion.c
 external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o -MF CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o.d -o CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComGetVersion.c
 
 external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.i: cmake_force
@@ -825,38 +601,182 @@ external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.s"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComGetVersion.c -o CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.s
 
-external/sbgECom/CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
-external/sbgECom/CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/transfer/sbgEComTransfer.c
-external/sbgECom/CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o -MF CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o.d -o CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/transfer/sbgEComTransfer.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/crc/sbgCrc.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o -MF CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o.d -o CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/crc/sbgCrc.c
 
-external/sbgECom/CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.i"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/transfer/sbgEComTransfer.c > CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.i
+external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/crc/sbgCrc.c > CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.i
 
-external/sbgECom/CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.s"
-	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/transfer/sbgEComTransfer.c -o CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.s
+external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/crc/sbgCrc.c -o CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceFile.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceFile.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceFile.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceFile.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceUdp.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceUdp.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceUdp.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceUdp.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/network/sbgNetwork.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o -MF CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o.d -o CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/network/sbgNetwork.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/network/sbgNetwork.c > CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/network/sbgNetwork.c -o CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/platform/sbgPlatform.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o -MF CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o.d -o CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/platform/sbgPlatform.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/platform/sbgPlatform.c > CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/platform/sbgPlatform.c -o CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/splitBuffer/sbgSplitBuffer.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o -MF CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o.d -o CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/splitBuffer/sbgSplitBuffer.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/splitBuffer/sbgSplitBuffer.c > CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/splitBuffer/sbgSplitBuffer.c -o CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBuffer.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o -MF CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o.d -o CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBuffer.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBuffer.c > CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBuffer.c -o CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/swap/sbgSwap.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o -MF CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o.d -o CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/swap/sbgSwap.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/swap/sbgSwap.c > CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/swap/sbgSwap.c -o CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.s
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/flags.make
+external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/version/sbgVersion.c
+external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o: external/sbgECom/CMakeFiles/sbgECom.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o -MF CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o.d -o CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o -c /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/version/sbgVersion.c
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.i"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/version/sbgVersion.c > CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.i
+
+external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.s"
+	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/version/sbgVersion.c -o CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.s
 
 # Object files for target sbgECom
 sbgECom_OBJECTS = \
-"CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o" \
-"CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o" \
-"CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o" \
-"CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o" \
-"CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o" \
-"CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o" \
-"CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o" \
-"CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o" \
-"CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o" \
-"CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o" \
-"CMakeFiles/sbgECom.dir/common/string/sbgString.c.o" \
-"CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o" \
-"CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o" \
+"CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o" \
+"CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o" \
 "CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o" \
 "CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o" \
-"CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o" \
 "CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o" \
 "CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o" \
 "CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o" \
@@ -871,98 +791,82 @@ sbgECom_OBJECTS = \
 "CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o" \
 "CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o" \
 "CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o" \
-"CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o" \
-"CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o" \
+"CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o" \
 "CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o" \
 "CMakeFiles/sbgECom.dir/src/sbgECom.c.o" \
 "CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o" \
-"CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o"
+"CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o" \
+"CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o" \
+"CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o" \
+"CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o" \
+"CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o" \
+"CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o" \
+"CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o" \
+"CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o" \
+"CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o" \
+"CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o" \
+"CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o"
 
 # External object files for target sbgECom
 sbgECom_EXTERNAL_OBJECTS =
 
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/string/sbgString.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/build.make
-external/sbgECom/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking C static library libsbgECom.a"
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/build.make
+/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a: external/sbgECom/CMakeFiles/sbgECom.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking C static library /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a"
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && $(CMAKE_COMMAND) -P CMakeFiles/sbgECom.dir/cmake_clean_target.cmake
 	cd /workspaces/mavlab/ros2_ws/build/sbg_driver/external/sbgECom && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sbgECom.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-external/sbgECom/CMakeFiles/sbgECom.dir/build: external/sbgECom/libsbgECom.a
+external/sbgECom/CMakeFiles/sbgECom.dir/build: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a
 .PHONY : external/sbgECom/CMakeFiles/sbgECom.dir/build
 
 external/sbgECom/CMakeFiles/sbgECom.dir/clean:

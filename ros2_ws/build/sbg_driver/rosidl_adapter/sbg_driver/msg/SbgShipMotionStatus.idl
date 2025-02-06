@@ -23,20 +23,12 @@ module sbg_driver {
       boolean heave_vel_aided;
 
       @verbatim (language="comment", text=
-        "True if surge and sway channels are provided in this output.")
-      boolean surge_sway_included;
-
-      @verbatim (language="comment", text=
-        "True if the swell period is provided in this output.")
+        "True if the swell period is provided in this output")
       boolean period_available;
 
       @verbatim (language="comment", text=
         "True if the period returned is assumed to be valid or not.")
       boolean period_valid;
-
-      @verbatim (language="comment", text=
-        "True if the real time heave filter is using the swell mode computations.")
-      boolean swell_mode;
     };
   };
 };

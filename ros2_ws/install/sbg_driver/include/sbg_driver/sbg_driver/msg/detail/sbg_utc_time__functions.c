@@ -42,9 +42,6 @@ sbg_driver__msg__SbgUtcTime__init(sbg_driver__msg__SbgUtcTime * msg)
   // sec
   // nanosec
   // gps_tow
-  // clk_bias_std
-  // clk_sf_error_std
-  // clk_residual_error
   return true;
 }
 
@@ -67,9 +64,6 @@ sbg_driver__msg__SbgUtcTime__fini(sbg_driver__msg__SbgUtcTime * msg)
   // sec
   // nanosec
   // gps_tow
-  // clk_bias_std
-  // clk_sf_error_std
-  // clk_residual_error
 }
 
 bool
@@ -126,18 +120,6 @@ sbg_driver__msg__SbgUtcTime__are_equal(const sbg_driver__msg__SbgUtcTime * lhs, 
   if (lhs->gps_tow != rhs->gps_tow) {
     return false;
   }
-  // clk_bias_std
-  if (lhs->clk_bias_std != rhs->clk_bias_std) {
-    return false;
-  }
-  // clk_sf_error_std
-  if (lhs->clk_sf_error_std != rhs->clk_sf_error_std) {
-    return false;
-  }
-  // clk_residual_error
-  if (lhs->clk_residual_error != rhs->clk_residual_error) {
-    return false;
-  }
   return true;
 }
 
@@ -179,12 +161,6 @@ sbg_driver__msg__SbgUtcTime__copy(
   output->nanosec = input->nanosec;
   // gps_tow
   output->gps_tow = input->gps_tow;
-  // clk_bias_std
-  output->clk_bias_std = input->clk_bias_std;
-  // clk_sf_error_std
-  output->clk_sf_error_std = input->clk_sf_error_std;
-  // clk_residual_error
-  output->clk_residual_error = input->clk_residual_error;
   return true;
 }
 

@@ -51,6 +51,10 @@ module sbg_driver {
       boolean gps1_pos_used;
 
       @verbatim (language="comment", text=
+        "True if GPS Course is used in solution (data used and valid since 3s)")
+      boolean gps1_course_used;
+
+      @verbatim (language="comment", text=
         "True if GPS True Heading is used in solution (data used and valid since 3s)")
       boolean gps1_hdt_used;
 
@@ -63,52 +67,16 @@ module sbg_driver {
       boolean gps2_pos_used;
 
       @verbatim (language="comment", text=
+        "True if GPS2 Course is used in solution (data used and valid since 3s)")
+      boolean gps2_course_used;
+
+      @verbatim (language="comment", text=
         "True if GPS2 True Heading is used in solution (data used and valid since 3s)")
       boolean gps2_hdt_used;
 
       @verbatim (language="comment", text=
         "True if Odometer is used in solution (data used and valid since 3s)")
       boolean odo_used;
-
-      @verbatim (language="comment", text=
-        "True if DVL Bottom Tracking is used in solution (data used and valid since 3s)")
-      boolean dvl_bt_used;
-
-      @verbatim (language="comment", text=
-        "True if DVL Water Tracking is used in solution (data used and valid since 3s)")
-      boolean dvl_wt_used;
-
-      @verbatim (language="comment", text=
-        "True if user Position is used in solution (data used and valid since 3s)")
-      boolean user_pos_used;
-
-      @verbatim (language="comment", text=
-        "True if user Velocity is used in solution (data used and valid since 3s)")
-      boolean user_vel_used;
-
-      @verbatim (language="comment", text=
-        "True if user Course is used in solution (data used and valid since 3s)")
-      boolean user_heading_used;
-
-      @verbatim (language="comment", text=
-        "True if USBL / LBL is used in solution (data used and valid since 3s)")
-      boolean usbl_used;
-
-      @verbatim (language="comment", text=
-        "True if AirData (altimeter and/or true airspeed) is used in solution (data used and valid since 3s)")
-      boolean air_data_used;
-
-      @verbatim (language="comment", text=
-        "True if a ZUPT is used in solution (data used and valid since 3s)")
-      boolean zupt_used;
-
-      @verbatim (language="comment", text=
-        "True if sensor alignment and calibration parameters are valid")
-      boolean align_valid;
-
-      @verbatim (language="comment", text=
-        "True if Depth sensor (for sub-sea navigation) is used in solution (data used and valid since 3s)")
-      boolean depth_used;
     };
   };
 };

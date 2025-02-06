@@ -57,24 +57,18 @@ class SbgShipMotionStatus(metaclass=Metaclass_SbgShipMotionStatus):
     __slots__ = [
         '_heave_valid',
         '_heave_vel_aided',
-        '_surge_sway_included',
         '_period_available',
         '_period_valid',
-        '_swell_mode',
     ]
 
     _fields_and_field_types = {
         'heave_valid': 'boolean',
         'heave_vel_aided': 'boolean',
-        'surge_sway_included': 'boolean',
         'period_available': 'boolean',
         'period_valid': 'boolean',
-        'swell_mode': 'boolean',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
@@ -87,10 +81,8 @@ class SbgShipMotionStatus(metaclass=Metaclass_SbgShipMotionStatus):
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.heave_valid = kwargs.get('heave_valid', bool())
         self.heave_vel_aided = kwargs.get('heave_vel_aided', bool())
-        self.surge_sway_included = kwargs.get('surge_sway_included', bool())
         self.period_available = kwargs.get('period_available', bool())
         self.period_valid = kwargs.get('period_valid', bool())
-        self.swell_mode = kwargs.get('swell_mode', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -125,13 +117,9 @@ class SbgShipMotionStatus(metaclass=Metaclass_SbgShipMotionStatus):
             return False
         if self.heave_vel_aided != other.heave_vel_aided:
             return False
-        if self.surge_sway_included != other.surge_sway_included:
-            return False
         if self.period_available != other.period_available:
             return False
         if self.period_valid != other.period_valid:
-            return False
-        if self.swell_mode != other.swell_mode:
             return False
         return True
 
@@ -167,19 +155,6 @@ class SbgShipMotionStatus(metaclass=Metaclass_SbgShipMotionStatus):
         self._heave_vel_aided = value
 
     @builtins.property
-    def surge_sway_included(self):
-        """Message field 'surge_sway_included'."""
-        return self._surge_sway_included
-
-    @surge_sway_included.setter
-    def surge_sway_included(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'surge_sway_included' field must be of type 'bool'"
-        self._surge_sway_included = value
-
-    @builtins.property
     def period_available(self):
         """Message field 'period_available'."""
         return self._period_available
@@ -204,16 +179,3 @@ class SbgShipMotionStatus(metaclass=Metaclass_SbgShipMotionStatus):
                 isinstance(value, bool), \
                 "The 'period_valid' field must be of type 'bool'"
         self._period_valid = value
-
-    @builtins.property
-    def swell_mode(self):
-        """Message field 'swell_mode'."""
-        return self._swell_mode
-
-    @swell_mode.setter
-    def swell_mode(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'swell_mode' field must be of type 'bool'"
-        self._swell_mode = value

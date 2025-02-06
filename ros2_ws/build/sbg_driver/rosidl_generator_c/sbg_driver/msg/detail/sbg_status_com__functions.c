@@ -32,21 +32,6 @@ sbg_driver__msg__SbgStatusCom__init(sbg_driver__msg__SbgStatusCom * msg)
   // port_d_tx
   // port_e_rx
   // port_e_tx
-  // eth_0
-  // eth_1
-  // eth_2
-  // eth_3
-  // eth_4
-  // eth_0_rx
-  // eth_0_tx
-  // eth_1_rx
-  // eth_1_tx
-  // eth_2_rx
-  // eth_2_tx
-  // eth_3_rx
-  // eth_3_tx
-  // eth_4_rx
-  // eth_4_tx
   // can_rx
   // can_tx
   // can_status
@@ -74,21 +59,6 @@ sbg_driver__msg__SbgStatusCom__fini(sbg_driver__msg__SbgStatusCom * msg)
   // port_d_tx
   // port_e_rx
   // port_e_tx
-  // eth_0
-  // eth_1
-  // eth_2
-  // eth_3
-  // eth_4
-  // eth_0_rx
-  // eth_0_tx
-  // eth_1_rx
-  // eth_1_tx
-  // eth_2_rx
-  // eth_2_tx
-  // eth_3_rx
-  // eth_3_tx
-  // eth_4_rx
-  // eth_4_tx
   // can_rx
   // can_tx
   // can_status
@@ -160,66 +130,6 @@ sbg_driver__msg__SbgStatusCom__are_equal(const sbg_driver__msg__SbgStatusCom * l
   if (lhs->port_e_tx != rhs->port_e_tx) {
     return false;
   }
-  // eth_0
-  if (lhs->eth_0 != rhs->eth_0) {
-    return false;
-  }
-  // eth_1
-  if (lhs->eth_1 != rhs->eth_1) {
-    return false;
-  }
-  // eth_2
-  if (lhs->eth_2 != rhs->eth_2) {
-    return false;
-  }
-  // eth_3
-  if (lhs->eth_3 != rhs->eth_3) {
-    return false;
-  }
-  // eth_4
-  if (lhs->eth_4 != rhs->eth_4) {
-    return false;
-  }
-  // eth_0_rx
-  if (lhs->eth_0_rx != rhs->eth_0_rx) {
-    return false;
-  }
-  // eth_0_tx
-  if (lhs->eth_0_tx != rhs->eth_0_tx) {
-    return false;
-  }
-  // eth_1_rx
-  if (lhs->eth_1_rx != rhs->eth_1_rx) {
-    return false;
-  }
-  // eth_1_tx
-  if (lhs->eth_1_tx != rhs->eth_1_tx) {
-    return false;
-  }
-  // eth_2_rx
-  if (lhs->eth_2_rx != rhs->eth_2_rx) {
-    return false;
-  }
-  // eth_2_tx
-  if (lhs->eth_2_tx != rhs->eth_2_tx) {
-    return false;
-  }
-  // eth_3_rx
-  if (lhs->eth_3_rx != rhs->eth_3_rx) {
-    return false;
-  }
-  // eth_3_tx
-  if (lhs->eth_3_tx != rhs->eth_3_tx) {
-    return false;
-  }
-  // eth_4_rx
-  if (lhs->eth_4_rx != rhs->eth_4_rx) {
-    return false;
-  }
-  // eth_4_tx
-  if (lhs->eth_4_tx != rhs->eth_4_tx) {
-    return false;
-  }
   // can_rx
   if (lhs->can_rx != rhs->can_rx) {
     return false;
@@ -273,36 +183,6 @@ sbg_driver__msg__SbgStatusCom__copy(
   output->port_e_rx = input->port_e_rx;
   // port_e_tx
   output->port_e_tx = input->port_e_tx;
-  // eth_0
-  output->eth_0 = input->eth_0;
-  // eth_1
-  output->eth_1 = input->eth_1;
-  // eth_2
-  output->eth_2 = input->eth_2;
-  // eth_3
-  output->eth_3 = input->eth_3;
-  // eth_4
-  output->eth_4 = input->eth_4;
-  // eth_0_rx
-  output->eth_0_rx = input->eth_0_rx;
-  // eth_0_tx
-  output->eth_0_tx = input->eth_0_tx;
-  // eth_1_rx
-  output->eth_1_rx = input->eth_1_rx;
-  // eth_1_tx
-  output->eth_1_tx = input->eth_1_tx;
-  // eth_2_rx
-  output->eth_2_rx = input->eth_2_rx;
-  // eth_2_tx
-  output->eth_2_tx = input->eth_2_tx;
-  // eth_3_rx
-  output->eth_3_rx = input->eth_3_rx;
-  // eth_3_tx
-  output->eth_3_tx = input->eth_3_tx;
-  // eth_4_rx
-  output->eth_4_rx = input->eth_4_rx;
-  // eth_4_tx
-  output->eth_4_tx = input->eth_4_tx;
   // can_rx
   output->can_rx = input->can_rx;
   // can_tx

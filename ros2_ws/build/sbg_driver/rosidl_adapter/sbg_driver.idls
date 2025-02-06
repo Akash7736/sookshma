@@ -26,5 +26,3 @@
 /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgMagCalib.idl
 /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgStatusAiding.idl
 /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgEkfStatus.idl
-/workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgEkfVelBody.idl
-/workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgEkfRotAccel.idl

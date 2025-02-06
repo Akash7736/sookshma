@@ -12,7 +12,6 @@ import time
 from math import sqrt, atan2
 import math
 import matplotlib.pyplot as plt  # Import Matplotlib
-import temp_path as pt
 from sensor_msgs.msg import Imu
 
 
@@ -23,10 +22,10 @@ class ONRTBoat(Node):
 
         # self.actuator_publisher = self.create_publisher( Actuator , '/makara_00/actuator_cmd' , 100)
         # self.uwb_subscriber = self.create_subscription( PoseWithCovariance , '/makara_00/uwb_00', self.uwb_callback , 20 )
-        # self.imu_subscriber = self.create_subscription( Imu , '/imu/data' , self.imu_callback , 20 )
+        self.imu_subscriber = self.create_subscription( Imu , '/imu/data' , self.imu_callback , 20 )
         
         self.actuator_publisher = self.create_publisher( Actuator , '/kurma_00/actuator_cmd' , 100)
-        self.uwb_subscriber = self.create_subscription( Odometry, '/kurma_00/odometry_sim', self.uwb_callback , 20 )
+        self.uwb_subscriber = self.create_subscription( Odometry, '/uwb/odom', self.uwb_callback , 20 )
         # self.imu_subscriber = self.create_subscription( Imu , '/imu/data' , self.imu_callback , 20 )
 
 
@@ -69,18 +68,18 @@ class ONRTBoat(Node):
         # msg = Odometry()
         self.pose = msg.pose.pose
 
-        # print( self.pose.orientation.w , self.pose.orientation.x , self.pose.orientation.y ,self.pose.orientation.z )
-        self.yaw = self.quat_to_eul( [self.pose.orientation.w , self.pose.orientation.x , self.pose.orientation.y ,self.pose.orientation.z ])[-1]
+        # self.yaw = self.quat_to_eul( [self.pose.orientation.w , self.pose.orientation.x , self.pose.orientation.y ,self.pose.orientation.z ])[-1]
 
         # _, _, self.yaw=  self.quat_to_eul(msg.orientation.w , msg.orientation.x , msg.orientation.y , msg.orientation.z) 
         # current_position = (self.pose.position.x, self.pose.position.y)
         # You might want to add logic here if needed
 
 
-    # def imu_callback(self, msg):
-    #     # msg = Imu()
+    def imu_callback(self, msg):
+        # msg = Imu()
+        print(msg)
 
-    #     _, _, self.yaw=  self.quat_to_eul(msg.orientation.w , msg.orientation.x , msg.orientation.y , msg.orientation.z) 
+        _, _, self.yaw=  self.quat_to_eul(msg.orientation.w , msg.orientation.x , msg.orientation.y , msg.orientation.z) 
 
         # You might want to add logic here if needed
     def euclidean_distance(self, goal_pose):
@@ -92,7 +91,7 @@ class ONRTBoat(Node):
     def linear_vel(self, local_goal0 , local_goal1):
 
  
-        lin_vel = 800  #rpm
+        lin_vel = 600  #rpm
 
         return lin_vel 
 
@@ -148,8 +147,8 @@ class ONRTBoat(Node):
 
         # ang_vel: float =  ( kp * angle + kd * del_error / self.rate_value ) * 0.2
         print(self.psi_des, self.yaw, pi_p,  'psi des ,  yaw, path angle')
-        # print(self.psi_des, self.yaw, 'psides and yaw')
-        ang_vel: float =  ( kp * angle + kd * del_error / self.rate_value ) 
+        print(self.psi_des, self.yaw, 'psides and yaw')
+        ang_vel: float =  ( kp * angle + kd * del_error / self.rate_value ) *2 
 
         # if ang_vel > 90:
         #     ang_vel = 90
@@ -201,7 +200,9 @@ class ONRTBoat(Node):
 
 
         # path  = [ [ 20, 20  ], [20,25] , [20, 30] , [20, 35], [20, 40], [20, 45]  ] 
-        path  = [ [ 20, 20  ], [30,20] , [30, 30] , [40, 30], [40, 20], [30, 20] , [30, 30] , [20, 30] , [20, 20] , [20, 10]  ] 
+
+        path  =  [[6.3, 3.9] , [7.6 , 5.4 ]   , [8.6 , 8.4 ] , [9.6 , 11.4 ] , [11.6 , 14.4 ] ]
+        # path  = [ [ 20, 20  ], [30,20] , [30, 30] , [40, 30], [40, 20], [30, 20] , [30, 30] , [20, 30] , [20, 20] , [20, 10]  ] 
 
         i = int
         i = 0 
@@ -219,18 +220,18 @@ class ONRTBoat(Node):
             print(self.xpe,'in loop')
             while  (self.xpe ) <= 5:                                  ##########################################################
                 print(i , 'im i')
-                # print( self.xpe, local_goal0,local_goal1, 'xpe  local goal 0,1 ')
+                print( self.xpe, local_goal0,local_goal1, 'xpe  local goal 0,1 ')
                 actuator_cmd.propeller = float(self.linear_vel(local_goal0 , local_goal1))
                 actuator_cmd.rudder = float(self.angular_vel(local_goal0 , local_goal1) * -1)
                 self.actuator_publisher.publish(actuator_cmd)
 
-                # print(self.pose, 'im  pose')
-                # print(self.yaw, ' im  yaw')
+                print(self.pose, 'im  pose')
+                print(self.yaw, ' im  yaw')
 
-                # print( self.xpe, local_goal0,local_goal1, 'xpe  local goal 0,1 ')
+                print( self.xpe, local_goal0,local_goal1, 'xpe  local goal 0,1 ')
                 print( actuator_cmd , "act cmd")
                 # print()
-                rclpy.spin_once(self)  # Ensure callbacks are processed
+                rclpy.spin(self)  # Ensure callbacks are processed
 
                 
             self.stop()
@@ -243,6 +244,7 @@ class ONRTBoat(Node):
         # for i in range(len(path)-1):
         #     print(i , 'im i')
         #     self.xpe=0
+
          
         #     if i == (len(path) -1):
         #         self.stop()

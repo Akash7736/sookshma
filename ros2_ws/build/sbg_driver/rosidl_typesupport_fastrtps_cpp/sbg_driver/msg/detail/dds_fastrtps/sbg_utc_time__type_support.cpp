@@ -106,12 +106,6 @@ cdr_serialize(
   cdr << ros_message.nanosec;
   // Member: gps_tow
   cdr << ros_message.gps_tow;
-  // Member: clk_bias_std
-  cdr << ros_message.clk_bias_std;
-  // Member: clk_sf_error_std
-  cdr << ros_message.clk_sf_error_std;
-  // Member: clk_residual_error
-  cdr << ros_message.clk_residual_error;
   return true;
 }
 
@@ -155,15 +149,6 @@ cdr_deserialize(
 
   // Member: gps_tow
   cdr >> ros_message.gps_tow;
-
-  // Member: clk_bias_std
-  cdr >> ros_message.clk_bias_std;
-
-  // Member: clk_sf_error_std
-  cdr >> ros_message.clk_sf_error_std;
-
-  // Member: clk_residual_error
-  cdr >> ros_message.clk_residual_error;
 
   return true;
 }
@@ -242,24 +227,6 @@ get_serialized_size(
   // Member: gps_tow
   {
     size_t item_size = sizeof(ros_message.gps_tow);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: clk_bias_std
-  {
-    size_t item_size = sizeof(ros_message.clk_bias_std);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: clk_sf_error_std
-  {
-    size_t item_size = sizeof(ros_message.clk_sf_error_std);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: clk_residual_error
-  {
-    size_t item_size = sizeof(ros_message.clk_residual_error);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -401,33 +368,6 @@ max_serialized_size_SbgUtcTime(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Member: clk_bias_std
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
-  // Member: clk_sf_error_std
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
-  // Member: clk_residual_error
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -436,7 +376,7 @@ max_serialized_size_SbgUtcTime(
     using DataType = sbg_driver::msg::SbgUtcTime;
     is_plain =
       (
-      offsetof(DataType, clk_residual_error) +
+      offsetof(DataType, gps_tow) +
       last_member_size
       ) == ret_val;
   }

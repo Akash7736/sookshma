@@ -1,6 +1,0 @@
-Invoking command in '/workspaces/mavlab/ros2_ws/build/hastar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/hastar -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/hastar
-Invoked command in '/workspaces/mavlab/ros2_ws/build/hastar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/hastar -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/hastar
-Invoking command in '/workspaces/mavlab/ros2_ws/build/hastar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/hastar -- -j4 -l4
-Invoked command in '/workspaces/mavlab/ros2_ws/build/hastar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/hastar -- -j4 -l4
-Invoking command in '/workspaces/mavlab/ros2_ws/build/hastar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/hastar
-Invoked command in '/workspaces/mavlab/ros2_ws/build/hastar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/hastar

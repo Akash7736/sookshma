@@ -163,11 +163,6 @@ static bool _SbgGpsPos__cdr_serialize(
     }
   }
 
-  // Field name: num_sv_tracked
-  {
-    cdr << ros_message->num_sv_tracked;
-  }
-
   // Field name: num_sv_used
   {
     cdr << ros_message->num_sv_used;
@@ -267,11 +262,6 @@ static bool _SbgGpsPos__cdr_deserialize(
     }
   }
 
-  // Field name: num_sv_tracked
-  {
-    cdr >> ros_message->num_sv_tracked;
-  }
-
   // Field name: num_sv_used
   {
     cdr >> ros_message->num_sv_used;
@@ -352,12 +342,6 @@ size_t get_serialized_size_sbg_driver__msg__SbgGpsPos(
 
   current_alignment += get_serialized_size_geometry_msgs__msg__Vector3(
     &(ros_message->position_accuracy), current_alignment);
-  // field.name num_sv_tracked
-  {
-    size_t item_size = sizeof(ros_message->num_sv_tracked);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // field.name num_sv_used
   {
     size_t item_size = sizeof(ros_message->num_sv_used);
@@ -509,13 +493,6 @@ size_t max_serialized_size_sbg_driver__msg__SbgGpsPos(
       full_bounded &= inner_full_bounded;
       is_plain &= inner_is_plain;
     }
-  }
-  // member: num_sv_tracked
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
   }
   // member: num_sv_used
   {

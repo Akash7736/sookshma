@@ -70,8 +70,6 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
         '_pitch',
         '_pitch_acc',
         '_baseline',
-        '_num_sv_tracked',
-        '_num_sv_used',
     ]
 
     _fields_and_field_types = {
@@ -84,8 +82,6 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
         'pitch': 'float',
         'pitch_acc': 'float',
         'baseline': 'float',
-        'num_sv_tracked': 'uint8',
-        'num_sv_used': 'uint8',
     }
 
     SLOT_TYPES = (
@@ -98,8 +94,6 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
-        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -116,8 +110,6 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
         self.pitch = kwargs.get('pitch', float())
         self.pitch_acc = kwargs.get('pitch_acc', float())
         self.baseline = kwargs.get('baseline', float())
-        self.num_sv_tracked = kwargs.get('num_sv_tracked', int())
-        self.num_sv_used = kwargs.get('num_sv_used', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -165,10 +157,6 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
         if self.pitch_acc != other.pitch_acc:
             return False
         if self.baseline != other.baseline:
-            return False
-        if self.num_sv_tracked != other.num_sv_tracked:
-            return False
-        if self.num_sv_used != other.num_sv_used:
             return False
         return True
 
@@ -310,33 +298,3 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
                 "The 'baseline' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._baseline = value
-
-    @builtins.property
-    def num_sv_tracked(self):
-        """Message field 'num_sv_tracked'."""
-        return self._num_sv_tracked
-
-    @num_sv_tracked.setter
-    def num_sv_tracked(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'num_sv_tracked' field must be of type 'int'"
-            assert value >= 0 and value < 256, \
-                "The 'num_sv_tracked' field must be an unsigned integer in [0, 255]"
-        self._num_sv_tracked = value
-
-    @builtins.property
-    def num_sv_used(self):
-        """Message field 'num_sv_used'."""
-        return self._num_sv_used
-
-    @num_sv_used.setter
-    def num_sv_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'num_sv_used' field must be of type 'int'"
-            assert value >= 0 and value < 256, \
-                "The 'num_sv_used' field must be an unsigned integer in [0, 255]"
-        self._num_sv_used = value

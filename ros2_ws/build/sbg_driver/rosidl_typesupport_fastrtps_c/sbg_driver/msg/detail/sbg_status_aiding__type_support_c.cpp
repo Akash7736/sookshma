@@ -69,26 +69,6 @@ static bool _SbgStatusAiding__cdr_serialize(
     cdr << (ros_message->gps1_utc_recv ? true : false);
   }
 
-  // Field name: gps2_pos_recv
-  {
-    cdr << (ros_message->gps2_pos_recv ? true : false);
-  }
-
-  // Field name: gps2_vel_recv
-  {
-    cdr << (ros_message->gps2_vel_recv ? true : false);
-  }
-
-  // Field name: gps2_hdt_recv
-  {
-    cdr << (ros_message->gps2_hdt_recv ? true : false);
-  }
-
-  // Field name: gps2_utc_recv
-  {
-    cdr << (ros_message->gps2_utc_recv ? true : false);
-  }
-
   // Field name: mag_recv
   {
     cdr << (ros_message->mag_recv ? true : false);
@@ -102,36 +82,6 @@ static bool _SbgStatusAiding__cdr_serialize(
   // Field name: dvl_recv
   {
     cdr << (ros_message->dvl_recv ? true : false);
-  }
-
-  // Field name: usbl_recv
-  {
-    cdr << (ros_message->usbl_recv ? true : false);
-  }
-
-  // Field name: depth_recv
-  {
-    cdr << (ros_message->depth_recv ? true : false);
-  }
-
-  // Field name: air_data_recv
-  {
-    cdr << (ros_message->air_data_recv ? true : false);
-  }
-
-  // Field name: user_pos_recv
-  {
-    cdr << (ros_message->user_pos_recv ? true : false);
-  }
-
-  // Field name: user_vel_recv
-  {
-    cdr << (ros_message->user_vel_recv ? true : false);
-  }
-
-  // Field name: user_heading_recv
-  {
-    cdr << (ros_message->user_heading_recv ? true : false);
   }
 
   return true;
@@ -174,34 +124,6 @@ static bool _SbgStatusAiding__cdr_deserialize(
     ros_message->gps1_utc_recv = tmp ? true : false;
   }
 
-  // Field name: gps2_pos_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->gps2_pos_recv = tmp ? true : false;
-  }
-
-  // Field name: gps2_vel_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->gps2_vel_recv = tmp ? true : false;
-  }
-
-  // Field name: gps2_hdt_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->gps2_hdt_recv = tmp ? true : false;
-  }
-
-  // Field name: gps2_utc_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->gps2_utc_recv = tmp ? true : false;
-  }
-
   // Field name: mag_recv
   {
     uint8_t tmp;
@@ -221,48 +143,6 @@ static bool _SbgStatusAiding__cdr_deserialize(
     uint8_t tmp;
     cdr >> tmp;
     ros_message->dvl_recv = tmp ? true : false;
-  }
-
-  // Field name: usbl_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->usbl_recv = tmp ? true : false;
-  }
-
-  // Field name: depth_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->depth_recv = tmp ? true : false;
-  }
-
-  // Field name: air_data_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->air_data_recv = tmp ? true : false;
-  }
-
-  // Field name: user_pos_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->user_pos_recv = tmp ? true : false;
-  }
-
-  // Field name: user_vel_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->user_vel_recv = tmp ? true : false;
-  }
-
-  // Field name: user_heading_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->user_heading_recv = tmp ? true : false;
   }
 
   return true;
@@ -306,30 +186,6 @@ size_t get_serialized_size_sbg_driver__msg__SbgStatusAiding(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name gps2_pos_recv
-  {
-    size_t item_size = sizeof(ros_message->gps2_pos_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name gps2_vel_recv
-  {
-    size_t item_size = sizeof(ros_message->gps2_vel_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name gps2_hdt_recv
-  {
-    size_t item_size = sizeof(ros_message->gps2_hdt_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name gps2_utc_recv
-  {
-    size_t item_size = sizeof(ros_message->gps2_utc_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // field.name mag_recv
   {
     size_t item_size = sizeof(ros_message->mag_recv);
@@ -345,42 +201,6 @@ size_t get_serialized_size_sbg_driver__msg__SbgStatusAiding(
   // field.name dvl_recv
   {
     size_t item_size = sizeof(ros_message->dvl_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name usbl_recv
-  {
-    size_t item_size = sizeof(ros_message->usbl_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name depth_recv
-  {
-    size_t item_size = sizeof(ros_message->depth_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name air_data_recv
-  {
-    size_t item_size = sizeof(ros_message->air_data_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name user_pos_recv
-  {
-    size_t item_size = sizeof(ros_message->user_pos_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name user_vel_recv
-  {
-    size_t item_size = sizeof(ros_message->user_vel_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name user_heading_recv
-  {
-    size_t item_size = sizeof(ros_message->user_heading_recv);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -441,34 +261,6 @@ size_t max_serialized_size_sbg_driver__msg__SbgStatusAiding(
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
-  // member: gps2_pos_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: gps2_vel_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: gps2_hdt_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: gps2_utc_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
   // member: mag_recv
   {
     size_t array_size = 1;
@@ -490,48 +282,6 @@ size_t max_serialized_size_sbg_driver__msg__SbgStatusAiding(
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
-  // member: usbl_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: depth_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: air_data_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: user_pos_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: user_vel_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: user_heading_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -541,7 +291,7 @@ size_t max_serialized_size_sbg_driver__msg__SbgStatusAiding(
     using DataType = sbg_driver__msg__SbgStatusAiding;
     is_plain =
       (
-      offsetof(DataType, user_heading_recv) +
+      offsetof(DataType, dvl_recv) +
       last_member_size
       ) == ret_val;
   }

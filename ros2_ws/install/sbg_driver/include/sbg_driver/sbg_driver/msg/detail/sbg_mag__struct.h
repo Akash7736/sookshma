@@ -43,8 +43,8 @@ typedef struct sbg_driver__msg__SbgMag
   ///   z: Z axis of the device frame
   ///
   /// ENU convention:
-  ///   x: Y axis of the device frame
-  ///   y: X axis of the device frame
+  ///   x: X axis of the device frame
+  ///   y: -Y axis of the device frame
   ///   z: -Z axis of the device frame
   geometry_msgs__msg__Vector3 mag;
   /// Accelerometer output
@@ -55,8 +55,8 @@ typedef struct sbg_driver__msg__SbgMag
   ///   z: Z axis of the device frame
   ///
   /// ENU convention:
-  ///   x: Y axis of the device frame
-  ///   y: X axis of the device frame
+  ///   x: X axis of the device frame
+  ///   y: -Y axis of the device frame
   ///   z: -Z axis of the device frame
   geometry_msgs__msg__Vector3 accel;
   /// Status

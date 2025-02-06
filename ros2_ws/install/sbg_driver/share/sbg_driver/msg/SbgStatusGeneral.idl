@@ -33,16 +33,6 @@ module sbg_driver {
         "General Temperature" "\n"
         "True when temperature is within specified limits.")
       boolean temperature;
-
-      @verbatim (language="comment", text=
-        "General Datalogger" "\n"
-        "True when the datalogger is working correctly.")
-      boolean datalogger;
-
-      @verbatim (language="comment", text=
-        "General CPU" "\n"
-        "True if the CPU headroom is correct.")
-      boolean cpu;
     };
   };
 };

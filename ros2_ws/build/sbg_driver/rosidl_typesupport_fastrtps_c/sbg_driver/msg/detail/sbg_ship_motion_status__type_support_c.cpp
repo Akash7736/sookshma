@@ -59,11 +59,6 @@ static bool _SbgShipMotionStatus__cdr_serialize(
     cdr << (ros_message->heave_vel_aided ? true : false);
   }
 
-  // Field name: surge_sway_included
-  {
-    cdr << (ros_message->surge_sway_included ? true : false);
-  }
-
   // Field name: period_available
   {
     cdr << (ros_message->period_available ? true : false);
@@ -72,11 +67,6 @@ static bool _SbgShipMotionStatus__cdr_serialize(
   // Field name: period_valid
   {
     cdr << (ros_message->period_valid ? true : false);
-  }
-
-  // Field name: swell_mode
-  {
-    cdr << (ros_message->swell_mode ? true : false);
   }
 
   return true;
@@ -105,13 +95,6 @@ static bool _SbgShipMotionStatus__cdr_deserialize(
     ros_message->heave_vel_aided = tmp ? true : false;
   }
 
-  // Field name: surge_sway_included
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->surge_sway_included = tmp ? true : false;
-  }
-
   // Field name: period_available
   {
     uint8_t tmp;
@@ -124,13 +107,6 @@ static bool _SbgShipMotionStatus__cdr_deserialize(
     uint8_t tmp;
     cdr >> tmp;
     ros_message->period_valid = tmp ? true : false;
-  }
-
-  // Field name: swell_mode
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->swell_mode = tmp ? true : false;
   }
 
   return true;
@@ -162,12 +138,6 @@ size_t get_serialized_size_sbg_driver__msg__SbgShipMotionStatus(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name surge_sway_included
-  {
-    size_t item_size = sizeof(ros_message->surge_sway_included);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // field.name period_available
   {
     size_t item_size = sizeof(ros_message->period_available);
@@ -177,12 +147,6 @@ size_t get_serialized_size_sbg_driver__msg__SbgShipMotionStatus(
   // field.name period_valid
   {
     size_t item_size = sizeof(ros_message->period_valid);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name swell_mode
-  {
-    size_t item_size = sizeof(ros_message->swell_mode);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -229,13 +193,6 @@ size_t max_serialized_size_sbg_driver__msg__SbgShipMotionStatus(
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
-  // member: surge_sway_included
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
   // member: period_available
   {
     size_t array_size = 1;
@@ -244,13 +201,6 @@ size_t max_serialized_size_sbg_driver__msg__SbgShipMotionStatus(
     current_alignment += array_size * sizeof(uint8_t);
   }
   // member: period_valid
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: swell_mode
   {
     size_t array_size = 1;
 
@@ -266,7 +216,7 @@ size_t max_serialized_size_sbg_driver__msg__SbgShipMotionStatus(
     using DataType = sbg_driver__msg__SbgShipMotionStatus;
     is_plain =
       (
-      offsetof(DataType, swell_mode) +
+      offsetof(DataType, period_valid) +
       last_member_size
       ) == ret_val;
   }

@@ -22,8 +22,8 @@ class ActuatorToThrustCommand(Node):
 
     def actuator_callback(self, msg):
         # Extract the propeller and rudder values from the Actuator message
-        propeller = msg.propeller
-        rudder = msg.rudder
+        propeller = msg.propeller/800
+        rudder = msg.rudder/35
 
         # Format the string message as required by the Arduino
         thrust_command_msg = String()

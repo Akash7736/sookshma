@@ -47,8 +47,8 @@ typedef struct sbg_driver__msg__SbgImuData
   ///   z: Z axis of the device frame
   ///
   /// ENU convention:
-  ///   x: Y axis of the device frame
-  ///   y: X axis of the device frame
+  ///   x: X axis of the device frame
+  ///   y: -Y axis of the device frame
   ///   z: -Z axis of the device frame
   geometry_msgs__msg__Vector3 accel;
   /// Filtered Gyroscope
@@ -59,8 +59,8 @@ typedef struct sbg_driver__msg__SbgImuData
   ///   z: Z axis of the device frame
   ///
   /// ENU convention:
-  ///   x: Y axis of the device frame
-  ///   y: X axis of the device frame
+  ///   x: X axis of the device frame
+  ///   y: -Y axis of the device frame
   ///   z: -Z axis of the device frame
   geometry_msgs__msg__Vector3 gyro;
   /// Internal Temperature
@@ -73,8 +73,8 @@ typedef struct sbg_driver__msg__SbgImuData
   ///   z: Z axis of the device frame
   ///
   /// ENU convention:
-  ///   x: Y axis of the device frame
-  ///   y: X axis of the device frame
+  ///   x: X axis of the device frame
+  ///   y: -Y axis of the device frame
   ///   z: -Z axis of the device frame
   geometry_msgs__msg__Vector3 delta_vel;
   /// Coning output
@@ -85,8 +85,8 @@ typedef struct sbg_driver__msg__SbgImuData
   ///   z: Z axis of the device frame
   ///
   /// ENU convention:
-  ///   x: Y axis of the device frame
-  ///   y: X axis of the device frame
+  ///   x: X axis of the device frame
+  ///   y: -Y axis of the device frame
   ///   z: -Z axis of the device frame
   geometry_msgs__msg__Vector3 delta_angle;
 } sbg_driver__msg__SbgImuData;

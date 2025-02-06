@@ -291,10 +291,4 @@ CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator
  /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_aiding__type_support.h \
  /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_aiding__functions.h \
  /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__type_support.h \
- /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.h \
- /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.h \
- /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__struct.h \
- /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.h \
- /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.h \
- /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__struct.h \
- /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.h
+ /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.h

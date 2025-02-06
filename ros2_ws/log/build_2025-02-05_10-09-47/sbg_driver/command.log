@@ -1,6 +1,0 @@
-Invoking command in '/workspaces/mavlab/ros2_ws/build/sbg_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/sbg_driver
-Invoked command in '/workspaces/mavlab/ros2_ws/build/sbg_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/sbg_driver
-Invoking command in '/workspaces/mavlab/ros2_ws/build/sbg_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/sbg_driver -- -j4 -l4
-Invoked command in '/workspaces/mavlab/ros2_ws/build/sbg_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/sbg_driver -- -j4 -l4
-Invoking command in '/workspaces/mavlab/ros2_ws/build/sbg_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/sbg_driver
-Invoked command in '/workspaces/mavlab/ros2_ws/build/sbg_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/sbg_driver

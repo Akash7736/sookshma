@@ -76,10 +76,6 @@ cdr_serialize(
   cdr << ros_message.pitch_acc;
   // Member: baseline
   cdr << ros_message.baseline;
-  // Member: num_sv_tracked
-  cdr << ros_message.num_sv_tracked;
-  // Member: num_sv_used
-  cdr << ros_message.num_sv_used;
   return true;
 }
 
@@ -116,12 +112,6 @@ cdr_deserialize(
 
   // Member: baseline
   cdr >> ros_message.baseline;
-
-  // Member: num_sv_tracked
-  cdr >> ros_message.num_sv_tracked;
-
-  // Member: num_sv_used
-  cdr >> ros_message.num_sv_used;
 
   return true;
 }
@@ -189,18 +179,6 @@ get_serialized_size(
   // Member: baseline
   {
     size_t item_size = sizeof(ros_message.baseline);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: num_sv_tracked
-  {
-    size_t item_size = sizeof(ros_message.num_sv_tracked);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: num_sv_used
-  {
-    size_t item_size = sizeof(ros_message.num_sv_used);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -319,22 +297,6 @@ max_serialized_size_SbgGpsHdt(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Member: num_sv_tracked
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: num_sv_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -343,7 +305,7 @@ max_serialized_size_SbgGpsHdt(
     using DataType = sbg_driver::msg::SbgGpsHdt;
     is_plain =
       (
-      offsetof(DataType, num_sv_used) +
+      offsetof(DataType, baseline) +
       last_member_size
       ) == ret_val;
   }

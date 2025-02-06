@@ -69,32 +69,16 @@ private:
   ::sbg_driver::msg::SbgGpsPos msg_;
 };
 
-class Init_SbgGpsPos_num_sv_tracked
-{
-public:
-  explicit Init_SbgGpsPos_num_sv_tracked(::sbg_driver::msg::SbgGpsPos & msg)
-  : msg_(msg)
-  {}
-  Init_SbgGpsPos_num_sv_used num_sv_tracked(::sbg_driver::msg::SbgGpsPos::_num_sv_tracked_type arg)
-  {
-    msg_.num_sv_tracked = std::move(arg);
-    return Init_SbgGpsPos_num_sv_used(msg_);
-  }
-
-private:
-  ::sbg_driver::msg::SbgGpsPos msg_;
-};
-
 class Init_SbgGpsPos_position_accuracy
 {
 public:
   explicit Init_SbgGpsPos_position_accuracy(::sbg_driver::msg::SbgGpsPos & msg)
   : msg_(msg)
   {}
-  Init_SbgGpsPos_num_sv_tracked position_accuracy(::sbg_driver::msg::SbgGpsPos::_position_accuracy_type arg)
+  Init_SbgGpsPos_num_sv_used position_accuracy(::sbg_driver::msg::SbgGpsPos::_position_accuracy_type arg)
   {
     msg_.position_accuracy = std::move(arg);
-    return Init_SbgGpsPos_num_sv_tracked(msg_);
+    return Init_SbgGpsPos_num_sv_used(msg_);
   }
 
 private:

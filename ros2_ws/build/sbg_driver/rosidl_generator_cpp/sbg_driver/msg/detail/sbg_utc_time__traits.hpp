@@ -105,27 +105,6 @@ inline void to_flow_style_yaml(
   {
     out << "gps_tow: ";
     rosidl_generator_traits::value_to_yaml(msg.gps_tow, out);
-    out << ", ";
-  }
-
-  // member: clk_bias_std
-  {
-    out << "clk_bias_std: ";
-    rosidl_generator_traits::value_to_yaml(msg.clk_bias_std, out);
-    out << ", ";
-  }
-
-  // member: clk_sf_error_std
-  {
-    out << "clk_sf_error_std: ";
-    rosidl_generator_traits::value_to_yaml(msg.clk_sf_error_std, out);
-    out << ", ";
-  }
-
-  // member: clk_residual_error
-  {
-    out << "clk_residual_error: ";
-    rosidl_generator_traits::value_to_yaml(msg.clk_residual_error, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -239,36 +218,6 @@ inline void to_block_style_yaml(
     }
     out << "gps_tow: ";
     rosidl_generator_traits::value_to_yaml(msg.gps_tow, out);
-    out << "\n";
-  }
-
-  // member: clk_bias_std
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "clk_bias_std: ";
-    rosidl_generator_traits::value_to_yaml(msg.clk_bias_std, out);
-    out << "\n";
-  }
-
-  // member: clk_sf_error_std
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "clk_sf_error_std: ";
-    rosidl_generator_traits::value_to_yaml(msg.clk_sf_error_std, out);
-    out << "\n";
-  }
-
-  // member: clk_residual_error
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "clk_residual_error: ";
-    rosidl_generator_traits::value_to_yaml(msg.clk_residual_error, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

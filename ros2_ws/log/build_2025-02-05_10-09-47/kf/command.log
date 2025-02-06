@@ -1,6 +1,0 @@
-Invoking command in '/workspaces/mavlab/ros2_ws/build/kf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/kf -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/kf
-Invoked command in '/workspaces/mavlab/ros2_ws/build/kf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/kf -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/kf
-Invoking command in '/workspaces/mavlab/ros2_ws/build/kf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/kf -- -j4 -l4
-Invoked command in '/workspaces/mavlab/ros2_ws/build/kf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/kf -- -j4 -l4
-Invoking command in '/workspaces/mavlab/ros2_ws/build/kf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/kf
-Invoked command in '/workspaces/mavlab/ros2_ws/build/kf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/kf

@@ -128,8 +128,6 @@ cdr_serialize(
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
     ros_message.position_accuracy,
     cdr);
-  // Member: num_sv_tracked
-  cdr << ros_message.num_sv_tracked;
   // Member: num_sv_used
   cdr << ros_message.num_sv_used;
   // Member: base_station_id
@@ -174,9 +172,6 @@ cdr_deserialize(
   // Member: position_accuracy
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
     cdr, ros_message.position_accuracy);
-
-  // Member: num_sv_tracked
-  cdr >> ros_message.num_sv_tracked;
 
   // Member: num_sv_used
   cdr >> ros_message.num_sv_used;
@@ -254,12 +249,6 @@ get_serialized_size(
   current_alignment +=
     geometry_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
     ros_message.position_accuracy, current_alignment);
-  // Member: num_sv_tracked
-  {
-    size_t item_size = sizeof(ros_message.num_sv_tracked);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // Member: num_sv_used
   {
     size_t item_size = sizeof(ros_message.num_sv_used);
@@ -411,14 +400,6 @@ max_serialized_size_SbgGpsPos(
       full_bounded &= inner_full_bounded;
       is_plain &= inner_is_plain;
     }
-  }
-
-  // Member: num_sv_tracked
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
   }
 
   // Member: num_sv_used

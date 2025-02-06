@@ -97,8 +97,6 @@ sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sb
 sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_mag_calib.py
 sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_status_aiding.py
 sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status.py
-sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body.py
-sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel.py
 sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/__init__.py
 sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_gps_vel_status_s.c
 sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_gps_pos_status_s.c
@@ -128,8 +126,6 @@ sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sb
 sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_mag_calib_s.c
 sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_status_aiding_s.c
 sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c
-sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c
-sbg_driver__py/CMakeFiles/sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c
 
 rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -172,8 +168,6 @@ rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/sbg_driver/msg/SbgMagCalib.idl
 rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/sbg_driver/msg/SbgStatusAiding.idl
 rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/sbg_driver/msg/SbgEkfStatus.idl
-rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/sbg_driver/msg/SbgEkfVelBody.idl
-rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/sbg_driver/msg/SbgEkfRotAccel.idl
 rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -329,12 +323,6 @@ rosidl_generator_py/sbg_driver/msg/_sbg_status_aiding.py: rosidl_generator_py/sb
 rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status.py: rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status.py
 
-rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body.py: rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body.py
-
-rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel.py: rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel.py
-
 rosidl_generator_py/sbg_driver/msg/__init__.py: rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sbg_driver/msg/__init__.py
 
@@ -422,12 +410,6 @@ rosidl_generator_py/sbg_driver/msg/_sbg_status_aiding_s.c: rosidl_generator_py/s
 rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c: rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c
 
-rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c: rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c
-
-rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c: rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c
-
 sbg_driver__py: rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_c.c
 sbg_driver__py: rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c
 sbg_driver__py: rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_introspection_c.c
@@ -442,12 +424,8 @@ sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_nav.py
 sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_nav_s.c
 sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_quat.py
 sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_quat_s.c
-sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel.py
-sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c
 sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status.py
 sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c
-sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body.py
-sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c
 sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_event.py
 sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_event_s.c
 sbg_driver__py: rosidl_generator_py/sbg_driver/msg/_sbg_gps_hdt.py

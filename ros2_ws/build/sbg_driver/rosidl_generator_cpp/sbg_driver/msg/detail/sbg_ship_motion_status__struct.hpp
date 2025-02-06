@@ -40,10 +40,8 @@ struct SbgShipMotionStatus_
     {
       this->heave_valid = false;
       this->heave_vel_aided = false;
-      this->surge_sway_included = false;
       this->period_available = false;
       this->period_valid = false;
-      this->swell_mode = false;
     }
   }
 
@@ -55,10 +53,8 @@ struct SbgShipMotionStatus_
     {
       this->heave_valid = false;
       this->heave_vel_aided = false;
-      this->surge_sway_included = false;
       this->period_available = false;
       this->period_valid = false;
-      this->swell_mode = false;
     }
   }
 
@@ -69,18 +65,12 @@ struct SbgShipMotionStatus_
   using _heave_vel_aided_type =
     bool;
   _heave_vel_aided_type heave_vel_aided;
-  using _surge_sway_included_type =
-    bool;
-  _surge_sway_included_type surge_sway_included;
   using _period_available_type =
     bool;
   _period_available_type period_available;
   using _period_valid_type =
     bool;
   _period_valid_type period_valid;
-  using _swell_mode_type =
-    bool;
-  _swell_mode_type swell_mode;
 
   // setters for named parameter idiom
   Type & set__heave_valid(
@@ -95,12 +85,6 @@ struct SbgShipMotionStatus_
     this->heave_vel_aided = _arg;
     return *this;
   }
-  Type & set__surge_sway_included(
-    const bool & _arg)
-  {
-    this->surge_sway_included = _arg;
-    return *this;
-  }
   Type & set__period_available(
     const bool & _arg)
   {
@@ -111,12 +95,6 @@ struct SbgShipMotionStatus_
     const bool & _arg)
   {
     this->period_valid = _arg;
-    return *this;
-  }
-  Type & set__swell_mode(
-    const bool & _arg)
-  {
-    this->swell_mode = _arg;
     return *this;
   }
 
@@ -168,16 +146,10 @@ struct SbgShipMotionStatus_
     if (this->heave_vel_aided != other.heave_vel_aided) {
       return false;
     }
-    if (this->surge_sway_included != other.surge_sway_included) {
-      return false;
-    }
     if (this->period_available != other.period_available) {
       return false;
     }
     if (this->period_valid != other.period_valid) {
-      return false;
-    }
-    if (this->swell_mode != other.swell_mode) {
       return false;
     }
     return true;

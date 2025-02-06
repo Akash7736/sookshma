@@ -43,8 +43,6 @@ struct SbgStatusGeneral_
       this->gps_power = false;
       this->settings = false;
       this->temperature = false;
-      this->datalogger = false;
-      this->cpu = false;
     }
   }
 
@@ -59,8 +57,6 @@ struct SbgStatusGeneral_
       this->gps_power = false;
       this->settings = false;
       this->temperature = false;
-      this->datalogger = false;
-      this->cpu = false;
     }
   }
 
@@ -80,12 +76,6 @@ struct SbgStatusGeneral_
   using _temperature_type =
     bool;
   _temperature_type temperature;
-  using _datalogger_type =
-    bool;
-  _datalogger_type datalogger;
-  using _cpu_type =
-    bool;
-  _cpu_type cpu;
 
   // setters for named parameter idiom
   Type & set__main_power(
@@ -116,18 +106,6 @@ struct SbgStatusGeneral_
     const bool & _arg)
   {
     this->temperature = _arg;
-    return *this;
-  }
-  Type & set__datalogger(
-    const bool & _arg)
-  {
-    this->datalogger = _arg;
-    return *this;
-  }
-  Type & set__cpu(
-    const bool & _arg)
-  {
-    this->cpu = _arg;
     return *this;
   }
 
@@ -186,12 +164,6 @@ struct SbgStatusGeneral_
       return false;
     }
     if (this->temperature != other.temperature) {
-      return false;
-    }
-    if (this->datalogger != other.datalogger) {
-      return false;
-    }
-    if (this->cpu != other.cpu) {
       return false;
     }
     return true;

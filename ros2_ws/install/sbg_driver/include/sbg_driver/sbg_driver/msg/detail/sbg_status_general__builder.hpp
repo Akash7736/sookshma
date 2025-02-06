@@ -21,48 +21,16 @@ namespace msg
 namespace builder
 {
 
-class Init_SbgStatusGeneral_cpu
-{
-public:
-  explicit Init_SbgStatusGeneral_cpu(::sbg_driver::msg::SbgStatusGeneral & msg)
-  : msg_(msg)
-  {}
-  ::sbg_driver::msg::SbgStatusGeneral cpu(::sbg_driver::msg::SbgStatusGeneral::_cpu_type arg)
-  {
-    msg_.cpu = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::sbg_driver::msg::SbgStatusGeneral msg_;
-};
-
-class Init_SbgStatusGeneral_datalogger
-{
-public:
-  explicit Init_SbgStatusGeneral_datalogger(::sbg_driver::msg::SbgStatusGeneral & msg)
-  : msg_(msg)
-  {}
-  Init_SbgStatusGeneral_cpu datalogger(::sbg_driver::msg::SbgStatusGeneral::_datalogger_type arg)
-  {
-    msg_.datalogger = std::move(arg);
-    return Init_SbgStatusGeneral_cpu(msg_);
-  }
-
-private:
-  ::sbg_driver::msg::SbgStatusGeneral msg_;
-};
-
 class Init_SbgStatusGeneral_temperature
 {
 public:
   explicit Init_SbgStatusGeneral_temperature(::sbg_driver::msg::SbgStatusGeneral & msg)
   : msg_(msg)
   {}
-  Init_SbgStatusGeneral_datalogger temperature(::sbg_driver::msg::SbgStatusGeneral::_temperature_type arg)
+  ::sbg_driver::msg::SbgStatusGeneral temperature(::sbg_driver::msg::SbgStatusGeneral::_temperature_type arg)
   {
     msg_.temperature = std::move(arg);
-    return Init_SbgStatusGeneral_datalogger(msg_);
+    return std::move(msg_);
   }
 
 private:

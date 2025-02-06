@@ -70,66 +70,6 @@ module sbg_driver {
       boolean port_e_tx;
 
       @verbatim (language="comment", text=
-        "ETH 0: False in case of low level communication error.")
-      boolean eth_0;
-
-      @verbatim (language="comment", text=
-        "ETH 1: False in case of low level communication error.")
-      boolean eth_1;
-
-      @verbatim (language="comment", text=
-        "ETH 2: False in case of low level communication error.")
-      boolean eth_2;
-
-      @verbatim (language="comment", text=
-        "ETH 3: False in case of low level communication error.")
-      boolean eth_3;
-
-      @verbatim (language="comment", text=
-        "ETH 4: False in case of low level communication error.")
-      boolean eth_4;
-
-      @verbatim (language="comment", text=
-        "ETH 0 RX: False in case of error on ETH0 input.")
-      boolean eth_0_rx;
-
-      @verbatim (language="comment", text=
-        "ETH 0 TX: False in case of error on ETH0 output.")
-      boolean eth_0_tx;
-
-      @verbatim (language="comment", text=
-        "ETH 1 RX: False in case of error on ETH1 input.")
-      boolean eth_1_rx;
-
-      @verbatim (language="comment", text=
-        "ETH 1 TX: False in case of error on ETH1 output.")
-      boolean eth_1_tx;
-
-      @verbatim (language="comment", text=
-        "ETH 2 RX: False in case of error on ETH2 input.")
-      boolean eth_2_rx;
-
-      @verbatim (language="comment", text=
-        "ETH 2 TX: False in case of error on ETH2 output.")
-      boolean eth_2_tx;
-
-      @verbatim (language="comment", text=
-        "ETH 3 RX: False in case of error on ETH3 input.")
-      boolean eth_3_rx;
-
-      @verbatim (language="comment", text=
-        "ETH 3 TX: False in case of error on ETH3 output.")
-      boolean eth_3_tx;
-
-      @verbatim (language="comment", text=
-        "ETH 4 RX: False in case of error on ETH4 input.")
-      boolean eth_4_rx;
-
-      @verbatim (language="comment", text=
-        "ETH 4 TX: False in case of error on ETH4 output.")
-      boolean eth_4_tx;
-
-      @verbatim (language="comment", text=
         "CAN RX: False in case of saturation on CAN Bus output buffer")
       boolean can_rx;
 

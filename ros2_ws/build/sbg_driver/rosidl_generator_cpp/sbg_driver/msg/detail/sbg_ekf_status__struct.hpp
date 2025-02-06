@@ -47,21 +47,13 @@ struct SbgEkfStatus_
       this->mag_ref_used = false;
       this->gps1_vel_used = false;
       this->gps1_pos_used = false;
+      this->gps1_course_used = false;
       this->gps1_hdt_used = false;
       this->gps2_vel_used = false;
       this->gps2_pos_used = false;
+      this->gps2_course_used = false;
       this->gps2_hdt_used = false;
       this->odo_used = false;
-      this->dvl_bt_used = false;
-      this->dvl_wt_used = false;
-      this->user_pos_used = false;
-      this->user_vel_used = false;
-      this->user_heading_used = false;
-      this->usbl_used = false;
-      this->air_data_used = false;
-      this->zupt_used = false;
-      this->align_valid = false;
-      this->depth_used = false;
     }
   }
 
@@ -80,21 +72,13 @@ struct SbgEkfStatus_
       this->mag_ref_used = false;
       this->gps1_vel_used = false;
       this->gps1_pos_used = false;
+      this->gps1_course_used = false;
       this->gps1_hdt_used = false;
       this->gps2_vel_used = false;
       this->gps2_pos_used = false;
+      this->gps2_course_used = false;
       this->gps2_hdt_used = false;
       this->odo_used = false;
-      this->dvl_bt_used = false;
-      this->dvl_wt_used = false;
-      this->user_pos_used = false;
-      this->user_vel_used = false;
-      this->user_heading_used = false;
-      this->usbl_used = false;
-      this->air_data_used = false;
-      this->zupt_used = false;
-      this->align_valid = false;
-      this->depth_used = false;
     }
   }
 
@@ -126,6 +110,9 @@ struct SbgEkfStatus_
   using _gps1_pos_used_type =
     bool;
   _gps1_pos_used_type gps1_pos_used;
+  using _gps1_course_used_type =
+    bool;
+  _gps1_course_used_type gps1_course_used;
   using _gps1_hdt_used_type =
     bool;
   _gps1_hdt_used_type gps1_hdt_used;
@@ -135,42 +122,15 @@ struct SbgEkfStatus_
   using _gps2_pos_used_type =
     bool;
   _gps2_pos_used_type gps2_pos_used;
+  using _gps2_course_used_type =
+    bool;
+  _gps2_course_used_type gps2_course_used;
   using _gps2_hdt_used_type =
     bool;
   _gps2_hdt_used_type gps2_hdt_used;
   using _odo_used_type =
     bool;
   _odo_used_type odo_used;
-  using _dvl_bt_used_type =
-    bool;
-  _dvl_bt_used_type dvl_bt_used;
-  using _dvl_wt_used_type =
-    bool;
-  _dvl_wt_used_type dvl_wt_used;
-  using _user_pos_used_type =
-    bool;
-  _user_pos_used_type user_pos_used;
-  using _user_vel_used_type =
-    bool;
-  _user_vel_used_type user_vel_used;
-  using _user_heading_used_type =
-    bool;
-  _user_heading_used_type user_heading_used;
-  using _usbl_used_type =
-    bool;
-  _usbl_used_type usbl_used;
-  using _air_data_used_type =
-    bool;
-  _air_data_used_type air_data_used;
-  using _zupt_used_type =
-    bool;
-  _zupt_used_type zupt_used;
-  using _align_valid_type =
-    bool;
-  _align_valid_type align_valid;
-  using _depth_used_type =
-    bool;
-  _depth_used_type depth_used;
 
   // setters for named parameter idiom
   Type & set__solution_mode(
@@ -227,6 +187,12 @@ struct SbgEkfStatus_
     this->gps1_pos_used = _arg;
     return *this;
   }
+  Type & set__gps1_course_used(
+    const bool & _arg)
+  {
+    this->gps1_course_used = _arg;
+    return *this;
+  }
   Type & set__gps1_hdt_used(
     const bool & _arg)
   {
@@ -245,6 +211,12 @@ struct SbgEkfStatus_
     this->gps2_pos_used = _arg;
     return *this;
   }
+  Type & set__gps2_course_used(
+    const bool & _arg)
+  {
+    this->gps2_course_used = _arg;
+    return *this;
+  }
   Type & set__gps2_hdt_used(
     const bool & _arg)
   {
@@ -255,66 +227,6 @@ struct SbgEkfStatus_
     const bool & _arg)
   {
     this->odo_used = _arg;
-    return *this;
-  }
-  Type & set__dvl_bt_used(
-    const bool & _arg)
-  {
-    this->dvl_bt_used = _arg;
-    return *this;
-  }
-  Type & set__dvl_wt_used(
-    const bool & _arg)
-  {
-    this->dvl_wt_used = _arg;
-    return *this;
-  }
-  Type & set__user_pos_used(
-    const bool & _arg)
-  {
-    this->user_pos_used = _arg;
-    return *this;
-  }
-  Type & set__user_vel_used(
-    const bool & _arg)
-  {
-    this->user_vel_used = _arg;
-    return *this;
-  }
-  Type & set__user_heading_used(
-    const bool & _arg)
-  {
-    this->user_heading_used = _arg;
-    return *this;
-  }
-  Type & set__usbl_used(
-    const bool & _arg)
-  {
-    this->usbl_used = _arg;
-    return *this;
-  }
-  Type & set__air_data_used(
-    const bool & _arg)
-  {
-    this->air_data_used = _arg;
-    return *this;
-  }
-  Type & set__zupt_used(
-    const bool & _arg)
-  {
-    this->zupt_used = _arg;
-    return *this;
-  }
-  Type & set__align_valid(
-    const bool & _arg)
-  {
-    this->align_valid = _arg;
-    return *this;
-  }
-  Type & set__depth_used(
-    const bool & _arg)
-  {
-    this->depth_used = _arg;
     return *this;
   }
 
@@ -387,6 +299,9 @@ struct SbgEkfStatus_
     if (this->gps1_pos_used != other.gps1_pos_used) {
       return false;
     }
+    if (this->gps1_course_used != other.gps1_course_used) {
+      return false;
+    }
     if (this->gps1_hdt_used != other.gps1_hdt_used) {
       return false;
     }
@@ -396,40 +311,13 @@ struct SbgEkfStatus_
     if (this->gps2_pos_used != other.gps2_pos_used) {
       return false;
     }
+    if (this->gps2_course_used != other.gps2_course_used) {
+      return false;
+    }
     if (this->gps2_hdt_used != other.gps2_hdt_used) {
       return false;
     }
     if (this->odo_used != other.odo_used) {
-      return false;
-    }
-    if (this->dvl_bt_used != other.dvl_bt_used) {
-      return false;
-    }
-    if (this->dvl_wt_used != other.dvl_wt_used) {
-      return false;
-    }
-    if (this->user_pos_used != other.user_pos_used) {
-      return false;
-    }
-    if (this->user_vel_used != other.user_vel_used) {
-      return false;
-    }
-    if (this->user_heading_used != other.user_heading_used) {
-      return false;
-    }
-    if (this->usbl_used != other.usbl_used) {
-      return false;
-    }
-    if (this->air_data_used != other.air_data_used) {
-      return false;
-    }
-    if (this->zupt_used != other.zupt_used) {
-      return false;
-    }
-    if (this->align_valid != other.align_valid) {
-      return false;
-    }
-    if (this->depth_used != other.depth_used) {
       return false;
     }
     return true;

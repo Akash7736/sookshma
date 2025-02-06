@@ -110,8 +110,6 @@ rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h: rosidl_adapter/sbg_drive
 rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h: rosidl_adapter/sbg_driver/msg/SbgMagCalib.idl
 rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h: rosidl_adapter/sbg_driver/msg/SbgStatusAiding.idl
 rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h: rosidl_adapter/sbg_driver/msg/SbgEkfStatus.idl
-rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h: rosidl_adapter/sbg_driver/msg/SbgEkfVelBody.idl
-rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h: rosidl_adapter/sbg_driver/msg/SbgEkfRotAccel.idl
 rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -510,30 +508,6 @@ rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__struct.h: rosidl_genera
 rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__type_support.h: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__type_support.h
 
-rosidl_generator_c/sbg_driver/msg/sbg_ekf_vel_body.h: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/sbg_ekf_vel_body.h
-
-rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.h: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.h
-
-rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__struct.h: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__struct.h
-
-rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.h: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.h
-
-rosidl_generator_c/sbg_driver/msg/sbg_ekf_rot_accel.h: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/sbg_ekf_rot_accel.h
-
-rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.h: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.h
-
-rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__struct.h: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__struct.h
-
-rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.h: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.h
-
 rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c
 
@@ -617,12 +591,6 @@ rosidl_generator_c/sbg_driver/msg/detail/sbg_status_aiding__functions.c: rosidl_
 
 rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c
-
-rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c
-
-rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c: rosidl_generator_c/sbg_driver/msg/sbg_gps_vel_status.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c
 
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c.o: CMakeFiles/sbg_driver__rosidl_generator_c.dir/flags.make
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c.o: rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c
@@ -1016,34 +984,6 @@ CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c -o CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c.s
 
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.o: CMakeFiles/sbg_driver__rosidl_generator_c.dir/flags.make
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.o: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.o: CMakeFiles/sbg_driver__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.o -MF CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.o.d -o CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.o -c /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c
-
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c > CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.i
-
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c -o CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.s
-
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.o: CMakeFiles/sbg_driver__rosidl_generator_c.dir/flags.make
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.o: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.o: CMakeFiles/sbg_driver__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.o -MF CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.o.d -o CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.o -c /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c
-
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c > CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.i
-
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c -o CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.s
-
 # Object files for target sbg_driver__rosidl_generator_c
 sbg_driver__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c.o" \
@@ -1073,9 +1013,7 @@ sbg_driver__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_hdt__functions.c.o" \
 "CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag_calib__functions.c.o" \
 "CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_aiding__functions.c.o" \
-"CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c.o" \
-"CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.o" \
-"CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.o"
+"CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c.o"
 
 # External object files for target sbg_driver__rosidl_generator_c
 sbg_driver__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -1108,8 +1046,6 @@ libsbg_driver__rosidl_generator_c.so: CMakeFiles/sbg_driver__rosidl_generator_c.
 libsbg_driver__rosidl_generator_c.so: CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag_calib__functions.c.o
 libsbg_driver__rosidl_generator_c.so: CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_aiding__functions.c.o
 libsbg_driver__rosidl_generator_c.so: CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c.o
-libsbg_driver__rosidl_generator_c.so: CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c.o
-libsbg_driver__rosidl_generator_c.so: CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c.o
 libsbg_driver__rosidl_generator_c.so: CMakeFiles/sbg_driver__rosidl_generator_c.dir/build.make
 libsbg_driver__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 libsbg_driver__rosidl_generator_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
@@ -1117,7 +1053,7 @@ libsbg_driver__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces_
 libsbg_driver__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libsbg_driver__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libsbg_driver__rosidl_generator_c.so: CMakeFiles/sbg_driver__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C shared library libsbg_driver__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C shared library libsbg_driver__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sbg_driver__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1148,18 +1084,10 @@ CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_dri
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_quat__functions.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_quat__struct.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_quat__type_support.h
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.h
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__struct.h
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__struct.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__type_support.h
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.h
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__struct.h
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_event__functions.c
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_event__functions.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/detail/sbg_event__struct.h
@@ -1253,9 +1181,7 @@ CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_dri
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/sbg_ekf_euler.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/sbg_ekf_nav.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/sbg_ekf_quat.h
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/sbg_ekf_rot_accel.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/sbg_ekf_status.h
-CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/sbg_ekf_vel_body.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/sbg_event.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/sbg_gps_hdt.h
 CMakeFiles/sbg_driver__rosidl_generator_c.dir/depend: rosidl_generator_c/sbg_driver/msg/sbg_gps_pos.h

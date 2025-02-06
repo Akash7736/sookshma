@@ -55,7 +55,6 @@ struct SbgGpsPos_
       this->longitude = 0.0;
       this->altitude = 0.0;
       this->undulation = 0.0f;
-      this->num_sv_tracked = 0;
       this->num_sv_used = 0;
       this->base_station_id = 0;
       this->diff_age = 0;
@@ -76,7 +75,6 @@ struct SbgGpsPos_
       this->longitude = 0.0;
       this->altitude = 0.0;
       this->undulation = 0.0f;
-      this->num_sv_tracked = 0;
       this->num_sv_used = 0;
       this->base_station_id = 0;
       this->diff_age = 0;
@@ -111,9 +109,6 @@ struct SbgGpsPos_
   using _position_accuracy_type =
     geometry_msgs::msg::Vector3_<ContainerAllocator>;
   _position_accuracy_type position_accuracy;
-  using _num_sv_tracked_type =
-    uint8_t;
-  _num_sv_tracked_type num_sv_tracked;
   using _num_sv_used_type =
     uint8_t;
   _num_sv_used_type num_sv_used;
@@ -177,12 +172,6 @@ struct SbgGpsPos_
     const geometry_msgs::msg::Vector3_<ContainerAllocator> & _arg)
   {
     this->position_accuracy = _arg;
-    return *this;
-  }
-  Type & set__num_sv_tracked(
-    const uint8_t & _arg)
-  {
-    this->num_sv_tracked = _arg;
     return *this;
   }
   Type & set__num_sv_used(
@@ -271,9 +260,6 @@ struct SbgGpsPos_
       return false;
     }
     if (this->position_accuracy != other.position_accuracy) {
-      return false;
-    }
-    if (this->num_sv_tracked != other.num_sv_tracked) {
       return false;
     }
     if (this->num_sv_used != other.num_sv_used) {

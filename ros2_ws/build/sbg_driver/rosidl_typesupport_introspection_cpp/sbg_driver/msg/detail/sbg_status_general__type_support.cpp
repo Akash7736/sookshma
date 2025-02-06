@@ -37,7 +37,7 @@ void SbgStatusGeneral_fini_function(void * message_memory)
   typed_message->~SbgStatusGeneral();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember SbgStatusGeneral_message_member_array[7] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember SbgStatusGeneral_message_member_array[5] = {
   {
     "main_power",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
@@ -122,47 +122,13 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SbgStatusGene
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
-  },
-  {
-    "datalogger",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver::msg::SbgStatusGeneral, datalogger),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "cpu",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver::msg::SbgStatusGeneral, cpu),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers SbgStatusGeneral_message_members = {
   "sbg_driver::msg",  // message namespace
   "SbgStatusGeneral",  // message name
-  7,  // number of fields
+  5,  // number of fields
   sizeof(sbg_driver::msg::SbgStatusGeneral),
   SbgStatusGeneral_message_member_array,  // message members
   SbgStatusGeneral_init_function,  // function to initialize message memory (memory has to be allocated)

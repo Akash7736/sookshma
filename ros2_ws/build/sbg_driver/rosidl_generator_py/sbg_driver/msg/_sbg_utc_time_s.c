@@ -159,33 +159,6 @@ bool sbg_driver__msg__sbg_utc_time__convert_from_py(PyObject * _pymsg, void * _r
     ros_message->gps_tow = PyLong_AsUnsignedLong(field);
     Py_DECREF(field);
   }
-  {  // clk_bias_std
-    PyObject * field = PyObject_GetAttrString(_pymsg, "clk_bias_std");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->clk_bias_std = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
-  {  // clk_sf_error_std
-    PyObject * field = PyObject_GetAttrString(_pymsg, "clk_sf_error_std");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->clk_sf_error_std = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
-  {  // clk_residual_error
-    PyObject * field = PyObject_GetAttrString(_pymsg, "clk_residual_error");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->clk_residual_error = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
 
   return true;
 }
@@ -329,39 +302,6 @@ PyObject * sbg_driver__msg__sbg_utc_time__convert_to_py(void * raw_ros_message)
     field = PyLong_FromUnsignedLong(ros_message->gps_tow);
     {
       int rc = PyObject_SetAttrString(_pymessage, "gps_tow", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // clk_bias_std
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->clk_bias_std);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "clk_bias_std", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // clk_sf_error_std
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->clk_sf_error_std);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "clk_sf_error_std", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // clk_residual_error
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->clk_residual_error);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "clk_residual_error", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

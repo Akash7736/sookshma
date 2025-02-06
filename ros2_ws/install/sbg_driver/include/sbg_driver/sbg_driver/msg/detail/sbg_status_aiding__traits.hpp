@@ -53,34 +53,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: gps2_pos_recv
-  {
-    out << "gps2_pos_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.gps2_pos_recv, out);
-    out << ", ";
-  }
-
-  // member: gps2_vel_recv
-  {
-    out << "gps2_vel_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.gps2_vel_recv, out);
-    out << ", ";
-  }
-
-  // member: gps2_hdt_recv
-  {
-    out << "gps2_hdt_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.gps2_hdt_recv, out);
-    out << ", ";
-  }
-
-  // member: gps2_utc_recv
-  {
-    out << "gps2_utc_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.gps2_utc_recv, out);
-    out << ", ";
-  }
-
   // member: mag_recv
   {
     out << "mag_recv: ";
@@ -99,48 +71,6 @@ inline void to_flow_style_yaml(
   {
     out << "dvl_recv: ";
     rosidl_generator_traits::value_to_yaml(msg.dvl_recv, out);
-    out << ", ";
-  }
-
-  // member: usbl_recv
-  {
-    out << "usbl_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.usbl_recv, out);
-    out << ", ";
-  }
-
-  // member: depth_recv
-  {
-    out << "depth_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.depth_recv, out);
-    out << ", ";
-  }
-
-  // member: air_data_recv
-  {
-    out << "air_data_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.air_data_recv, out);
-    out << ", ";
-  }
-
-  // member: user_pos_recv
-  {
-    out << "user_pos_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_pos_recv, out);
-    out << ", ";
-  }
-
-  // member: user_vel_recv
-  {
-    out << "user_vel_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_vel_recv, out);
-    out << ", ";
-  }
-
-  // member: user_heading_recv
-  {
-    out << "user_heading_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_heading_recv, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -189,46 +119,6 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: gps2_pos_recv
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "gps2_pos_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.gps2_pos_recv, out);
-    out << "\n";
-  }
-
-  // member: gps2_vel_recv
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "gps2_vel_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.gps2_vel_recv, out);
-    out << "\n";
-  }
-
-  // member: gps2_hdt_recv
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "gps2_hdt_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.gps2_hdt_recv, out);
-    out << "\n";
-  }
-
-  // member: gps2_utc_recv
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "gps2_utc_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.gps2_utc_recv, out);
-    out << "\n";
-  }
-
   // member: mag_recv
   {
     if (indentation > 0) {
@@ -256,66 +146,6 @@ inline void to_block_style_yaml(
     }
     out << "dvl_recv: ";
     rosidl_generator_traits::value_to_yaml(msg.dvl_recv, out);
-    out << "\n";
-  }
-
-  // member: usbl_recv
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "usbl_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.usbl_recv, out);
-    out << "\n";
-  }
-
-  // member: depth_recv
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "depth_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.depth_recv, out);
-    out << "\n";
-  }
-
-  // member: air_data_recv
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "air_data_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.air_data_recv, out);
-    out << "\n";
-  }
-
-  // member: user_pos_recv
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "user_pos_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_pos_recv, out);
-    out << "\n";
-  }
-
-  // member: user_vel_recv
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "user_vel_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_vel_recv, out);
-    out << "\n";
-  }
-
-  // member: user_heading_recv
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "user_heading_recv: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_heading_recv, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

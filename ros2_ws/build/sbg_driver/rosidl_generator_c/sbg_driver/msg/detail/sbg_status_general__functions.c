@@ -22,8 +22,6 @@ sbg_driver__msg__SbgStatusGeneral__init(sbg_driver__msg__SbgStatusGeneral * msg)
   // gps_power
   // settings
   // temperature
-  // datalogger
-  // cpu
   return true;
 }
 
@@ -38,8 +36,6 @@ sbg_driver__msg__SbgStatusGeneral__fini(sbg_driver__msg__SbgStatusGeneral * msg)
   // gps_power
   // settings
   // temperature
-  // datalogger
-  // cpu
 }
 
 bool
@@ -68,14 +64,6 @@ sbg_driver__msg__SbgStatusGeneral__are_equal(const sbg_driver__msg__SbgStatusGen
   if (lhs->temperature != rhs->temperature) {
     return false;
   }
-  // datalogger
-  if (lhs->datalogger != rhs->datalogger) {
-    return false;
-  }
-  // cpu
-  if (lhs->cpu != rhs->cpu) {
-    return false;
-  }
   return true;
 }
 
@@ -97,10 +85,6 @@ sbg_driver__msg__SbgStatusGeneral__copy(
   output->settings = input->settings;
   // temperature
   output->temperature = input->temperature;
-  // datalogger
-  output->datalogger = input->datalogger;
-  // cpu
-  output->cpu = input->cpu;
   return true;
 }
 

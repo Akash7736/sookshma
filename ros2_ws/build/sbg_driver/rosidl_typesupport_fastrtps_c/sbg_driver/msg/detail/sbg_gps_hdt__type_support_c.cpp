@@ -118,16 +118,6 @@ static bool _SbgGpsHdt__cdr_serialize(
     cdr << ros_message->baseline;
   }
 
-  // Field name: num_sv_tracked
-  {
-    cdr << ros_message->num_sv_tracked;
-  }
-
-  // Field name: num_sv_used
-  {
-    cdr << ros_message->num_sv_used;
-  }
-
   return true;
 }
 
@@ -192,16 +182,6 @@ static bool _SbgGpsHdt__cdr_deserialize(
   // Field name: baseline
   {
     cdr >> ros_message->baseline;
-  }
-
-  // Field name: num_sv_tracked
-  {
-    cdr >> ros_message->num_sv_tracked;
-  }
-
-  // Field name: num_sv_used
-  {
-    cdr >> ros_message->num_sv_used;
   }
 
   return true;
@@ -270,18 +250,6 @@ size_t get_serialized_size_sbg_driver__msg__SbgGpsHdt(
   // field.name baseline
   {
     size_t item_size = sizeof(ros_message->baseline);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name num_sv_tracked
-  {
-    size_t item_size = sizeof(ros_message->num_sv_tracked);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name num_sv_used
-  {
-    size_t item_size = sizeof(ros_message->num_sv_used);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -397,20 +365,6 @@ size_t max_serialized_size_sbg_driver__msg__SbgGpsHdt(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: num_sv_tracked
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: num_sv_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -420,7 +374,7 @@ size_t max_serialized_size_sbg_driver__msg__SbgGpsHdt(
     using DataType = sbg_driver__msg__SbgGpsHdt;
     is_plain =
       (
-      offsetof(DataType, num_sv_used) +
+      offsetof(DataType, baseline) +
       last_member_size
       ) == ret_val;
   }

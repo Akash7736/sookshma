@@ -53,21 +53,6 @@ struct SbgStatusCom_
       this->port_d_tx = false;
       this->port_e_rx = false;
       this->port_e_tx = false;
-      this->eth_0 = false;
-      this->eth_1 = false;
-      this->eth_2 = false;
-      this->eth_3 = false;
-      this->eth_4 = false;
-      this->eth_0_rx = false;
-      this->eth_0_tx = false;
-      this->eth_1_rx = false;
-      this->eth_1_tx = false;
-      this->eth_2_rx = false;
-      this->eth_2_tx = false;
-      this->eth_3_rx = false;
-      this->eth_3_tx = false;
-      this->eth_4_rx = false;
-      this->eth_4_tx = false;
       this->can_rx = false;
       this->can_tx = false;
       this->can_status = 0;
@@ -95,21 +80,6 @@ struct SbgStatusCom_
       this->port_d_tx = false;
       this->port_e_rx = false;
       this->port_e_tx = false;
-      this->eth_0 = false;
-      this->eth_1 = false;
-      this->eth_2 = false;
-      this->eth_3 = false;
-      this->eth_4 = false;
-      this->eth_0_rx = false;
-      this->eth_0_tx = false;
-      this->eth_1_rx = false;
-      this->eth_1_tx = false;
-      this->eth_2_rx = false;
-      this->eth_2_tx = false;
-      this->eth_3_rx = false;
-      this->eth_3_tx = false;
-      this->eth_4_rx = false;
-      this->eth_4_tx = false;
       this->can_rx = false;
       this->can_tx = false;
       this->can_status = 0;
@@ -162,51 +132,6 @@ struct SbgStatusCom_
   using _port_e_tx_type =
     bool;
   _port_e_tx_type port_e_tx;
-  using _eth_0_type =
-    bool;
-  _eth_0_type eth_0;
-  using _eth_1_type =
-    bool;
-  _eth_1_type eth_1;
-  using _eth_2_type =
-    bool;
-  _eth_2_type eth_2;
-  using _eth_3_type =
-    bool;
-  _eth_3_type eth_3;
-  using _eth_4_type =
-    bool;
-  _eth_4_type eth_4;
-  using _eth_0_rx_type =
-    bool;
-  _eth_0_rx_type eth_0_rx;
-  using _eth_0_tx_type =
-    bool;
-  _eth_0_tx_type eth_0_tx;
-  using _eth_1_rx_type =
-    bool;
-  _eth_1_rx_type eth_1_rx;
-  using _eth_1_tx_type =
-    bool;
-  _eth_1_tx_type eth_1_tx;
-  using _eth_2_rx_type =
-    bool;
-  _eth_2_rx_type eth_2_rx;
-  using _eth_2_tx_type =
-    bool;
-  _eth_2_tx_type eth_2_tx;
-  using _eth_3_rx_type =
-    bool;
-  _eth_3_rx_type eth_3_rx;
-  using _eth_3_tx_type =
-    bool;
-  _eth_3_tx_type eth_3_tx;
-  using _eth_4_rx_type =
-    bool;
-  _eth_4_rx_type eth_4_rx;
-  using _eth_4_tx_type =
-    bool;
-  _eth_4_tx_type eth_4_tx;
   using _can_rx_type =
     bool;
   _can_rx_type can_rx;
@@ -306,96 +231,6 @@ struct SbgStatusCom_
     const bool & _arg)
   {
     this->port_e_tx = _arg;
-    return *this;
-  }
-  Type & set__eth_0(
-    const bool & _arg)
-  {
-    this->eth_0 = _arg;
-    return *this;
-  }
-  Type & set__eth_1(
-    const bool & _arg)
-  {
-    this->eth_1 = _arg;
-    return *this;
-  }
-  Type & set__eth_2(
-    const bool & _arg)
-  {
-    this->eth_2 = _arg;
-    return *this;
-  }
-  Type & set__eth_3(
-    const bool & _arg)
-  {
-    this->eth_3 = _arg;
-    return *this;
-  }
-  Type & set__eth_4(
-    const bool & _arg)
-  {
-    this->eth_4 = _arg;
-    return *this;
-  }
-  Type & set__eth_0_rx(
-    const bool & _arg)
-  {
-    this->eth_0_rx = _arg;
-    return *this;
-  }
-  Type & set__eth_0_tx(
-    const bool & _arg)
-  {
-    this->eth_0_tx = _arg;
-    return *this;
-  }
-  Type & set__eth_1_rx(
-    const bool & _arg)
-  {
-    this->eth_1_rx = _arg;
-    return *this;
-  }
-  Type & set__eth_1_tx(
-    const bool & _arg)
-  {
-    this->eth_1_tx = _arg;
-    return *this;
-  }
-  Type & set__eth_2_rx(
-    const bool & _arg)
-  {
-    this->eth_2_rx = _arg;
-    return *this;
-  }
-  Type & set__eth_2_tx(
-    const bool & _arg)
-  {
-    this->eth_2_tx = _arg;
-    return *this;
-  }
-  Type & set__eth_3_rx(
-    const bool & _arg)
-  {
-    this->eth_3_rx = _arg;
-    return *this;
-  }
-  Type & set__eth_3_tx(
-    const bool & _arg)
-  {
-    this->eth_3_tx = _arg;
-    return *this;
-  }
-  Type & set__eth_4_rx(
-    const bool & _arg)
-  {
-    this->eth_4_rx = _arg;
-    return *this;
-  }
-  Type & set__eth_4_tx(
-    const bool & _arg)
-  {
-    this->eth_4_tx = _arg;
     return *this;
   }
   Type & set__can_rx(
@@ -502,51 +337,6 @@ struct SbgStatusCom_
       return false;
     }
     if (this->port_e_tx != other.port_e_tx) {
-      return false;
-    }
-    if (this->eth_0 != other.eth_0) {
-      return false;
-    }
-    if (this->eth_1 != other.eth_1) {
-      return false;
-    }
-    if (this->eth_2 != other.eth_2) {
-      return false;
-    }
-    if (this->eth_3 != other.eth_3) {
-      return false;
-    }
-    if (this->eth_4 != other.eth_4) {
-      return false;
-    }
-    if (this->eth_0_rx != other.eth_0_rx) {
-      return false;
-    }
-    if (this->eth_0_tx != other.eth_0_tx) {
-      return false;
-    }
-    if (this->eth_1_rx != other.eth_1_rx) {
-      return false;
-    }
-    if (this->eth_1_tx != other.eth_1_tx) {
-      return false;
-    }
-    if (this->eth_2_rx != other.eth_2_rx) {
-      return false;
-    }
-    if (this->eth_2_tx != other.eth_2_tx) {
-      return false;
-    }
-    if (this->eth_3_rx != other.eth_3_rx) {
-      return false;
-    }
-    if (this->eth_3_tx != other.eth_3_tx) {
-      return false;
-    }
-    if (this->eth_4_rx != other.eth_4_rx) {
-      return false;
-    }
-    if (this->eth_4_tx != other.eth_4_tx) {
       return false;
     }
     if (this->can_rx != other.can_rx) {

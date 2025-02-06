@@ -461,34 +461,6 @@ CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/ms
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c -o CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c.s
 
-CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.o: CMakeFiles/sbg_driver__rosidl_generator_py.dir/flags.make
-CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.o: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c
-CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.o: CMakeFiles/sbg_driver__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.o -MF CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.o.d -o CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.o -c /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c
-
-CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c > CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.i
-
-CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c -o CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.s
-
-CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.o: CMakeFiles/sbg_driver__rosidl_generator_py.dir/flags.make
-CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.o: rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c
-CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.o: CMakeFiles/sbg_driver__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.o -MF CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.o.d -o CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.o -c /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c
-
-CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c > CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.i
-
-CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/mavlab/ros2_ws/build/sbg_driver/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c -o CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.s
-
 # Object files for target sbg_driver__rosidl_generator_py
 sbg_driver__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_vel_status_s.c.o" \
@@ -518,9 +490,7 @@ sbg_driver__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_hdt_s.c.o" \
 "CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_mag_calib_s.c.o" \
 "CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_aiding_s.c.o" \
-"CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c.o" \
-"CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.o" \
-"CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.o"
+"CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c.o"
 
 # External object files for target sbg_driver__rosidl_generator_py
 sbg_driver__rosidl_generator_py_EXTERNAL_OBJECTS =
@@ -553,8 +523,6 @@ rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: CMakeFiles
 rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_mag_calib_s.c.o
 rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_aiding_s.c.o
 rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c.o
-rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_vel_body_s.c.o
-rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_rot_accel_s.c.o
 rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: CMakeFiles/sbg_driver__rosidl_generator_py.dir/build.make
 rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: libsbg_driver__rosidl_typesupport_c.so
@@ -572,7 +540,7 @@ rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: /opt/ros/h
 rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so: CMakeFiles/sbg_driver__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C shared library rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/mavlab/ros2_ws/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C shared library rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sbg_driver__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

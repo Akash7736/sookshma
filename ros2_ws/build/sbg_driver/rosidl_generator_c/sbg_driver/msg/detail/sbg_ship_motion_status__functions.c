@@ -19,10 +19,8 @@ sbg_driver__msg__SbgShipMotionStatus__init(sbg_driver__msg__SbgShipMotionStatus 
   }
   // heave_valid
   // heave_vel_aided
-  // surge_sway_included
   // period_available
   // period_valid
-  // swell_mode
   return true;
 }
 
@@ -34,10 +32,8 @@ sbg_driver__msg__SbgShipMotionStatus__fini(sbg_driver__msg__SbgShipMotionStatus 
   }
   // heave_valid
   // heave_vel_aided
-  // surge_sway_included
   // period_available
   // period_valid
-  // swell_mode
 }
 
 bool
@@ -54,20 +50,12 @@ sbg_driver__msg__SbgShipMotionStatus__are_equal(const sbg_driver__msg__SbgShipMo
   if (lhs->heave_vel_aided != rhs->heave_vel_aided) {
     return false;
   }
-  // surge_sway_included
-  if (lhs->surge_sway_included != rhs->surge_sway_included) {
-    return false;
-  }
   // period_available
   if (lhs->period_available != rhs->period_available) {
     return false;
   }
   // period_valid
   if (lhs->period_valid != rhs->period_valid) {
-    return false;
-  }
-  // swell_mode
-  if (lhs->swell_mode != rhs->swell_mode) {
     return false;
   }
   return true;
@@ -85,14 +73,10 @@ sbg_driver__msg__SbgShipMotionStatus__copy(
   output->heave_valid = input->heave_valid;
   // heave_vel_aided
   output->heave_vel_aided = input->heave_vel_aided;
-  // surge_sway_included
-  output->surge_sway_included = input->surge_sway_included;
   // period_available
   output->period_available = input->period_available;
   // period_valid
   output->period_valid = input->period_valid;
-  // swell_mode
-  output->swell_mode = input->swell_mode;
   return true;
 }
 

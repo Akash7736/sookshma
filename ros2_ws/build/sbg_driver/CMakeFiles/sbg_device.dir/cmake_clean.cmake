@@ -11,10 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o.d"
   "CMakeFiles/sbg_device.dir/src/sbg_device.cpp.o"
   "CMakeFiles/sbg_device.dir/src/sbg_device.cpp.o.d"
-  "CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o"
-  "CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o.d"
-  "CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o"
-  "CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o.d"
   "sbg_device"
   "sbg_device.pdb"
 )

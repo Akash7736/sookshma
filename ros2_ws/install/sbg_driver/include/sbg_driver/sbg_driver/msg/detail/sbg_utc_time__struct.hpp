@@ -55,9 +55,6 @@ struct SbgUtcTime_
       this->sec = 0;
       this->nanosec = 0ul;
       this->gps_tow = 0ul;
-      this->clk_bias_std = 0.0f;
-      this->clk_sf_error_std = 0.0f;
-      this->clk_residual_error = 0.0f;
     }
   }
 
@@ -77,9 +74,6 @@ struct SbgUtcTime_
       this->sec = 0;
       this->nanosec = 0ul;
       this->gps_tow = 0ul;
-      this->clk_bias_std = 0.0f;
-      this->clk_sf_error_std = 0.0f;
-      this->clk_residual_error = 0.0f;
     }
   }
 
@@ -117,15 +111,6 @@ struct SbgUtcTime_
   using _gps_tow_type =
     uint32_t;
   _gps_tow_type gps_tow;
-  using _clk_bias_std_type =
-    float;
-  _clk_bias_std_type clk_bias_std;
-  using _clk_sf_error_std_type =
-    float;
-  _clk_sf_error_std_type clk_sf_error_std;
-  using _clk_residual_error_type =
-    float;
-  _clk_residual_error_type clk_residual_error;
 
   // setters for named parameter idiom
   Type & set__header(
@@ -192,24 +177,6 @@ struct SbgUtcTime_
     const uint32_t & _arg)
   {
     this->gps_tow = _arg;
-    return *this;
-  }
-  Type & set__clk_bias_std(
-    const float & _arg)
-  {
-    this->clk_bias_std = _arg;
-    return *this;
-  }
-  Type & set__clk_sf_error_std(
-    const float & _arg)
-  {
-    this->clk_sf_error_std = _arg;
-    return *this;
-  }
-  Type & set__clk_residual_error(
-    const float & _arg)
-  {
-    this->clk_residual_error = _arg;
     return *this;
   }
 
@@ -286,15 +253,6 @@ struct SbgUtcTime_
       return false;
     }
     if (this->gps_tow != other.gps_tow) {
-      return false;
-    }
-    if (this->clk_bias_std != other.clk_bias_std) {
-      return false;
-    }
-    if (this->clk_sf_error_std != other.clk_sf_error_std) {
-      return false;
-    }
-    if (this->clk_residual_error != other.clk_residual_error) {
       return false;
     }
     return true;

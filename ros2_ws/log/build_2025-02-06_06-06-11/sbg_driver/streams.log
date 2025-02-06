@@ -1,0 +1,1096 @@
+[0.054s] Invoking command in '/workspaces/mavlab/ros2_ws/build/sbg_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/sbg_driver
+[0.982s] -- The C compiler identification is GNU 11.4.0
+[1.529s] -- The CXX compiler identification is GNU 11.4.0
+[1.570s] -- Detecting C compiler ABI info
+[1.873s] -- Detecting C compiler ABI info - done
+[1.924s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.925s] -- Detecting C compile features
+[1.925s] -- Detecting C compile features - done
+[1.939s] -- Detecting CXX compiler ABI info
+[2.233s] -- Detecting CXX compiler ABI info - done
+[2.272s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.273s] -- Detecting CXX compile features
+[2.275s] -- Detecting CXX compile features - done
+[2.289s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.939s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.572s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.851s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.884s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.930s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.992s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.122s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.466s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.493s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.001s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.118s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.320s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.397s] -- Looking for pthread.h
+[5.724s] -- Looking for pthread.h - found
+[5.727s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.033s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.037s] -- Found Threads: TRUE  
+[6.309s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.502s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[6.570s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.621s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.729s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.341s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[7.409s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.417s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.417s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.461s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[10.015s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[12.687s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.827s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[13.835s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[13.946s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[13.950s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.951s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[13.952s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[14.053s] -- Found PythonExtra: .so  
+[14.625s] -- Configuring done
+[15.271s] -- Generating done
+[15.313s] -- Build files have been written to: /workspaces/mavlab/ros2_ws/build/sbg_driver
+[15.438s] Invoked command in '/workspaces/mavlab/ros2_ws/build/sbg_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/ros2_ws/install/sbg_driver
+[15.439s] Invoking command in '/workspaces/mavlab/ros2_ws/build/sbg_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/sbg_driver -- -j4 -l4
+[15.887s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.005s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.018s] [  0%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o[0m
+[16.149s] [  0%] Built target ament_cmake_python_copy_sbg_driver
+[16.568s] [  0%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o[0m
+[16.963s] [  0%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o[0m
+[17.319s] [  1%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o[0m
+[17.843s] [  1%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o[0m
+[18.411s] [  1%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o[0m
+[18.822s] running egg_info
+[18.826s] creating sbg_driver.egg-info
+[18.838s] writing sbg_driver.egg-info/PKG-INFO
+[18.839s] writing dependency_links to sbg_driver.egg-info/dependency_links.txt
+[18.841s] writing top-level names to sbg_driver.egg-info/top_level.txt
+[18.843s] writing manifest file 'sbg_driver.egg-info/SOURCES.txt'
+[18.865s] reading manifest file 'sbg_driver.egg-info/SOURCES.txt'
+[18.868s] writing manifest file 'sbg_driver.egg-info/SOURCES.txt'
+[19.086s] [  2%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o[0m
+[19.145s] [  2%] Built target ament_cmake_python_build_sbg_driver_egg
+[19.219s] [  2%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o[0m
+[19.579s] [  2%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o[0m
+[19.906s] [  3%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o[0m
+[20.306s] [  3%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o[0m
+[20.360s] [  3%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o[0m
+[20.782s] [  4%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o[0m
+[20.805s] [  4%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o[0m
+[21.118s] [  4%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o[0m
+[21.170s] [  5%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o[0m
+[21.409s] [  5%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o[0m
+[21.601s] [  5%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o[0m
+[21.714s] [  6%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o[0m
+[21.914s] [  6%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o[0m
+[21.983s] [  6%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o[0m
+[22.339s] [  7%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o[0m
+[22.351s] [  7%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o[0m
+[22.782s] [  7%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o[0m
+[22.838s] [  8%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o[0m
+[23.214s] [  8%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o[0m
+[23.307s] [  8%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o[0m
+[23.668s] [  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o[0m
+[23.774s] [  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o[0m
+[24.086s] [  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o[0m
+[24.157s] [  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o[0m
+[24.565s] [ 10%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o[0m
+[24.599s] [ 10%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o[0m
+[24.979s] [ 10%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o[0m
+[25.174s] [ 11%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o[0m
+[25.321s] [ 11%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o[0m
+[25.640s] [ 11%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.o[0m
+[25.931s] [ 12%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o[0m
+[25.931s] [ 12%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o[0m
+[26.138s] [ 12%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o[0m
+[26.144s] [ 13%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o[0m
+[26.473s] [ 13%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o[0m
+[26.507s] [ 13%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o[0m
+[26.954s] [ 14%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o[0m
+[26.964s] [ 14%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o[0m
+[27.343s] [ 14%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o[0m
+[27.395s] [ 15%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o[0m
+[27.593s] [ 15%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o[0m
+[27.818s] [ 15%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o[0m
+[28.039s] [ 16%] [32m[1mLinking C static library /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a[0m
+[28.256s] [ 16%] Built target sbgECom
+[41.938s] [ 16%] Built target sbg_driver__cpp
+[41.981s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[42.010s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[42.018s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[44.875s] [ 16%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c.o[0m
+[45.075s] [ 17%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_pos_status__functions.c.o[0m
+[45.275s] [ 17%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag_status__functions.c.o[0m
+[45.478s] [ 17%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ship_motion_status__functions.c.o[0m
+[45.673s] [ 18%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_utc_time_status__functions.c.o[0m
+[45.868s] [ 18%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_air_data__functions.c.o[0m
+[46.079s] [ 18%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_air_data_status__functions.c.o[0m
+[46.276s] [ 19%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_euler__functions.c.o[0m
+[46.502s] [ 19%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_pos__functions.c.o[0m
+[46.722s] [ 19%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag__functions.c.o[0m
+[46.943s] [ 20%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_com__functions.c.o[0m
+[47.152s] [ 20%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_nav__functions.c.o[0m
+[47.387s] [ 20%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_raw__functions.c.o[0m
+[47.597s] [ 21%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_odo_vel__functions.c.o[0m
+[47.804s] [ 21%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_general__functions.c.o[0m
+[48.001s] [ 21%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_quat__functions.c.o[0m
+[48.295s] [ 22%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel__functions.c.o[0m
+[48.528s] [ 22%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status__functions.c.o[0m
+[48.749s] [ 22%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_event__functions.c.o[0m
+[48.969s] [ 22%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_imu_status__functions.c.o[0m
+[49.169s] [ 23%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_imu_data__functions.c.o[0m
+[49.397s] [ 23%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_imu_short__functions.c.o[0m
+[49.618s] [ 23%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ship_motion__functions.c.o[0m
+[49.841s] [ 24%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_utc_time__functions.c.o[0m
+[50.058s] [ 24%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_hdt__functions.c.o[0m
+[50.266s] [ 24%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag_calib__functions.c.o[0m
+[50.470s] [ 25%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_aiding__functions.c.o[0m
+[50.671s] [ 25%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c.o[0m
+[50.878s] [ 25%] [32m[1mLinking C shared library libsbg_driver__rosidl_generator_c.so[0m
+[51.040s] [ 25%] Built target sbg_driver__rosidl_generator_c
+[51.079s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[65.653s] [ 26%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_vel_status__type_support.cpp.o[0m
+[67.360s] [ 26%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_pos_status__type_support.cpp.o[0m
+[68.388s] [ 26%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp.o[0m
+[68.997s] [ 26%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_mag_status__type_support.cpp.o[0m
+[70.174s] [ 27%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_vel_status__type_support.cpp.o[0m
+[70.879s] [ 28%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.cpp.o[0m
+[71.554s] [ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ship_motion_status__type_support.cpp.o[0m
+[73.796s] [ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_pos_status__type_support.cpp.o[0m
+[74.308s] [ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_utc_time_status__type_support.cpp.o[0m
+[74.451s] [ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_mag_status__type_support.cpp.o[0m
+[76.679s] [ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_air_data__type_support.cpp.o[0m
+[77.028s] [ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_mag_status__type_support.cpp.o[0m
+[77.908s] [ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.cpp.o[0m
+[79.240s] [ 30%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_air_data_status__type_support.cpp.o[0m
+[80.785s] [ 31%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ship_motion_status__type_support.cpp.o[0m
+[81.286s] [ 32%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_utc_time_status__type_support.cpp.o[0m
+[81.410s] [ 32%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_euler__type_support.cpp.o[0m
+[83.511s] [ 32%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_pos__type_support.cpp.o[0m
+[83.684s] [ 32%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_utc_time_status__type_support.cpp.o[0m
+[83.996s] [ 32%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_air_data__type_support.cpp.o[0m
+[84.858s] [ 32%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_vel_status__type_support_c.cpp.o[0m
+[84.918s] [ 33%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_mag__type_support.cpp.o[0m
+[85.723s] [ 33%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_air_data__type_support.cpp.o[0m
+[86.372s] [ 33%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status_com__type_support.cpp.o[0m
+[86.641s] [ 34%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_pos_status__type_support_c.cpp.o[0m
+[86.748s] [ 34%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_air_data_status__type_support.cpp.o[0m
+[87.941s] [ 34%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_nav__type_support.cpp.o[0m
+[88.137s] [ 34%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_air_data_status__type_support.cpp.o[0m
+[89.213s] [ 34%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_mag_status__type_support_c.cpp.o[0m
+[89.565s] [ 35%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_euler__type_support.cpp.o[0m
+[90.193s] [ 35%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_raw__type_support.cpp.o[0m
+[90.440s] [ 36%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_euler__type_support.cpp.o[0m
+[91.905s] [ 36%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_pos__type_support.cpp.o[0m
+[91.928s] [ 36%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ship_motion_status__type_support_c.cpp.o[0m
+[92.049s] [ 37%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_odo_vel__type_support.cpp.o[0m
+[92.896s] [ 37%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_pos__type_support.cpp.o[0m
+[93.980s] [ 37%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status_general__type_support.cpp.o[0m
+[94.184s] [ 38%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_utc_time_status__type_support_c.cpp.o[0m
+[94.250s] [ 38%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_mag__type_support.cpp.o[0m
+[95.032s] [ 38%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_mag__type_support.cpp.o[0m
+[95.283s] [ 38%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_quat__type_support.cpp.o[0m
+[95.822s] [ 38%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_air_data__type_support_c.cpp.o[0m
+[96.169s] [ 39%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_com__type_support.cpp.o[0m
+[96.614s] [ 40%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_vel__type_support.cpp.o[0m
+[97.001s] [ 41%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status_com__type_support.cpp.o[0m
+[97.507s] [ 41%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_air_data_status__type_support_c.cpp.o[0m
+[97.935s] [ 41%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status__type_support.cpp.o[0m
+[98.076s] [ 41%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_nav__type_support.cpp.o[0m
+[98.991s] [ 41%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_nav__type_support.cpp.o[0m
+[99.188s] [ 42%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_euler__type_support_c.cpp.o[0m
+[99.282s] [ 42%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_event__type_support.cpp.o[0m
+[100.179s] [ 42%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_raw__type_support.cpp.o[0m
+[100.585s] [ 43%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_imu_status__type_support.cpp.o[0m
+[100.940s] [ 43%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_pos__type_support_c.cpp.o[0m
+[100.997s] [ 43%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_raw__type_support.cpp.o[0m
+[101.884s] [ 43%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_imu_data__type_support.cpp.o[0m
+[102.190s] [ 44%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_odo_vel__type_support.cpp.o[0m
+[102.659s] [ 44%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_mag__type_support_c.cpp.o[0m
+[103.198s] [ 45%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_odo_vel__type_support.cpp.o[0m
+[103.206s] [ 45%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_imu_short__type_support.cpp.o[0m
+[104.105s] [ 45%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_general__type_support.cpp.o[0m
+[104.388s] [ 45%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status_com__type_support_c.cpp.o[0m
+[104.531s] [ 46%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ship_motion__type_support.cpp.o[0m
+[105.114s] [ 46%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status_general__type_support.cpp.o[0m
+[105.865s] [ 46%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_utc_time__type_support.cpp.o[0m
+[105.923s] [ 46%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_quat__type_support.cpp.o[0m
+[106.036s] [ 47%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_nav__type_support_c.cpp.o[0m
+[107.011s] [ 47%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_quat__type_support.cpp.o[0m
+[107.150s] [ 47%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_hdt__type_support.cpp.o[0m
+[107.719s] [ 47%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_raw__type_support_c.cpp.o[0m
+[107.829s] [ 48%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel__type_support.cpp.o[0m
+[108.433s] [ 49%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_mag_calib__type_support.cpp.o[0m
+[108.955s] [ 50%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_vel__type_support.cpp.o[0m
+[109.347s] [ 50%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_odo_vel__type_support_c.cpp.o[0m
+[109.724s] [ 50%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status_aiding__type_support.cpp.o[0m
+[109.773s] [ 50%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status__type_support.cpp.o[0m
+[110.898s] [ 50%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status__type_support.cpp.o[0m
+[110.992s] [ 51%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status_general__type_support_c.cpp.o[0m
+[111.023s] [ 51%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_status__type_support.cpp.o[0m
+[111.657s] [ 51%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_event__type_support.cpp.o[0m
+[112.323s] [ 52%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_cpp.so[0m
+[112.571s] [ 52%] Built target sbg_driver__rosidl_typesupport_cpp
+[112.676s] [ 52%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_quat__type_support_c.cpp.o[0m
+[112.812s] [ 52%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_event__type_support.cpp.o[0m
+[113.443s] [ 53%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_imu_status__type_support.cpp.o[0m
+[114.225s] [ 53%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_vel__type_support_c.cpp.o[0m
+[114.633s] [ 54%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_imu_status__type_support.cpp.o[0m
+[115.145s] [ 54%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_imu_data__type_support.cpp.o[0m
+[115.796s] [ 55%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status__type_support_c.cpp.o[0m
+[116.423s] [ 55%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_imu_data__type_support.cpp.o[0m
+[116.885s] [ 55%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_imu_short__type_support.cpp.o[0m
+[117.352s] [ 55%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_event__type_support_c.cpp.o[0m
+[118.276s] [ 55%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_imu_short__type_support.cpp.o[0m
+[118.649s] [ 56%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ship_motion__type_support.cpp.o[0m
+[118.947s] [ 56%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_imu_status__type_support_c.cpp.o[0m
+[120.087s] [ 57%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ship_motion__type_support.cpp.o[0m
+[120.395s] [ 57%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_utc_time__type_support.cpp.o[0m
+[120.477s] [ 58%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_imu_data__type_support_c.cpp.o[0m
+[121.908s] [ 58%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_utc_time__type_support.cpp.o[0m
+[122.049s] [ 58%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_imu_short__type_support_c.cpp.o[0m
+[122.146s] [ 58%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_hdt__type_support.cpp.o[0m
+[123.616s] [ 58%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ship_motion__type_support_c.cpp.o[0m
+[123.728s] [ 58%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_hdt__type_support.cpp.o[0m
+[123.890s] [ 59%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_mag_calib__type_support.cpp.o[0m
+[125.163s] [ 60%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_utc_time__type_support_c.cpp.o[0m
+[125.530s] [ 61%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_mag_calib__type_support.cpp.o[0m
+[125.626s] [ 61%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_aiding__type_support.cpp.o[0m
+[126.719s] [ 61%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_hdt__type_support_c.cpp.o[0m
+[127.283s] [ 61%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status_aiding__type_support.cpp.o[0m
+[127.345s] [ 61%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp.o[0m
+[128.251s] [ 61%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_mag_calib__type_support_c.cpp.o[0m
+[129.049s] [ 62%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_introspection_cpp.so[0m
+[129.059s] [ 62%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_status__type_support.cpp.o[0m
+[129.369s] [ 62%] Built target sbg_driver__rosidl_typesupport_introspection_cpp
+[129.758s] [ 63%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status_aiding__type_support_c.cpp.o[0m
+[130.821s] [ 64%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_fastrtps_cpp.so[0m
+[131.121s] [ 64%] Built target sbg_driver__rosidl_typesupport_fastrtps_cpp
+[131.241s] [ 64%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_status__type_support_c.cpp.o[0m
+[132.626s] [ 64%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_fastrtps_c.so[0m
+[132.933s] [ 64%] Built target sbg_driver__rosidl_typesupport_fastrtps_c
+[132.965s] [ 64%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[150.856s] [ 65%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_vel_status__type_support.cpp.o[0m
+[150.857s] [ 65%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_pos_status__type_support.cpp.o[0m
+[150.862s] [ 65%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_mag_status__type_support.cpp.o[0m
+[150.970s] [ 66%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ship_motion_status__type_support.cpp.o[0m
+[150.972s] [ 66%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_utc_time_status__type_support.cpp.o[0m
+[150.979s] [ 66%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_air_data__type_support.cpp.o[0m
+[151.086s] [ 67%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_air_data_status__type_support.cpp.o[0m
+[151.087s] [ 67%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_euler__type_support.cpp.o[0m
+[151.102s] [ 67%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_pos__type_support.cpp.o[0m
+[151.202s] [ 67%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_mag__type_support.cpp.o[0m
+[151.209s] [ 68%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status_com__type_support.cpp.o[0m
+[151.229s] [ 68%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_nav__type_support.cpp.o[0m
+[151.326s] [ 68%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_raw__type_support.cpp.o[0m
+[151.334s] [ 69%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_odo_vel__type_support.cpp.o[0m
+[151.353s] [ 69%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status_general__type_support.cpp.o[0m
+[151.458s] [ 69%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_quat__type_support.cpp.o[0m
+[151.460s] [ 69%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_vel__type_support.cpp.o[0m
+[151.471s] [ 70%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status__type_support.cpp.o[0m
+[151.582s] [ 70%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_event__type_support.cpp.o[0m
+[151.585s] [ 70%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_imu_status__type_support.cpp.o[0m
+[151.597s] [ 71%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_imu_data__type_support.cpp.o[0m
+[151.703s] [ 71%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_imu_short__type_support.cpp.o[0m
+[151.707s] [ 71%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ship_motion__type_support.cpp.o[0m
+[151.723s] [ 72%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_utc_time__type_support.cpp.o[0m
+[151.831s] [ 72%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_hdt__type_support.cpp.o[0m
+[151.843s] [ 72%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_mag_calib__type_support.cpp.o[0m
+[151.845s] [ 73%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status_aiding__type_support.cpp.o[0m
+[151.950s] [ 73%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_status__type_support.cpp.o[0m
+[152.057s] [ 73%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_c.so[0m
+[152.202s] [ 73%] Built target sbg_driver__rosidl_typesupport_c
+[152.237s] [ 73%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[171.977s] [ 74%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.c.o[0m
+[171.979s] [ 74%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.c.o[0m
+[171.982s] [ 74%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.c.o[0m
+[171.988s] [ 74%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_mag_status__type_support.c.o[0m
+[172.117s] [ 74%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_utc_time_status__type_support.c.o[0m
+[172.125s] [ 75%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_air_data__type_support.c.o[0m
+[172.145s] [ 75%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_air_data_status__type_support.c.o[0m
+[172.170s] [ 75%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_euler__type_support.c.o[0m
+[172.282s] [ 76%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_pos__type_support.c.o[0m
+[172.284s] [ 76%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status_com__type_support.c.o[0m
+[172.286s] [ 76%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_mag__type_support.c.o[0m
+[172.357s] [ 77%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_nav__type_support.c.o[0m
+[172.445s] [ 77%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_raw__type_support.c.o[0m
+[172.455s] [ 77%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_odo_vel__type_support.c.o[0m
+[172.458s] [ 78%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status_general__type_support.c.o[0m
+[172.519s] [ 78%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_quat__type_support.c.o[0m
+[172.603s] [ 78%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_vel__type_support.c.o[0m
+[172.610s] [ 79%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status__type_support.c.o[0m
+[172.622s] [ 79%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_event__type_support.c.o[0m
+[172.691s] [ 79%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_imu_status__type_support.c.o[0m
+[172.769s] [ 79%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_imu_short__type_support.c.o[0m
+[172.773s] [ 80%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_imu_data__type_support.c.o[0m
+[172.824s] [ 80%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ship_motion__type_support.c.o[0m
+[172.845s] [ 81%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_utc_time__type_support.c.o[0m
+[172.941s] [ 81%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_hdt__type_support.c.o[0m
+[172.967s] [ 81%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_mag_calib__type_support.c.o[0m
+[172.978s] [ 82%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status_aiding__type_support.c.o[0m
+[173.007s] [ 82%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_status__type_support.c.o[0m
+[173.144s] [ 82%] [32m[1mLinking C shared library libsbg_driver__rosidl_typesupport_introspection_c.so[0m
+[173.269s] [ 82%] Built target sbg_driver__rosidl_typesupport_introspection_c
+[173.326s] [ 82%] Built target sbg_driver
+[173.393s] [ 82%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/config_applier.cpp.o[0m
+[173.393s] [ 82%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/message_publisher.cpp.o[0m
+[173.405s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[173.415s] [ 83%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/config_applier.cpp.o[0m
+[188.649s] [ 83%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/message_publisher.cpp.o[0m
+[188.697s] [ 84%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/message_wrapper.cpp.o[0m
+[213.532s] [ 84%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/config_store.cpp.o[0m
+[226.630s] [ 84%] Built target sbg_driver__py
+[226.719s] [ 85%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_vel_status_s.c.o[0m
+[227.494s] [ 85%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_pos_status_s.c.o[0m
+[228.067s] [ 85%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_mag_status_s.c.o[0m
+[228.653s] [ 86%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ship_motion_status_s.c.o[0m
+[229.212s] [ 86%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_utc_time_status_s.c.o[0m
+[229.677s] [ 86%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/sbg_device.cpp.o[0m
+[229.778s] [ 86%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_air_data_s.c.o[0m
+[230.598s] [ 87%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_air_data_status_s.c.o[0m
+[231.155s] [ 87%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_euler_s.c.o[0m
+[231.677s] [ 87%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_pos_s.c.o[0m
+[232.247s] [ 88%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_mag_s.c.o[0m
+[232.798s] [ 88%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_com_s.c.o[0m
+[233.394s] [ 88%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_nav_s.c.o[0m
+[233.953s] [ 89%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_raw_s.c.o[0m
+[234.536s] [ 89%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_odo_vel_s.c.o[0m
+[235.052s] [ 89%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_general_s.c.o[0m
+[235.675s] [ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_quat_s.c.o[0m
+[236.228s] [ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_vel_s.c.o[0m
+[236.805s] [ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_s.c.o[0m
+[237.580s] [ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_event_s.c.o[0m
+[238.404s] [ 91%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_imu_status_s.c.o[0m
+[238.972s] [ 91%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_imu_data_s.c.o[0m
+[239.531s] [ 91%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_imu_short_s.c.o[0m
+[240.076s] [ 92%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ship_motion_s.c.o[0m
+[240.632s] [ 92%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_utc_time_s.c.o[0m
+[241.192s] [ 92%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_hdt_s.c.o[0m
+[241.856s] [ 93%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_mag_calib_s.c.o[0m
+[242.497s] [ 93%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_aiding_s.c.o[0m
+[243.028s] [ 93%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c.o[0m
+[243.643s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so[0m
+[244.019s] [ 94%] Built target sbg_driver__rosidl_generator_py
+[244.053s] [ 95%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/main_mag.cpp.o[0m
+[244.750s] [ 96%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o[0m
+[266.753s] [ 96%] [32m[1mLinking CXX executable sbg_device_mag[0m
+[268.143s] [ 96%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/sbg_device.cpp.o[0m
+[271.211s] [ 96%] Built target sbg_device_mag
+[276.178s] [ 96%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/config_store.cpp.o[0m
+[276.287s] [ 97%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[277.198s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[277.337s] [ 98%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[277.385s] [ 98%] Built target sbg_driver__rosidl_typesupport_introspection_c__pyext
+[277.457s] [ 99%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_c.c.o[0m
+[278.361s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[278.429s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[278.555s] [ 99%] Built target sbg_driver__rosidl_typesupport_fastrtps_c__pyext
+[278.591s] [100%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/main.cpp.o[0m
+[278.610s] [100%] Built target sbg_driver__rosidl_typesupport_c__pyext
+[299.855s] [100%] [32m[1mLinking CXX executable sbg_device[0m
+[304.079s] [100%] Built target sbg_device
+[304.120s] Invoked command in '/workspaces/mavlab/ros2_ws/build/sbg_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/sbg_driver -- -j4 -l4
+[305.983s] Invoking command in '/workspaces/mavlab/ros2_ws/build/sbg_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/sbg_driver
+[306.012s] -- Install configuration: ""
+[306.023s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/ament_index/resource_index/rosidl_interfaces/sbg_driver
+[306.025s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[306.026s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[306.026s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag.h
+[306.027s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel.h
+[306.028s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_nav.h
+[306.029s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status.h
+[306.030s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_com.h
+[306.031s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_short.h
+[306.032s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_aiding.h
+[306.033s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data_status.h
+[306.034s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time_status.h
+[306.035s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_quat.h
+[306.036s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_raw.h
+[306.037s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion.h
+[306.039s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time.h
+[306.040s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_event.h
+[306.040s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos.h
+[306.041s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_data.h
+[306.041s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_odo_vel.h
+[306.042s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_general.h
+[306.043s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data.h
+[306.044s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_status.h
+[306.045s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos_status.h
+[306.046s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion_status.h
+[306.047s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_status.h
+[306.047s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_calib.h
+[306.048s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_status.h
+[306.049s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_hdt.h
+[306.050s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[306.051s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__struct.h
+[306.051s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__struct.h
+[306.052s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__struct.h
+[306.053s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__functions.c
+[306.054s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__functions.c
+[306.055s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__functions.h
+[306.055s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__functions.h
+[306.056s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__functions.c
+[306.057s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__struct.h
+[306.058s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__functions.h
+[306.058s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__functions.c
+[306.059s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__functions.h
+[306.060s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__type_support.h
+[306.060s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__type_support.h
+[306.061s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__functions.c
+[306.062s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__functions.c
+[306.063s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__functions.c
+[306.064s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__functions.h
+[306.065s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__type_support.h
+[306.065s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__functions.c
+[306.066s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__functions.h
+[306.067s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__functions.h
+[306.067s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__functions.c
+[306.068s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__functions.h
+[306.069s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__functions.h
+[306.069s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__type_support.h
+[306.070s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__struct.h
+[306.070s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__struct.h
+[306.071s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__functions.c
+[306.072s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__functions.h
+[306.072s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__type_support.h
+[306.073s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__functions.h
+[306.074s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__functions.c
+[306.075s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__type_support.h
+[306.075s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__struct.h
+[306.076s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__struct.h
+[306.076s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__type_support.h
+[306.077s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__type_support.h
+[306.077s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.h
+[306.078s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__functions.c
+[306.079s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__type_support.h
+[306.079s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__struct.h
+[306.080s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__functions.c
+[306.081s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__functions.c
+[306.082s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__struct.h
+[306.082s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__type_support.h
+[306.083s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c
+[306.083s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__struct.h
+[306.084s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__functions.h
+[306.084s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__type_support.h
+[306.085s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__struct.h
+[306.085s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__type_support.h
+[306.086s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__type_support.h
+[306.086s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__struct.h
+[306.087s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__type_support.h
+[306.087s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__functions.c
+[306.089s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__struct.h
+[306.089s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__functions.h
+[306.090s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__type_support.h
+[306.090s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__type_support.h
+[306.091s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__type_support.h
+[306.091s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__struct.h
+[306.092s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__functions.c
+[306.093s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__functions.c
+[306.095s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__struct.h
+[306.096s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__type_support.h
+[306.097s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__functions.c
+[306.098s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__functions.h
+[306.098s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.h
+[306.099s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__struct.h
+[306.099s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__functions.h
+[306.100s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__type_support.h
+[306.100s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__functions.c
+[306.101s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__type_support.h
+[306.102s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__struct.h
+[306.102s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__functions.h
+[306.103s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__functions.c
+[306.104s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.h
+[306.104s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__functions.c
+[306.105s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__struct.h
+[306.106s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__functions.c
+[306.107s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__functions.h
+[306.107s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__functions.h
+[306.108s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__type_support.h
+[306.108s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__struct.h
+[306.109s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__functions.c
+[306.110s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__struct.h
+[306.111s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__functions.c
+[306.113s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__struct.h
+[306.113s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__type_support.h
+[306.114s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__functions.h
+[306.114s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__struct.h
+[306.114s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__functions.h
+[306.115s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__struct.h
+[306.115s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__struct.h
+[306.116s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__functions.h
+[306.116s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__functions.c
+[306.117s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__type_support.h
+[306.118s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__struct.h
+[306.118s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__functions.h
+[306.119s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__struct.h
+[306.119s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__functions.h
+[306.120s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__functions.h
+[306.121s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__functions.c
+[306.121s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__functions.h
+[306.122s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__functions.h
+[306.122s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__functions.h
+[306.123s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__functions.h
+[306.124s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__type_support.h
+[306.124s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__struct.h
+[306.125s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__functions.c
+[306.126s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__type_support.h
+[306.126s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel_status.h
+[306.127s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_euler.h
+[306.128s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_generator_c__visibility_control.h
+[306.129s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/library_path.sh
+[306.130s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/library_path.dsv
+[306.132s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_generator_c.so
+[306.134s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_generator_c.so" to ""
+[306.134s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[306.135s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[306.135s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[306.136s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[306.136s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_fastrtps_c.h
+[306.137s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_fastrtps_c.h
+[306.138s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_fastrtps_c.h
+[306.139s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_fastrtps_c.h
+[306.140s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_fastrtps_c.h
+[306.141s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_fastrtps_c.h
+[306.142s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_fastrtps_c.h
+[306.143s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_fastrtps_c.h
+[306.144s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_fastrtps_c.h
+[306.145s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_fastrtps_c.h
+[306.146s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_fastrtps_c.h
+[306.146s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_fastrtps_c.h
+[306.147s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_fastrtps_c.h
+[306.148s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_fastrtps_c.h
+[306.149s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_fastrtps_c.h
+[306.150s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_fastrtps_c.h
+[306.151s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_fastrtps_c.h
+[306.152s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_fastrtps_c.h
+[306.153s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_fastrtps_c.h
+[306.154s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_fastrtps_c.h
+[306.154s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_fastrtps_c.h
+[306.155s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_fastrtps_c.h
+[306.156s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_fastrtps_c.h
+[306.157s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_fastrtps_c.h
+[306.158s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_fastrtps_c.h
+[306.159s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_fastrtps_c.h
+[306.160s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_fastrtps_c.h
+[306.161s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_fastrtps_c.h
+[306.162s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_c.so
+[306.165s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_c.so" to ""
+[306.165s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[306.166s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[306.166s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_short.hpp
+[306.166s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag.hpp
+[306.167s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_quat.hpp
+[306.167s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion_status.hpp
+[306.168s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_odo_vel.hpp
+[306.168s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_data.hpp
+[306.169s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status.hpp
+[306.169s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_status.hpp
+[306.170s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data_status.hpp
+[306.171s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_general.hpp
+[306.172s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos.hpp
+[306.172s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_com.hpp
+[306.173s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_nav.hpp
+[306.174s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_aiding.hpp
+[306.175s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time_status.hpp
+[306.175s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel.hpp
+[306.176s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_hdt.hpp
+[306.176s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time.hpp
+[306.177s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data.hpp
+[306.177s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_status.hpp
+[306.178s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_event.hpp
+[306.179s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos_status.hpp
+[306.179s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_raw.hpp
+[306.180s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_calib.hpp
+[306.180s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[306.181s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__traits.hpp
+[306.182s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__traits.hpp
+[306.182s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__traits.hpp
+[306.183s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__traits.hpp
+[306.183s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__builder.hpp
+[306.184s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__traits.hpp
+[306.184s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__builder.hpp
+[306.185s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__struct.hpp
+[306.185s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__builder.hpp
+[306.186s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__traits.hpp
+[306.187s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__traits.hpp
+[306.187s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__struct.hpp
+[306.188s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__builder.hpp
+[306.188s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__struct.hpp
+[306.189s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__builder.hpp
+[306.189s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__traits.hpp
+[306.190s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__traits.hpp
+[306.191s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__traits.hpp
+[306.191s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__struct.hpp
+[306.192s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__builder.hpp
+[306.192s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__struct.hpp
+[306.193s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__struct.hpp
+[306.193s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__traits.hpp
+[306.194s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__traits.hpp
+[306.194s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__struct.hpp
+[306.195s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__struct.hpp
+[306.195s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__traits.hpp
+[306.196s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__struct.hpp
+[306.196s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__builder.hpp
+[306.197s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__traits.hpp
+[306.197s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__struct.hpp
+[306.198s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__builder.hpp
+[306.199s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__struct.hpp
+[306.199s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__builder.hpp
+[306.200s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__struct.hpp
+[306.200s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__traits.hpp
+[306.201s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__traits.hpp
+[306.202s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__struct.hpp
+[306.203s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__builder.hpp
+[306.204s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__struct.hpp
+[306.204s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__traits.hpp
+[306.205s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__struct.hpp
+[306.205s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__builder.hpp
+[306.207s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__struct.hpp
+[306.207s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__builder.hpp
+[306.208s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__struct.hpp
+[306.209s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__builder.hpp
+[306.209s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__struct.hpp
+[306.210s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__traits.hpp
+[306.210s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__builder.hpp
+[306.211s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__builder.hpp
+[306.213s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__traits.hpp
+[306.213s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__struct.hpp
+[306.214s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__struct.hpp
+[306.214s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__traits.hpp
+[306.214s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__struct.hpp
+[306.215s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__struct.hpp
+[306.215s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__traits.hpp
+[306.216s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__traits.hpp
+[306.217s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__builder.hpp
+[306.217s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__struct.hpp
+[306.218s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__builder.hpp
+[306.219s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__builder.hpp
+[306.220s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__builder.hpp
+[306.221s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__builder.hpp
+[306.221s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__traits.hpp
+[306.222s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__struct.hpp
+[306.222s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__builder.hpp
+[306.223s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__struct.hpp
+[306.224s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__builder.hpp
+[306.225s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__builder.hpp
+[306.225s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__builder.hpp
+[306.226s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__traits.hpp
+[306.227s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__struct.hpp
+[306.227s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__traits.hpp
+[306.228s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__builder.hpp
+[306.228s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__traits.hpp
+[306.229s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__traits.hpp
+[306.229s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__traits.hpp
+[306.230s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__builder.hpp
+[306.231s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__builder.hpp
+[306.231s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__struct.hpp
+[306.232s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__struct.hpp
+[306.232s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__builder.hpp
+[306.233s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel_status.hpp
+[306.234s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_status.hpp
+[306.235s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion.hpp
+[306.235s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_euler.hpp
+[306.236s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[306.236s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[306.237s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[306.241s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[306.241s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_fastrtps_cpp.hpp
+[306.242s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_fastrtps_cpp.hpp
+[306.243s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_fastrtps_cpp.hpp
+[306.244s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[306.245s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[306.246s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_fastrtps_cpp.hpp
+[306.247s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_fastrtps_cpp.hpp
+[306.247s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_fastrtps_cpp.hpp
+[306.248s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_fastrtps_cpp.hpp
+[306.249s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_fastrtps_cpp.hpp
+[306.250s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_fastrtps_cpp.hpp
+[306.251s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_fastrtps_cpp.hpp
+[306.252s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_fastrtps_cpp.hpp
+[306.253s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_fastrtps_cpp.hpp
+[306.254s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_fastrtps_cpp.hpp
+[306.255s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_fastrtps_cpp.hpp
+[306.256s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_fastrtps_cpp.hpp
+[306.257s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_fastrtps_cpp.hpp
+[306.258s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_fastrtps_cpp.hpp
+[306.259s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_fastrtps_cpp.hpp
+[306.259s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_fastrtps_cpp.hpp
+[306.260s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_fastrtps_cpp.hpp
+[306.261s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_fastrtps_cpp.hpp
+[306.262s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_fastrtps_cpp.hpp
+[306.263s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_fastrtps_cpp.hpp
+[306.264s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[306.265s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_fastrtps_cpp.hpp
+[306.266s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[306.267s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps
+[306.268s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_cpp.so
+[306.274s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_cpp.so" to ""
+[306.274s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[306.274s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[306.275s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[306.275s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__type_support.c
+[306.276s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_introspection_c.h
+[306.277s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__type_support.c
+[306.278s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__type_support.c
+[306.279s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__type_support.c
+[306.280s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__type_support.c
+[306.281s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__type_support.c
+[306.282s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_introspection_c.h
+[306.283s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_introspection_c.h
+[306.284s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__type_support.c
+[306.285s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_introspection_c.h
+[306.286s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_introspection_c.h
+[306.287s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_introspection_c.h
+[306.288s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__type_support.c
+[306.289s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_introspection_c.h
+[306.290s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__type_support.c
+[306.291s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__type_support.c
+[306.292s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.c
+[306.293s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_introspection_c.h
+[306.294s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_introspection_c.h
+[306.295s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_introspection_c.h
+[306.296s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.c
+[306.297s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__type_support.c
+[306.298s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_introspection_c.h
+[306.299s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__type_support.c
+[306.300s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.c
+[306.301s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__type_support.c
+[306.303s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__type_support.c
+[306.304s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_introspection_c.h
+[306.305s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_introspection_c.h
+[306.306s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__type_support.c
+[306.307s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__type_support.c
+[306.308s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__type_support.c
+[306.309s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_introspection_c.h
+[306.310s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__type_support.c
+[306.311s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_c.h
+[306.312s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_introspection_c.h
+[306.313s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_introspection_c.h
+[306.314s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_introspection_c.h
+[306.315s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_introspection_c.h
+[306.316s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_introspection_c.h
+[306.317s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__type_support.c
+[306.318s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__type_support.c
+[306.319s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_introspection_c.h
+[306.320s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_introspection_c.h
+[306.321s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__type_support.c
+[306.322s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__type_support.c
+[306.323s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__type_support.c
+[306.324s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_introspection_c.h
+[306.325s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_introspection_c.h
+[306.326s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_introspection_c.h
+[306.327s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__type_support.c
+[306.328s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_introspection_c.h
+[306.329s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_introspection_c.h
+[306.329s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__type_support.c
+[306.330s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_introspection_c.h
+[306.331s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[306.333s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_c.so
+[306.335s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_c.so" to ""
+[306.335s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_c.so
+[306.337s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_c.so" to ""
+[306.337s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[306.337s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[306.338s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[306.338s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_introspection_cpp.hpp
+[306.339s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__type_support.cpp
+[306.340s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_introspection_cpp.hpp
+[306.341s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__type_support.cpp
+[306.342s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_introspection_cpp.hpp
+[306.343s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__type_support.cpp
+[306.344s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__type_support.cpp
+[306.345s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_introspection_cpp.hpp
+[306.346s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_introspection_cpp.hpp
+[306.347s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__type_support.cpp
+[306.348s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__type_support.cpp
+[306.349s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_introspection_cpp.hpp
+[306.350s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp
+[306.351s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__type_support.cpp
+[306.352s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__type_support.cpp
+[306.353s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__type_support.cpp
+[306.354s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__type_support.cpp
+[306.355s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__type_support.cpp
+[306.356s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_introspection_cpp.hpp
+[306.357s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp
+[306.358s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_introspection_cpp.hpp
+[306.359s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__type_support.cpp
+[306.360s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__type_support.cpp
+[306.361s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_introspection_cpp.hpp
+[306.362s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__type_support.cpp
+[306.364s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.cpp
+[306.365s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_introspection_cpp.hpp
+[306.366s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_introspection_cpp.hpp
+[306.367s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_introspection_cpp.hpp
+[306.367s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_introspection_cpp.hpp
+[306.368s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp
+[306.369s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__type_support.cpp
+[306.370s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_introspection_cpp.hpp
+[306.371s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_introspection_cpp.hpp
+[306.372s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__type_support.cpp
+[306.373s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__type_support.cpp
+[306.374s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_introspection_cpp.hpp
+[306.375s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_introspection_cpp.hpp
+[306.376s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_introspection_cpp.hpp
+[306.377s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__type_support.cpp
+[306.378s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_introspection_cpp.hpp
+[306.379s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_introspection_cpp.hpp
+[306.380s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_introspection_cpp.hpp
+[306.381s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_introspection_cpp.hpp
+[306.382s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__type_support.cpp
+[306.383s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__type_support.cpp
+[306.384s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_introspection_cpp.hpp
+[306.385s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_introspection_cpp.hpp
+[306.386s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_introspection_cpp.hpp
+[306.386s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__type_support.cpp
+[306.387s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__type_support.cpp
+[306.388s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__type_support.cpp
+[306.390s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__type_support.cpp
+[306.391s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_introspection_cpp.hpp
+[306.391s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.cpp
+[306.392s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_introspection_cpp.hpp
+[306.394s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_cpp.so
+[306.399s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_cpp.so" to ""
+[306.399s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_cpp.so
+[306.401s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_cpp.so" to ""
+[306.401s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/pythonpath.sh
+[306.402s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/pythonpath.dsv
+[306.403s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info
+[306.404s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/SOURCES.txt
+[306.405s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/dependency_links.txt
+[306.407s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/top_level.txt
+[306.408s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/PKG-INFO
+[306.409s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver
+[306.409s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[306.410s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/__init__.py
+[306.411s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[306.411s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg
+[306.413s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_s.c
+[306.413s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_s.c
+[306.414s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_status.py
+[306.415s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_data_s.c
+[306.416s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_aiding.py
+[306.417s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/__init__.py
+[306.417s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_status.py
+[306.418s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_general.py
+[306.419s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_s.c
+[306.420s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_event.py
+[306.421s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_status.py
+[306.422s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_calib.py
+[306.423s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_status.py
+[306.424s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion.py
+[306.425s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_odo_vel.py
+[306.426s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_nav_s.c
+[306.427s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data.py
+[306.428s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_aiding_s.c
+[306.428s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_s.c
+[306.429s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_status.py
+[306.430s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_status_s.c
+[306.430s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_euler_s.c
+[306.431s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_quat_s.c
+[306.432s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_hdt.py
+[306.433s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_status_s.c
+[306.434s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_calib_s.c
+[306.435s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_status.py
+[306.436s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_status.py
+[306.437s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_status_s.c
+[306.437s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_status_s.c
+[306.438s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_status_s.c
+[306.439s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time.py
+[306.440s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag.py
+[306.441s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_hdt_s.c
+[306.441s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_event_s.c
+[306.442s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_quat.py
+[306.443s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status.py
+[306.444s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_status.py
+[306.445s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_short_s.c
+[306.445s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_status_s.c
+[306.446s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_short.py
+[306.447s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_nav.py
+[306.448s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_status_s.c
+[306.449s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_raw.py
+[306.450s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_s.c
+[306.450s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_euler.py
+[306.451s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_raw_s.c
+[306.452s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_s.c
+[306.453s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_status_s.c
+[306.454s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_data.py
+[306.455s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_com.py
+[306.456s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_odo_vel_s.c
+[306.457s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos.py
+[306.458s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_s.c
+[306.459s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel.py
+[306.461s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_com_s.c
+[306.462s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_general_s.c
+[306.463s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/libsbg_driver__rosidl_generator_py.so
+[306.464s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_c.c
+[306.465s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[306.466s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[306.467s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_introspection_c.c
+[306.939s] Listing '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver'...
+[306.941s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/__init__.py'...
+[306.942s] Listing '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg'...
+[306.942s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/__init__.py'...
+[306.943s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data.py'...
+[306.943s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_status.py'...
+[306.943s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_euler.py'...
+[306.944s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_nav.py'...
+[306.944s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_quat.py'...
+[306.945s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_status.py'...
+[306.945s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_event.py'...
+[306.945s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_hdt.py'...
+[306.946s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos.py'...
+[306.946s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_status.py'...
+[306.947s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_raw.py'...
+[306.947s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel.py'...
+[306.947s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_status.py'...
+[306.948s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_data.py'...
+[306.948s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_short.py'...
+[306.949s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_status.py'...
+[306.949s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag.py'...
+[306.949s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_calib.py'...
+[306.950s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_status.py'...
+[306.950s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_odo_vel.py'...
+[306.950s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion.py'...
+[306.951s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_status.py'...
+[306.951s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status.py'...
+[306.952s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_aiding.py'...
+[306.952s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_com.py'...
+[306.953s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_general.py'...
+[306.953s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time.py'...
+[306.953s] Compiling '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_status.py'...
+[306.965s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[306.967s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[306.968s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[306.969s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[306.970s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[306.972s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[306.972s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_generator_py.so
+[306.975s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_generator_py.so" to ""
+[306.976s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVelStatus.idl
+[306.978s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPosStatus.idl
+[306.979s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagStatus.idl
+[306.981s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotionStatus.idl
+[306.982s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTimeStatus.idl
+[306.984s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirData.idl
+[306.985s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirDataStatus.idl
+[306.986s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfEuler.idl
+[306.988s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPos.idl
+[306.988s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMag.idl
+[306.990s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusCom.idl
+[306.991s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfNav.idl
+[306.992s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsRaw.idl
+[306.993s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgOdoVel.idl
+[306.994s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusGeneral.idl
+[306.995s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfQuat.idl
+[306.995s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVel.idl
+[306.996s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatus.idl
+[306.997s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEvent.idl
+[306.997s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuStatus.idl
+[306.998s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuData.idl
+[306.999s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuShort.idl
+[306.999s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotion.idl
+[307.000s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTime.idl
+[307.001s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsHdt.idl
+[307.002s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagCalib.idl
+[307.002s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusAiding.idl
+[307.003s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfStatus.idl
+[307.004s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVelStatus.msg
+[307.005s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPosStatus.msg
+[307.006s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagStatus.msg
+[307.008s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotionStatus.msg
+[307.009s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTimeStatus.msg
+[307.010s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirData.msg
+[307.011s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirDataStatus.msg
+[307.012s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfEuler.msg
+[307.014s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPos.msg
+[307.015s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMag.msg
+[307.016s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusCom.msg
+[307.018s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfNav.msg
+[307.019s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsRaw.msg
+[307.020s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgOdoVel.msg
+[307.021s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusGeneral.msg
+[307.023s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfQuat.msg
+[307.024s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVel.msg
+[307.025s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatus.msg
+[307.026s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEvent.msg
+[307.027s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuStatus.msg
+[307.029s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuData.msg
+[307.030s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuShort.msg
+[307.031s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotion.msg
+[307.032s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTime.msg
+[307.034s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsHdt.msg
+[307.035s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagCalib.msg
+[307.036s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusAiding.msg
+[307.037s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfStatus.msg
+[307.039s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/sbg_driver/sbg_device
+[307.072s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/lib/sbg_driver/sbg_device" to ""
+[307.073s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/sbg_driver/sbg_device_mag
+[307.105s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/sbg_driver/lib/sbg_driver/sbg_device_mag" to ""
+[307.106s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver
+[307.106s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_vector3.h
+[307.107s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_matrix3.h
+[307.107s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/message_wrapper.h
+[307.108s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/config_applier.h
+[307.108s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/message_publisher.h
+[307.108s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_device.h
+[307.109s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/config_store.h
+[307.109s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch
+[307.110s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device.launch
+[307.112s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/examples
+[307.112s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseA.launch
+[307.113s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseE.launch
+[307.114s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseN.launch
+[307.116s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device_mag_calibration_launch.py
+[307.117s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device_launch.py
+[307.118s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device_mag_calibration.launch
+[307.119s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config
+[307.121s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/sbg_device_udp_default.yaml
+[307.122s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/sbg_device_uart_default.yaml
+[307.123s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/example
+[307.123s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_D_default.yaml
+[307.125s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_A_default.yaml
+[307.126s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_E_default.yaml
+[307.127s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_N_default.yaml
+[307.129s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/ament_index/resource_index/package_run_dependencies/sbg_driver
+[307.130s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/ament_index/resource_index/parent_prefix_path/sbg_driver
+[307.131s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/ament_prefix_path.sh
+[307.133s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/ament_prefix_path.dsv
+[307.134s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/path.sh
+[307.136s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/path.dsv
+[307.137s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/local_setup.bash
+[307.138s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/local_setup.sh
+[307.140s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/local_setup.zsh
+[307.142s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/local_setup.dsv
+[307.143s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/package.dsv
+[307.144s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/ament_index/resource_index/packages/sbg_driver
+[307.146s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cExport.cmake
+[307.147s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cExport-noconfig.cmake
+[307.148s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[307.150s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[307.151s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cppExport.cmake
+[307.153s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[307.154s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[307.156s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cExport.cmake
+[307.157s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[307.159s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cExport.cmake
+[307.160s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cExport-noconfig.cmake
+[307.162s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cppExport.cmake
+[307.163s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[307.165s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cppExport.cmake
+[307.166s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cppExport-noconfig.cmake
+[307.168s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_pyExport.cmake
+[307.169s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_pyExport-noconfig.cmake
+[307.171s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake-extras.cmake
+[307.172s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[307.174s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[307.175s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[307.178s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_targets-extras.cmake
+[307.179s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[307.181s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[307.185s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driverConfig.cmake
+[307.186s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driverConfig-version.cmake
+[307.187s] -- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/package.xml
+[307.198s] Invoked command in '/workspaces/mavlab/ros2_ws/build/sbg_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/sbg_driver

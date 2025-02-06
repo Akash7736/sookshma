@@ -60,8 +60,6 @@ class SbgStatusGeneral(metaclass=Metaclass_SbgStatusGeneral):
         '_gps_power',
         '_settings',
         '_temperature',
-        '_datalogger',
-        '_cpu',
     ]
 
     _fields_and_field_types = {
@@ -70,13 +68,9 @@ class SbgStatusGeneral(metaclass=Metaclass_SbgStatusGeneral):
         'gps_power': 'boolean',
         'settings': 'boolean',
         'temperature': 'boolean',
-        'datalogger': 'boolean',
-        'cpu': 'boolean',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
@@ -93,8 +87,6 @@ class SbgStatusGeneral(metaclass=Metaclass_SbgStatusGeneral):
         self.gps_power = kwargs.get('gps_power', bool())
         self.settings = kwargs.get('settings', bool())
         self.temperature = kwargs.get('temperature', bool())
-        self.datalogger = kwargs.get('datalogger', bool())
-        self.cpu = kwargs.get('cpu', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -134,10 +126,6 @@ class SbgStatusGeneral(metaclass=Metaclass_SbgStatusGeneral):
         if self.settings != other.settings:
             return False
         if self.temperature != other.temperature:
-            return False
-        if self.datalogger != other.datalogger:
-            return False
-        if self.cpu != other.cpu:
             return False
         return True
 
@@ -210,29 +198,3 @@ class SbgStatusGeneral(metaclass=Metaclass_SbgStatusGeneral):
                 isinstance(value, bool), \
                 "The 'temperature' field must be of type 'bool'"
         self._temperature = value
-
-    @builtins.property
-    def datalogger(self):
-        """Message field 'datalogger'."""
-        return self._datalogger
-
-    @datalogger.setter
-    def datalogger(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'datalogger' field must be of type 'bool'"
-        self._datalogger = value
-
-    @builtins.property
-    def cpu(self):
-        """Message field 'cpu'."""
-        return self._cpu
-
-    @cpu.setter
-    def cpu(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'cpu' field must be of type 'bool'"
-        self._cpu = value

@@ -45,7 +45,7 @@ void sbg_driver__msg__SbgGpsPos__rosidl_typesupport_introspection_c__SbgGpsPos_f
   sbg_driver__msg__SbgGpsPos__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgGpsPos__rosidl_typesupport_introspection_c__SbgGpsPos_message_member_array[13] = {
+static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgGpsPos__rosidl_typesupport_introspection_c__SbgGpsPos_message_member_array[12] = {
   {
     "header",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -200,23 +200,6 @@ static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgGps
     NULL  // resize(index) function pointer
   },
   {
-    "num_sv_tracked",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver__msg__SbgGpsPos, num_sv_tracked),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
     "num_sv_used",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
     0,  // upper bound of string
@@ -272,7 +255,7 @@ static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgGps
 static const rosidl_typesupport_introspection_c__MessageMembers sbg_driver__msg__SbgGpsPos__rosidl_typesupport_introspection_c__SbgGpsPos_message_members = {
   "sbg_driver__msg",  // message namespace
   "SbgGpsPos",  // message name
-  13,  // number of fields
+  12,  // number of fields
   sizeof(sbg_driver__msg__SbgGpsPos),
   sbg_driver__msg__SbgGpsPos__rosidl_typesupport_introspection_c__SbgGpsPos_message_member_array,  // message members
   sbg_driver__msg__SbgGpsPos__rosidl_typesupport_introspection_c__SbgGpsPos_init_function,  // function to initialize message memory (memory has to be allocated)

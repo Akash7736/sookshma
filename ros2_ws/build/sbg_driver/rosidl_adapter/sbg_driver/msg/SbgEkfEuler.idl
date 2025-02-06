@@ -19,20 +19,21 @@ module sbg_driver {
       uint32 time_stamp;
 
       @verbatim (language="comment", text=
-        "Angle [Roll, Pitch, Yaw (heading)] [rad]" "\n"
+        "Angle [Roll, Pitch, Yaw (heading)]" "\n"
         "" "\n"
         "The right-hand convention applies, where positive rotation is indicated by the direction in which" "\n"
         "the fingers on your right hand curl when your thumb is pointing in the direction of the axis of rotation." "\n"
         "" "\n"
         "NED convention:" "\n"
-        "  Roll: Rotation about the X axis: [ -Pi ; Pi ]." "\n"
-        "  Pitch: Rotation about the Y axis: [ -Pi/2 ; Pi/2 ]." "\n"
-        "  Yaw: Rotation about the down axis: [ -Pi ; Pi ]. Zero when the X axis is pointing North." "\n"
+        "  Roll: Rotation about the X axis" "\n"
+        "  Pitch: Rotation about the Y axis" "\n"
+        "  Yaw: Rotation about the down axis. Zero when the X axis is pointing North." "\n"
         "" "\n"
         "ENU convention:" "\n"
-        "  Roll: Rotation around X axis: [ -Pi ; Pi ]." "\n"
-        "  Pitch: Rotation around Y axis: [ -Pi/2 ; Pi/2 ]. (Opposite sign compared to NED)" "\n"
-        "  Yaw: Rotation about the up axis: [ -Pi ; Pi ]. Zero when the X axis is pointing East.")
+        "  Roll: Rotation around X axis" "\n"
+        "  Pitch: Rotation around Y axis (opposite sign compared to NED)" "\n"
+        "  Yaw: Rotation about the up axis. Zero when the X axis is pointing East. (opposite sign compared to NED)")
+      @unit (value="rad")
       geometry_msgs::msg::Vector3 angle;
 
       @verbatim (language="comment", text=

@@ -96,13 +96,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: num_sv_tracked
-  {
-    out << "num_sv_tracked: ";
-    rosidl_generator_traits::value_to_yaml(msg.num_sv_tracked, out);
-    out << ", ";
-  }
-
   // member: num_sv_used
   {
     out << "num_sv_used: ";
@@ -214,16 +207,6 @@ inline void to_block_style_yaml(
     }
     out << "position_accuracy:\n";
     to_block_style_yaml(msg.position_accuracy, out, indentation + 2);
-  }
-
-  // member: num_sv_tracked
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "num_sv_tracked: ";
-    rosidl_generator_traits::value_to_yaml(msg.num_sv_tracked, out);
-    out << "\n";
   }
 
   // member: num_sv_used

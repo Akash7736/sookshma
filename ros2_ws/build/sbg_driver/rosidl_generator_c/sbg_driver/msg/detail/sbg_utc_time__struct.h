@@ -50,12 +50,6 @@ typedef struct sbg_driver__msg__SbgUtcTime
   uint32_t nanosec;
   /// GPS Time of week (ms)
   uint32_t gps_tow;
-  /// Estimated internal clock bias standard deviation in seconds.
-  float clk_bias_std;
-  /// Estimated internal clock scale factor error standard deviation.
-  float clk_sf_error_std;
-  /// Latest residual clock error from the GNSS PPS signal in seconds.
-  float clk_residual_error;
 } sbg_driver__msg__SbgUtcTime;
 
 // Struct for a sequence of sbg_driver__msg__SbgUtcTime.

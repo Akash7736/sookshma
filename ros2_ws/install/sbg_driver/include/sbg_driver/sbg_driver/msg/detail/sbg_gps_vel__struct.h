@@ -63,7 +63,7 @@ typedef struct sbg_driver__msg__SbgGpsVel
   /// NED convention: Zero when the X axis is pointing North.
   /// ENU convention: Zero when the X axis is pointing East. (opposite sign compared to NED)
   float course;
-  /// 1 sigma course accuracy
+  /// 1 sgima course accuracy
   float course_acc;
 } sbg_driver__msg__SbgGpsVel;
 

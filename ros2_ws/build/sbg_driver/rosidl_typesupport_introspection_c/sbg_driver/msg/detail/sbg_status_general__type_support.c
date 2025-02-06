@@ -31,7 +31,7 @@ void sbg_driver__msg__SbgStatusGeneral__rosidl_typesupport_introspection_c__SbgS
   sbg_driver__msg__SbgStatusGeneral__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgStatusGeneral__rosidl_typesupport_introspection_c__SbgStatusGeneral_message_member_array[7] = {
+static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgStatusGeneral__rosidl_typesupport_introspection_c__SbgStatusGeneral_message_member_array[5] = {
   {
     "main_power",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
@@ -116,47 +116,13 @@ static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgSta
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
-  },
-  {
-    "datalogger",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver__msg__SbgStatusGeneral, datalogger),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "cpu",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver__msg__SbgStatusGeneral, cpu),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers sbg_driver__msg__SbgStatusGeneral__rosidl_typesupport_introspection_c__SbgStatusGeneral_message_members = {
   "sbg_driver__msg",  // message namespace
   "SbgStatusGeneral",  // message name
-  7,  // number of fields
+  5,  // number of fields
   sizeof(sbg_driver__msg__SbgStatusGeneral),
   sbg_driver__msg__SbgStatusGeneral__rosidl_typesupport_introspection_c__SbgStatusGeneral_message_member_array,  // message members
   sbg_driver__msg__SbgStatusGeneral__rosidl_typesupport_introspection_c__SbgStatusGeneral_init_function,  // function to initialize message memory (memory has to be allocated)

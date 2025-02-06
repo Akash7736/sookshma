@@ -56,18 +56,6 @@ module sbg_driver {
       @verbatim (language="comment", text=
         "GPS Time of week (ms)")
       uint32 gps_tow;
-
-      @verbatim (language="comment", text=
-        "Estimated internal clock bias standard deviation in seconds.")
-      float clk_bias_std;
-
-      @verbatim (language="comment", text=
-        "Estimated internal clock scale factor error standard deviation.")
-      float clk_sf_error_std;
-
-      @verbatim (language="comment", text=
-        "Latest residual clock error from the GNSS PPS signal in seconds.")
-      float clk_residual_error;
     };
   };
 };

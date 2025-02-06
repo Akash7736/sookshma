@@ -39,13 +39,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: surge_sway_included
-  {
-    out << "surge_sway_included: ";
-    rosidl_generator_traits::value_to_yaml(msg.surge_sway_included, out);
-    out << ", ";
-  }
-
   // member: period_available
   {
     out << "period_available: ";
@@ -57,13 +50,6 @@ inline void to_flow_style_yaml(
   {
     out << "period_valid: ";
     rosidl_generator_traits::value_to_yaml(msg.period_valid, out);
-    out << ", ";
-  }
-
-  // member: swell_mode
-  {
-    out << "swell_mode: ";
-    rosidl_generator_traits::value_to_yaml(msg.swell_mode, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -92,16 +78,6 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: surge_sway_included
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "surge_sway_included: ";
-    rosidl_generator_traits::value_to_yaml(msg.surge_sway_included, out);
-    out << "\n";
-  }
-
   // member: period_available
   {
     if (indentation > 0) {
@@ -119,16 +95,6 @@ inline void to_block_style_yaml(
     }
     out << "period_valid: ";
     rosidl_generator_traits::value_to_yaml(msg.period_valid, out);
-    out << "\n";
-  }
-
-  // member: swell_mode
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "swell_mode: ";
-    rosidl_generator_traits::value_to_yaml(msg.swell_mode, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

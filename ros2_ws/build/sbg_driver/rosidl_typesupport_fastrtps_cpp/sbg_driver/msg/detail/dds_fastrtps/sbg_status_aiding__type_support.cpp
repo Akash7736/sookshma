@@ -40,32 +40,12 @@ cdr_serialize(
   cdr << (ros_message.gps1_hdt_recv ? true : false);
   // Member: gps1_utc_recv
   cdr << (ros_message.gps1_utc_recv ? true : false);
-  // Member: gps2_pos_recv
-  cdr << (ros_message.gps2_pos_recv ? true : false);
-  // Member: gps2_vel_recv
-  cdr << (ros_message.gps2_vel_recv ? true : false);
-  // Member: gps2_hdt_recv
-  cdr << (ros_message.gps2_hdt_recv ? true : false);
-  // Member: gps2_utc_recv
-  cdr << (ros_message.gps2_utc_recv ? true : false);
   // Member: mag_recv
   cdr << (ros_message.mag_recv ? true : false);
   // Member: odo_recv
   cdr << (ros_message.odo_recv ? true : false);
   // Member: dvl_recv
   cdr << (ros_message.dvl_recv ? true : false);
-  // Member: usbl_recv
-  cdr << (ros_message.usbl_recv ? true : false);
-  // Member: depth_recv
-  cdr << (ros_message.depth_recv ? true : false);
-  // Member: air_data_recv
-  cdr << (ros_message.air_data_recv ? true : false);
-  // Member: user_pos_recv
-  cdr << (ros_message.user_pos_recv ? true : false);
-  // Member: user_vel_recv
-  cdr << (ros_message.user_vel_recv ? true : false);
-  // Member: user_heading_recv
-  cdr << (ros_message.user_heading_recv ? true : false);
   return true;
 }
 
@@ -103,34 +83,6 @@ cdr_deserialize(
     ros_message.gps1_utc_recv = tmp ? true : false;
   }
 
-  // Member: gps2_pos_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.gps2_pos_recv = tmp ? true : false;
-  }
-
-  // Member: gps2_vel_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.gps2_vel_recv = tmp ? true : false;
-  }
-
-  // Member: gps2_hdt_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.gps2_hdt_recv = tmp ? true : false;
-  }
-
-  // Member: gps2_utc_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.gps2_utc_recv = tmp ? true : false;
-  }
-
   // Member: mag_recv
   {
     uint8_t tmp;
@@ -150,48 +102,6 @@ cdr_deserialize(
     uint8_t tmp;
     cdr >> tmp;
     ros_message.dvl_recv = tmp ? true : false;
-  }
-
-  // Member: usbl_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.usbl_recv = tmp ? true : false;
-  }
-
-  // Member: depth_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.depth_recv = tmp ? true : false;
-  }
-
-  // Member: air_data_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.air_data_recv = tmp ? true : false;
-  }
-
-  // Member: user_pos_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.user_pos_recv = tmp ? true : false;
-  }
-
-  // Member: user_vel_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.user_vel_recv = tmp ? true : false;
-  }
-
-  // Member: user_heading_recv
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.user_heading_recv = tmp ? true : false;
   }
 
   return true;
@@ -234,30 +144,6 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: gps2_pos_recv
-  {
-    size_t item_size = sizeof(ros_message.gps2_pos_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: gps2_vel_recv
-  {
-    size_t item_size = sizeof(ros_message.gps2_vel_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: gps2_hdt_recv
-  {
-    size_t item_size = sizeof(ros_message.gps2_hdt_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: gps2_utc_recv
-  {
-    size_t item_size = sizeof(ros_message.gps2_utc_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // Member: mag_recv
   {
     size_t item_size = sizeof(ros_message.mag_recv);
@@ -273,42 +159,6 @@ get_serialized_size(
   // Member: dvl_recv
   {
     size_t item_size = sizeof(ros_message.dvl_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: usbl_recv
-  {
-    size_t item_size = sizeof(ros_message.usbl_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: depth_recv
-  {
-    size_t item_size = sizeof(ros_message.depth_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: air_data_recv
-  {
-    size_t item_size = sizeof(ros_message.air_data_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: user_pos_recv
-  {
-    size_t item_size = sizeof(ros_message.user_pos_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: user_vel_recv
-  {
-    size_t item_size = sizeof(ros_message.user_vel_recv);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: user_heading_recv
-  {
-    size_t item_size = sizeof(ros_message.user_heading_recv);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -368,38 +218,6 @@ max_serialized_size_SbgStatusAiding(
     current_alignment += array_size * sizeof(uint8_t);
   }
 
-  // Member: gps2_pos_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: gps2_vel_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: gps2_hdt_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: gps2_utc_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
   // Member: mag_recv
   {
     size_t array_size = 1;
@@ -424,54 +242,6 @@ max_serialized_size_SbgStatusAiding(
     current_alignment += array_size * sizeof(uint8_t);
   }
 
-  // Member: usbl_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: depth_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: air_data_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: user_pos_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: user_vel_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: user_heading_recv
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -480,7 +250,7 @@ max_serialized_size_SbgStatusAiding(
     using DataType = sbg_driver::msg::SbgStatusAiding;
     is_plain =
       (
-      offsetof(DataType, user_heading_recv) +
+      offsetof(DataType, dvl_recv) +
       last_member_size
       ) == ret_val;
   }

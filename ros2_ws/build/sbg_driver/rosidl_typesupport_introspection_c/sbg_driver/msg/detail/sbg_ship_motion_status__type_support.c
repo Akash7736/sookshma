@@ -31,7 +31,7 @@ void sbg_driver__msg__SbgShipMotionStatus__rosidl_typesupport_introspection_c__S
   sbg_driver__msg__SbgShipMotionStatus__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgShipMotionStatus__rosidl_typesupport_introspection_c__SbgShipMotionStatus_message_member_array[6] = {
+static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgShipMotionStatus__rosidl_typesupport_introspection_c__SbgShipMotionStatus_message_member_array[4] = {
   {
     "heave_valid",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
@@ -58,23 +58,6 @@ static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgShi
     0,  // array size
     false,  // is upper bound
     offsetof(sbg_driver__msg__SbgShipMotionStatus, heave_vel_aided),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "surge_sway_included",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver__msg__SbgShipMotionStatus, surge_sway_included),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -116,30 +99,13 @@ static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgShi
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
-  },
-  {
-    "swell_mode",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver__msg__SbgShipMotionStatus, swell_mode),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers sbg_driver__msg__SbgShipMotionStatus__rosidl_typesupport_introspection_c__SbgShipMotionStatus_message_members = {
   "sbg_driver__msg",  // message namespace
   "SbgShipMotionStatus",  // message name
-  6,  // number of fields
+  4,  // number of fields
   sizeof(sbg_driver__msg__SbgShipMotionStatus),
   sbg_driver__msg__SbgShipMotionStatus__rosidl_typesupport_introspection_c__SbgShipMotionStatus_message_member_array,  // message members
   sbg_driver__msg__SbgShipMotionStatus__rosidl_typesupport_introspection_c__SbgShipMotionStatus_init_function,  // function to initialize message memory (memory has to be allocated)

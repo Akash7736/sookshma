@@ -57,71 +57,26 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
     __slots__ = [
         '_status',
         '_type',
-        '_ifm',
-        '_spoofing',
-        '_osnma',
         '_gps_l1_used',
         '_gps_l2_used',
         '_gps_l5_used',
         '_glo_l1_used',
         '_glo_l2_used',
-        '_glo_l3_used',
-        '_gal_e1_used',
-        '_gal_e5a_used',
-        '_gal_e5b_used',
-        '_gal_e5alt_used',
-        '_gal_e6_used',
-        '_bds_b1_used',
-        '_bds_b2_used',
-        '_bds_b3_used',
-        '_qzss_l1_used',
-        '_qzss_l2_used',
-        '_qzss_l5_used',
     ]
 
     _fields_and_field_types = {
         'status': 'uint8',
         'type': 'uint8',
-        'ifm': 'uint8',
-        'spoofing': 'uint8',
-        'osnma': 'uint8',
         'gps_l1_used': 'boolean',
         'gps_l2_used': 'boolean',
         'gps_l5_used': 'boolean',
         'glo_l1_used': 'boolean',
         'glo_l2_used': 'boolean',
-        'glo_l3_used': 'boolean',
-        'gal_e1_used': 'boolean',
-        'gal_e5a_used': 'boolean',
-        'gal_e5b_used': 'boolean',
-        'gal_e5alt_used': 'boolean',
-        'gal_e6_used': 'boolean',
-        'bds_b1_used': 'boolean',
-        'bds_b2_used': 'boolean',
-        'bds_b3_used': 'boolean',
-        'qzss_l1_used': 'boolean',
-        'qzss_l2_used': 'boolean',
-        'qzss_l5_used': 'boolean',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
-        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
-        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
-        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
@@ -135,26 +90,11 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.status = kwargs.get('status', int())
         self.type = kwargs.get('type', int())
-        self.ifm = kwargs.get('ifm', int())
-        self.spoofing = kwargs.get('spoofing', int())
-        self.osnma = kwargs.get('osnma', int())
         self.gps_l1_used = kwargs.get('gps_l1_used', bool())
         self.gps_l2_used = kwargs.get('gps_l2_used', bool())
         self.gps_l5_used = kwargs.get('gps_l5_used', bool())
         self.glo_l1_used = kwargs.get('glo_l1_used', bool())
         self.glo_l2_used = kwargs.get('glo_l2_used', bool())
-        self.glo_l3_used = kwargs.get('glo_l3_used', bool())
-        self.gal_e1_used = kwargs.get('gal_e1_used', bool())
-        self.gal_e5a_used = kwargs.get('gal_e5a_used', bool())
-        self.gal_e5b_used = kwargs.get('gal_e5b_used', bool())
-        self.gal_e5alt_used = kwargs.get('gal_e5alt_used', bool())
-        self.gal_e6_used = kwargs.get('gal_e6_used', bool())
-        self.bds_b1_used = kwargs.get('bds_b1_used', bool())
-        self.bds_b2_used = kwargs.get('bds_b2_used', bool())
-        self.bds_b3_used = kwargs.get('bds_b3_used', bool())
-        self.qzss_l1_used = kwargs.get('qzss_l1_used', bool())
-        self.qzss_l2_used = kwargs.get('qzss_l2_used', bool())
-        self.qzss_l5_used = kwargs.get('qzss_l5_used', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -189,12 +129,6 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
             return False
         if self.type != other.type:
             return False
-        if self.ifm != other.ifm:
-            return False
-        if self.spoofing != other.spoofing:
-            return False
-        if self.osnma != other.osnma:
-            return False
         if self.gps_l1_used != other.gps_l1_used:
             return False
         if self.gps_l2_used != other.gps_l2_used:
@@ -204,30 +138,6 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
         if self.glo_l1_used != other.glo_l1_used:
             return False
         if self.glo_l2_used != other.glo_l2_used:
-            return False
-        if self.glo_l3_used != other.glo_l3_used:
-            return False
-        if self.gal_e1_used != other.gal_e1_used:
-            return False
-        if self.gal_e5a_used != other.gal_e5a_used:
-            return False
-        if self.gal_e5b_used != other.gal_e5b_used:
-            return False
-        if self.gal_e5alt_used != other.gal_e5alt_used:
-            return False
-        if self.gal_e6_used != other.gal_e6_used:
-            return False
-        if self.bds_b1_used != other.bds_b1_used:
-            return False
-        if self.bds_b2_used != other.bds_b2_used:
-            return False
-        if self.bds_b3_used != other.bds_b3_used:
-            return False
-        if self.qzss_l1_used != other.qzss_l1_used:
-            return False
-        if self.qzss_l2_used != other.qzss_l2_used:
-            return False
-        if self.qzss_l5_used != other.qzss_l5_used:
             return False
         return True
 
@@ -265,51 +175,6 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
             assert value >= 0 and value < 256, \
                 "The 'type' field must be an unsigned integer in [0, 255]"
         self._type = value
-
-    @builtins.property
-    def ifm(self):
-        """Message field 'ifm'."""
-        return self._ifm
-
-    @ifm.setter
-    def ifm(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'ifm' field must be of type 'int'"
-            assert value >= 0 and value < 256, \
-                "The 'ifm' field must be an unsigned integer in [0, 255]"
-        self._ifm = value
-
-    @builtins.property
-    def spoofing(self):
-        """Message field 'spoofing'."""
-        return self._spoofing
-
-    @spoofing.setter
-    def spoofing(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'spoofing' field must be of type 'int'"
-            assert value >= 0 and value < 256, \
-                "The 'spoofing' field must be an unsigned integer in [0, 255]"
-        self._spoofing = value
-
-    @builtins.property
-    def osnma(self):
-        """Message field 'osnma'."""
-        return self._osnma
-
-    @osnma.setter
-    def osnma(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'osnma' field must be of type 'int'"
-            assert value >= 0 and value < 256, \
-                "The 'osnma' field must be an unsigned integer in [0, 255]"
-        self._osnma = value
 
     @builtins.property
     def gps_l1_used(self):
@@ -375,159 +240,3 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
                 isinstance(value, bool), \
                 "The 'glo_l2_used' field must be of type 'bool'"
         self._glo_l2_used = value
-
-    @builtins.property
-    def glo_l3_used(self):
-        """Message field 'glo_l3_used'."""
-        return self._glo_l3_used
-
-    @glo_l3_used.setter
-    def glo_l3_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'glo_l3_used' field must be of type 'bool'"
-        self._glo_l3_used = value
-
-    @builtins.property
-    def gal_e1_used(self):
-        """Message field 'gal_e1_used'."""
-        return self._gal_e1_used
-
-    @gal_e1_used.setter
-    def gal_e1_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'gal_e1_used' field must be of type 'bool'"
-        self._gal_e1_used = value
-
-    @builtins.property
-    def gal_e5a_used(self):
-        """Message field 'gal_e5a_used'."""
-        return self._gal_e5a_used
-
-    @gal_e5a_used.setter
-    def gal_e5a_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'gal_e5a_used' field must be of type 'bool'"
-        self._gal_e5a_used = value
-
-    @builtins.property
-    def gal_e5b_used(self):
-        """Message field 'gal_e5b_used'."""
-        return self._gal_e5b_used
-
-    @gal_e5b_used.setter
-    def gal_e5b_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'gal_e5b_used' field must be of type 'bool'"
-        self._gal_e5b_used = value
-
-    @builtins.property
-    def gal_e5alt_used(self):
-        """Message field 'gal_e5alt_used'."""
-        return self._gal_e5alt_used
-
-    @gal_e5alt_used.setter
-    def gal_e5alt_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'gal_e5alt_used' field must be of type 'bool'"
-        self._gal_e5alt_used = value
-
-    @builtins.property
-    def gal_e6_used(self):
-        """Message field 'gal_e6_used'."""
-        return self._gal_e6_used
-
-    @gal_e6_used.setter
-    def gal_e6_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'gal_e6_used' field must be of type 'bool'"
-        self._gal_e6_used = value
-
-    @builtins.property
-    def bds_b1_used(self):
-        """Message field 'bds_b1_used'."""
-        return self._bds_b1_used
-
-    @bds_b1_used.setter
-    def bds_b1_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'bds_b1_used' field must be of type 'bool'"
-        self._bds_b1_used = value
-
-    @builtins.property
-    def bds_b2_used(self):
-        """Message field 'bds_b2_used'."""
-        return self._bds_b2_used
-
-    @bds_b2_used.setter
-    def bds_b2_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'bds_b2_used' field must be of type 'bool'"
-        self._bds_b2_used = value
-
-    @builtins.property
-    def bds_b3_used(self):
-        """Message field 'bds_b3_used'."""
-        return self._bds_b3_used
-
-    @bds_b3_used.setter
-    def bds_b3_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'bds_b3_used' field must be of type 'bool'"
-        self._bds_b3_used = value
-
-    @builtins.property
-    def qzss_l1_used(self):
-        """Message field 'qzss_l1_used'."""
-        return self._qzss_l1_used
-
-    @qzss_l1_used.setter
-    def qzss_l1_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'qzss_l1_used' field must be of type 'bool'"
-        self._qzss_l1_used = value
-
-    @builtins.property
-    def qzss_l2_used(self):
-        """Message field 'qzss_l2_used'."""
-        return self._qzss_l2_used
-
-    @qzss_l2_used.setter
-    def qzss_l2_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'qzss_l2_used' field must be of type 'bool'"
-        self._qzss_l2_used = value
-
-    @builtins.property
-    def qzss_l5_used(self):
-        """Message field 'qzss_l5_used'."""
-        return self._qzss_l5_used
-
-    @qzss_l5_used.setter
-    def qzss_l5_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'qzss_l5_used' field must be of type 'bool'"
-        self._qzss_l5_used = value
