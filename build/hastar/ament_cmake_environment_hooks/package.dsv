@@ -1,0 +1,4 @@
+source;share/hastar/local_setup.bash
+source;share/hastar/local_setup.dsv
+source;share/hastar/local_setup.sh
+source;share/hastar/local_setup.zsh

@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  sookshma:
+    image: abhilashiit/sookshma_ros2:1.0
+    container_name: sookshma_docker
+    privileged: true
+    network_mode: host
+    runtime: nvidia
+    environment:
+      - DISPLAY
+      - ROS_DOMAIN_ID=0
+    volumes:
+      - .:/workspaces/mavlab
+      - /dev/shm:/dev/shm
+      - /dev/sbg:/dev/sbg
+      - /dev/ardusimple:/dev/ardusimple
+      - /dev/propeller:/dev/propeller
+      - /dev/rudder:/dev/rudder
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    working_dir: /workspaces/mavlab
+    command: ${CMD:-bash}
+
+  microros:
+    image: microros/micro-ros-agent:humble
+    container_name: mros
+    privileged: true
+    network_mode: host
+    environment:
+      - ROS_DOMAIN_ID=0
+    volumes:
+      - /dev:/dev
+    device_cgroup_rules:
+      - 'c *:* rmw'
+    devices:
+      - /dev/ttyACM0:/dev/ttyACM0
+    command: serial --dev /dev/ttyACM0

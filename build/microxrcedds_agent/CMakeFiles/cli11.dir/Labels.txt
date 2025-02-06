@@ -1,0 +1,13 @@
+# Target labels
+ cli11
+# Source files and their labels
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/cli11
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/cli11.rule
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/cli11-complete.rule
+/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-build.rule
+/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-configure.rule
+/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-download.rule
+/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-install.rule
+/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-mkdir.rule
+/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-patch.rule
+/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-update.rule

@@ -14,6 +14,7 @@ docker run --gpus all -it --rm --privileged --name sookshma_docker \
     --volume="$(pwd)":"/workspaces/mavlab" \
     --volume="/dev/shm":"/dev/shm" \
     --volume="/dev/sbg":"/dev/sbg" \
+    --volume="/dev/uwb":"/dev/uwb" \
     --volume="/dev/ardusimple":"/dev/ardusimple" \
     --volume="/dev/propeller":"/dev/propeller" \
     --volume="/dev/rudder":"/dev/rudder" \

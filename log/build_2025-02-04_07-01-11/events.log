@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000396] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000524] (-) JobUnselected: {'identifier': 'kf'}
+[0.000646] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.001131] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.001372] (-) JobUnselected: {'identifier': 'microxrcedds_agent'}
+[0.001478] (-) JobUnselected: {'identifier': 'sbg_driver'}
+[0.001571] (-) JobUnselected: {'identifier': 'uwb'}
+[0.001676] (hastar) JobQueued: {'identifier': 'hastar', 'dependencies': OrderedDict()}
+[0.001854] (hastar) JobStarted: {'identifier': 'hastar'}
+[0.037628] (hastar) JobProgress: {'identifier': 'hastar', 'progress': 'cmake'}
+[0.038553] (hastar) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/mavlab/ros2_ws/src/hastar', '-DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/install/hastar'], 'cwd': '/workspaces/mavlab/build/hastar', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspaces/mavlab/ros2_ws/install/sbg_driver/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_agent/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib:/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('ARDUINO_CLI_PATH', '/root/.arduino15'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/bin:/home/mavlab/.local/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/sbg_driver:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/hastar:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/build/hastar'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/sbg_driver:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/hastar:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.096811] (-) TimerEvent: {}
+[0.197518] (-) TimerEvent: {}
+[0.238746] (hastar) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.297682] (-) TimerEvent: {}
+[0.398357] (-) TimerEvent: {}
+[0.436076] (hastar) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.459427] (hastar) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.498581] (-) TimerEvent: {}
+[0.599258] (-) TimerEvent: {}
+[0.689378] (hastar) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.699421] (-) TimerEvent: {}
+[0.723105] (hastar) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.723941] (hastar) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.725496] (hastar) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.737078] (hastar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.799724] (-) TimerEvent: {}
+[0.900362] (-) TimerEvent: {}
+[1.001021] (-) TimerEvent: {}
+[1.003705] (hastar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.037703] (hastar) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.038619] (hastar) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.040359] (hastar) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.058733] (hastar) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.101235] (-) TimerEvent: {}
+[1.201855] (-) TimerEvent: {}
+[1.302426] (-) TimerEvent: {}
+[1.403106] (-) TimerEvent: {}
+[1.503805] (-) TimerEvent: {}
+[1.599222] (hastar) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.603989] (-) TimerEvent: {}
+[1.704536] (-) TimerEvent: {}
+[1.805174] (-) TimerEvent: {}
+[1.905872] (-) TimerEvent: {}
+[2.006467] (-) TimerEvent: {}
+[2.055020] (hastar) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.106667] (-) TimerEvent: {}
+[2.207357] (-) TimerEvent: {}
+[2.287235] (hastar) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.307529] (-) TimerEvent: {}
+[2.321878] (hastar) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.369455] (hastar) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.407732] (-) TimerEvent: {}
+[2.435468] (hastar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.507941] (-) TimerEvent: {}
+[2.524909] (hastar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.608152] (-) TimerEvent: {}
+[2.708835] (-) TimerEvent: {}
+[2.773221] (hastar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.791253] (hastar) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.809005] (-) TimerEvent: {}
+[2.909669] (-) TimerEvent: {}
+[3.010305] (-) TimerEvent: {}
+[3.111015] (-) TimerEvent: {}
+[3.125804] (hastar) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.211217] (-) TimerEvent: {}
+[3.225361] (hastar) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.311421] (-) TimerEvent: {}
+[3.384446] (hastar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.411567] (-) TimerEvent: {}
+[3.440175] (hastar) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.511848] (-) TimerEvent: {}
+[3.612558] (-) TimerEvent: {}
+[3.689492] (hastar) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.690798] (hastar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.712778] (-) TimerEvent: {}
+[3.813589] (-) TimerEvent: {}
+[3.914254] (-) TimerEvent: {}
+[3.935818] (hastar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.939685] (hastar) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.014461] (-) TimerEvent: {}
+[4.115159] (-) TimerEvent: {}
+[4.198676] (hastar) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[4.215358] (-) TimerEvent: {}
+[4.316047] (-) TimerEvent: {}
+[4.416730] (-) TimerEvent: {}
+[4.475566] (hastar) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.497473] (hastar) StdoutLine: {'line': b'-- Generating done\n'}
+[4.503536] (hastar) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/mavlab/build/hastar\n'}
+[4.516978] (-) TimerEvent: {}
+[4.528672] (hastar) CommandEnded: {'returncode': 0}
+[4.531119] (hastar) JobProgress: {'identifier': 'hastar', 'progress': 'build'}
+[4.533908] (hastar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/mavlab/build/hastar', '--', '-j4', '-l4'], 'cwd': '/workspaces/mavlab/build/hastar', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspaces/mavlab/ros2_ws/install/sbg_driver/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_agent/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib:/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('ARDUINO_CLI_PATH', '/root/.arduino15'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/bin:/home/mavlab/.local/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/sbg_driver:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/hastar:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/build/hastar'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/sbg_driver:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/hastar:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.617216] (-) TimerEvent: {}
+[4.662062] (hastar) CommandEnded: {'returncode': 0}
+[4.717607] (-) TimerEvent: {}
+[4.730792] (hastar) JobProgress: {'identifier': 'hastar', 'progress': 'install'}
+[4.759959] (hastar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/mavlab/build/hastar'], 'cwd': '/workspaces/mavlab/build/hastar', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspaces/mavlab/ros2_ws/install/sbg_driver/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_agent/lib:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/lib:/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('ARDUINO_CLI_PATH', '/root/.arduino15'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/bin:/home/mavlab/.local/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/sbg_driver:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/hastar:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/build/hastar'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/sbg_driver:/workspaces/mavlab/ros2_ws/install/micro_ros_setup:/workspaces/mavlab/ros2_ws/install/micro_ros_agent:/workspaces/mavlab/ros2_ws/install/micro_ros_msgs:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/hastar:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.782481] (hastar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.783307] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/launch\n'}
+[4.783683] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/launch/hastar_launch.py\n'}
+[4.784185] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/lib/hastar/wp_tracking.py\n'}
+[4.784670] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/lib/hastar/temp_path.py\n'}
+[4.785339] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/ament_index/resource_index/package_run_dependencies/hastar\n'}
+[4.786217] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/ament_index/resource_index/parent_prefix_path/hastar\n'}
+[4.786840] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/environment/ament_prefix_path.sh\n'}
+[4.787377] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/environment/ament_prefix_path.dsv\n'}
+[4.787911] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/environment/path.sh\n'}
+[4.788429] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/environment/path.dsv\n'}
+[4.788920] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/local_setup.bash\n'}
+[4.789424] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/local_setup.sh\n'}
+[4.789915] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/local_setup.zsh\n'}
+[4.790346] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/local_setup.dsv\n'}
+[4.790826] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/package.dsv\n'}
+[4.791456] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/ament_index/resource_index/packages/hastar\n'}
+[4.792091] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/cmake/hastarConfig.cmake\n'}
+[4.792503] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/cmake/hastarConfig-version.cmake\n'}
+[4.792992] (hastar) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/install/hastar/share/hastar/package.xml\n'}
+[4.798122] (hastar) CommandEnded: {'returncode': 0}
+[4.818837] (-) TimerEvent: {}
+[4.920103] (-) TimerEvent: {}
+[4.936043] (hastar) JobEnded: {'identifier': 'hastar', 'rc': 0}
+[4.938907] (-) EventReactorShutdown: {}

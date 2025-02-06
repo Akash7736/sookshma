@@ -2,3 +2,4 @@ SUBSYSTEMS=="usb", ATTRS{product}=="USB-RS232 Cable", ATTRS{serial}=="AU04YIGW",
 SUBSYSTEMS=="usb", ATTRS{product}=="u-blox GNSS receiver", SYMLINK+="ardusimple", GROUP="dialout", MODE="0660"
 SUBSYSTEMS=="usb", ATTRS{serial}=="75135303739351613071", ATTRS{manufacturer}=="Arduino (www.arduino.cc)", SYMLINK+="propeller", GROUP="dialout", MODE="0660"
 SUBSYSTEMS=="usb", ATTRS{serial}=="7513530373935131A052", ATTRS{manufacturer}=="Arduino (www.arduino.cc)", SYMLINK+="rudder", GROUP="dialout", MODE="0660"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", SYMLINK+="uwb"

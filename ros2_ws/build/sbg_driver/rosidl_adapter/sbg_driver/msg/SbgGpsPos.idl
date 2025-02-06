@@ -1,0 +1,78 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgGpsPos.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "sbg_driver/msg/SbgGpsPosStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages")
+    struct SbgGpsPos {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Time since sensor is powered up us")
+      uint32 time_stamp;
+
+      @verbatim (language="comment", text=
+        "GPS position fix and status bitmask")
+      sbg_driver::msg::SbgGpsPosStatus status;
+
+      @verbatim (language="comment", text=
+        "GPS Time of Week ms")
+      uint32 gps_tow;
+
+      @verbatim (language="comment", text=
+        "Latitude; Positive is north of equator; negative is south")
+      @unit (value="degrees")
+      double latitude;
+
+      @verbatim (language="comment", text=
+        "Longitude; Positive is east of prime meridian; negative is west")
+      @unit (value="degrees")
+      double longitude;
+
+      @verbatim (language="comment", text=
+        "Altitude; Positive is above Mean Sea Level in meters")
+      @unit (value="m")
+      double altitude;
+
+      @verbatim (language="comment", text=
+        "Altitude difference between the geoid and the Ellipsoid (WGS-84 Altitude - MSL Altitude)" "\n"
+        "(Height above Ellipsoid = altitude + undulation)")
+      float undulation;
+
+      @verbatim (language="comment", text=
+        "Position accuracy (1 sigma)." "\n"
+        "In NED convention:" "\n"
+        "  x: North" "\n"
+        "  y: East" "\n"
+        "  z: Vertical" "\n"
+        "In ENU convention:" "\n"
+        "  x: East" "\n"
+        "  y: North" "\n"
+        "  z: Vertical")
+      @unit (value="m")
+      geometry_msgs::msg::Vector3 position_accuracy;
+
+      @verbatim (language="comment", text=
+        "Number of space vehicles tracked by the GNSS. 0xFF if N/A")
+      uint8 num_sv_tracked;
+
+      @verbatim (language="comment", text=
+        "Number of space vehicles used in GNSS solution. 0xFF if N/A")
+      uint8 num_sv_used;
+
+      @verbatim (language="comment", text=
+        "ID of the DGPS/RTK base station in use")
+      uint16 base_station_id;
+
+      @verbatim (language="comment", text=
+        "Differential data age 0.01 s")
+      uint16 diff_age;
+    };
+  };
+};

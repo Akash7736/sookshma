@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libfastcdr.so.1.0.10 -o libfastcdr.so.1.0.10 CMakeFiles/fastcdr.dir/Cdr.cpp.o CMakeFiles/fastcdr.dir/FastCdr.cpp.o CMakeFiles/fastcdr.dir/FastBuffer.cpp.o CMakeFiles/fastcdr.dir/exceptions/Exception.cpp.o CMakeFiles/fastcdr.dir/exceptions/NotEnoughMemoryException.cpp.o CMakeFiles/fastcdr.dir/exceptions/BadParamException.cpp.o 

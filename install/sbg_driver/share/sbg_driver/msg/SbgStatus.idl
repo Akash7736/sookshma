@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgStatus.msg
+// generated code does not contain a copyright notice
+
+#include "sbg_driver/msg/SbgStatusAiding.idl"
+#include "sbg_driver/msg/SbgStatusCom.idl"
+#include "sbg_driver/msg/SbgStatusGeneral.idl"
+#include "std_msgs/msg/Header.idl"
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages")
+    struct SbgStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Time since sensor is powered up (in us)")
+      uint32 time_stamp;
+
+      @verbatim (language="comment", text=
+        "General status bitmask and enums")
+      sbg_driver::msg::SbgStatusGeneral status_general;
+
+      @verbatim (language="comment", text=
+        "Communication status bitmask and enums.")
+      sbg_driver::msg::SbgStatusCom status_com;
+
+      @verbatim (language="comment", text=
+        "Aiding equipments status bitmask and enums.")
+      sbg_driver::msg::SbgStatusAiding status_aiding;
+    };
+  };
+};

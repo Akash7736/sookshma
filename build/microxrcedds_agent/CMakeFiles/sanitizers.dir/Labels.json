@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/sanitizers"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/sanitizers.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/sanitizers-complete.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-build.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-configure.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-download.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-install.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-patch.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sanitizers"
+		],
+		"name" : "sanitizers"
+	}
+}

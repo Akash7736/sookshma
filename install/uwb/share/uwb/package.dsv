@@ -1,0 +1,8 @@
+source;share/uwb/hook/cmake_prefix_path.ps1
+source;share/uwb/hook/cmake_prefix_path.dsv
+source;share/uwb/hook/cmake_prefix_path.sh
+source;share/uwb/local_setup.bash
+source;share/uwb/local_setup.dsv
+source;share/uwb/local_setup.ps1
+source;share/uwb/local_setup.sh
+source;share/uwb/local_setup.zsh

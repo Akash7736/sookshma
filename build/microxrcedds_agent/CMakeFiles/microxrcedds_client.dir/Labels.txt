@@ -1,0 +1,13 @@
+# Target labels
+ microxrcedds_client
+# Source files and their labels
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/microxrcedds_client
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/microxrcedds_client.rule
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/microxrcedds_client-complete.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-build.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-configure.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-download.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-install.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-mkdir.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-patch.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-update.rule

@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgEkfQuat.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "sbg_driver/msg/SbgEkfStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages")
+    struct SbgEkfQuat {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Time since sensor is powered up")
+      @unit (value="us")
+      uint32 time_stamp;
+
+      @verbatim (language="comment", text=
+        " Quaternion parameter (ROS order X, Y, Z, W)" "\n"
+        "The rotation definition depends on the driver NED/ENU configuration" "\n"
+        "Please read the message SbgEkfEuler for more information")
+      geometry_msgs::msg::Quaternion quaternion;
+
+      @verbatim (language="comment", text=
+        "Angle accuracy (Roll, Pitch, Yaw (heading)) (1 sigma)")
+      @unit (value="rad")
+      geometry_msgs::msg::Vector3 accuracy;
+
+      @verbatim (language="comment", text=
+        "Global solution status")
+      sbg_driver::msg::SbgEkfStatus status;
+    };
+  };
+};

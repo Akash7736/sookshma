@@ -1,0 +1,13 @@
+# Target labels
+ microcdr
+# Source files and their labels
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr-complete.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-build.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-configure.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-download.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-install.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-mkdir.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-patch.rule
+/workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-update.rule

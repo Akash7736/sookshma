@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgMagStatus.msg
+// generated code does not contain a copyright notice
+
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages" "\n"
+      "Submessage")
+    struct SbgMagStatus {
+      @verbatim (language="comment", text=
+        "True if the magnetometer X has passed the self test.")
+      boolean mag_x;
+
+      @verbatim (language="comment", text=
+        "True if the magnetometer Y has passed the self test.")
+      boolean mag_y;
+
+      @verbatim (language="comment", text=
+        "True if the magnetometer Z has passed the self test.")
+      boolean mag_z;
+
+      @verbatim (language="comment", text=
+        "True if the accelerometer X has passed the self test.")
+      boolean accel_x;
+
+      @verbatim (language="comment", text=
+        "True if the accelerometer Y has passed the self test.")
+      boolean accel_y;
+
+      @verbatim (language="comment", text=
+        "True if the accelerometer Z has passed the self test.")
+      boolean accel_z;
+
+      @verbatim (language="comment", text=
+        "True if magnetometer is not saturated")
+      boolean mags_in_range;
+
+      @verbatim (language="comment", text=
+        "True if accelerometer is not saturated")
+      boolean accels_in_range;
+
+      @verbatim (language="comment", text=
+        "True if magnetometer seems to be calibrated")
+      boolean calibration;
+    };
+  };
+};

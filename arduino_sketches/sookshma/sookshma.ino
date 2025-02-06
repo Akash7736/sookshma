@@ -38,6 +38,7 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time)
   }
 }
 
+
 void setup() {
   set_microros_transports();
   
@@ -77,6 +78,6 @@ void setup() {
 }
 
 void loop() {
-  delay(100);
-  RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)));
+  delay(10);
+  RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(10)));
 }

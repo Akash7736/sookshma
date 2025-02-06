@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgStatusGeneral.msg
+// generated code does not contain a copyright notice
+
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages" "\n"
+      "SbgStatus submessage")
+    struct SbgStatusGeneral {
+      @verbatim (language="comment", text=
+        "General main power" "\n"
+        "True when main power supply is OK.")
+      boolean main_power;
+
+      @verbatim (language="comment", text=
+        "General imu power" "\n"
+        "True when IMU power supply is OK.")
+      boolean imu_power;
+
+      @verbatim (language="comment", text=
+        "General gps power" "\n"
+        "Set to True when GPS power supply is OK.")
+      boolean gps_power;
+
+      @verbatim (language="comment", text=
+        "General Settings" "\n"
+        "True if settings were correctly loaded")
+      boolean settings;
+
+      @verbatim (language="comment", text=
+        "General Temperature" "\n"
+        "True when temperature is within specified limits.")
+      boolean temperature;
+
+      @verbatim (language="comment", text=
+        "General Datalogger" "\n"
+        "True when the datalogger is working correctly.")
+      boolean datalogger;
+
+      @verbatim (language="comment", text=
+        "General CPU" "\n"
+        "True if the CPU headroom is correct.")
+      boolean cpu;
+    };
+  };
+};

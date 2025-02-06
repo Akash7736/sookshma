@@ -60,14 +60,14 @@ class uwb_node(Node):
         super().__init__('uwb_node')
 
                 # Declare and retrieve the 'uwb_url' parameter
-        self.declare_parameter('uwb_url', '/dev/ttyUSB0')  # Default value
+        self.declare_parameter('uwb_url', '/dev/uwb')  # Default value
         uwb_url = self.get_parameter('uwb_url').get_parameter_value().string_value
 
         # Log the received value
         self.get_logger().info(f'UWB URL received: {uwb_url}')
 
-        # portName='/dev/ttyUSB0'
-        portName= uwb_url
+        portName='/dev/uwb'
+        #portName= uwb_url
         # Create Serial object:
         self.ser = Serial(portName) # Also opens the port during object creation
         self.ser.close() # To set parameters
@@ -128,7 +128,9 @@ class uwb_node(Node):
                     dis["r4"]=float(i["R"])
             # print(dis)
             if len(dis)<3:
+                self.get_logger().info(f"No Fix.  {len(dis)} anchors detected")
                 print(f"No Fix.  {len(dis)} anchors detected")
+                
             elif len(dis)==3:
                 print("3d fix")
                 try:

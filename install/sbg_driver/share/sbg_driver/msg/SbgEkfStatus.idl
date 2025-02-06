@@ -1,0 +1,114 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgEkfStatus.msg
+// generated code does not contain a copyright notice
+
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages" "\n"
+      "Submessage")
+    struct SbgEkfStatus {
+      @verbatim (language="comment", text=
+        "Defines the Kalman filter computation mode (see the table 4 below)" "\n"
+        "0 UNINITIALIZED The Kalman filter is not initialized and the returned data are all invalid." "\n"
+        "1 VERTICAL_GYRO The Kalman filter only rely on a vertical reference to compute roll and pitch angles. Heading and navigation data drift freely." "\n"
+        "2 AHRS   A heading reference is available, the Kalman filter provides full orientation but navigation data drift freely." "\n"
+        "3 NAV_VELOCITY The Kalman filter computes orientation and velocity. Position is freely integrated from velocity estimation." "\n"
+        "4 NAV_POSITION Nominal mode, the Kalman filter computes all parameters (attitude, velocity, position). Absolute position is provided.")
+      uint8 solution_mode;
+
+      @verbatim (language="comment", text=
+        "True if Attitude data is reliable (Roll/Pitch error < 0,5 deg)")
+      boolean attitude_valid;
+
+      @verbatim (language="comment", text=
+        "True if Heading data is reliable (Heading error < 1 deg)")
+      boolean heading_valid;
+
+      @verbatim (language="comment", text=
+        "True if Velocity data is reliable (velocity error < 1.5 m/s)")
+      boolean velocity_valid;
+
+      @verbatim (language="comment", text=
+        "True if Position data is reliable (Position error < 10m)")
+      boolean position_valid;
+
+      @verbatim (language="comment", text=
+        "True if vertical reference is used in solution (data used and valid since 3s)")
+      boolean vert_ref_used;
+
+      @verbatim (language="comment", text=
+        "True if magnetometer is used in solution (data used and valid since 3s)")
+      boolean mag_ref_used;
+
+      @verbatim (language="comment", text=
+        "True if GPS velocity is used in solution (data used and valid since 3s)")
+      boolean gps1_vel_used;
+
+      @verbatim (language="comment", text=
+        "True if GPS Position is used in solution (data used and valid since 3s)")
+      boolean gps1_pos_used;
+
+      @verbatim (language="comment", text=
+        "True if GPS True Heading is used in solution (data used and valid since 3s)")
+      boolean gps1_hdt_used;
+
+      @verbatim (language="comment", text=
+        "True if GPS2 velocity is used in solution (data used and valid since 3s)")
+      boolean gps2_vel_used;
+
+      @verbatim (language="comment", text=
+        "True if GPS2 Position is used in solution (data used and valid since 3s)")
+      boolean gps2_pos_used;
+
+      @verbatim (language="comment", text=
+        "True if GPS2 True Heading is used in solution (data used and valid since 3s)")
+      boolean gps2_hdt_used;
+
+      @verbatim (language="comment", text=
+        "True if Odometer is used in solution (data used and valid since 3s)")
+      boolean odo_used;
+
+      @verbatim (language="comment", text=
+        "True if DVL Bottom Tracking is used in solution (data used and valid since 3s)")
+      boolean dvl_bt_used;
+
+      @verbatim (language="comment", text=
+        "True if DVL Water Tracking is used in solution (data used and valid since 3s)")
+      boolean dvl_wt_used;
+
+      @verbatim (language="comment", text=
+        "True if user Position is used in solution (data used and valid since 3s)")
+      boolean user_pos_used;
+
+      @verbatim (language="comment", text=
+        "True if user Velocity is used in solution (data used and valid since 3s)")
+      boolean user_vel_used;
+
+      @verbatim (language="comment", text=
+        "True if user Course is used in solution (data used and valid since 3s)")
+      boolean user_heading_used;
+
+      @verbatim (language="comment", text=
+        "True if USBL / LBL is used in solution (data used and valid since 3s)")
+      boolean usbl_used;
+
+      @verbatim (language="comment", text=
+        "True if AirData (altimeter and/or true airspeed) is used in solution (data used and valid since 3s)")
+      boolean air_data_used;
+
+      @verbatim (language="comment", text=
+        "True if a ZUPT is used in solution (data used and valid since 3s)")
+      boolean zupt_used;
+
+      @verbatim (language="comment", text=
+        "True if sensor alignment and calibration parameters are valid")
+      boolean align_valid;
+
+      @verbatim (language="comment", text=
+        "True if Depth sensor (for sub-sea navigation) is used in solution (data used and valid since 3s)")
+      boolean depth_used;
+    };
+  };
+};

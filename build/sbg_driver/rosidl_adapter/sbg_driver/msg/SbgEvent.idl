@@ -1,0 +1,55 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgEvent.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages")
+    struct SbgEvent {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Time since sensor is powered up us")
+      uint32 time_stamp;
+
+      @verbatim (language="comment", text=
+        "True if we have received events at a higher rate than 1 kHz.")
+      boolean overflow;
+
+      @verbatim (language="comment", text=
+        "True if at least two events have been received.")
+      boolean offset_0_valid;
+
+      @verbatim (language="comment", text=
+        "True if at least three events have been received.")
+      boolean offset_1_valid;
+
+      @verbatim (language="comment", text=
+        "True if at least four events have been received.")
+      boolean offset_2_valid;
+
+      @verbatim (language="comment", text=
+        "True if five events have been received.")
+      boolean offset_3_valid;
+
+      @verbatim (language="comment", text=
+        "Time offset for the second received event. (us)")
+      uint16 time_offset_0;
+
+      @verbatim (language="comment", text=
+        "Time offset for the third received event. (us)")
+      uint16 time_offset_1;
+
+      @verbatim (language="comment", text=
+        "Time offset for the fourth received event. (us)")
+      uint16 time_offset_2;
+
+      @verbatim (language="comment", text=
+        "Time offset for the fifth received event. (us)")
+      uint16 time_offset_3;
+    };
+  };
+};

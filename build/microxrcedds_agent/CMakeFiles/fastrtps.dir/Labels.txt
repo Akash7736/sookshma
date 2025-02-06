@@ -1,0 +1,14 @@
+# Target labels
+ fastrtps
+# Source files and their labels
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastrtps
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastrtps.rule
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastrtps-complete.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-build.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-configure.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-download.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-install.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-mkdir.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-patch.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-test.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-update.rule

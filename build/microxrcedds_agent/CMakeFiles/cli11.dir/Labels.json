@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/cli11"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/cli11.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/cli11-complete.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-build.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-configure.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-download.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-install.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-patch.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-stamp/cli11-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cli11"
+		],
+		"name" : "cli11"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastrtps"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastrtps.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastrtps-complete.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-build.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-configure.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-download.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-install.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-patch.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-test.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-stamp/fastrtps-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fastrtps"
+		],
+		"name" : "fastrtps"
+	}
+}

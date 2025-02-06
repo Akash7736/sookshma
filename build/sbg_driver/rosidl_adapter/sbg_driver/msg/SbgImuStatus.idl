@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgImuStatus.msg
+// generated code does not contain a copyright notice
+
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages" "\n"
+      "Submessage SbgImuData")
+    struct SbgImuStatus {
+      @verbatim (language="comment", text=
+        "True if the communication with the IMU is ok.")
+      boolean imu_com;
+
+      @verbatim (language="comment", text=
+        "True if internal IMU passes Built In Test (Calibration, CPU)")
+      boolean imu_status;
+
+      @verbatim (language="comment", text=
+        "True if accelerometer X passes Built In Test")
+      boolean imu_accel_x;
+
+      @verbatim (language="comment", text=
+        "True if accelerometer Y passes Built In Test")
+      boolean imu_accel_y;
+
+      @verbatim (language="comment", text=
+        "True if accelerometer Z passes Built In Test")
+      boolean imu_accel_z;
+
+      @verbatim (language="comment", text=
+        "True if gyroscope X passes Built In Test")
+      boolean imu_gyro_x;
+
+      @verbatim (language="comment", text=
+        "True if gyroscope Y passes Built In Test")
+      boolean imu_gyro_y;
+
+      @verbatim (language="comment", text=
+        "True if gyroscope Z passes Built In Test")
+      boolean imu_gyro_z;
+
+      @verbatim (language="comment", text=
+        "True if accelerometers are within operating range")
+      boolean imu_accels_in_range;
+
+      @verbatim (language="comment", text=
+        "True if gyroscopes are within operating range")
+      boolean imu_gyros_in_range;
+    };
+  };
+};

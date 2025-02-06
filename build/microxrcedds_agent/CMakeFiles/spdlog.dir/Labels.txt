@@ -1,0 +1,13 @@
+# Target labels
+ spdlog
+# Source files and their labels
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/spdlog
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/spdlog.rule
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/spdlog-complete.rule
+/workspaces/mavlab/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-build.rule
+/workspaces/mavlab/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-configure.rule
+/workspaces/mavlab/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-download.rule
+/workspaces/mavlab/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-install.rule
+/workspaces/mavlab/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-mkdir.rule
+/workspaces/mavlab/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-patch.rule
+/workspaces/mavlab/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-update.rule

@@ -1,0 +1,16 @@
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/share/fastcdr/LICENSE
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/FastBuffer.h
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/fastcdr_dll.h
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/eProsima_auto_link.h
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/Cdr.h
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/exceptions/BadParamException.h
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/exceptions/Exception.h
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/exceptions/NotEnoughMemoryException.h
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/FastCdr.h
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/config.h
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/lib/libfastcdr.so.1.0.10
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/lib/libfastcdr.so
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/share/fastcdr/cmake/fastcdr-targets.cmake
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/share/fastcdr/cmake/fastcdr-targets-release.cmake
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/share/fastcdr/cmake/fastcdr-config.cmake
+/workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/share/fastcdr/cmake/fastcdr-config-version.cmake

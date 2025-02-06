@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgShipMotionStatus.msg
+// generated code does not contain a copyright notice
+
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages" "\n"
+      "SbgShipMotionStatus")
+    struct SbgShipMotionStatus {
+      @verbatim (language="comment", text=
+        "True after heave convergence time." "\n"
+        "False in following conditions:" "\n"
+        "- Turn occurred and no velocity aiding is available" "\n"
+        "- Heave reached higher/lower limits" "\n"
+        "- If a step is detected and filter has to re-converge" "\n"
+        "- If internal failure")
+      boolean heave_valid;
+
+      @verbatim (language="comment", text=
+        "True if heave output is compensated for transient accelerations")
+      boolean heave_vel_aided;
+
+      @verbatim (language="comment", text=
+        "True if surge and sway channels are provided in this output.")
+      boolean surge_sway_included;
+
+      @verbatim (language="comment", text=
+        "True if the swell period is provided in this output.")
+      boolean period_available;
+
+      @verbatim (language="comment", text=
+        "True if the period returned is assumed to be valid or not.")
+      boolean period_valid;
+
+      @verbatim (language="comment", text=
+        "True if the real time heave filter is using the swell mode computations.")
+      boolean swell_mode;
+    };
+  };
+};

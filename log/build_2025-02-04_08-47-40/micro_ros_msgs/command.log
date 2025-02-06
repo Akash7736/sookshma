@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/mavlab/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/install/micro_ros_msgs
+Invoked command in '/workspaces/mavlab/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/install/micro_ros_msgs
+Invoking command in '/workspaces/mavlab/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/build/micro_ros_msgs -- -j4 -l4
+Invoked command in '/workspaces/mavlab/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/build/micro_ros_msgs -- -j4 -l4
+Invoking command in '/workspaces/mavlab/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/build/micro_ros_msgs
+Invoked command in '/workspaces/mavlab/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/build/micro_ros_msgs

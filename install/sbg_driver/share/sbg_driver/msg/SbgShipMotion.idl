@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgShipMotion.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "sbg_driver/msg/SbgShipMotionStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages")
+    struct SbgShipMotion {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Time since sensor is powered up us")
+      uint32 time_stamp;
+
+      @verbatim (language="comment", text=
+        "Main heave period in seconds. s float 4 4")
+      uint16 heave_period;
+
+      @verbatim (language="comment", text=
+        "[Surge, Sway, Heave (positive down)] at main location (in m)" "\n"
+        "Note : Surge & Sway are not fulfilled")
+      geometry_msgs::msg::Vector3 ship_motion;
+
+      @verbatim (language="comment", text=
+        "[Longitudinal, Lateral, Vertical (positive down)] acceleration (in m/s2)")
+      geometry_msgs::msg::Vector3 acceleration;
+
+      @verbatim (language="comment", text=
+        "[Longitudinal, Lateral, Vertical (positive down)] velocity (in m/s)")
+      geometry_msgs::msg::Vector3 velocity;
+
+      @verbatim (language="comment", text=
+        "Ship motion output status")
+      sbg_driver::msg::SbgShipMotionStatus status;
+    };
+  };
+};

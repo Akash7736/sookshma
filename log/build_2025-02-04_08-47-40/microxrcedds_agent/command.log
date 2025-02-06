@@ -1,0 +1,3 @@
+Invoking command in '/workspaces/mavlab/build/microxrcedds_agent': /usr/bin/cmake /workspaces/mavlab/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/install/microxrcedds_agent
+Invoked command in '/workspaces/mavlab/build/microxrcedds_agent' returned '0': /usr/bin/cmake /workspaces/mavlab/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/install/microxrcedds_agent
+Invoking command in '/workspaces/mavlab/build/microxrcedds_agent': /usr/bin/cmake --build /workspaces/mavlab/build/microxrcedds_agent -- -j4 -l4

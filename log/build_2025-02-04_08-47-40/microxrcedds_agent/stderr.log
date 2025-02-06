@@ -1,0 +1,55 @@
+Cloning into 'microxrcedds_client'...
+Cloning into 'spdlog'...
+Cloning into 'fastcdr'...
+Cloning into 'cli11'...
+HEAD is now at cc27c24 Refs #6203 Remove FastRTPSGen code. (#61)
+HEAD is now at 46ee5bc Merge pull request #149 from eProsima/v1.2.1
+HEAD is now at 49ac989 Fixes to the readme
+[0mCMake Deprecation Warning at CMakeLists.txt:18 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+Submodule 'extern/googletest' (https://github.com/google/googletest.git) registered for path 'extern/googletest'
+Submodule 'extern/json' (https://github.com/nlohmann/json.git) registered for path 'extern/json'
+Submodule 'extern/sanitizers' (https://github.com/arsenm/sanitizers-cmake) registered for path 'extern/sanitizers'
+Cloning into '/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11/extern/googletest'...
+Cloning into 'microcdr'...
+HEAD is now at 1549ff12 Replace STRING(PREPEND ..) in CMakeLists.txt to support older CMake versions
+HEAD is now at 6c9a88f Release v1.2.0 (#52)
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/GNUInstallDirs.cmake:239 (message):
+  Unable to determine default CMAKE_INSTALL_LIBDIR directory because no
+  target architecture is known.  Please enable at least one language before
+  including GNUInstallDirs.
+Call Stack (most recent call first):
+  CMakeLists.txt:9 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+Cloning into '/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11/extern/json'...
+Cloning into '/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11/extern/sanitizers'...
+Cloning into 'fastrtps'...
+HEAD is now at b257a3350 XML Services [1.8.x] [7117] (#930)
+Submodule 'thirdparty/android-ifaddrs' (https://github.com/michalsrb/android-ifaddrs.git) registered for path 'thirdparty/android-ifaddrs'
+Submodule 'thirdparty/asio' (https://github.com/chriskohlhoff/asio.git) registered for path 'thirdparty/asio'
+Submodule 'thirdparty/fastcdr' (https://github.com/eProsima/Fast-CDR.git) registered for path 'thirdparty/fastcdr'
+Submodule 'thirdparty/idl' (https://github.com/eProsima/IDL-Parser.git) registered for path 'thirdparty/idl'
+Submodule 'thirdparty/tinyxml2' (https://github.com/leethomason/tinyxml2.git) registered for path 'thirdparty/tinyxml2'
+Cloning into '/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps/thirdparty/android-ifaddrs'...
+Cloning into '/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps/thirdparty/asio'...
+Cloning into '/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps/thirdparty/fastcdr'...
+Cloning into '/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps/thirdparty/idl'...
+Cloning into '/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps/thirdparty/tinyxml2'...
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (tinyxml2)
+  does not match the name of the calling package (TinyXML2).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+  cmake/common/eprosima_libraries.cmake:96 (find_package)
+  CMakeLists.txt:220 (eprosima_find_thirdparty)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m

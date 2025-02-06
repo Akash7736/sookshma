@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgGpsVelStatus.msg
+// generated code does not contain a copyright notice
+
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages" "\n"
+      "Submessage")
+    struct SbgGpsVelStatus {
+      @verbatim (language="comment", text=
+        "The raw GPS velocity status" "\n"
+        "0 SOL_COMPUTED  A valid solution has been computed." "\n"
+        "1 INSUFFICIENT_OBS Not enough valid SV to compute a solution." "\n"
+        "2 INTERNAL_ERROR  An internal error has occurred." "\n"
+        "3 LIMIT    Velocity limit exceeded.")
+      uint8 vel_status;
+
+      @verbatim (language="comment", text=
+        "The raw GPS velocity type" "\n"
+        "0 VEL_NO_SOLUTION  No valid velocity solution available." "\n"
+        "1 VEL_UNKNOWN_TYPE An unknown solution type has been computed." "\n"
+        "2 VEL_DOPPLER   A Doppler velocity has been computed." "\n"
+        "3 VEL_DIFFERENTIAL A velocity has been computed between two positions.")
+      uint8 vel_type;
+    };
+  };
+};

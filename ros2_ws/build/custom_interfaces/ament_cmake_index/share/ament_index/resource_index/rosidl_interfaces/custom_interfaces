@@ -1,2 +1,4 @@
+msg/Actuator.idl
+msg/Actuator.msg
 msg/EstimatedState.idl
 msg/EstimatedState.msg

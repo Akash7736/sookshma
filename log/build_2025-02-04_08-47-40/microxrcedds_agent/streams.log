@@ -1,0 +1,579 @@
+[0.024s] Invoking command in '/workspaces/mavlab/build/microxrcedds_agent': /usr/bin/cmake /workspaces/mavlab/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/install/microxrcedds_agent
+[0.381s] -- The C compiler identification is GNU 11.4.0
+[0.446s] -- Detecting C compiler ABI info
+[0.759s] -- Detecting C compiler ABI info - done
+[0.813s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.820s] -- Detecting C compile features
+[0.830s] -- Detecting C compile features - done
+[1.070s] -- The CXX compiler identification is GNU 11.4.0
+[1.094s] -- Detecting CXX compiler ABI info
+[1.550s] -- Detecting CXX compiler ABI info - done
+[1.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.595s] -- Detecting CXX compile features
+[1.599s] -- Detecting CXX compile features - done
+[2.356s] -- Configuring done
+[2.397s] -- Generating done
+[2.401s] -- Build files have been written to: /workspaces/mavlab/build/microxrcedds_agent
+[2.431s] Invoked command in '/workspaces/mavlab/build/microxrcedds_agent' returned '0': /usr/bin/cmake /workspaces/mavlab/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/install/microxrcedds_agent
+[2.432s] Invoking command in '/workspaces/mavlab/build/microxrcedds_agent': /usr/bin/cmake --build /workspaces/mavlab/build/microxrcedds_agent -- -j4 -l4
+[2.719s] [  1%] [34m[1mCreating directories for 'spdlog'[0m
+[2.729s] [  3%] [34m[1mCreating directories for 'cli11'[0m
+[2.738s] [  6%] [34m[1mCreating directories for 'microxrcedds_client'[0m
+[2.741s] [  5%] [34m[1mCreating directories for 'fastcdr'[0m
+[3.178s] [  8%] [34m[1mPerforming download step (git clone) for 'fastcdr'[0m
+[3.231s] [ 12%] [34m[1mPerforming download step (git clone) for 'spdlog'[0m
+[3.233s] [ 10%] [34m[1mPerforming download step (git clone) for 'cli11'[0m
+[3.248s] [ 13%] [34m[1mPerforming download step (git clone) for 'microxrcedds_client'[0m
+[3.318s] Cloning into 'microxrcedds_client'...
+[3.319s] Cloning into 'spdlog'...
+[3.331s] Cloning into 'fastcdr'...
+[3.361s] Cloning into 'cli11'...
+[6.563s] HEAD is now at cc27c24 Refs #6203 Remove FastRTPSGen code. (#61)
+[7.128s] HEAD is now at 46ee5bc Merge pull request #149 from eProsima/v1.2.1
+[7.433s] [ 15%] [34m[1mPerforming update step for 'fastcdr'[0m
+[7.693s] [ 17%] [34m[1mNo patch step for 'fastcdr'[0m
+[7.830s] [ 18%] [34m[1mPerforming update step for 'microxrcedds_client'[0m
+[7.897s] [ 20%] [34m[1mPerforming configure step for 'fastcdr'[0m
+[7.946s] HEAD is now at 49ac989 Fixes to the readme
+[7.983s] loading initial cache file /workspaces/mavlab/build/microxrcedds_agent/fastcdr/tmp/fastcdr-cache-.cmake
+[7.986s] [0mCMake Deprecation Warning at CMakeLists.txt:18 (cmake_minimum_required):
+[7.987s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[7.988s]   CMake.
+[7.990s] 
+[7.992s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[7.994s]   CMake that the project does not need compatibility with older versions.
+[7.995s] 
+[7.996s] [0m
+[7.998s] -- Setting build type to 'Release' as none was specified.
+[8.065s] [ 22%] [34m[1mNo patch step for 'microxrcedds_client'[0m
+[8.230s] Submodule 'extern/googletest' (https://github.com/google/googletest.git) registered for path 'extern/googletest'
+[8.232s] Submodule 'extern/json' (https://github.com/nlohmann/json.git) registered for path 'extern/json'
+[8.233s] Submodule 'extern/sanitizers' (https://github.com/arsenm/sanitizers-cmake) registered for path 'extern/sanitizers'
+[8.308s] Cloning into '/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11/extern/googletest'...
+[8.386s] [ 24%] [34m[1mPerforming configure step for 'microxrcedds_client'[0m
+[8.439s] loading initial cache file /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/tmp/microxrcedds_client-cache-.cmake
+[8.483s] -- The C compiler identification is GNU 11.4.0
+[8.937s] -- The CXX compiler identification is GNU 11.4.0
+[8.986s] -- The C compiler identification is GNU 11.4.0
+[8.991s] -- Detecting C compiler ABI info
+[9.068s] -- Detecting C compiler ABI info
+[9.470s] -- Detecting C compiler ABI info - done
+[9.521s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.523s] -- Detecting C compile features
+[9.525s] -- Detecting C compile features - done
+[9.544s] -- Detecting CXX compiler ABI info
+[9.777s] -- Detecting C compiler ABI info - done
+[9.844s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.846s] -- Detecting C compile features
+[9.849s] -- Detecting C compile features - done
+[10.223s] -- The CXX compiler identification is GNU 11.4.0
+[10.262s] -- Detecting CXX compiler ABI info
+[10.475s] -- Detecting CXX compiler ABI info - done
+[10.569s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.581s] -- Detecting CXX compile features
+[10.584s] -- Detecting CXX compile features - done
+[10.592s] -- Configuring Fast CDR
+[10.593s] -- Version: 1.0.10
+[10.594s] -- To change the version modify the file configure.ac
+[10.607s] -- Performing Test SUPPORTS_CXX14
+[10.985s] -- Detecting CXX compiler ABI info - done
+[11.148s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.152s] -- Detecting CXX compile features
+[11.170s] -- Detecting CXX compile features - done
+[11.659s] -- Performing Test SUPPORTS_CXX14 - Success
+[11.733s] -- Configuring done
+[11.777s] -- Generating done
+[11.788s] -- Build files have been written to: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build
+[11.854s] -- Configuring done
+[11.918s] -- Generating done
+[11.936s] -- Build files have been written to: /workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-build
+[12.045s] [ 25%] [34m[1mPerforming build step for 'microxrcedds_client'[0m
+[12.159s] [ 27%] [34m[1mPerforming build step for 'fastcdr'[0m
+[12.714s] [  6%] [34m[1mCreating directories for 'microcdr'[0m
+[12.888s] [ 14%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/Cdr.cpp.o[0m
+[13.656s] [ 12%] [34m[1mPerforming download step (git clone) for 'microcdr'[0m
+[13.988s] Cloning into 'microcdr'...
+[16.490s] HEAD is now at 1549ff12 Replace STRING(PREPEND ..) in CMakeLists.txt to support older CMake versions
+[16.623s] HEAD is now at 6c9a88f Release v1.2.0 (#52)
+[17.399s] [ 29%] [34m[1mPerforming update step for 'spdlog'[0m
+[17.484s] [ 18%] [34m[1mPerforming update step for 'microcdr'[0m
+[17.719s] [ 31%] [34m[1mNo patch step for 'spdlog'[0m
+[17.798s] [ 25%] [34m[1mNo patch step for 'microcdr'[0m
+[18.018s] [ 32%] [34m[1mPerforming configure step for 'spdlog'[0m
+[18.112s] loading initial cache file /workspaces/mavlab/build/microxrcedds_agent/spdlog/tmp/spdlog-cache-.cmake
+[18.119s] [ 31%] [34m[1mPerforming configure step for 'microcdr'[0m
+[18.132s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/GNUInstallDirs.cmake:239 (message):
+[18.135s]   Unable to determine default CMAKE_INSTALL_LIBDIR directory because no
+[18.137s]   target architecture is known.  Please enable at least one language before
+[18.139s]   including GNUInstallDirs.
+[18.141s] Call Stack (most recent call first):
+[18.144s]   CMakeLists.txt:9 (include)
+[18.146s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[18.148s] [0m
+[18.171s] loading initial cache file /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/tmp/microcdr-cache-.cmake
+[18.175s] -- Setting build type to 'Release' as none was specified.
+[18.904s] -- The C compiler identification is GNU 11.4.0
+[18.939s] -- The CXX compiler identification is GNU 11.4.0
+[19.005s] -- Detecting C compiler ABI info
+[19.032s] -- Detecting CXX compiler ABI info
+[19.975s] -- Detecting C compiler ABI info - done
+[20.082s] -- Check for working C compiler: /usr/bin/cc - skipped
+[20.103s] -- Detecting C compile features
+[20.106s] -- Detecting C compile features - done
+[20.216s] -- Detecting CXX compiler ABI info - done
+[20.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[20.377s] -- Detecting CXX compile features
+[20.386s] -- Detecting CXX compile features - done
+[20.391s] -- Build spdlog: 1.4.2
+[20.432s] -- Looking for C++ include pthread.h
+[20.542s] Cloning into '/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11/extern/json'...
+[20.837s] -- The CXX compiler identification is GNU 11.4.0
+[20.906s] -- Detecting CXX compiler ABI info
+[21.595s] -- Looking for C++ include pthread.h - found
+[21.597s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[22.090s] -- Detecting CXX compiler ABI info - done
+[22.222s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[22.225s] -- Detecting CXX compile features
+[22.233s] -- Detecting CXX compile features - done
+[22.421s] -- Configuring done
+[22.456s] -- Generating done
+[22.461s] -- Build files have been written to: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build
+[22.711s] [ 37%] [34m[1mPerforming build step for 'microcdr'[0m
+[23.001s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[23.003s] -- Found Threads: TRUE  
+[23.004s] -- Build type: Release
+[23.006s] -- Generating examples
+[23.016s] -- Generating install
+[23.165s] -- Configuring done
+[23.292s] -- Generating done
+[23.327s] -- Build files have been written to: /workspaces/mavlab/build/microxrcedds_agent/spdlog/src/spdlog-build
+[23.336s] [ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[23.668s] [ 34%] [34m[1mPerforming build step for 'spdlog'[0m
+[24.380s] [ 11%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o[0m
+[24.423s] [ 25%] [34m[1mNo download step for 'ucdr'[0m
+[24.812s] [ 37%] [34m[1mNo update step for 'ucdr'[0m
+[25.188s] [ 50%] [34m[1mNo patch step for 'ucdr'[0m
+[25.559s] [ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+[25.736s] loading initial cache file /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[25.873s] -- Configuring done
+[25.940s] -- Generating done
+[25.949s] -- Build files have been written to: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build
+[26.204s] [ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+[26.804s] [ 16%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.o[0m
+[27.689s] [ 33%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.o[0m
+[29.791s] [ 28%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastCdr.cpp.o[0m
+[33.707s] [ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.o[0m
+[34.284s] [ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.o[0m
+[38.461s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.o[0m
+[41.091s] [100%] [32m[1mLinking C shared library libmicrocdr.so[0m
+[41.937s] [ 42%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastBuffer.cpp.o[0m
+[42.009s] [100%] Built target microcdr
+[42.420s] [34m[1mNo install step for 'ucdr'[0m
+[42.879s] [34m[1mCompleted 'ucdr'[0m
+[43.061s] [ 57%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/Exception.cpp.o[0m
+[43.307s] Built target ucdr
+[43.613s] [ 43%] [34m[1mPerforming install step for 'microcdr'[0m
+[44.032s] [35m[1mConsolidate compiler generated dependencies of target microcdr[0m
+[44.192s] [100%] Built target microcdr
+[44.420s] [36mInstall the project...[0m
+[44.569s] -- Install configuration: "Release"
+[44.571s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-1.2.0/lib/libmicrocdr.so.1.2.0
+[44.573s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-1.2.0/lib/libmicrocdr.so.1.2
+[44.579s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-1.2.0/lib/libmicrocdr.so
+[44.581s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-1.2.0/include/ucdr
+[44.586s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-1.2.0/include/ucdr/microcdr.h
+[44.589s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-1.2.0/include/ucdr/visibility.h
+[44.591s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-1.2.0/include/ucdr/config.h
+[44.599s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-1.2.0/share/microcdr/cmake/microcdrTargets.cmake
+[44.603s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-1.2.0/share/microcdr/cmake/microcdrTargets-release.cmake
+[44.611s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-1.2.0/share/microcdr/cmake/microcdrConfig.cmake
+[44.621s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-1.2.0/share/microcdr/cmake/microcdrConfigVersion.cmake
+[44.863s] [ 50%] [34m[1mCompleted 'microcdr'[0m
+[45.205s] [ 71%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/NotEnoughMemoryException.cpp.o[0m
+[45.311s] [ 50%] Built target microcdr
+[45.631s] [ 56%] [34m[1mCreating directories for 'uclient'[0m
+[46.462s] [ 62%] [34m[1mNo download step for 'uclient'[0m
+[46.813s] [ 68%] [34m[1mNo update step for 'uclient'[0m
+[47.053s] [ 75%] [34m[1mNo patch step for 'uclient'[0m
+[47.069s] [ 85%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadParamException.cpp.o[0m
+[47.360s] [ 81%] [34m[1mPerforming configure step for 'uclient'[0m
+[47.489s] loading initial cache file /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/tmp/uclient-cache-.cmake
+[47.519s] -- Setting build type to 'Release' as none was specified.
+[47.580s] -- Configuring done
+[47.629s] -- Generating done
+[47.644s] -- Build files have been written to: /workspaces/mavlab/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build
+[47.790s] [ 87%] [34m[1mPerforming build step for 'uclient'[0m
+[48.290s] [  3%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o[0m
+[48.580s] [100%] [32m[1mLinking CXX shared library libfastcdr.so[0m
+[48.610s] [  6%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o[0m
+[49.320s] [  9%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o[0m
+[49.373s] [100%] Built target fastcdr
+[49.629s] [ 12%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o[0m
+[49.688s] [ 36%] [34m[1mPerforming install step for 'fastcdr'[0m
+[50.010s] [35m[1mConsolidate compiler generated dependencies of target fastcdr[0m
+[50.153s] [100%] Built target fastcdr
+[50.244s] [ 16%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o[0m
+[50.323s] [36mInstall the project...[0m
+[50.402s] -- Install configuration: "Release"
+[50.409s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/share/fastcdr/LICENSE
+[50.411s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr
+[50.414s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/FastBuffer.h
+[50.416s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/fastcdr_dll.h
+[50.418s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/eProsima_auto_link.h
+[50.423s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/Cdr.h
+[50.424s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/exceptions
+[50.426s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/exceptions/BadParamException.h
+[50.428s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/exceptions/Exception.h
+[50.431s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/exceptions/NotEnoughMemoryException.h
+[50.445s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/FastCdr.h
+[50.449s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/include/fastcdr/config.h
+[50.459s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/lib/libfastcdr.so.1.0.10
+[50.462s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/lib/libfastcdr.so
+[50.464s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/share/fastcdr/cmake/fastcdr-targets.cmake
+[50.467s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/share/fastcdr/cmake/fastcdr-targets-release.cmake
+[50.469s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/share/fastcdr/cmake/fastcdr-config.cmake
+[50.471s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/fastcdr-1.0.10/share/fastcdr/cmake/fastcdr-config-version.cmake
+[50.598s] [ 19%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o[0m
+[50.642s] [ 37%] [34m[1mPerforming test step for 'fastcdr'[0m
+[50.997s] [ 39%] [34m[1mCompleted 'fastcdr'[0m
+[51.053s] [ 22%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o[0m
+[51.350s] [ 39%] Built target fastcdr
+[51.381s] [ 25%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o[0m
+[52.884s] [ 29%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o[0m
+[53.291s] [ 32%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o[0m
+[53.630s] [ 35%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o[0m
+[53.899s] [ 38%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o[0m
+[57.684s] [ 41%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o[0m
+[57.968s] [ 45%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o[0m
+[58.278s] [ 48%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o[0m
+[58.600s] [ 51%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o[0m
+[59.041s] [ 54%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o[0m
+[59.501s] [ 58%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o[0m
+[60.014s] [ 61%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o[0m
+[60.376s] [ 64%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o[0m
+[60.764s] [ 67%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o[0m
+[61.197s] [ 70%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o[0m
+[61.529s] [ 74%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o[0m
+[62.028s] [ 77%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o[0m
+[62.510s] [ 80%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o[0m
+[63.043s] [ 83%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o[0m
+[63.672s] [ 87%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o[0m
+[64.089s] [ 90%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_protocol.c.o[0m
+[64.600s] [ 93%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o[0m
+[65.008s] [ 96%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o[0m
+[65.353s] [100%] [32m[1mLinking C shared library libmicroxrcedds_client.so[0m
+[65.817s] [100%] Built target microxrcedds_client
+[66.091s] [34m[1mNo install step for 'uclient'[0m
+[66.326s] [34m[1mCompleted 'uclient'[0m
+[66.619s] Built target uclient
+[66.848s] [ 41%] [34m[1mPerforming install step for 'microxrcedds_client'[0m
+[67.006s] [35m[1mConsolidate compiler generated dependencies of target microxrcedds_client[0m
+[67.093s] [100%] Built target microxrcedds_client
+[67.193s] [36mInstall the project...[0m
+[67.234s] -- Install configuration: "Release"
+[67.235s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/lib/libmicroxrcedds_client.so.1.2.1
+[67.236s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/lib/libmicroxrcedds_client.so.1.2
+[67.237s] -- Set runtime path of "/workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/lib/libmicroxrcedds_client.so.1.2.1" to ""
+[67.240s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/lib/libmicroxrcedds_client.so
+[67.241s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client
+[67.241s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core
+[67.267s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/communication
+[67.267s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/communication/communication.h
+[67.268s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session
+[67.268s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/session.h
+[67.268s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/stream
+[67.269s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/stream/output_reliable_stream.h
+[67.269s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[67.270s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/stream/input_reliable_stream.h
+[67.270s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[67.270s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/stream/seq_num.h
+[67.271s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/stream/reliable_stream.h
+[67.271s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/stream/stream_id.h
+[67.271s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/stream/stream_storage.h
+[67.272s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/session_info.h
+[67.272s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/common_create_entities.h
+[67.272s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/write_access.h
+[67.273s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/read_access.h
+[67.287s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/time_sync.h
+[67.289s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/object_id.h
+[67.290s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/create_entities_xml.h
+[67.292s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/session/create_entities_ref.h
+[67.293s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/type
+[67.294s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/core/type/xrce_types.h
+[67.296s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/util
+[67.298s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/util/time.h
+[67.299s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile
+[67.300s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport
+[67.301s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/serial
+[67.303s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/serial/serial_protocol.h
+[67.304s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/serial/serial_transport_windows.h
+[67.306s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[67.307s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/serial/serial_transport.h
+[67.309s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[67.310s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/ip
+[67.315s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/ip/ip.h
+[67.331s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/ip/udp
+[67.331s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[67.331s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[67.332s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[67.332s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[67.333s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/ip/tcp
+[67.333s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[67.333s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[67.334s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[67.334s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/discovery
+[67.343s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/profile/discovery/discovery.h
+[67.344s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/defines.h
+[67.344s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/transport.h
+[67.344s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/client.h
+[67.345s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/visibility.h
+[67.380s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/include/uxr/client/config.h
+[67.381s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[67.381s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[67.382s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[67.382s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[67.383s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0
+[67.384s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/include
+[67.384s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/include/ucdr
+[67.385s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/include/ucdr/config.h
+[67.385s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/include/ucdr/microcdr.h
+[67.385s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/include/ucdr/visibility.h
+[67.386s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/lib
+[67.387s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/lib/libmicrocdr.so
+[67.387s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/lib/libmicrocdr.so.1.2.0
+[67.387s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/lib/libmicrocdr.so.1.2
+[67.388s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/share
+[67.388s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/share/microcdr
+[67.389s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/share/microcdr/cmake
+[67.389s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/share/microcdr/cmake/microcdrTargets-release.cmake
+[67.389s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/share/microcdr/cmake/microcdrConfig.cmake
+[67.390s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/share/microcdr/cmake/microcdrTargets.cmake
+[67.390s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/microxrcedds_client-1.2.1/..//microcdr-1.2.0/share/microcdr/cmake/microcdrConfigVersion.cmake
+[67.480s] [ 43%] [34m[1mCompleted 'microxrcedds_client'[0m
+[67.747s] [ 43%] Built target microxrcedds_client
+[79.893s] [ 22%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o[0m
+[87.354s] [ 33%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o[0m
+[104.067s] Cloning into '/workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11/extern/sanitizers'...
+[107.072s] Submodule path 'extern/googletest': checked out 'ec44c6c1675c25b9827aacd08c02433cccde7780'
+[110.572s] Submodule path 'extern/json': checked out 'db53bdac1926d1baebcb459b685dcd2e4608c355'
+[110.644s] Submodule path 'extern/sanitizers': checked out '6947cff3a9c9305eb9c16135dd81da3feb4bf87f'
+[110.759s] [ 44%] [34m[1mPerforming update step for 'cli11'[0m
+[110.847s] [ 46%] [34m[1mNo patch step for 'cli11'[0m
+[110.935s] [ 48%] [34m[1mPerforming configure step for 'cli11'[0m
+[110.965s] loading initial cache file /workspaces/mavlab/build/microxrcedds_agent/CLI11/tmp/cli11-cache-.cmake
+[111.623s] -- The CXX compiler identification is GNU 11.4.0
+[111.654s] -- Detecting CXX compiler ABI info
+[111.975s] -- Detecting CXX compiler ABI info - done
+[112.014s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[112.017s] -- Detecting CXX compile features
+[112.022s] -- Detecting CXX compile features - done
+[112.061s] -- Configuring done
+[112.069s] -- Generating done
+[112.074s] -- Build files have been written to: /workspaces/mavlab/build/microxrcedds_agent/CLI11/src/cli11-build
+[112.144s] [ 50%] [34m[1mPerforming build step for 'cli11'[0m
+[112.315s] [ 51%] [34m[1mPerforming install step for 'cli11'[0m
+[112.462s] [36mInstall the project...[0m
+[112.497s] -- Install configuration: ""
+[112.501s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI
+[112.505s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/ConfigFwd.hpp
+[112.511s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/Option.hpp
+[112.518s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/FormatterFwd.hpp
+[112.524s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/Split.hpp
+[112.529s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/Config.hpp
+[112.535s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/Validators.hpp
+[112.540s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/TypeTools.hpp
+[112.546s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/Version.hpp
+[112.552s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/App.hpp
+[112.563s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/Formatter.hpp
+[112.569s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/Optional.hpp
+[112.575s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/Error.hpp
+[112.581s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/Macros.hpp
+[112.587s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/StringTools.hpp
+[112.593s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/Timer.hpp
+[112.598s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/include/CLI/CLI.hpp
+[112.605s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/lib/cmake/CLI11/CLI11ConfigVersion.cmake
+[112.611s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/cli11-1.7.1/lib/cmake/CLI11/CLI11Config.cmake
+[112.680s] [ 53%] [34m[1mCompleted 'cli11'[0m
+[112.828s] [ 53%] Built target cli11
+[121.076s] [ 44%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o[0m
+[133.263s] [ 55%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o[0m
+[140.836s] [ 66%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/async.cpp.o[0m
+[146.710s] [ 77%] [32m[1mLinking CXX static library libspdlog.a[0m
+[146.877s] [ 77%] Built target spdlog
+[146.945s] [ 88%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[167.225s] [100%] [32m[1mLinking CXX executable example[0m
+[167.684s] [100%] Built target example
+[167.772s] [ 55%] [34m[1mPerforming install step for 'spdlog'[0m
+[167.880s] [35m[1mConsolidate compiler generated dependencies of target spdlog[0m
+[167.946s] [ 77%] Built target spdlog
+[167.983s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[168.030s] [100%] Built target example
+[168.090s] [36mInstall the project...[0m
+[168.130s] -- Install configuration: "Release"
+[168.132s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include
+[168.154s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog
+[168.155s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/formatter.h
+[168.155s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/logger-inl.h
+[168.156s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt
+[168.156s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/ostr.h
+[168.156s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/fmt.h
+[168.157s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bin_to_hex.h
+[168.157s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/async_logger-inl.h
+[168.158s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks
+[168.159s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/base_sink-inl.h
+[168.159s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/null_sink.h
+[168.159s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/msvc_sink.h
+[168.160s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/dist_sink.h
+[168.162s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/daily_file_sink.h
+[168.163s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/sink-inl.h
+[168.163s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/rotating_file_sink-inl.h
+[168.164s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/ansicolor_sink-inl.h
+[168.164s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/systemd_sink.h
+[168.164s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/wincolor_sink.h
+[168.165s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/basic_file_sink.h
+[168.165s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/stdout_color_sinks-inl.h
+[168.166s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/basic_file_sink-inl.h
+[168.166s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/wincolor_sink-inl.h
+[168.167s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/ansicolor_sink.h
+[168.167s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/sink.h
+[168.167s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/android_sink.h
+[168.168s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/rotating_file_sink.h
+[168.168s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/syslog_sink.h
+[168.177s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/ostream_sink.h
+[168.178s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/stdout_color_sinks.h
+[168.178s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/stdout_sinks-inl.h
+[168.179s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/dup_filter_sink.h
+[168.179s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/stdout_sinks.h
+[168.179s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/sinks/base_sink.h
+[168.180s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/logger.h
+[168.180s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/async_logger.h
+[168.181s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/tweakme.h
+[168.181s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/spdlog-inl.h
+[168.182s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/spdlog.h
+[168.182s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details
+[168.182s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/log_msg-inl.h
+[168.183s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/thread_pool.h
+[168.183s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/console_globals.h
+[168.184s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/os.h
+[168.184s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/backtracer-inl.h
+[168.185s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/pattern_formatter.h
+[168.185s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/log_msg_buffer.h
+[168.196s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/synchronous_factory.h
+[168.196s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/registry-inl.h
+[168.197s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/log_msg_buffer-inl.h
+[168.197s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/registry.h
+[168.198s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/circular_q.h
+[168.198s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/mpmc_blocking_q.h
+[168.204s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/periodic_worker-inl.h
+[168.205s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/log_msg.h
+[168.205s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/file_helper.h
+[168.206s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/os-inl.h
+[168.206s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/thread_pool-inl.h
+[168.207s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/fmt_helper.h
+[168.207s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/pattern_formatter-inl.h
+[168.208s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/periodic_worker.h
+[168.208s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/null_mutex.h
+[168.214s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/backtracer.h
+[168.214s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/details/file_helper-inl.h
+[168.215s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/common.h
+[168.215s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/version.h
+[168.215s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/common-inl.h
+[168.216s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/async.h
+[168.216s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/lib/libspdlog.a
+[168.217s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled/
+[168.217s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//core.h
+[168.218s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//ranges.h
+[168.218s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//format.h
+[168.218s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//posix.h
+[168.219s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//format-inl.h
+[168.220s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//color.h
+[168.220s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//ostream.h
+[168.220s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//compile.h
+[168.221s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//printf.h
+[168.221s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//chrono.h
+[168.222s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//safe-duration-cast.h
+[168.223s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//LICENSE.rst
+[168.223s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/include/spdlog/fmt/bundled//locale.h
+[168.224s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/lib/pkgconfig/spdlog.pc
+[168.224s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/lib/spdlog/cmake/spdlogConfigTargets.cmake
+[168.225s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/lib/spdlog/cmake/spdlogConfigTargets-release.cmake
+[168.225s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/lib/spdlog/cmake/spdlogConfig.cmake
+[168.225s] -- Installing: /workspaces/mavlab/build/microxrcedds_agent/temp_install/spdlog-1.4.2/lib/spdlog/cmake/spdlogConfigVersion.cmake
+[168.285s] [ 56%] [34m[1mCompleted 'spdlog'[0m
+[168.397s] [ 56%] Built target spdlog
+[168.467s] [ 58%] [34m[1mCreating directories for 'fastrtps'[0m
+[168.713s] [ 60%] [34m[1mPerforming download step (git clone) for 'fastrtps'[0m
+[168.776s] Cloning into 'fastrtps'...
+[256.832s] HEAD is now at b257a3350 XML Services [1.8.x] [7117] (#930)
+[256.940s] Submodule 'thirdparty/android-ifaddrs' (https://github.com/michalsrb/android-ifaddrs.git) registered for path 'thirdparty/android-ifaddrs'
+[256.942s] Submodule 'thirdparty/asio' (https://github.com/chriskohlhoff/asio.git) registered for path 'thirdparty/asio'
+[256.947s] Submodule 'thirdparty/fastcdr' (https://github.com/eProsima/Fast-CDR.git) registered for path 'thirdparty/fastcdr'
+[256.952s] Submodule 'thirdparty/idl' (https://github.com/eProsima/IDL-Parser.git) registered for path 'thirdparty/idl'
+[256.956s] Submodule 'thirdparty/tinyxml2' (https://github.com/leethomason/tinyxml2.git) registered for path 'thirdparty/tinyxml2'
+[256.977s] Cloning into '/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps/thirdparty/android-ifaddrs'...
+[258.299s] Cloning into '/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps/thirdparty/asio'...
+[270.316s] Cloning into '/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps/thirdparty/fastcdr'...
+[273.073s] Cloning into '/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps/thirdparty/idl'...
+[274.513s] Cloning into '/workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps/thirdparty/tinyxml2'...
+[276.479s] Submodule path 'thirdparty/android-ifaddrs': checked out '7b1ce82817226e481d3cda0a5d06b66ebcc211f8'
+[276.837s] Submodule path 'thirdparty/asio': checked out '22afb86087a77037cd296d27134756c9b0d2cb75'
+[276.994s] Submodule path 'thirdparty/fastcdr': checked out '649b9a0e763f8a4cfdd41238b1495c58b7ea6660'
+[277.089s] Submodule path 'thirdparty/idl': checked out '5946239310a7d3ea9632dc42f58785634cefb53c'
+[277.205s] Submodule path 'thirdparty/tinyxml2': checked out '8c8293ba8969a46947606a93ff0cb5a083aab47a'
+[277.321s] [ 62%] [34m[1mPerforming update step for 'fastrtps'[0m
+[277.416s] [ 63%] [34m[1mNo patch step for 'fastrtps'[0m
+[277.499s] [ 65%] [34m[1mPerforming configure step for 'fastrtps'[0m
+[277.529s] loading initial cache file /workspaces/mavlab/build/microxrcedds_agent/fastrtps/tmp/fastrtps-cache-.cmake
+[277.532s] -- Setting build type to 'Release' as none was specified.
+[277.737s] -- The C compiler identification is GNU 11.4.0
+[277.977s] -- The CXX compiler identification is GNU 11.4.0
+[278.010s] -- Detecting C compiler ABI info
+[278.268s] -- Detecting C compiler ABI info - done
+[278.308s] -- Check for working C compiler: /usr/bin/cc - skipped
+[278.310s] -- Detecting C compile features
+[278.312s] -- Detecting C compile features - done
+[278.326s] -- Detecting CXX compiler ABI info
+[278.625s] -- Detecting CXX compiler ABI info - done
+[278.669s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[278.671s] -- Detecting CXX compile features
+[278.672s] -- Detecting CXX compile features - done
+[278.675s] -- Configuring Fast RTPS
+[278.677s] -- Version: 1.8.3
+[278.678s] -- To change the version modify the file configure.ac
+[278.682s] -- Performing Test SUPPORTS_CXX14
+[278.967s] -- Performing Test SUPPORTS_CXX14 - Success
+[278.971s] -- Performing Test SUPPORTS_CXX1Y
+[279.273s] -- Performing Test SUPPORTS_CXX1Y - Success
+[279.278s] -- Performing Test SUPPORTS_CXX11
+[279.568s] -- Performing Test SUPPORTS_CXX11 - Success
+[279.581s] -- fastcdr library found...
+[279.990s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[279.992s]   The package name passed to `find_package_handle_standard_args` (tinyxml2)
+[279.994s]   does not match the name of the calling package (TinyXML2).  This can lead
+[279.996s]   to problems in calling code that expects `find_package` result variables
+[279.998s]   (e.g., `_FOUND`) to follow a certain pattern.
+[280.000s] Call Stack (most recent call first):
+[280.001s]   cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+[280.003s]   cmake/common/eprosima_libraries.cmake:96 (find_package)
+[280.005s]   CMakeLists.txt:220 (eprosima_find_thirdparty)
+[280.007s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[280.010s] [0m
+[280.012s] -- Found tinyxml2: /workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps/thirdparty/tinyxml2  
+[280.184s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[280.199s] -- Looking for pthread.h
+[280.478s] -- Looking for pthread.h - found
+[280.481s] -- Looking for pthread_kill
+[280.605s] -- Looking for pthread_kill - not found
+[280.607s] -- Looking for pthread_create in pthreads
+[280.812s] -- Looking for pthread_create in pthreads - not found
+[280.813s] -- Looking for pthread_create in pthread
+[281.072s] -- Looking for pthread_create in pthread - found
+[281.076s] -- Found Threads: TRUE  
+[281.180s] -- Found GTest: /usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+[281.239s] -- Could NOT find GMock (missing: GMOCK_LIBRARY GMOCK_INCLUDE_DIR GMOCK_MAIN_LIBRARY) 
+[281.285s] -- Configuring done
+[281.503s] -- Generating done
+[281.518s] -- Build files have been written to: /workspaces/mavlab/build/microxrcedds_agent/fastrtps/src/fastrtps-build
+[281.596s] [ 67%] [34m[1mPerforming build step for 'fastrtps'[0m
+[281.763s] [  0%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/log/Log.cpp.o[0m
+[293.551s] [  1%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/log/FileConsumer.cpp.o[0m

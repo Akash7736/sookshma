@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgEkfVelBody.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "sbg_driver/msg/SbgEkfStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages")
+    struct SbgEkfVelBody {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Time since sensor is powered up")
+      @unit (value="us")
+      uint32 time_stamp;
+
+      @verbatim (language="comment", text=
+        "Velocity" "\n"
+        "In NED convention:" "\n"
+        "  x: North" "\n"
+        "  y: East" "\n"
+        "  z: Down" "\n"
+        "In ENU convention:" "\n"
+        "  x: East" "\n"
+        "  y: North" "\n"
+        "  z: Up")
+      @unit (value="m/s")
+      geometry_msgs::msg::Vector3 velocity;
+
+      @verbatim (language="comment", text=
+        "Velocity accuracy (1 sigma)." "\n"
+        "In NED convention:" "\n"
+        "  x: North" "\n"
+        "  y: East" "\n"
+        "  z: Vertical" "\n"
+        "In ENU convention:" "\n"
+        "  x: East" "\n"
+        "  y: North" "\n"
+        "  z: Vertical")
+      @unit (value="m/s")
+      geometry_msgs::msg::Vector3 velocity_accuracy;
+
+      @verbatim (language="comment", text=
+        "Global solution status")
+      sbg_driver::msg::SbgEkfStatus status;
+    };
+  };
+};

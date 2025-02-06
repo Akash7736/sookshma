@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastcdr"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastcdr.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastcdr-complete.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-build.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-configure.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-download.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-install.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-patch.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-test.rule"
+		},
+		{
+			"file" : "/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fastcdr"
+		],
+		"name" : "fastcdr"
+	}
+}

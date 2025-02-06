@@ -1,0 +1,70 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgGpsHdt.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages")
+    struct SbgGpsHdt {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Time since sensor is powered up")
+      @unit (value="us")
+      uint32 time_stamp;
+
+      @verbatim (language="comment", text=
+        "GPS True Heading status." "\n"
+        "Bit 0-5: enum:" "\n"
+        "0 SOL_COMPUTED  A valid solution has been computed." "\n"
+        "1 INSUFFICIENT_OBS Not enough valid SV to compute a solution." "\n"
+        "2 INTERNAL_ERROR  An internal error has occurred." "\n"
+        "3 HEIGHT_LIMIT  The height limit has been exceeded." "\n"
+        "Bit 6: mask:" "\n"
+        "1 BASELINE_VALID      The baseline length field is filled and valid.")
+      uint16 status;
+
+      @verbatim (language="comment", text=
+        "GPS Time of Week")
+      @unit (value="ms")
+      uint32 tow;
+
+      @verbatim (language="comment", text=
+        "True heading angle (0 to 360 deg)" "\n"
+        "NED convention: Rotation about the down axis. Zero when the X axis is pointing North." "\n"
+        "ENU convention: Rotation about the up axis. Zero when the X axis is pointing East. (opposite sign compared to NED)")
+      float true_heading;
+
+      @verbatim (language="comment", text=
+        "1 sigma True heading estimated accuracy")
+      float true_heading_acc;
+
+      @verbatim (language="comment", text=
+        "Pitch" "\n"
+        "NED convention:" "\n"
+        "  angle from the master to the rover" "\n"
+        "ENU convention:" "\n"
+        "  angle from the rover to the master")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        "1 sigma pitch estimated accuracy")
+      float pitch_acc;
+
+      @verbatim (language="comment", text=
+        "The distance between the main and aux antenna in meters.")
+      float baseline;
+
+      @verbatim (language="comment", text=
+        "Number of space vehicle tracked in true heading solution. 0xFF if N/A")
+      uint8 num_sv_tracked;
+
+      @verbatim (language="comment", text=
+        "Number of used space vehicle in true heading solution. 0xFF if N/A")
+      uint8 num_sv_used;
+    };
+  };
+};

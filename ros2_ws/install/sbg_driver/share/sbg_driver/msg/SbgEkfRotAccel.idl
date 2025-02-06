@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgEkfRotAccel.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages")
+    struct SbgEkfRotAccel {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Time since sensor is powered up")
+      @unit (value="us")
+      uint32 time_stamp;
+
+      @verbatim (language="comment", text=
+        "INS rotation rate free from earth rotation and sensor bias/scale errors (rad.s^-1)" "\n"
+        "In NED convention:" "\n"
+        "  X: North" "\n"
+        "  Y: East" "\n"
+        "  Z: Down" "\n"
+        "In ENU convention:" "\n"
+        "  X: East" "\n"
+        "  Y: North" "\n"
+        "  Z: Up")
+      geometry_msgs::msg::Vector3 rate;
+
+      @verbatim (language="comment", text=
+        "INS accelerations and free from gravity and sensor bias/scale errors (m.s^-2)" "\n"
+        "In NED convention:" "\n"
+        "  X: North" "\n"
+        "  Y: East" "\n"
+        "  Z: Down" "\n"
+        "In ENU convention:" "\n"
+        "  X: East" "\n"
+        "  Y: North" "\n"
+        "  Z: Up")
+      geometry_msgs::msg::Vector3 acceleration;
+    };
+  };
+};

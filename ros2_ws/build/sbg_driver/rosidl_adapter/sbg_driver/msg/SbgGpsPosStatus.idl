@@ -1,0 +1,132 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgGpsPosStatus.msg
+// generated code does not contain a copyright notice
+
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages" "\n"
+      "Submessage")
+    struct SbgGpsPosStatus {
+      @verbatim (language="comment", text=
+        "The raw GPS position status" "\n"
+        "0 SOL_COMPUTED  A valid solution has been computed." "\n"
+        "1 INSUFFICIENT_OBS  Not enough valid SV to compute a solution." "\n"
+        "2 INTERNAL_ERROR   An internal error has occurred." "\n"
+        "3 HEIGHT_LIMIT   The height limit has been exceeded.")
+      uint8 status;
+
+      @verbatim (language="comment", text=
+        "The raw GPS position type" "\n"
+        "0 NO_SOLUTION  No valid solution available." "\n"
+        "1 UNKNOWN_TYPE An unknown solution type has been computed." "\n"
+        "2 SINGLE   Single point solution position." "\n"
+        "3 PSRDIFF   Standard Pseudorange Differential Solution (DGPS)." "\n"
+        "4 SBAS   SBAS satellite used for differential corrections." "\n"
+        "5 OMNISTAR  Omnistar VBS Position (L1 sub-meter)." "\n"
+        "6 RTK_FLOAT  Floating RTK ambiguity solution (20 cms RTK)." "\n"
+        "7 RTK_INT   Integer RTK ambiguity solution (2 cms RTK)." "\n"
+        "8 PPP_FLOAT  Precise Point Positioning with float ambiguities" "\n"
+        "9 PPP_INT   Precise Point Positioning with fixed ambiguities" "\n"
+        "10 FIXED   Fixed location solution position")
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "The ifm status" "\n"
+        "0 ERROR      Interference monitoring system is in error and doesn't work." "\n"
+        "1 UNKNOWN      Interference monitoring is either disabled or not available." "\n"
+        "2 CLEAN      Interference are monitored and the environment is clean." "\n"
+        "3 MITIGATED       Interference are detected and mitigated, the PVT is OK." "\n"
+        "4 CRITICAL        Interference are detected and couldn't be mitigated, the PVT is invalid.")
+      uint8 ifm;
+
+      @verbatim (language="comment", text=
+        "The spoofing status" "\n"
+        "0 ERROR   Spoofing detection system is in error and doesn't work." "\n"
+        "1 UNKNOWN   Spoofing detection is either disabled or not available." "\n"
+        "2 CLEAN   Spoofing detection is enabled and no spoofer is detected." "\n"
+        "3 SINGLE   Probable spoofing identified by one method only." "\n"
+        "4 MULTIPLE  Confirmed spoofing identified by several methods such as Galileo OSNMA + Built In.")
+      uint8 spoofing;
+
+      @verbatim (language="comment", text=
+        "The OSNMA status" "\n"
+        "0 ERROR      No valid solution available." "\n"
+        "1 DISABLED     An unknown solution type has been computed." "\n"
+        "2 INITIALIZING Single point solution position." "\n"
+        "3 WAITING_NTP  Standard Pseudorange Differential Solution (DGPS)." "\n"
+        "4 VALID   SBAS satellite used for differential corrections." "\n"
+        "5 SPOOFED      Omnistar VBS Position (L1 sub-meter).")
+      uint8 osnma;
+
+      @verbatim (language="comment", text=
+        "True if GPS L1 is used in the solution")
+      boolean gps_l1_used;
+
+      @verbatim (language="comment", text=
+        "True if GPS L2 is used in the solution")
+      boolean gps_l2_used;
+
+      @verbatim (language="comment", text=
+        "True if GPS L5 is used in the solution")
+      boolean gps_l5_used;
+
+      @verbatim (language="comment", text=
+        "True if GLONASS L1 is used in the solution")
+      boolean glo_l1_used;
+
+      @verbatim (language="comment", text=
+        "True if GLONASS L2 is used in the solution")
+      boolean glo_l2_used;
+
+      @verbatim (language="comment", text=
+        "True if GLONASS L3 is used in the solution")
+      boolean glo_l3_used;
+
+      @verbatim (language="comment", text=
+        "True if GALILEO E1 is used in the solution")
+      boolean gal_e1_used;
+
+      @verbatim (language="comment", text=
+        "True if GALILEO E5a is used in the solution")
+      boolean gal_e5a_used;
+
+      @verbatim (language="comment", text=
+        "True if GALILEO E5b is used in the solution")
+      boolean gal_e5b_used;
+
+      @verbatim (language="comment", text=
+        "True if GALILEO E5 AltBoc is used in the solution")
+      boolean gal_e5alt_used;
+
+      @verbatim (language="comment", text=
+        "True if GALILEO E6 is used in the solution")
+      boolean gal_e6_used;
+
+      @verbatim (language="comment", text=
+        "True if BeiDou B1 is used in the solution")
+      boolean bds_b1_used;
+
+      @verbatim (language="comment", text=
+        "True if BeiDou B2 is used in the solution")
+      boolean bds_b2_used;
+
+      @verbatim (language="comment", text=
+        "True if BeiDou B3 is used in the solution")
+      boolean bds_b3_used;
+
+      @verbatim (language="comment", text=
+        "True if QZSS L1CA is used in the solution")
+      boolean qzss_l1_used;
+
+      @verbatim (language="comment", text=
+        "True if QZSS L2C is used in the solution")
+      boolean qzss_l2_used;
+
+      @verbatim (language="comment", text=
+        "True if QZSS L5 is used in the solution")
+      boolean qzss_l5_used;
+    };
+  };
+};

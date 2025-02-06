@@ -1,0 +1,149 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgStatusCom.msg
+// generated code does not contain a copyright notice
+
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages" "\n"
+      "SbgStatus submessage")
+    struct SbgStatusCom {
+      @verbatim (language="comment", text=
+        "PORT A: False in case of low level communication error.")
+      boolean port_a;
+
+      @verbatim (language="comment", text=
+        "PORT B: False in case of low level communication error.")
+      boolean port_b;
+
+      @verbatim (language="comment", text=
+        "PORT C: False in case of low level communication error.")
+      boolean port_c;
+
+      @verbatim (language="comment", text=
+        "PORT D: False in case of low level communication error.")
+      boolean port_d;
+
+      @verbatim (language="comment", text=
+        "PORT E: False in case of low level communication error.")
+      boolean port_e;
+
+      @verbatim (language="comment", text=
+        "PORT A RX: False in case of saturation on PORT A input")
+      boolean port_a_rx;
+
+      @verbatim (language="comment", text=
+        "PORT A TX: False in case of saturation on PORT A output")
+      boolean port_a_tx;
+
+      @verbatim (language="comment", text=
+        "PORT B RX: False in case of saturation on PORT B input")
+      boolean port_b_rx;
+
+      @verbatim (language="comment", text=
+        "PORT B TX: False in case of saturation on PORT B output")
+      boolean port_b_tx;
+
+      @verbatim (language="comment", text=
+        "PORT C RX: False in case of saturation on PORT C input")
+      boolean port_c_rx;
+
+      @verbatim (language="comment", text=
+        "PORT C TX: False in case of saturation on PORT C output")
+      boolean port_c_tx;
+
+      @verbatim (language="comment", text=
+        "PORT D RX: False in case of saturation on PORT D input")
+      boolean port_d_rx;
+
+      @verbatim (language="comment", text=
+        "PORT D TX: False in case of saturation on PORT D output")
+      boolean port_d_tx;
+
+      @verbatim (language="comment", text=
+        "PORT E RX: False in case of saturation on PORT E input")
+      boolean port_e_rx;
+
+      @verbatim (language="comment", text=
+        "PORT E TX: False in case of saturation on PORT E output")
+      boolean port_e_tx;
+
+      @verbatim (language="comment", text=
+        "ETH 0: False in case of low level communication error.")
+      boolean eth_0;
+
+      @verbatim (language="comment", text=
+        "ETH 1: False in case of low level communication error.")
+      boolean eth_1;
+
+      @verbatim (language="comment", text=
+        "ETH 2: False in case of low level communication error.")
+      boolean eth_2;
+
+      @verbatim (language="comment", text=
+        "ETH 3: False in case of low level communication error.")
+      boolean eth_3;
+
+      @verbatim (language="comment", text=
+        "ETH 4: False in case of low level communication error.")
+      boolean eth_4;
+
+      @verbatim (language="comment", text=
+        "ETH 0 RX: False in case of error on ETH0 input.")
+      boolean eth_0_rx;
+
+      @verbatim (language="comment", text=
+        "ETH 0 TX: False in case of error on ETH0 output.")
+      boolean eth_0_tx;
+
+      @verbatim (language="comment", text=
+        "ETH 1 RX: False in case of error on ETH1 input.")
+      boolean eth_1_rx;
+
+      @verbatim (language="comment", text=
+        "ETH 1 TX: False in case of error on ETH1 output.")
+      boolean eth_1_tx;
+
+      @verbatim (language="comment", text=
+        "ETH 2 RX: False in case of error on ETH2 input.")
+      boolean eth_2_rx;
+
+      @verbatim (language="comment", text=
+        "ETH 2 TX: False in case of error on ETH2 output.")
+      boolean eth_2_tx;
+
+      @verbatim (language="comment", text=
+        "ETH 3 RX: False in case of error on ETH3 input.")
+      boolean eth_3_rx;
+
+      @verbatim (language="comment", text=
+        "ETH 3 TX: False in case of error on ETH3 output.")
+      boolean eth_3_tx;
+
+      @verbatim (language="comment", text=
+        "ETH 4 RX: False in case of error on ETH4 input.")
+      boolean eth_4_rx;
+
+      @verbatim (language="comment", text=
+        "ETH 4 TX: False in case of error on ETH4 output.")
+      boolean eth_4_tx;
+
+      @verbatim (language="comment", text=
+        "CAN RX: False in case of saturation on CAN Bus output buffer")
+      boolean can_rx;
+
+      @verbatim (language="comment", text=
+        "CAN TX: False in case of saturation on CAN Bus input buffer")
+      boolean can_tx;
+
+      @verbatim (language="comment", text=
+        "CAN BUS" "\n"
+        "0 CAN BUS OFF   Bus OFF operation due to too much errors." "\n"
+        "1 CAN BUS TX_RX_ERR  Transmit or received error." "\n"
+        "2 CAN BUS OK    The CAN bus is working correctly." "\n"
+        "3 CAN BUS ERROR   A general error has occurred on the CAN bus.")
+      uint8 can_status;
+    };
+  };
+};

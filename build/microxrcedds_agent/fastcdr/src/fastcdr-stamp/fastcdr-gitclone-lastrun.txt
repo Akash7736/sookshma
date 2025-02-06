@@ -1,0 +1,3 @@
+repository='https://github.com/eProsima/Fast-CDR.git'
+module=''
+tag='origin'

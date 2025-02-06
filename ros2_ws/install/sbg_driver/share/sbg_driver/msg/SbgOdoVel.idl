@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgOdoVel.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages")
+    struct SbgOdoVel {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Time since sensor is powered up us")
+      uint32 time_stamp;
+
+      @verbatim (language="comment", text=
+        "Real Measurement" "\n"
+        "True if this log comes from a real pulse measurement" "\n"
+        "False if it comes from a timeout")
+      boolean status;
+
+      @verbatim (language="comment", text=
+        "Velocity in odometer direction (m/s)")
+      float vel;
+    };
+  };
+};

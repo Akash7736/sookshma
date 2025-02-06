@@ -7,7 +7,7 @@ def generate_launch_description():
     # Declare the 'uwb_url' launch argument
     fcu_url_arg = DeclareLaunchArgument(
         name='uwb_url',  # Name of the argument
-        default_value='/dev/ttyUSB0',  # Default value for the argument
+        default_value='/dev/uwb',  # Default value for the argument
         description='FCU URL port for the UWB node'  # Description
     )
 

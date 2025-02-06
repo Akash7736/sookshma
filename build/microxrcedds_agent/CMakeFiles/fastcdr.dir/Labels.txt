@@ -1,0 +1,14 @@
+# Target labels
+ fastcdr
+# Source files and their labels
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastcdr
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastcdr.rule
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastcdr-complete.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-build.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-configure.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-download.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-install.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-mkdir.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-patch.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-test.rule
+/workspaces/mavlab/build/microxrcedds_agent/fastcdr/src/fastcdr-stamp/fastcdr-update.rule

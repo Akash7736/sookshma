@@ -1,0 +1,9 @@
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/microxrcedds_client.dir
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastcdr.dir
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/fastrtps.dir
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/cli11.dir
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/spdlog.dir
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/sanitizers.dir
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/uagent.dir
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/edit_cache.dir
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/rebuild_cache.dir

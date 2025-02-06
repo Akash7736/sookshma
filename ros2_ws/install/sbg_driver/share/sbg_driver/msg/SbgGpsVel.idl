@@ -1,0 +1,67 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgGpsVel.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "sbg_driver/msg/SbgGpsVelStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages")
+    struct SbgGpsVel {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Time since sensor is powered up")
+      @unit (value="us")
+      uint32 time_stamp;
+
+      @verbatim (language="comment", text=
+        "GPS velocity fix and status bitmask")
+      sbg_driver::msg::SbgGpsVelStatus status;
+
+      @verbatim (language="comment", text=
+        "GPS Time of Week")
+      @unit (value="ms")
+      uint32 gps_tow;
+
+      @verbatim (language="comment", text=
+        "Velocity" "\n"
+        "In NED convention:" "\n"
+        "  X: North" "\n"
+        "  Y: East" "\n"
+        "  Z: Down" "\n"
+        "In ENU convention:" "\n"
+        "  X: East" "\n"
+        "  Y: North" "\n"
+        "  Z: Up")
+      @unit (value="m/s")
+      geometry_msgs::msg::Vector3 velocity;
+
+      @verbatim (language="comment", text=
+        "Velocity accuracy (1 sigma)" "\n"
+        "In NED convention:" "\n"
+        "  X: North" "\n"
+        "  Y: East" "\n"
+        "  Z: Vertical" "\n"
+        "In ENU convention:" "\n"
+        "  X: East" "\n"
+        "  Y: North" "\n"
+        "  Z: Vertical")
+      @unit (value="m/s")
+      geometry_msgs::msg::Vector3 velocity_accuracy;
+
+      @verbatim (language="comment", text=
+        "True direction of motion over ground (0 to 360 deg)" "\n"
+        "NED convention: Zero when the X axis is pointing North." "\n"
+        "ENU convention: Zero when the X axis is pointing East. (opposite sign compared to NED)")
+      float course;
+
+      @verbatim (language="comment", text=
+        "1 sigma course accuracy")
+      float course_acc;
+    };
+  };
+};

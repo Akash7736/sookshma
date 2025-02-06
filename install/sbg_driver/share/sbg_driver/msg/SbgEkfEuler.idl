@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sbg_driver/msg/SbgEkfEuler.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "sbg_driver/msg/SbgEkfStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module sbg_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "SBG Ellipse Messages")
+    struct SbgEkfEuler {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Time since sensor is powered up micro")
+      @unit (value="us")
+      uint32 time_stamp;
+
+      @verbatim (language="comment", text=
+        "Angle [Roll, Pitch, Yaw (heading)] [rad]" "\n"
+        "" "\n"
+        "The right-hand convention applies, where positive rotation is indicated by the direction in which" "\n"
+        "the fingers on your right hand curl when your thumb is pointing in the direction of the axis of rotation." "\n"
+        "" "\n"
+        "NED convention:" "\n"
+        "  Roll: Rotation about the X axis: [ -Pi ; Pi ]." "\n"
+        "  Pitch: Rotation about the Y axis: [ -Pi/2 ; Pi/2 ]." "\n"
+        "  Yaw: Rotation about the down axis: [ -Pi ; Pi ]. Zero when the X axis is pointing North." "\n"
+        "" "\n"
+        "ENU convention:" "\n"
+        "  Roll: Rotation around X axis: [ -Pi ; Pi ]." "\n"
+        "  Pitch: Rotation around Y axis: [ -Pi/2 ; Pi/2 ]. (Opposite sign compared to NED)" "\n"
+        "  Yaw: Rotation about the up axis: [ -Pi ; Pi ]. Zero when the X axis is pointing East.")
+      geometry_msgs::msg::Vector3 angle;
+
+      @verbatim (language="comment", text=
+        "Angle accuracy (Roll, Pitch, Yaw (heading)) (1 sigma)")
+      @unit (value="rad")
+      geometry_msgs::msg::Vector3 accuracy;
+
+      @verbatim (language="comment", text=
+        "Global solution status")
+      sbg_driver::msg::SbgEkfStatus status;
+    };
+  };
+};

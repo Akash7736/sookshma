@@ -1,0 +1,13 @@
+# Target labels
+ sanitizers
+# Source files and their labels
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/sanitizers
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/sanitizers.rule
+/workspaces/mavlab/build/microxrcedds_agent/CMakeFiles/sanitizers-complete.rule
+/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-build.rule
+/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-configure.rule
+/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-download.rule
+/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-install.rule
+/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-mkdir.rule
+/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-patch.rule
+/workspaces/mavlab/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-update.rule

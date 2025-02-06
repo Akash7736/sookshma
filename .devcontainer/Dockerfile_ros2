@@ -83,10 +83,11 @@ ENV PYTHONPATH=$PYTHONPATH:/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/
 RUN echo "source /opt/ros/humble/setup.bash" >> /home/mavlab/.bashrc
 RUN echo "alias sros2='source /opt/ros/humble/setup.bash && source /workspaces/mavlab/ros2_ws/install/setup.bash'" >> /home/mavlab/.bashrc
 RUN echo "alias sbg='sros2 && ros2 launch sbg_driver sbg_device_launch.py'" >> /home/mavlab/.bashrc
-RUN echo "alias uwb='sros2 && ros2 run uwb_driver uwb'" >> /home/mavlab/.bashrc
-RUN echo "alias gnc='sros2 && ros2 run gnc gnc'" >> /home/mavlab/.bashrc
-RUN echo "alias mavsim='sros2 && ros2 run mav_simulator simulate'" >> /home/mavlab/.bashrc
+# RUN echo "alias gnc='sros2 && ros2 run gnc gnc'" >> /home/mavlab/.bashrc
+# RUN echo "alias mavsim='sros2 && ros2 run mav_simulator simulate'" >> /home/mavlab/.bashrc
 RUN echo "alias ardusimple='sros2 && ros2 launch ublox_gps ublox_gps_node-launch.py'" >> /home/mavlab/.bashrc
+RUN echo "alias uwb='sros2 && ros2 launch uwb uwb_launch.py'" >> /home/mavlab/.bashrc
+
 
 
 # Expose ports

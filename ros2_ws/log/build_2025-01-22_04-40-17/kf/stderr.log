@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:50 (file):
-  file INSTALL cannot find
-  "/workspaces/mavlab/ros2_ws/src/kf/script/kf_uwb.py": No such file or
-  directory.
-
-[0m

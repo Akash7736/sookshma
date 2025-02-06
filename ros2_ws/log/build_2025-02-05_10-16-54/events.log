@@ -1,0 +1,898 @@
+[0.000000] (-) TimerEvent: {}
+[0.001028] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.006472] (-) JobUnselected: {'identifier': 'hastar'}
+[0.006801] (-) JobUnselected: {'identifier': 'kf'}
+[0.007214] (-) JobUnselected: {'identifier': 'uwb'}
+[0.007699] (sbg_driver) JobQueued: {'identifier': 'sbg_driver', 'dependencies': OrderedDict()}
+[0.007994] (sbg_driver) JobStarted: {'identifier': 'sbg_driver'}
+[0.078505] (sbg_driver) JobProgress: {'identifier': 'sbg_driver', 'progress': 'cmake'}
+[0.081745] (sbg_driver) JobProgress: {'identifier': 'sbg_driver', 'progress': 'build'}
+[0.085010] (sbg_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/mavlab/ros2_ws/build/sbg_driver', '--', '-j4', '-l4'], 'cwd': '/workspaces/mavlab/ros2_ws/build/sbg_driver', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspaces/mavlab/ros2_ws/install/sbg_driver/lib:/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('ARDUINO_CLI_PATH', '/root/.arduino15'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/bin:/home/mavlab/.local/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/sbg_driver:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/hastar:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/sbg_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/sbg_driver:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/hastar:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.098353] (-) TimerEvent: {}
+[0.199033] (-) TimerEvent: {}
+[0.299978] (-) TimerEvent: {}
+[0.364478] (sbg_driver) StdoutLine: {'line': b'[  1%] Built target sbg_driver__cpp\n'}
+[0.375819] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_driver__rosidl_generator_c\x1b[0m\n'}
+[0.400152] (-) TimerEvent: {}
+[0.410082] (sbg_driver) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_sbg_driver\n'}
+[0.445995] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbgECom\x1b[0m\n'}
+[0.467993] (sbg_driver) StdoutLine: {'line': b'[ 11%] Built target sbg_driver__rosidl_generator_c\n'}
+[0.479248] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_driver__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.500316] (-) TimerEvent: {}
+[0.542750] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_driver__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.590319] (sbg_driver) StdoutLine: {'line': b'[ 27%] Built target sbgECom\n'}
+[0.591108] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_driver__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.600471] (-) TimerEvent: {}
+[0.648513] (sbg_driver) StdoutLine: {'line': b'[ 36%] Built target sbg_driver__rosidl_typesupport_cpp\n'}
+[0.700642] (-) TimerEvent: {}
+[0.731457] (sbg_driver) StdoutLine: {'line': b'[ 46%] Built target sbg_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[0.762099] (sbg_driver) StdoutLine: {'line': b'[ 56%] Built target sbg_driver__rosidl_typesupport_introspection_cpp\n'}
+[0.767612] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_driver__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.800790] (-) TimerEvent: {}
+[0.830630] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_driver__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.898075] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_driver__rosidl_typesupport_c\x1b[0m\n'}
+[0.906824] (-) TimerEvent: {}
+[0.945480] (sbg_driver) StdoutLine: {'line': b'[ 66%] Built target sbg_driver__rosidl_typesupport_fastrtps_c\n'}
+[0.948236] (sbg_driver) StdoutLine: {'line': b'[ 75%] Built target sbg_driver__rosidl_typesupport_introspection_c\n'}
+[0.974955] (sbg_driver) StdoutLine: {'line': b'[ 84%] Built target sbg_driver__rosidl_typesupport_c\n'}
+[1.006988] (-) TimerEvent: {}
+[1.042580] (sbg_driver) StdoutLine: {'line': b'[ 84%] Built target sbg_driver\n'}
+[1.110813] (-) TimerEvent: {}
+[1.125362] (sbg_driver) StdoutLine: {'line': b'[ 84%] Built target sbg_driver__py\n'}
+[1.132747] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_device\x1b[0m\n'}
+[1.158597] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_device_mag\x1b[0m\n'}
+[1.210969] (-) TimerEvent: {}
+[1.264254] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_driver__rosidl_generator_py\x1b[0m\n'}
+[1.311122] (-) TimerEvent: {}
+[1.367944] (sbg_driver) StdoutLine: {'line': b'[ 87%] Built target sbg_device\n'}
+[1.402001] (sbg_driver) StdoutLine: {'line': b'[ 89%] Built target sbg_device_mag\n'}
+[1.411322] (-) TimerEvent: {}
+[1.468424] (sbg_driver) StdoutLine: {'line': b'[ 98%] Built target sbg_driver__rosidl_generator_py\n'}
+[1.501089] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_driver__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.506218] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_driver__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.511449] (-) TimerEvent: {}
+[1.536315] (sbg_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sbg_driver__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.591064] (sbg_driver) StdoutLine: {'line': b'[ 99%] Built target sbg_driver__rosidl_typesupport_introspection_c__pyext\n'}
+[1.601994] (sbg_driver) StdoutLine: {'line': b'[100%] Built target sbg_driver__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.603095] (sbg_driver) StdoutLine: {'line': b'[100%] Built target sbg_driver__rosidl_typesupport_c__pyext\n'}
+[1.611598] (-) TimerEvent: {}
+[1.712176] (-) TimerEvent: {}
+[1.812787] (-) TimerEvent: {}
+[1.818051] (sbg_driver) StdoutLine: {'line': b'running egg_info\n'}
+[1.820671] (sbg_driver) StdoutLine: {'line': b'writing sbg_driver.egg-info/PKG-INFO\n'}
+[1.821427] (sbg_driver) StdoutLine: {'line': b'writing dependency_links to sbg_driver.egg-info/dependency_links.txt\n'}
+[1.822115] (sbg_driver) StdoutLine: {'line': b'writing top-level names to sbg_driver.egg-info/top_level.txt\n'}
+[1.834785] (sbg_driver) StdoutLine: {'line': b"reading manifest file 'sbg_driver.egg-info/SOURCES.txt'\n"}
+[1.838019] (sbg_driver) StdoutLine: {'line': b"writing manifest file 'sbg_driver.egg-info/SOURCES.txt'\n"}
+[1.913031] (-) TimerEvent: {}
+[1.948174] (sbg_driver) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_sbg_driver_egg\n'}
+[1.984794] (sbg_driver) CommandEnded: {'returncode': 0}
+[2.013253] (-) TimerEvent: {}
+[2.113858] (-) TimerEvent: {}
+[2.214454] (-) TimerEvent: {}
+[2.315949] (-) TimerEvent: {}
+[2.416522] (-) TimerEvent: {}
+[2.517521] (-) TimerEvent: {}
+[2.618186] (-) TimerEvent: {}
+[2.719422] (-) TimerEvent: {}
+[2.819998] (-) TimerEvent: {}
+[2.920826] (-) TimerEvent: {}
+[3.021395] (-) TimerEvent: {}
+[3.121973] (-) TimerEvent: {}
+[3.222558] (-) TimerEvent: {}
+[3.323191] (-) TimerEvent: {}
+[3.424453] (-) TimerEvent: {}
+[3.525051] (-) TimerEvent: {}
+[3.567293] (sbg_driver) JobProgress: {'identifier': 'sbg_driver', 'progress': 'install'}
+[3.593330] (sbg_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/mavlab/ros2_ws/build/sbg_driver'], 'cwd': '/workspaces/mavlab/ros2_ws/build/sbg_driver', 'env': OrderedDict([('HOSTNAME', 'jetsonmakara-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspaces/mavlab/ros2_ws/install/sbg_driver/lib:/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mavlab'), ('OLDPWD', '/workspaces/mavlab'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('ARDUINO_CLI_PATH', '/root/.arduino15'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'mavlab'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mavlab/bin:/home/mavlab/.local/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/sbg_driver:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/hastar:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('PWD', '/workspaces/mavlab/ros2_ws/build/sbg_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages:/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/workspaces/mavlab/ros2_ws/install/mav_simulator/lib/python3.10/site-packages/mav_simulator:/workspaces/mavlab/ros2_ws/install/gnc/lib/python3.10/site-packages/gnc:/workspaces/mavlab/ros2_ws/install/uwb_driver/lib/python3.10/site-packages/uwb_driver/'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/mavlab/ros2_ws/install/uwb:/workspaces/mavlab/ros2_ws/install/sbg_driver:/workspaces/mavlab/ros2_ws/install/kf:/workspaces/mavlab/ros2_ws/install/hastar:/workspaces/mavlab/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[3.618461] (sbg_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.619255] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/ament_index/resource_index/rosidl_interfaces/sbg_driver\n'}
+[3.619883] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver\n'}
+[3.620455] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg\n'}
+[3.620970] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag.h\n'}
+[3.621450] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel.h\n'}
+[3.621894] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_nav.h\n'}
+[3.622381] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status.h\n'}
+[3.622924] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_com.h\n'}
+[3.623314] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_short.h\n'}
+[3.623648] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_aiding.h\n'}
+[3.624149] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data_status.h\n'}
+[3.624590] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time_status.h\n'}
+[3.625062] (-) TimerEvent: {}
+[3.625861] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_quat.h\n'}
+[3.626390] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_raw.h\n'}
+[3.627138] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion.h\n'}
+[3.627933] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_vel_body.h\n'}
+[3.628549] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time.h\n'}
+[3.629210] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_event.h\n'}
+[3.629770] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos.h\n'}
+[3.630301] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_data.h\n'}
+[3.631045] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_odo_vel.h\n'}
+[3.631594] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_general.h\n'}
+[3.632127] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data.h\n'}
+[3.632598] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_status.h\n'}
+[3.633080] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos_status.h\n'}
+[3.633525] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion_status.h\n'}
+[3.634039] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_status.h\n'}
+[3.634479] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_calib.h\n'}
+[3.634984] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_status.h\n'}
+[3.635437] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_rot_accel.h\n'}
+[3.635885] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_hdt.h\n'}
+[3.636393] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail\n'}
+[3.636914] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__struct.h\n'}
+[3.637361] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__struct.h\n'}
+[3.637811] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__struct.h\n'}
+[3.638246] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__functions.c\n'}
+[3.638775] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__functions.c\n'}
+[3.639261] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__functions.h\n'}
+[3.639757] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__functions.h\n'}
+[3.640206] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__functions.c\n'}
+[3.640696] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__struct.h\n'}
+[3.641099] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__functions.h\n'}
+[3.641547] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__functions.c\n'}
+[3.641899] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__functions.h\n'}
+[3.642292] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__type_support.h\n'}
+[3.642628] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__type_support.h\n'}
+[3.643137] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__functions.c\n'}
+[3.643621] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__functions.c\n'}
+[3.644001] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__functions.c\n'}
+[3.644404] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__functions.h\n'}
+[3.644857] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__type_support.h\n'}
+[3.645306] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.h\n'}
+[3.645748] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__functions.c\n'}
+[3.646200] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__functions.h\n'}
+[3.646663] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__functions.h\n'}
+[3.647174] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__functions.c\n'}
+[3.647622] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__functions.h\n'}
+[3.648059] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__functions.h\n'}
+[3.648507] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__type_support.h\n'}
+[3.648851] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__struct.h\n'}
+[3.649191] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__struct.h\n'}
+[3.649578] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__functions.c\n'}
+[3.649923] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__functions.h\n'}
+[3.650341] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__type_support.h\n'}
+[3.650884] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__functions.h\n'}
+[3.651393] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__functions.c\n'}
+[3.651896] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__type_support.h\n'}
+[3.652419] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__struct.h\n'}
+[3.652937] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__struct.h\n'}
+[3.653420] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__type_support.h\n'}
+[3.653861] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__type_support.h\n'}
+[3.654190] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.h\n'}
+[3.654636] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__functions.c\n'}
+[3.655191] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__type_support.h\n'}
+[3.655639] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__struct.h\n'}
+[3.656083] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.h\n'}
+[3.656578] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__functions.c\n'}
+[3.657018] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__functions.c\n'}
+[3.657513] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__struct.h\n'}
+[3.657960] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__type_support.h\n'}
+[3.658457] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c\n'}
+[3.659043] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__struct.h\n'}
+[3.659505] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__functions.c\n'}
+[3.659994] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__functions.h\n'}
+[3.660682] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__type_support.h\n'}
+[3.661150] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__struct.h\n'}
+[3.661636] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__type_support.h\n'}
+[3.662080] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__type_support.h\n'}
+[3.662524] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.h\n'}
+[3.663063] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__struct.h\n'}
+[3.663982] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__type_support.h\n'}
+[3.664445] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__functions.c\n'}
+[3.664947] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__struct.h\n'}
+[3.665688] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__functions.h\n'}
+[3.666197] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__type_support.h\n'}
+[3.666642] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__type_support.h\n'}
+[3.667198] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__type_support.h\n'}
+[3.667630] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__struct.h\n'}
+[3.668111] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__functions.c\n'}
+[3.668495] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__functions.c\n'}
+[3.668949] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__struct.h\n'}
+[3.669395] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__type_support.h\n'}
+[3.669846] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__functions.c\n'}
+[3.670290] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__functions.h\n'}
+[3.670782] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.h\n'}
+[3.671252] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__struct.h\n'}
+[3.671692] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__functions.h\n'}
+[3.672126] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__type_support.h\n'}
+[3.672557] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__functions.c\n'}
+[3.673022] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__type_support.h\n'}
+[3.673393] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__struct.h\n'}
+[3.673743] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__functions.h\n'}
+[3.674078] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__functions.c\n'}
+[3.674486] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.h\n'}
+[3.674890] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__functions.c\n'}
+[3.675369] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__struct.h\n'}
+[3.675698] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__functions.c\n'}
+[3.676154] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__functions.h\n'}
+[3.676596] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__functions.h\n'}
+[3.677050] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__type_support.h\n'}
+[3.677507] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__struct.h\n'}
+[3.677951] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__functions.c\n'}
+[3.678432] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__struct.h\n'}
+[3.678946] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__struct.h\n'}
+[3.679399] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__functions.c\n'}
+[3.679847] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__struct.h\n'}
+[3.680301] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__type_support.h\n'}
+[3.680750] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__functions.h\n'}
+[3.681191] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__struct.h\n'}
+[3.681630] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__functions.h\n'}
+[3.682081] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__struct.h\n'}
+[3.682520] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__struct.h\n'}
+[3.683047] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__functions.h\n'}
+[3.683449] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__functions.c\n'}
+[3.683896] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__struct.h\n'}
+[3.684337] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__functions.c\n'}
+[3.684801] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__type_support.h\n'}
+[3.685214] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__struct.h\n'}
+[3.685670] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.h\n'}
+[3.686007] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__functions.h\n'}
+[3.686332] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__struct.h\n'}
+[3.686778] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__functions.h\n'}
+[3.687183] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__functions.h\n'}
+[3.687584] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__functions.c\n'}
+[3.688009] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__functions.h\n'}
+[3.688397] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__functions.h\n'}
+[3.688859] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__functions.h\n'}
+[3.689350] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__functions.h\n'}
+[3.689798] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__type_support.h\n'}
+[3.690201] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__struct.h\n'}
+[3.690642] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__functions.c\n'}
+[3.691203] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__type_support.h\n'}
+[3.691650] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel_status.h\n'}
+[3.692092] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_euler.h\n'}
+[3.692536] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.692982] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/library_path.sh\n'}
+[3.693421] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/library_path.dsv\n'}
+[3.693820] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_generator_c.so\n'}
+[3.694277] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver\n'}
+[3.694752] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg\n'}
+[3.695265] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.695719] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail\n'}
+[3.696114] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_fastrtps_c.h\n'}
+[3.696593] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_fastrtps_c.h\n'}
+[3.696992] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_fastrtps_c.h\n'}
+[3.697435] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__rosidl_typesupport_fastrtps_c.h\n'}
+[3.697775] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_fastrtps_c.h\n'}
+[3.698178] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.698507] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.698902] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_fastrtps_c.h\n'}
+[3.699246] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_fastrtps_c.h\n'}
+[3.699647] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.699980] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_fastrtps_c.h\n'}
+[3.700456] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_fastrtps_c.h\n'}
+[3.700890] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.701267] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_fastrtps_c.h\n'}
+[3.701657] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.701987] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_fastrtps_c.h\n'}
+[3.702357] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_fastrtps_c.h\n'}
+[3.702781] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_fastrtps_c.h\n'}
+[3.703153] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_fastrtps_c.h\n'}
+[3.703574] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.704040] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_fastrtps_c.h\n'}
+[3.704428] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_fastrtps_c.h\n'}
+[3.704883] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_fastrtps_c.h\n'}
+[3.705329] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.705819] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.706258] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.706791] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_fastrtps_c.h\n'}
+[3.707290] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__rosidl_typesupport_fastrtps_c.h\n'}
+[3.707748] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_fastrtps_c.h\n'}
+[3.708236] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_fastrtps_c.h\n'}
+[3.708678] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[3.709163] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver\n'}
+[3.709610] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg\n'}
+[3.710090] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_short.hpp\n'}
+[3.710579] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag.hpp\n'}
+[3.711117] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_quat.hpp\n'}
+[3.711576] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion_status.hpp\n'}
+[3.712068] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_odo_vel.hpp\n'}
+[3.712516] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_data.hpp\n'}
+[3.712954] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status.hpp\n'}
+[3.713427] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_status.hpp\n'}
+[3.713805] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data_status.hpp\n'}
+[3.714235] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_general.hpp\n'}
+[3.714596] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos.hpp\n'}
+[3.715042] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_com.hpp\n'}
+[3.715396] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_nav.hpp\n'}
+[3.715761] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_aiding.hpp\n'}
+[3.716110] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time_status.hpp\n'}
+[3.716454] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_vel_body.hpp\n'}
+[3.716878] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel.hpp\n'}
+[3.717314] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_hdt.hpp\n'}
+[3.717679] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time.hpp\n'}
+[3.718071] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data.hpp\n'}
+[3.718449] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_status.hpp\n'}
+[3.718866] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_event.hpp\n'}
+[3.719234] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_rot_accel.hpp\n'}
+[3.719585] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos_status.hpp\n'}
+[3.719926] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_raw.hpp\n'}
+[3.720270] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_calib.hpp\n'}
+[3.720648] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail\n'}
+[3.721012] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__traits.hpp\n'}
+[3.721371] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__traits.hpp\n'}
+[3.721719] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__traits.hpp\n'}
+[3.722058] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__traits.hpp\n'}
+[3.722391] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__builder.hpp\n'}
+[3.722762] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__traits.hpp\n'}
+[3.723167] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__builder.hpp\n'}
+[3.723521] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__builder.hpp\n'}
+[3.723872] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__struct.hpp\n'}
+[3.724213] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__builder.hpp\n'}
+[3.724561] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__traits.hpp\n'}
+[3.724888] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__traits.hpp\n'}
+[3.725224] (-) TimerEvent: {}
+[3.725591] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__struct.hpp\n'}
+[3.726062] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__builder.hpp\n'}
+[3.726488] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__struct.hpp\n'}
+[3.726936] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__builder.hpp\n'}
+[3.727359] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__traits.hpp\n'}
+[3.727734] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__traits.hpp\n'}
+[3.728090] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__traits.hpp\n'}
+[3.728430] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__struct.hpp\n'}
+[3.728755] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__builder.hpp\n'}
+[3.729089] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__struct.hpp\n'}
+[3.729465] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__struct.hpp\n'}
+[3.729803] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__traits.hpp\n'}
+[3.730125] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__traits.hpp\n'}
+[3.730443] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__struct.hpp\n'}
+[3.730830] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__struct.hpp\n'}
+[3.731182] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__traits.hpp\n'}
+[3.731499] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__struct.hpp\n'}
+[3.731813] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__builder.hpp\n'}
+[3.732125] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__traits.hpp\n'}
+[3.732432] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__traits.hpp\n'}
+[3.732743] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__struct.hpp\n'}
+[3.733064] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__builder.hpp\n'}
+[3.733402] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__struct.hpp\n'}
+[3.733729] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__builder.hpp\n'}
+[3.734047] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__struct.hpp\n'}
+[3.734386] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__traits.hpp\n'}
+[3.734780] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__traits.hpp\n'}
+[3.735157] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__struct.hpp\n'}
+[3.735505] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__builder.hpp\n'}
+[3.735836] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__struct.hpp\n'}
+[3.736166] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__traits.hpp\n'}
+[3.736479] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__builder.hpp\n'}
+[3.736815] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__struct.hpp\n'}
+[3.737196] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__builder.hpp\n'}
+[3.737547] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__struct.hpp\n'}
+[3.737878] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__builder.hpp\n'}
+[3.738250] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__struct.hpp\n'}
+[3.738581] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__builder.hpp\n'}
+[3.738983] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__struct.hpp\n'}
+[3.739332] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__traits.hpp\n'}
+[3.739674] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__builder.hpp\n'}
+[3.740000] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__builder.hpp\n'}
+[3.740327] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__struct.hpp\n'}
+[3.740660] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__traits.hpp\n'}
+[3.740991] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__struct.hpp\n'}
+[3.741324] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__struct.hpp\n'}
+[3.741640] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__struct.hpp\n'}
+[3.741976] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__traits.hpp\n'}
+[3.742310] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__struct.hpp\n'}
+[3.742625] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__struct.hpp\n'}
+[3.743050] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__traits.hpp\n'}
+[3.743408] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__traits.hpp\n'}
+[3.743774] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__builder.hpp\n'}
+[3.744110] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__struct.hpp\n'}
+[3.744439] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__builder.hpp\n'}
+[3.744804] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__builder.hpp\n'}
+[3.745125] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__builder.hpp\n'}
+[3.745445] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__builder.hpp\n'}
+[3.745778] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__traits.hpp\n'}
+[3.746116] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__struct.hpp\n'}
+[3.746444] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__traits.hpp\n'}
+[3.746821] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__builder.hpp\n'}
+[3.747203] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__struct.hpp\n'}
+[3.747536] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__builder.hpp\n'}
+[3.747861] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__builder.hpp\n'}
+[3.748176] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__builder.hpp\n'}
+[3.748488] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__traits.hpp\n'}
+[3.748876] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__struct.hpp\n'}
+[3.749203] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__traits.hpp\n'}
+[3.749539] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__builder.hpp\n'}
+[3.749886] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__traits.hpp\n'}
+[3.750205] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__traits.hpp\n'}
+[3.750528] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__traits.hpp\n'}
+[3.750923] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__builder.hpp\n'}
+[3.751278] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__builder.hpp\n'}
+[3.751604] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__struct.hpp\n'}
+[3.751928] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__struct.hpp\n'}
+[3.752252] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__builder.hpp\n'}
+[3.752594] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel_status.hpp\n'}
+[3.752898] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_status.hpp\n'}
+[3.753217] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion.hpp\n'}
+[3.753543] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_euler.hpp\n'}
+[3.753863] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver\n'}
+[3.754213] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg\n'}
+[3.754546] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.754954] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail\n'}
+[3.755284] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.755603] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.755942] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.756271] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.756625] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.756972] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.757303] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.757628] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.757979] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.758306] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.758625] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.759024] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.759410] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.759726] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.760061] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.760390] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.760706] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.761023] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.761339] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.761657] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.761996] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.762311] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.762626] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.763008] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.763332] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.763658] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.763999] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.764333] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.764655] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.764974] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.765299] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps\n'}
+[3.765620] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.765940] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver\n'}
+[3.766250] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg\n'}
+[3.766580] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail\n'}
+[3.766990] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__type_support.c\n'}
+[3.767322] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_introspection_c.h\n'}
+[3.767667] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__type_support.c\n'}
+[3.768014] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__type_support.c\n'}
+[3.768361] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__type_support.c\n'}
+[3.768723] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__type_support.c\n'}
+[3.769104] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__type_support.c\n'}
+[3.769431] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_introspection_c.h\n'}
+[3.769761] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_introspection_c.h\n'}
+[3.770083] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__rosidl_typesupport_introspection_c.h\n'}
+[3.770405] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__type_support.c\n'}
+[3.770781] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_introspection_c.h\n'}
+[3.771181] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_introspection_c.h\n'}
+[3.771612] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_introspection_c.h\n'}
+[3.772049] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__type_support.c\n'}
+[3.772460] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_introspection_c.h\n'}
+[3.772844] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.c\n'}
+[3.773211] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__type_support.c\n'}
+[3.773578] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__type_support.c\n'}
+[3.773951] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.c\n'}
+[3.774280] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_introspection_c.h\n'}
+[3.774654] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.c\n'}
+[3.775090] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_introspection_c.h\n'}
+[3.775446] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_introspection_c.h\n'}
+[3.775779] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.c\n'}
+[3.776111] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__type_support.c\n'}
+[3.776450] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_introspection_c.h\n'}
+[3.776771] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__type_support.c\n'}
+[3.777113] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.c\n'}
+[3.777454] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__type_support.c\n'}
+[3.777786] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__type_support.c\n'}
+[3.778104] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_introspection_c.h\n'}
+[3.778457] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_introspection_c.h\n'}
+[3.778871] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__type_support.c\n'}
+[3.779273] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__type_support.c\n'}
+[3.779628] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__type_support.c\n'}
+[3.780001] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_introspection_c.h\n'}
+[3.780352] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__type_support.c\n'}
+[3.780676] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_c.h\n'}
+[3.781002] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_introspection_c.h\n'}
+[3.781333] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_introspection_c.h\n'}
+[3.781664] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_introspection_c.h\n'}
+[3.782014] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_introspection_c.h\n'}
+[3.782363] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_introspection_c.h\n'}
+[3.782726] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__type_support.c\n'}
+[3.783084] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__type_support.c\n'}
+[3.783417] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_introspection_c.h\n'}
+[3.783743] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_introspection_c.h\n'}
+[3.784330] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__type_support.c\n'}
+[3.784728] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__type_support.c\n'}
+[3.785079] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__type_support.c\n'}
+[3.785416] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__rosidl_typesupport_introspection_c.h\n'}
+[3.785749] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_introspection_c.h\n'}
+[3.786069] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_introspection_c.h\n'}
+[3.786385] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_introspection_c.h\n'}
+[3.786775] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__type_support.c\n'}
+[3.787144] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_introspection_c.h\n'}
+[3.787500] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_introspection_c.h\n'}
+[3.787866] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__type_support.c\n'}
+[3.788194] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_introspection_c.h\n'}
+[3.788526] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.788843] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_c.so\n'}
+[3.789200] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_c.so\n'}
+[3.789548] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver\n'}
+[3.789867] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg\n'}
+[3.790193] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail\n'}
+[3.790516] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.790899] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__type_support.cpp\n'}
+[3.791242] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.791582] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__type_support.cpp\n'}
+[3.791905] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.792240] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__type_support.cpp\n'}
+[3.792580] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__type_support.cpp\n'}
+[3.792914] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.793234] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.793559] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__type_support.cpp\n'}
+[3.793888] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__type_support.cpp\n'}
+[3.794214] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.794541] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.794951] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__type_support.cpp\n'}
+[3.795292] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__type_support.cpp\n'}
+[3.795621] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__type_support.cpp\n'}
+[3.795939] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__type_support.cpp\n'}
+[3.796273] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__type_support.cpp\n'}
+[3.796591] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.796954] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp\n'}
+[3.797298] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp\n'}
+[3.797614] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.797936] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__type_support.cpp\n'}
+[3.798267] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__type_support.cpp\n'}
+[3.798589] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.798994] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__type_support.cpp\n'}
+[3.799376] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.cpp\n'}
+[3.799717] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.800073] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.800398] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.800717] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.801051] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp\n'}
+[3.801375] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__type_support.cpp\n'}
+[3.801706] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.802029] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_vel_body__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.802368] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.802726] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.803086] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__type_support.cpp\n'}
+[3.803427] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__type_support.cpp\n'}
+[3.803755] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.804094] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.804442] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.804780] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__type_support.cpp\n'}
+[3.805120] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.805436] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.805762] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.806105] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.806417] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__type_support.cpp\n'}
+[3.806784] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__type_support.cpp\n'}
+[3.820899] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.821313] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.821650] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.821993] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp\n'}
+[3.822366] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__type_support.cpp\n'}
+[3.822718] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__type_support.cpp\n'}
+[3.823083] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__type_support.cpp\n'}
+[3.823399] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__type_support.cpp\n'}
+[3.823713] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.824035] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.cpp\n'}
+[3.824354] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.824707] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[3.825033] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_cpp.so\n'}
+[3.825331] (-) TimerEvent: {}
+[3.825671] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/pythonpath.sh\n'}
+[3.826118] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/pythonpath.dsv\n'}
+[3.826551] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.2.0-py3.10.egg-info\n'}
+[3.827025] (sbg_driver) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.827424] (sbg_driver) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.827820] (sbg_driver) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.2.0-py3.10.egg-info/top_level.txt\n'}
+[3.828231] (sbg_driver) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.2.0-py3.10.egg-info/PKG-INFO\n'}
+[3.828603] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver\n'}
+[3.828951] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.829359] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/__init__.py\n'}
+[3.829713] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.830055] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg\n'}
+[3.830408] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_s.c\n'}
+[3.830795] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_rot_accel.py\n'}
+[3.831159] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_s.c\n'}
+[3.831476] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_status.py\n'}
+[3.831808] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_data_s.c\n'}
+[3.832126] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_aiding.py\n'}
+[3.832462] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/__init__.py\n'}
+[3.832820] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_status.py\n'}
+[3.833172] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_general.py\n'}
+[3.833552] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_s.c\n'}
+[3.833940] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_event.py\n'}
+[3.834269] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_status.py\n'}
+[3.834612] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_calib.py\n'}
+[3.835100] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_vel_body_s.c\n'}
+[3.835431] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_status.py\n'}
+[3.835773] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion.py\n'}
+[3.836101] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_odo_vel.py\n'}
+[3.836443] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_nav_s.c\n'}
+[3.836811] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data.py\n'}
+[3.837170] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_aiding_s.c\n'}
+[3.837493] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_s.c\n'}
+[3.837825] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_status.py\n'}
+[3.838159] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_status_s.c\n'}
+[3.838474] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_euler_s.c\n'}
+[3.838891] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_quat_s.c\n'}
+[3.839274] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_hdt.py\n'}
+[3.839609] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_vel_body.py\n'}
+[3.839966] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_status_s.c\n'}
+[3.840319] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_calib_s.c\n'}
+[3.840676] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_status.py\n'}
+[3.841017] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_rot_accel_s.c\n'}
+[3.841354] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_status.py\n'}
+[3.841669] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_status_s.c\n'}
+[3.841983] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_status_s.c\n'}
+[3.842304] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_status_s.c\n'}
+[3.842622] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time.py\n'}
+[3.843053] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag.py\n'}
+[3.843403] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_hdt_s.c\n'}
+[3.843745] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_event_s.c\n'}
+[3.844098] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_quat.py\n'}
+[3.844421] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status.py\n'}
+[3.844778] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_status.py\n'}
+[3.845099] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_short_s.c\n'}
+[3.845416] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_status_s.c\n'}
+[3.845730] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_short.py\n'}
+[3.846044] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_nav.py\n'}
+[3.846356] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_status_s.c\n'}
+[3.846665] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_raw.py\n'}
+[3.847054] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_s.c\n'}
+[3.847381] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_euler.py\n'}
+[3.847694] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_raw_s.c\n'}
+[3.848006] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_s.c\n'}
+[3.848320] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_status_s.c\n'}
+[3.848634] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_data.py\n'}
+[3.848962] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_com.py\n'}
+[3.849279] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_odo_vel_s.c\n'}
+[3.849590] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos.py\n'}
+[3.849897] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_s.c\n'}
+[3.850206] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel.py\n'}
+[3.850530] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_com_s.c\n'}
+[3.850906] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_general_s.c\n'}
+[3.851248] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/libsbg_driver__rosidl_generator_py.so\n'}
+[3.851580] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_c.c\n'}
+[3.851897] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.852211] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.852572] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.853380] (sbg_driver) StdoutLine: {'line': b"Listing '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver'...\n"}
+[3.853913] (sbg_driver) StdoutLine: {'line': b"Listing '/workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg'...\n"}
+[3.874019] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.875401] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.876727] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.877991] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbg_driver__rosidl_generator_py.so\n'}
+[3.878807] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVelStatus.idl\n'}
+[3.879287] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPosStatus.idl\n'}
+[3.879709] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagStatus.idl\n'}
+[3.880154] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotionStatus.idl\n'}
+[3.880575] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTimeStatus.idl\n'}
+[3.880989] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirData.idl\n'}
+[3.881370] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirDataStatus.idl\n'}
+[3.881749] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfEuler.idl\n'}
+[3.882165] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPos.idl\n'}
+[3.882536] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMag.idl\n'}
+[3.882992] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusCom.idl\n'}
+[3.883385] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfNav.idl\n'}
+[3.883804] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsRaw.idl\n'}
+[3.884178] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgOdoVel.idl\n'}
+[3.884568] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusGeneral.idl\n'}
+[3.884983] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfQuat.idl\n'}
+[3.885378] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVel.idl\n'}
+[3.885891] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatus.idl\n'}
+[3.886307] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEvent.idl\n'}
+[3.886781] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuStatus.idl\n'}
+[3.887246] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuData.idl\n'}
+[3.887630] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuShort.idl\n'}
+[3.888057] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotion.idl\n'}
+[3.888438] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTime.idl\n'}
+[3.888815] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsHdt.idl\n'}
+[3.889234] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagCalib.idl\n'}
+[3.889609] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusAiding.idl\n'}
+[3.890010] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfStatus.idl\n'}
+[3.890386] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfVelBody.idl\n'}
+[3.890809] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfRotAccel.idl\n'}
+[3.891253] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVelStatus.msg\n'}
+[3.891656] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPosStatus.msg\n'}
+[3.892039] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagStatus.msg\n'}
+[3.892453] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotionStatus.msg\n'}
+[3.892829] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTimeStatus.msg\n'}
+[3.893204] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirData.msg\n'}
+[3.893617] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirDataStatus.msg\n'}
+[3.893987] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfEuler.msg\n'}
+[3.894387] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPos.msg\n'}
+[3.894819] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMag.msg\n'}
+[3.895237] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusCom.msg\n'}
+[3.895664] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfNav.msg\n'}
+[3.896049] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsRaw.msg\n'}
+[3.896455] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgOdoVel.msg\n'}
+[3.896794] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusGeneral.msg\n'}
+[3.897122] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfQuat.msg\n'}
+[3.897518] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVel.msg\n'}
+[3.897838] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatus.msg\n'}
+[3.898155] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEvent.msg\n'}
+[3.898466] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuStatus.msg\n'}
+[3.898948] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuData.msg\n'}
+[3.899390] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuShort.msg\n'}
+[3.899730] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotion.msg\n'}
+[3.900174] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTime.msg\n'}
+[3.900700] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsHdt.msg\n'}
+[3.901151] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagCalib.msg\n'}
+[3.901570] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusAiding.msg\n'}
+[3.902015] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfStatus.msg\n'}
+[3.902486] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfVelBody.msg\n'}
+[3.903004] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfRotAccel.msg\n'}
+[3.903501] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/sbg_driver/sbg_device\n'}
+[3.903927] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/sbg_driver/sbg_device_mag\n'}
+[3.904318] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver\n'}
+[3.904705] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_vector3.h\n'}
+[3.905092] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_matrix3.h\n'}
+[3.905469] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/message_wrapper.h\n'}
+[3.905896] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_ros_helpers.h\n'}
+[3.906280] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/config_applier.h\n'}
+[3.906661] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/message_publisher.h\n'}
+[3.907136] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_utm.h\n'}
+[3.907525] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/sbg_device.h\n'}
+[3.907870] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbg_driver/config_store.h\n'}
+[3.908259] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch\n'}
+[3.908605] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device.launch\n'}
+[3.909001] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/examples\n'}
+[3.909387] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseA.launch\n'}
+[3.909773] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseE.launch\n'}
+[3.910159] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseN.launch\n'}
+[3.910495] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device_mag_calibration_launch.py\n'}
+[3.910957] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device_launch.py\n'}
+[3.911366] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device_mag_calibration.launch\n'}
+[3.911758] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config\n'}
+[3.912184] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/sbg_device_udp_default.yaml\n'}
+[3.912585] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/sbg_device_uart_default.yaml\n'}
+[3.912922] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/example\n'}
+[3.913318] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_D_default.yaml\n'}
+[3.913731] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_A_default.yaml\n'}
+[3.914125] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_E_default.yaml\n'}
+[3.914593] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_N_default.yaml\n'}
+[3.915087] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/ament_index/resource_index/package_run_dependencies/sbg_driver\n'}
+[3.915511] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/ament_index/resource_index/parent_prefix_path/sbg_driver\n'}
+[3.915854] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/ament_prefix_path.sh\n'}
+[3.916247] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/ament_prefix_path.dsv\n'}
+[3.916687] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/path.sh\n'}
+[3.917075] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/environment/path.dsv\n'}
+[3.917464] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/local_setup.bash\n'}
+[3.917849] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/local_setup.sh\n'}
+[3.918229] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/local_setup.zsh\n'}
+[3.918644] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/local_setup.dsv\n'}
+[3.919109] (sbg_driver) StdoutLine: {'line': b'-- Installing: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/package.dsv\n'}
+[3.919541] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/ament_index/resource_index/packages/sbg_driver\n'}
+[3.919888] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cExport.cmake\n'}
+[3.920221] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.920547] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.920951] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.921365] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cppExport.cmake\n'}
+[3.921764] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.922192] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.922612] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.923139] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.923634] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cExport.cmake\n'}
+[3.924123] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.924561] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.924993] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.925417] (-) TimerEvent: {}
+[3.926345] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cppExport.cmake\n'}
+[3.926942] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.927699] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_pyExport.cmake\n'}
+[3.928206] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.928860] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake-extras.cmake\n'}
+[3.929592] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.930158] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.930768] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.931434] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.931900] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.932401] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.932905] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driverConfig.cmake\n'}
+[3.933381] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driverConfig-version.cmake\n'}
+[3.933822] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/share/sbg_driver/package.xml\n'}
+[3.934303] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/libsbgECom.a\n'}
+[3.934821] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/cmake/sbg/sbgEComTargets.cmake\n'}
+[3.935224] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/lib/cmake/sbg/sbgEComTargets-noconfig.cmake\n'}
+[3.935586] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include\n'}
+[3.935946] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/string\n'}
+[3.936379] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/string/sbgString.h\n'}
+[3.936760] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/splitBuffer\n'}
+[3.937139] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/splitBuffer/sbgSplitBuffer.h\n'}
+[3.937530] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/streamBuffer\n'}
+[3.937904] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/streamBuffer/sbgStreamBufferBE.h\n'}
+[3.938263] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/streamBuffer/sbgStreamBuffer.h\n'}
+[3.938632] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/streamBuffer/sbgStreamBufferLE.h\n'}
+[3.939049] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/streamBuffer/sbgStreamBufferCommon.h\n'}
+[3.939394] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/platform\n'}
+[3.939947] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/platform/sbgPlatform.h\n'}
+[3.940875] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbgErrorCodes.h\n'}
+[3.941826] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbgDefines.h\n'}
+[3.943613] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbgConfig.h\n'}
+[3.944204] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/interfaces\n'}
+[3.944763] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/interfaces/sbgInterface.h\n'}
+[3.945238] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/interfaces/sbgInterfaceUdp.h\n'}
+[3.945856] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/interfaces/sbgInterfaceFile.h\n'}
+[3.946301] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/interfaces/sbgInterfaceSerial.h\n'}
+[3.946639] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbgCommon.h\n'}
+[3.947383] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/version\n'}
+[3.947871] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/version/sbgVersion.h\n'}
+[3.948243] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/network\n'}
+[3.948692] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/network/sbgNetwork.h\n'}
+[3.949264] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbgTypes.h\n'}
+[3.949671] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/crc\n'}
+[3.950036] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/crc/sbgCrc.h\n'}
+[3.950593] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/swap\n'}
+[3.951080] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/swap/sbgSwap.h\n'}
+[3.951460] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/debug\n'}
+[3.952011] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/debug/sbgDebug.h\n'}
+[3.952413] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include\n'}
+[3.952805] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs\n'}
+[3.953684] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogGnssPos.h\n'}
+[3.954250] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogEkf.h\n'}
+[3.954714] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogMag.h\n'}
+[3.955152] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogUtc.h\n'}
+[3.955732] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogEvent.h\n'}
+[3.956113] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogUsbl.h\n'}
+[3.956701] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogOdometer.h\n'}
+[3.957093] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogDepth.h\n'}
+[3.957470] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogRawData.h\n'}
+[3.958415] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLog.h\n'}
+[3.958889] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogSat.h\n'}
+[3.959297] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogStatus.h\n'}
+[3.960064] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogDvl.h\n'}
+[3.960488] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogGnssHdt.h\n'}
+[3.961049] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogDiag.h\n'}
+[3.961474] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogGnssVel.h\n'}
+[3.961838] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogImu.h\n'}
+[3.962834] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogAutomotive.h\n'}
+[3.963294] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogShipMotion.h\n'}
+[3.964125] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogAirData.h\n'}
+[3.964696] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/logs/sbgEComLogEkfRotAccel.h\n'}
+[3.965235] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands\n'}
+[3.965726] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdCommon.h\n'}
+[3.966292] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdEvent.h\n'}
+[3.966741] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdAirData.h\n'}
+[3.967143] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdInfo.h\n'}
+[3.967699] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdSensor.h\n'}
+[3.968093] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdOdo.h\n'}
+[3.968552] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdInterface.h\n'}
+[3.969110] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdSettings.h\n'}
+[3.969509] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdOutput.h\n'}
+[3.969826] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdAdvanced.h\n'}
+[3.970397] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdMag.h\n'}
+[3.970857] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdEthernet.h\n'}
+[3.971450] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmd.h\n'}
+[3.971908] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdLicense.h\n'}
+[3.972302] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdDvl.h\n'}
+[3.975171] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdFeatures.h\n'}
+[3.975658] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdGnss.h\n'}
+[3.976121] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/commands/sbgEComCmdApi.h\n'}
+[3.976577] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbgECom.h\n'}
+[3.976954] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbgEComGetVersion.h\n'}
+[3.977393] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/protocol\n'}
+[3.977864] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/protocol/sbgEComProtocol.h\n'}
+[3.978329] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbgEComVersion.h\n'}
+[3.978797] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbgEComLib.h\n'}
+[3.979292] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/transfer\n'}
+[3.979752] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/transfer/sbgEComTransfer.h\n'}
+[3.980204] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbgECanId.h\n'}
+[3.980563] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/defs\n'}
+[3.981008] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/defs/sbgEComDefsGnss.h\n'}
+[3.981479] (sbg_driver) StdoutLine: {'line': b'-- Up-to-date: /workspaces/mavlab/ros2_ws/install/sbg_driver/include/sbgEComIds.h\n'}
+[3.981946] (sbg_driver) CommandEnded: {'returncode': 0}
+[4.025571] (-) TimerEvent: {}
+[4.126183] (-) TimerEvent: {}
+[4.226954] (-) TimerEvent: {}
+[4.327642] (-) TimerEvent: {}
+[4.428196] (-) TimerEvent: {}
+[4.528757] (-) TimerEvent: {}
+[4.629836] (-) TimerEvent: {}
+[4.730544] (-) TimerEvent: {}
+[4.831384] (-) TimerEvent: {}
+[4.932685] (-) TimerEvent: {}
+[5.033318] (-) TimerEvent: {}
+[5.134206] (-) TimerEvent: {}
+[5.235057] (-) TimerEvent: {}
+[5.335807] (-) TimerEvent: {}
+[5.436535] (-) TimerEvent: {}
+[5.537335] (-) TimerEvent: {}
+[5.638250] (-) TimerEvent: {}
+[5.739471] (-) TimerEvent: {}
+[5.841007] (-) TimerEvent: {}
+[5.846139] (sbg_driver) JobEnded: {'identifier': 'sbg_driver', 'rc': 0}
+[5.848633] (-) EventReactorShutdown: {}
