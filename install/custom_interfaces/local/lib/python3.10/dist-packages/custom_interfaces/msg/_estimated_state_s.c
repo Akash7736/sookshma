@@ -16,6 +16,10 @@
 #include "custom_interfaces/msg/detail/estimated_state__struct.h"
 #include "custom_interfaces/msg/detail/estimated_state__functions.h"
 
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__header__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool custom_interfaces__msg__estimated_state__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -50,6 +54,17 @@ bool custom_interfaces__msg__estimated_state__convert_from_py(PyObject * _pymsg,
     assert(strncmp("custom_interfaces.msg._estimated_state.EstimatedState", full_classname_dest, 53) == 0);
   }
   custom_interfaces__msg__EstimatedState * ros_message = _ros_message;
+  {  // header
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
   {  // u
     PyObject * field = PyObject_GetAttrString(_pymsg, "u");
     if (!field) {
@@ -104,6 +119,24 @@ bool custom_interfaces__msg__estimated_state__convert_from_py(PyObject * _pymsg,
     ros_message->heading = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
+  {  // propeller
+    PyObject * field = PyObject_GetAttrString(_pymsg, "propeller");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->propeller = PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // rudder
+    PyObject * field = PyObject_GetAttrString(_pymsg, "rudder");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->rudder = PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -126,6 +159,20 @@ PyObject * custom_interfaces__msg__estimated_state__convert_to_py(void * raw_ros
     }
   }
   custom_interfaces__msg__EstimatedState * ros_message = (custom_interfaces__msg__EstimatedState *)raw_ros_message;
+  {  // header
+    PyObject * field = NULL;
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "header", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // u
     PyObject * field = NULL;
     field = PyFloat_FromDouble(ros_message->u);
@@ -186,6 +233,28 @@ PyObject * custom_interfaces__msg__estimated_state__convert_to_py(void * raw_ros
     field = PyFloat_FromDouble(ros_message->heading);
     {
       int rc = PyObject_SetAttrString(_pymessage, "heading", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // propeller
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->propeller);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "propeller", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // rudder
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->rudder);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "rudder", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

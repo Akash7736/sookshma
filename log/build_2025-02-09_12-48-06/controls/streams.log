@@ -1,0 +1,61 @@
+[0.086s] Invoking command in '/workspaces/mavlab/build/controls': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/controls -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/install/controls
+[0.334s] -- The C compiler identification is GNU 11.4.0
+[0.607s] -- The CXX compiler identification is GNU 11.4.0
+[0.640s] -- Detecting C compiler ABI info
+[0.928s] -- Detecting C compiler ABI info - done
+[0.966s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.968s] -- Detecting C compile features
+[0.969s] -- Detecting C compile features - done
+[0.986s] -- Detecting CXX compiler ABI info
+[1.346s] -- Detecting CXX compiler ABI info - done
+[1.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.383s] -- Detecting CXX compile features
+[1.384s] -- Detecting CXX compile features - done
+[1.408s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.014s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.492s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.709s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.742s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.788s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.175s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.192s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.547s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.651s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.821s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.876s] -- Looking for pthread.h
+[4.140s] -- Looking for pthread.h - found
+[4.142s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.404s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.410s] -- Found Threads: TRUE  
+[4.680s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[4.692s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.120s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.123s] -- Added test 'lint_cmake' to check CMake code style
+[5.127s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.132s] -- Added test 'xmllint' to check XML markup files
+[5.139s] -- Configuring done
+[5.166s] -- Generating done
+[5.172s] -- Build files have been written to: /workspaces/mavlab/build/controls
+[5.206s] Invoked command in '/workspaces/mavlab/build/controls' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/controls -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/install/controls
+[5.211s] Invoking command in '/workspaces/mavlab/build/controls': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/build/controls -- -j4 -l4
+[5.379s] Invoked command in '/workspaces/mavlab/build/controls' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/build/controls -- -j4 -l4
+[5.584s] Invoking command in '/workspaces/mavlab/build/controls': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/build/controls
+[5.622s] -- Install configuration: ""
+[5.623s] -- Installing: /workspaces/mavlab/install/controls/share/ament_index/resource_index/package_run_dependencies/controls
+[5.625s] -- Installing: /workspaces/mavlab/install/controls/share/ament_index/resource_index/parent_prefix_path/controls
+[5.627s] -- Installing: /workspaces/mavlab/install/controls/share/controls/environment/ament_prefix_path.sh
+[5.630s] -- Installing: /workspaces/mavlab/install/controls/share/controls/environment/ament_prefix_path.dsv
+[5.632s] -- Installing: /workspaces/mavlab/install/controls/share/controls/environment/path.sh
+[5.635s] -- Installing: /workspaces/mavlab/install/controls/share/controls/environment/path.dsv
+[5.637s] -- Installing: /workspaces/mavlab/install/controls/share/controls/local_setup.bash
+[5.640s] -- Installing: /workspaces/mavlab/install/controls/share/controls/local_setup.sh
+[5.644s] -- Installing: /workspaces/mavlab/install/controls/share/controls/local_setup.zsh
+[5.647s] -- Installing: /workspaces/mavlab/install/controls/share/controls/local_setup.dsv
+[5.649s] -- Installing: /workspaces/mavlab/install/controls/share/controls/package.dsv
+[5.652s] -- Installing: /workspaces/mavlab/install/controls/share/ament_index/resource_index/packages/controls
+[5.655s] -- Installing: /workspaces/mavlab/install/controls/share/controls/cmake/controlsConfig.cmake
+[5.658s] -- Installing: /workspaces/mavlab/install/controls/share/controls/cmake/controlsConfig-version.cmake
+[5.660s] -- Installing: /workspaces/mavlab/install/controls/share/controls/package.xml
+[5.671s] Invoked command in '/workspaces/mavlab/build/controls' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/build/controls

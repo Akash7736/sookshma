@@ -21,16 +21,48 @@ namespace msg
 namespace builder
 {
 
+class Init_EstimatedState_rudder
+{
+public:
+  explicit Init_EstimatedState_rudder(::custom_interfaces::msg::EstimatedState & msg)
+  : msg_(msg)
+  {}
+  ::custom_interfaces::msg::EstimatedState rudder(::custom_interfaces::msg::EstimatedState::_rudder_type arg)
+  {
+    msg_.rudder = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::custom_interfaces::msg::EstimatedState msg_;
+};
+
+class Init_EstimatedState_propeller
+{
+public:
+  explicit Init_EstimatedState_propeller(::custom_interfaces::msg::EstimatedState & msg)
+  : msg_(msg)
+  {}
+  Init_EstimatedState_rudder propeller(::custom_interfaces::msg::EstimatedState::_propeller_type arg)
+  {
+    msg_.propeller = std::move(arg);
+    return Init_EstimatedState_rudder(msg_);
+  }
+
+private:
+  ::custom_interfaces::msg::EstimatedState msg_;
+};
+
 class Init_EstimatedState_heading
 {
 public:
   explicit Init_EstimatedState_heading(::custom_interfaces::msg::EstimatedState & msg)
   : msg_(msg)
   {}
-  ::custom_interfaces::msg::EstimatedState heading(::custom_interfaces::msg::EstimatedState::_heading_type arg)
+  Init_EstimatedState_propeller heading(::custom_interfaces::msg::EstimatedState::_heading_type arg)
   {
     msg_.heading = std::move(arg);
-    return std::move(msg_);
+    return Init_EstimatedState_propeller(msg_);
   }
 
 private:
@@ -104,13 +136,29 @@ private:
 class Init_EstimatedState_u
 {
 public:
-  Init_EstimatedState_u()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  explicit Init_EstimatedState_u(::custom_interfaces::msg::EstimatedState & msg)
+  : msg_(msg)
   {}
   Init_EstimatedState_v u(::custom_interfaces::msg::EstimatedState::_u_type arg)
   {
     msg_.u = std::move(arg);
     return Init_EstimatedState_v(msg_);
+  }
+
+private:
+  ::custom_interfaces::msg::EstimatedState msg_;
+};
+
+class Init_EstimatedState_header
+{
+public:
+  Init_EstimatedState_header()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  Init_EstimatedState_u header(::custom_interfaces::msg::EstimatedState::_header_type arg)
+  {
+    msg_.header = std::move(arg);
+    return Init_EstimatedState_u(msg_);
   }
 
 private:
@@ -128,7 +176,7 @@ template<>
 inline
 auto build<::custom_interfaces::msg::EstimatedState>()
 {
-  return custom_interfaces::msg::builder::Init_EstimatedState_u();
+  return custom_interfaces::msg::builder::Init_EstimatedState_header();
 }
 
 }  // namespace custom_interfaces

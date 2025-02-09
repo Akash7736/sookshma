@@ -1,162 +1,100 @@
 #!/usr/bin/env python3
 
-from threading import local
+from sympy import rust_code
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Pose, PoseWithCovariance
-from std_msgs.msg import Float32
-from nav_msgs.msg import Odometry
-from custom_interfaces.msg import Actuator
+from geometry_msgs.msg import Pose, PoseStamped
+from nav_msgs.msg import Odometry, Path
+from custom_interfaces.msg import Actuator,EstimatedState
 import numpy as np
-import time
-from math import sqrt, atan2
 import math
-import matplotlib.pyplot as plt  # Import Matplotlib
+from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy
 from sensor_msgs.msg import Imu
-
-
 
 class ONRTBoat(Node):
     def __init__(self):
-        super().__init__('makara_controller')
+        super().__init__('onrt_boat_controller')
 
-        # self.actuator_publisher = self.create_publisher( Actuator , '/makara_00/actuator_cmd' , 100)
-        # self.uwb_subscriber = self.create_subscription( PoseWithCovariance , '/makara_00/uwb_00', self.uwb_callback , 20 )
-        self.imu_subscriber = self.create_subscription( Imu , '/imu/data' , self.imu_callback , 20 )
+        # QoS profile for better performance
+        qos_profile = QoSProfile(
+            reliability=ReliabilityPolicy.BEST_EFFORT,
+            history=HistoryPolicy.KEEP_LAST,
+            depth=1
+        )
+
+        self.actuator_publisher = self.create_publisher(Actuator, '/kurma_00/actuator_cmd', 10)
+        # self.odometry_subscriber = self.create_subscription(  Odometry, '/kurma_00/odometry_sim', self.odometry_callback, qos_profile)
+        # self.uwb_subscriber = self.create_subscription( Odometry, '/uwb/odom', self.uwb_callback , 20 )
         
-        self.actuator_publisher = self.create_publisher( Actuator , '/kurma_00/actuator_cmd' , 100)
-        self.uwb_subscriber = self.create_subscription( Odometry, '/uwb/odom', self.uwb_callback , 20 )
+        # self.path_publisher = self.create_publisher(Path, '/kurma_00/global_path', 5)
         # self.imu_subscriber = self.create_subscription( Imu , '/imu/data' , self.imu_callback , 20 )
+        self.estimator_subscriber = self.create_subscription( EstimatedState , '/sooshi/state_estimate' , self.odom_callback , 20 )
 
-
-        
         self.pose = Pose()
-        self.prop = Float32()
-        self.rudr = Float32()
-        self.scaling = 1
+        self.path_msg = Path()
+        self.path_msg.header.frame_id = 'map'
+        self.yaw = 0.0
+        self.xpe = 0.0
+        self.ype = 0.0
+        self.yp_int = 0.0
+        self.psi_des = 0.0
+        self.previous_angle = 0.0
+        self.last_time = self.get_clock().now()
 
-        self.time0 = time.time()
+        # Controller parameters
+        self.kp_angular = 20.0
+        self.kd_angular = 0.001
+        self.k_los = 0.1
+        self.ship_length = 0.3
+        self.lookahead_distance = 2 * self.ship_length
 
-        self.rate_value = 200
+        self.x = self.y = self.yaw= 0.0
 
-        self.previous_angle = [0]
-        self.time0 = time.time()
-        self.xpe = 0
-        self.ype = 0
-        self.yp_int = 0
-        self.kp = 3
-        self.psi_des = 0
+        # Path definition
+        self.path = [
+            
+             [10, 4.2]  , [19, 5.2], [21, 11.2] , [17, 16.2],  
+             [11, 16.2],  [9, 14.2] , [9, 10.6 ] , [9, 6.6 ] , [9, 2.6 ]
+            ]
+        
+            # [9, 2.6 ], [9, 6.6 ], [9, 10.6 ], [9, 14.2], [11, 16.2], [17, 16.2], [21, 11.2]
+            # , [19, 5.2], [10, 4.2]
 
-        self.a = 1
+            # [9, 2.6 ], [9, 6.6 ], [9, 10.6 ], [6, 17.2]]
+        
+            # [5.6,2.6 ], [7.6, 14.2], [7.6, 14.2], [7.6, 14.2], [7.6, 14.2]]
+            #[30, 20], [30, 30], [20, 30], [20, 20], [20, 10]
+        #]
+        self.current_goal_index = 0
 
-        self.time_data = []
-        self.rudder_data = []
-        self.ype_data = []
+        self.create_timer(0.1, self.control_loop)  # 10 Hz control loop
 
+    # def odometry_callback(self, msg):
+    #     self.pose = msg.pose.pose
+    #     self.yaw = self.quaternion_to_yaw(self.pose.orientation)
 
-        self.yaw = 0
+    # def imu_callback(self, msg):
+    #     # msg = Imu()
+    #     # print(msg)
+    #     _, _, self.yaw=  self.quat_to_eul((msg.orientation.w , msg.orientation.x , msg.orientation.y , msg.orientation.z)) 
+        # print(self.yaw, 'im yaw')
 
+    # def uwb_callback(self, msg):
+    #     # msg= PoseWithCovariance()
+    #     # self.pose = msg.pose  # Update the pose with the latest odometry data
+    #     # msg = Odometry()
+    #     self.pose = msg.pose.pose
 
-    def uwb_callback(self, msg):
-
-
+    def odom_callback(self, msg):
         # msg= PoseWithCovariance()
         # self.pose = msg.pose  # Update the pose with the latest odometry data
-
-
-
-        # msg = Odometry()
-        self.pose = msg.pose.pose
-
-        # self.yaw = self.quat_to_eul( [self.pose.orientation.w , self.pose.orientation.x , self.pose.orientation.y ,self.pose.orientation.z ])[-1]
-
-        # _, _, self.yaw=  self.quat_to_eul(msg.orientation.w , msg.orientation.x , msg.orientation.y , msg.orientation.z) 
-        # current_position = (self.pose.position.x, self.pose.position.y)
-        # You might want to add logic here if needed
-
-
-    def imu_callback(self, msg):
-        # msg = Imu()
-        print(msg)
-
-        _, _, self.yaw=  self.quat_to_eul(msg.orientation.w , msg.orientation.x , msg.orientation.y , msg.orientation.z) 
-
-        # You might want to add logic here if needed
-    def euclidean_distance(self, goal_pose):
-        return sqrt(pow((goal_pose[0] / self.scaling - self.pose.position.x), 2) +
-                    pow((goal_pose[1] / self.scaling - self.pose.position.y), 2))
-
-
-
-    def linear_vel(self, local_goal0 , local_goal1):
-
- 
-        lin_vel = 600  #rpm
-
-        return lin_vel 
-
-
-
-
-
-
-    def angular_vel(self, local_goal0 , local_goal1, kp=20, kd=0.001):
-
-    
-        x_ = self.pose.position.x ; y_ = self.pose.position.y
-
-        current_yaw = self.yaw
-        path_vector  = [local_goal1[0] -local_goal0[0] , local_goal1[1] -local_goal0[1]]
-        pi_p = np.arctan2( path_vector[1], path_vector[0])
-
-        self.ype =  (-np.sin(pi_p)*(x_-local_goal0[0]) + np.cos(pi_p)*(y_-local_goal0[1]) )  # cross track error
-        self.xpe =  ( np.cos(pi_p)*(x_-local_goal0[0]) + np.sin(pi_p)*(y_-local_goal0[1]))   # along track error    # this(-1) because of the coordinates
-
-        print(self.xpe,'along track error')
-        print(self.ype,'cross track error')
-
-
-        ship_length = 3
-        del_ = 2 * ship_length
-
-
-        # gama = .2
-        # del_ = (30-0.01) *np.exp( - gama *self.ype**2 )   +0.01        # variable lookahead
-        self.kp = 1/ del_
-        self.k = 0.1                           # Design Parameter for ILOS
-        self.ki = self.kp*self.k
-        self.psi_des = pi_p - np.arctan(self.kp*self.ype +self.ki*self.yp_int  )
-
-
-
-        ypd_int = (del_*self.ype)/(del_**2 + (self.ype + self.k*self.yp_int)**2)
-        self.yp_int = self.yp_int + ypd_int*(1/self.rate_value)
-
+        # msg = EstimatedState
+        # self.pose = msg.pose.pose
+        self.x = msg.x
+        self.y = msg.y
+        self.yaw = -msg.heading - 1.57
         pi = math.pi
-
-        angle: float = ( current_yaw - self.psi_des )  # angle error
-        time1 = time.time()
-
-        angle = (angle + pi) % (2 * pi) - pi
-
-        last_angle = self.previous_angle[0]
-        del_error = (angle - last_angle)
-        del_time = (time1 - self.time0)
-        self.time0 = time1
-        self.previous_angle[0] = angle        #update
-
-        # ang_vel: float =  ( kp * angle + kd * del_error / self.rate_value ) * 0.2
-        print(self.psi_des, self.yaw, pi_p,  'psi des ,  yaw, path angle')
-        print(self.psi_des, self.yaw, 'psides and yaw')
-        ang_vel: float =  ( kp * angle + kd * del_error / self.rate_value ) *2 
-
-        # if ang_vel > 90:
-        #     ang_vel = 90
-        # elif ang_vel < -90:
-        #     ang_vel = -90
-
-        return ang_vel    # ang_vel
-    
+        self.yaw = (self.yaw + pi) % (2 * pi) - pi
 
 
     def quat_to_eul(self, quat):
@@ -190,103 +128,107 @@ class ONRTBoat(Node):
         eul2 = np.array([phi2, theta2, psi2])
 
         return eul1 if np.linalg.norm(eul1) < np.linalg.norm(eul2) else eul2
-
-
-
-    def move_to_goal(self):
+    
+    def create_path_poses(self, path, G_or_L_path):
+        path_msg = Path()
+        path_msg.header.frame_id = 'map'
+        path_msg.header.stamp = self.get_clock().now().to_msg()
         
-        actuator_cmd = Actuator()
+        for point in path:
+            x, y = point
+            pose = PoseStamped()
+            pose.header.frame_id = 'map'
+            pose.header.stamp = self.get_clock().now().to_msg()
+            pose.pose.position.x = float(x)
+            pose.pose.position.y = float(y)
+            pose.pose.position.z = 0.0
+            pose.pose.orientation.w = 1.0
+            
+            path_msg.poses.append(pose)
 
+        if G_or_L_path == "global":
+            self.path_msg = path_msg
+        elif G_or_L_path == "local":
+            self.lcl_path_msg = path_msg
 
-
-        # path  = [ [ 20, 20  ], [20,25] , [20, 30] , [20, 35], [20, 40], [20, 45]  ] 
-
-        path  =  [[6.3, 3.9] , [7.6 , 5.4 ]   , [8.6 , 8.4 ] , [9.6 , 11.4 ] , [11.6 , 14.4 ] ]
-        # path  = [ [ 20, 20  ], [30,20] , [30, 30] , [40, 30], [40, 20], [30, 20] , [30, 30] , [20, 30] , [20, 20] , [20, 10]  ] 
-
-        i = int
-        i = 0 
-        print(len( path) )
-        while i < len( path):
-            i += 1
-            self.xpe=-20
-
-            if i == (len(path) -1 ):
-                self.stop()
-                break
-
-            local_goal0 = path[i]
-            local_goal1 = path[i+1]
-            print(self.xpe,'in loop')
-            while  (self.xpe ) <= 5:                                  ##########################################################
-                print(i , 'im i')
-                print( self.xpe, local_goal0,local_goal1, 'xpe  local goal 0,1 ')
-                actuator_cmd.propeller = float(self.linear_vel(local_goal0 , local_goal1))
-                actuator_cmd.rudder = float(self.angular_vel(local_goal0 , local_goal1) * -1)
-                self.actuator_publisher.publish(actuator_cmd)
-
-                print(self.pose, 'im  pose')
-                print(self.yaw, ' im  yaw')
-
-                print( self.xpe, local_goal0,local_goal1, 'xpe  local goal 0,1 ')
-                print( actuator_cmd , "act cmd")
-                # print()
-                rclpy.spin(self)  # Ensure callbacks are processed
-
-                
+    def control_loop(self):
+        if self.current_goal_index >= len(self.path) - 1:
             self.stop()
+            return
 
+        current_goal = self.path[self.current_goal_index]
+        next_goal = self.path[self.current_goal_index + 1]
 
+        propeller_speed = self.calculate_linear_velocity()
+        rudder_angle = self.calculate_angular_velocity(current_goal, next_goal)
 
+        self.publish_actuator_command(propeller_speed, rudder_angle)
+        self.path = np.array(self.path)
+        # self.create_path_poses(self.path, "global")
+        # self.path_msg.header.stamp = self.get_clock().now().to_msg()
+        # self.path_publisher.publish(self.path_msg)
 
+        if self.xpe > 3.0:  # Goal reached condition
+            self.current_goal_index += 1
 
-        # path = [[20.0, 20.0, 0.0], [20, 25, 0.0], [20, 30, 0.0]]
-        # for i in range(len(path)-1):
-        #     print(i , 'im i')
-        #     self.xpe=0
+    def calculate_linear_velocity(self):
+        return 600.0  # Constant RPM for simplicity
+        return 0
+    
 
-         
-        #     if i == (len(path) -1):
-        #         self.stop()
-        #         break
+    def calculate_angular_velocity(self, current_goal, next_goal):
+        # x, y = self.pose.position.x, self.pose.position.y
+        x,y = self.x, self.y
+        print(x,y, " im position")
+        print(self.yaw, 'im yaw')
 
-        #     local_goal0 = path[i]
-        #     local_goal1 = path[i+1]
-        #     end_raw = path[-1]
-        #     print(self.xpe,'in loop')
-        #     if (self.xpe ) <= - goal_tolerance:                                  ##########################################################
-        #         print(i , 'im i')
-        #         print( self.xpe, local_goal0,local_goal1, 'xpe  local goal 0,1 ')
-        #         actuator_cmd.propeller = float(self.linear_vel(local_goal0 , local_goal1))
-        #         actuator_cmd.rudder = float(self.angular_vel(local_goal0 , local_goal1) * -1)
-        #         self.actuator_publisher.publish(actuator_cmd)
+        path_angle = math.atan2(next_goal[1] - current_goal[1], next_goal[0] - current_goal[0])
+        print(path_angle, 'im path angle')
+        print(current_goal, next_goal,  " the two ilos points" )
+        print(self.psi_des, 'im desired heading')
 
-        #         # rclpy.spin_once(self)  # Ensure callbacks are processed
-        #         print( self.xpe, local_goal0,local_goal1, 'xpe  local goal 0,1 ')
-                
-        #     self.stop()
+        self.ype = -(x - current_goal[0]) * math.sin(path_angle) + (y - current_goal[1]) * math.cos(path_angle)
+        self.xpe = (x - current_goal[0]) * math.cos(path_angle) + (y - current_goal[1]) * math.sin(path_angle)
 
+        kp = 1.0 / self.lookahead_distance
+        ki = kp * self.k_los
 
+        self.psi_des = path_angle - math.atan(kp * self.ype + ki * self.yp_int)
+
+        ypd_int = (self.lookahead_distance * self.ype) / (self.lookahead_distance**2 + (self.ype + self.k_los * self.yp_int)**2)
+        current_time = self.get_clock().now()
+        dt = (current_time - self.last_time).nanoseconds / 1e9
+        self.yp_int += ypd_int * dt
+        self.last_time = current_time
+
+        angle_error = (self.yaw - self.psi_des + math.pi) % (2 * math.pi) - math.pi
+        d_angle_error = (angle_error - self.previous_angle) / dt
+        self.previous_angle = angle_error
+
+        return -(self.kp_angular * angle_error + self.kd_angular * d_angle_error)*2
+        return 0
+
+    def publish_actuator_command(self, propeller_speed, rudder_angle):
+        actuator_cmd = Actuator()
+        actuator_cmd.propeller = float(propeller_speed)
+        actuator_cmd.rudder = float(rudder_angle)
+        self.actuator_publisher.publish(actuator_cmd)
+
+        print( propeller_speed, rudder_angle, 'prop and rudder')
 
     def stop(self):
-        actuator_cmd = Actuator()
-        
-        actuator_cmd.rudder = float(0)
-        actuator_cmd.propeller = float(0)
-
-        # Publish stop command
-        self.actuator_publisher.publish(actuator_cmd)
+        self.publish_actuator_command(0.0, 0.0)
 
 def main(args=None):
     rclpy.init(args=args)
-    makara_boat = ONRTBoat()
+    onrt_boat = ONRTBoat()
     
     try:
-        makara_boat.move_to_goal()
+        rclpy.spin(onrt_boat)
     except KeyboardInterrupt:
         pass
     finally:
-        makara_boat.destroy_node()
+        onrt_boat.destroy_node()
         rclpy.shutdown()
 
 if __name__ == '__main__':

@@ -11,10 +11,19 @@
 #include "rcutils/allocator.h"
 
 
+// Include directives for member types
+// Member `header`
+#include "std_msgs/msg/detail/header__functions.h"
+
 bool
 custom_interfaces__msg__EstimatedState__init(custom_interfaces__msg__EstimatedState * msg)
 {
   if (!msg) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__init(&msg->header)) {
+    custom_interfaces__msg__EstimatedState__fini(msg);
     return false;
   }
   // u
@@ -23,6 +32,8 @@ custom_interfaces__msg__EstimatedState__init(custom_interfaces__msg__EstimatedSt
   // x
   // y
   // heading
+  // propeller
+  // rudder
   return true;
 }
 
@@ -32,18 +43,28 @@ custom_interfaces__msg__EstimatedState__fini(custom_interfaces__msg__EstimatedSt
   if (!msg) {
     return;
   }
+  // header
+  std_msgs__msg__Header__fini(&msg->header);
   // u
   // v
   // r
   // x
   // y
   // heading
+  // propeller
+  // rudder
 }
 
 bool
 custom_interfaces__msg__EstimatedState__are_equal(const custom_interfaces__msg__EstimatedState * lhs, const custom_interfaces__msg__EstimatedState * rhs)
 {
   if (!lhs || !rhs) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__are_equal(
+      &(lhs->header), &(rhs->header)))
+  {
     return false;
   }
   // u
@@ -70,6 +91,14 @@ custom_interfaces__msg__EstimatedState__are_equal(const custom_interfaces__msg__
   if (lhs->heading != rhs->heading) {
     return false;
   }
+  // propeller
+  if (lhs->propeller != rhs->propeller) {
+    return false;
+  }
+  // rudder
+  if (lhs->rudder != rhs->rudder) {
+    return false;
+  }
   return true;
 }
 
@@ -79,6 +108,12 @@ custom_interfaces__msg__EstimatedState__copy(
   custom_interfaces__msg__EstimatedState * output)
 {
   if (!input || !output) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__copy(
+      &(input->header), &(output->header)))
+  {
     return false;
   }
   // u
@@ -93,6 +128,10 @@ custom_interfaces__msg__EstimatedState__copy(
   output->y = input->y;
   // heading
   output->heading = input->heading;
+  // propeller
+  output->propeller = input->propeller;
+  // rudder
+  output->rudder = input->rudder;
   return true;
 }
 

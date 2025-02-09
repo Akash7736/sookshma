@@ -78,7 +78,6 @@ class SbgGpsPos(metaclass=Metaclass_SbgGpsPos):
         '_altitude',
         '_undulation',
         '_position_accuracy',
-        '_num_sv_tracked',
         '_num_sv_used',
         '_base_station_id',
         '_diff_age',
@@ -94,7 +93,6 @@ class SbgGpsPos(metaclass=Metaclass_SbgGpsPos):
         'altitude': 'double',
         'undulation': 'float',
         'position_accuracy': 'geometry_msgs/Vector3',
-        'num_sv_tracked': 'uint8',
         'num_sv_used': 'uint8',
         'base_station_id': 'uint16',
         'diff_age': 'uint16',
@@ -110,7 +108,6 @@ class SbgGpsPos(metaclass=Metaclass_SbgGpsPos):
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.NamespacedType(['geometry_msgs', 'msg'], 'Vector3'),  # noqa: E501
-        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint16'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint16'),  # noqa: E501
@@ -132,7 +129,6 @@ class SbgGpsPos(metaclass=Metaclass_SbgGpsPos):
         self.undulation = kwargs.get('undulation', float())
         from geometry_msgs.msg import Vector3
         self.position_accuracy = kwargs.get('position_accuracy', Vector3())
-        self.num_sv_tracked = kwargs.get('num_sv_tracked', int())
         self.num_sv_used = kwargs.get('num_sv_used', int())
         self.base_station_id = kwargs.get('base_station_id', int())
         self.diff_age = kwargs.get('diff_age', int())
@@ -183,8 +179,6 @@ class SbgGpsPos(metaclass=Metaclass_SbgGpsPos):
         if self.undulation != other.undulation:
             return False
         if self.position_accuracy != other.position_accuracy:
-            return False
-        if self.num_sv_tracked != other.num_sv_tracked:
             return False
         if self.num_sv_used != other.num_sv_used:
             return False
@@ -330,21 +324,6 @@ class SbgGpsPos(metaclass=Metaclass_SbgGpsPos):
                 isinstance(value, Vector3), \
                 "The 'position_accuracy' field must be a sub message of type 'Vector3'"
         self._position_accuracy = value
-
-    @builtins.property
-    def num_sv_tracked(self):
-        """Message field 'num_sv_tracked'."""
-        return self._num_sv_tracked
-
-    @num_sv_tracked.setter
-    def num_sv_tracked(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'num_sv_tracked' field must be of type 'int'"
-            assert value >= 0 and value < 256, \
-                "The 'num_sv_tracked' field must be an unsigned integer in [0, 255]"
-        self._num_sv_tracked = value
 
     @builtins.property
     def num_sv_used(self):

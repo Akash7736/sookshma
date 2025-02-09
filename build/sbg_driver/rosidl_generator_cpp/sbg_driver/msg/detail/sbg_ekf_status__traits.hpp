@@ -88,6 +88,13 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
+  // member: gps1_course_used
+  {
+    out << "gps1_course_used: ";
+    rosidl_generator_traits::value_to_yaml(msg.gps1_course_used, out);
+    out << ", ";
+  }
+
   // member: gps1_hdt_used
   {
     out << "gps1_hdt_used: ";
@@ -109,6 +116,13 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
+  // member: gps2_course_used
+  {
+    out << "gps2_course_used: ";
+    rosidl_generator_traits::value_to_yaml(msg.gps2_course_used, out);
+    out << ", ";
+  }
+
   // member: gps2_hdt_used
   {
     out << "gps2_hdt_used: ";
@@ -120,76 +134,6 @@ inline void to_flow_style_yaml(
   {
     out << "odo_used: ";
     rosidl_generator_traits::value_to_yaml(msg.odo_used, out);
-    out << ", ";
-  }
-
-  // member: dvl_bt_used
-  {
-    out << "dvl_bt_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.dvl_bt_used, out);
-    out << ", ";
-  }
-
-  // member: dvl_wt_used
-  {
-    out << "dvl_wt_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.dvl_wt_used, out);
-    out << ", ";
-  }
-
-  // member: user_pos_used
-  {
-    out << "user_pos_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_pos_used, out);
-    out << ", ";
-  }
-
-  // member: user_vel_used
-  {
-    out << "user_vel_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_vel_used, out);
-    out << ", ";
-  }
-
-  // member: user_heading_used
-  {
-    out << "user_heading_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_heading_used, out);
-    out << ", ";
-  }
-
-  // member: usbl_used
-  {
-    out << "usbl_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.usbl_used, out);
-    out << ", ";
-  }
-
-  // member: air_data_used
-  {
-    out << "air_data_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.air_data_used, out);
-    out << ", ";
-  }
-
-  // member: zupt_used
-  {
-    out << "zupt_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.zupt_used, out);
-    out << ", ";
-  }
-
-  // member: align_valid
-  {
-    out << "align_valid: ";
-    rosidl_generator_traits::value_to_yaml(msg.align_valid, out);
-    out << ", ";
-  }
-
-  // member: depth_used
-  {
-    out << "depth_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.depth_used, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -288,6 +232,16 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
+  // member: gps1_course_used
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "gps1_course_used: ";
+    rosidl_generator_traits::value_to_yaml(msg.gps1_course_used, out);
+    out << "\n";
+  }
+
   // member: gps1_hdt_used
   {
     if (indentation > 0) {
@@ -318,6 +272,16 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
+  // member: gps2_course_used
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "gps2_course_used: ";
+    rosidl_generator_traits::value_to_yaml(msg.gps2_course_used, out);
+    out << "\n";
+  }
+
   // member: gps2_hdt_used
   {
     if (indentation > 0) {
@@ -335,106 +299,6 @@ inline void to_block_style_yaml(
     }
     out << "odo_used: ";
     rosidl_generator_traits::value_to_yaml(msg.odo_used, out);
-    out << "\n";
-  }
-
-  // member: dvl_bt_used
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "dvl_bt_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.dvl_bt_used, out);
-    out << "\n";
-  }
-
-  // member: dvl_wt_used
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "dvl_wt_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.dvl_wt_used, out);
-    out << "\n";
-  }
-
-  // member: user_pos_used
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "user_pos_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_pos_used, out);
-    out << "\n";
-  }
-
-  // member: user_vel_used
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "user_vel_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_vel_used, out);
-    out << "\n";
-  }
-
-  // member: user_heading_used
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "user_heading_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.user_heading_used, out);
-    out << "\n";
-  }
-
-  // member: usbl_used
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "usbl_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.usbl_used, out);
-    out << "\n";
-  }
-
-  // member: air_data_used
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "air_data_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.air_data_used, out);
-    out << "\n";
-  }
-
-  // member: zupt_used
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "zupt_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.zupt_used, out);
-    out << "\n";
-  }
-
-  // member: align_valid
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "align_valid: ";
-    rosidl_generator_traits::value_to_yaml(msg.align_valid, out);
-    out << "\n";
-  }
-
-  // member: depth_used
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "depth_used: ";
-    rosidl_generator_traits::value_to_yaml(msg.depth_used, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

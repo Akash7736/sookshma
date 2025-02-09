@@ -1,0 +1,24 @@
+[0.074s] Invoking command in '/workspaces/mavlab/build/hastar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/build/hastar -- -j4 -l4
+[0.244s] Invoked command in '/workspaces/mavlab/build/hastar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/build/hastar -- -j4 -l4
+[0.377s] Invoking command in '/workspaces/mavlab/build/hastar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/build/hastar
+[0.454s] -- Install configuration: ""
+[0.458s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/launch
+[0.458s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/launch/hastar_launch.py
+[0.463s] -- Installing: /workspaces/mavlab/install/hastar/lib/hastar/wp_tracking.py
+[0.466s] -- Up-to-date: /workspaces/mavlab/install/hastar/lib/hastar/temp_path.py
+[0.473s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/ament_index/resource_index/package_run_dependencies/hastar
+[0.476s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/ament_index/resource_index/parent_prefix_path/hastar
+[0.480s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/environment/ament_prefix_path.sh
+[0.486s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/environment/ament_prefix_path.dsv
+[0.490s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/environment/path.sh
+[0.495s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/environment/path.dsv
+[0.496s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/local_setup.bash
+[0.497s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/local_setup.sh
+[0.497s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/local_setup.zsh
+[0.497s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/local_setup.dsv
+[0.498s] -- Installing: /workspaces/mavlab/install/hastar/share/hastar/package.dsv
+[0.498s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/ament_index/resource_index/packages/hastar
+[0.499s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/cmake/hastarConfig.cmake
+[0.499s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/cmake/hastarConfig-version.cmake
+[0.500s] -- Up-to-date: /workspaces/mavlab/install/hastar/share/hastar/package.xml
+[0.513s] Invoked command in '/workspaces/mavlab/build/hastar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/build/hastar

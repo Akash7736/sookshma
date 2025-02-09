@@ -105,8 +105,6 @@ rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__r
 rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/sbg_driver/msg/SbgMagCalib.idl
 rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/sbg_driver/msg/SbgStatusAiding.idl
 rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/sbg_driver/msg/SbgEkfStatus.idl
-rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/sbg_driver/msg/SbgEkfVelBody.idl
-rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/sbg_driver/msg/SbgEkfRotAccel.idl
 rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -253,12 +251,6 @@ rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_aiding__ro
 rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_introspection_cpp.hpp
 
-rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__rosidl_typesupport_introspection_cpp.hpp
-
-rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__rosidl_typesupport_introspection_cpp.hpp
-
 rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp
 
@@ -342,12 +334,6 @@ rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_aiding__ty
 
 rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp
-
-rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp
-
-rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp
 
 CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp.o: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/flags.make
 CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp.o: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp
@@ -741,34 +727,6 @@ CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesuppo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/mavlab/build/sbg_driver/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp -o CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp.s
 
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.o: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/flags.make
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.o: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.o: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.o -MF CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.o.d -o CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.o -c /workspaces/mavlab/build/sbg_driver/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp
-
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/mavlab/build/sbg_driver/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp > CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.i
-
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/mavlab/build/sbg_driver/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp -o CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.s
-
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.o: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/flags.make
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.o: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.o: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/mavlab/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.o -MF CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.o.d -o CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.o -c /workspaces/mavlab/build/sbg_driver/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp
-
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/mavlab/build/sbg_driver/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp > CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.i
-
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/mavlab/build/sbg_driver/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp -o CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.s
-
 # Object files for target sbg_driver__rosidl_typesupport_introspection_cpp
 sbg_driver__rosidl_typesupport_introspection_cpp_OBJECTS = \
 "CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp.o" \
@@ -798,9 +756,7 @@ sbg_driver__rosidl_typesupport_introspection_cpp_OBJECTS = \
 "CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_hdt__type_support.cpp.o" \
 "CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_mag_calib__type_support.cpp.o" \
 "CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_aiding__type_support.cpp.o" \
-"CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp.o" \
-"CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.o" \
-"CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.o"
+"CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp.o"
 
 # External object files for target sbg_driver__rosidl_typesupport_introspection_cpp
 sbg_driver__rosidl_typesupport_introspection_cpp_EXTERNAL_OBJECTS =
@@ -833,8 +789,6 @@ libsbg_driver__rosidl_typesupport_introspection_cpp.so: CMakeFiles/sbg_driver__r
 libsbg_driver__rosidl_typesupport_introspection_cpp.so: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_mag_calib__type_support.cpp.o
 libsbg_driver__rosidl_typesupport_introspection_cpp.so: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_aiding__type_support.cpp.o
 libsbg_driver__rosidl_typesupport_introspection_cpp.so: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp.o
-libsbg_driver__rosidl_typesupport_introspection_cpp.so: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp.o
-libsbg_driver__rosidl_typesupport_introspection_cpp.so: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp.o
 libsbg_driver__rosidl_typesupport_introspection_cpp.so: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/build.make
 libsbg_driver__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 libsbg_driver__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
@@ -844,7 +798,7 @@ libsbg_driver__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/libr
 libsbg_driver__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libsbg_driver__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librcutils.so
 libsbg_driver__rosidl_typesupport_introspection_cpp.so: CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/mavlab/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX shared library libsbg_driver__rosidl_typesupport_introspection_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/mavlab/build/sbg_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX shared library libsbg_driver__rosidl_typesupport_introspection_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -865,12 +819,8 @@ CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_t
 CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_nav__type_support.cpp
 CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_quat__type_support.cpp
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__rosidl_typesupport_introspection_cpp.hpp
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__type_support.cpp
 CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__rosidl_typesupport_introspection_cpp.hpp
-CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__type_support.cpp
 CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_event__type_support.cpp
 CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,245 @@
+[0.074s] Invoking command in '/workspaces/mavlab/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/custom_interfaces -- -j4 -l4
+[0.583s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.175s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.302s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.317s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.352s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.475s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.598s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.767s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.814s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.890s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.890s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.891s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.022s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.066s] -- Configuring done
+[5.278s] -- Generating done
+[5.289s] -- Build files have been written to: /workspaces/mavlab/ros2_ws/build/custom_interfaces
+[5.367s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.407s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.461s] [  5%] Built target ament_cmake_python_copy_custom_interfaces
+[6.555s] running egg_info
+[6.562s] writing custom_interfaces.egg-info/PKG-INFO
+[6.563s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[6.564s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[6.573s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[6.577s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[6.702s] [  5%] Built target ament_cmake_python_build_custom_interfaces_egg
+[7.187s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[7.204s] [  5%] Built target custom_interfaces__cpp
+[7.241s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.251s] [ 10%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/estimated_state__functions.c.o[0m
+[7.255s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.259s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.926s] [ 17%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/actuator__functions.c.o[0m
+[8.173s] [ 20%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[8.368s] [ 20%] Built target custom_interfaces__rosidl_generator_c
+[8.405s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.884s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[8.975s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/estimated_state__type_support.cpp.o[0m
+[9.009s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[9.095s] [ 28%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/estimated_state__type_support.cpp.o[0m
+[9.178s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[9.246s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/estimated_state__type_support.cpp.o[0m
+[10.258s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[10.355s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/estimated_state__type_support_c.cpp.o[0m
+[10.727s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/actuator__type_support.cpp.o[0m
+[11.300s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/actuator__type_support.cpp.o[0m
+[11.335s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/actuator__type_support.cpp.o[0m
+[12.041s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/actuator__type_support_c.cpp.o[0m
+[12.142s] [ 46%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[12.315s] [ 46%] Built target custom_interfaces__rosidl_typesupport_cpp
+[12.358s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.314s] [ 51%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[13.623s] [ 51%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[13.679s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.695s] [ 56%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.842s] [ 58%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[14.058s] [ 58%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[14.178s] [ 58%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[14.267s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[14.304s] [ 61%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/estimated_state__type_support.c.o[0m
+[14.307s] [ 64%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/actuator__type_support.c.o[0m
+[14.459s] [ 66%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[14.556s] [ 66%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[15.199s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[15.237s] [ 71%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/actuator__type_support.cpp.o[0m
+[15.238s] [ 71%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/estimated_state__type_support.cpp.o[0m
+[15.352s] [ 74%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[15.479s] [ 74%] Built target custom_interfaces__rosidl_typesupport_c
+[15.540s] [ 74%] Built target custom_interfaces
+[15.605s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.869s] [ 76%] Built target custom_interfaces__py
+[17.902s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[17.954s] [ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_estimated_state_s.c.o[0m
+[17.954s] [ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_actuator_s.c.o[0m
+[18.497s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[18.635s] [ 84%] Built target custom_interfaces__rosidl_generator_py
+[18.678s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[18.678s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[18.679s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.724s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.729s] [ 89%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[18.731s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.222s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[19.247s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[19.254s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[19.377s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[19.406s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[19.416s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[19.450s] Invoked command in '/workspaces/mavlab/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/ros2_ws/build/custom_interfaces -- -j4 -l4
+[19.679s] Invoking command in '/workspaces/mavlab/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/custom_interfaces
+[19.704s] -- Install configuration: ""
+[19.704s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[19.704s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[19.705s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[19.705s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/actuator.h
+[19.706s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[19.706s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__functions.h
+[19.707s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__struct.h
+[19.707s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__struct.h
+[19.708s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__functions.c
+[19.708s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__type_support.h
+[19.708s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__type_support.h
+[19.709s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__functions.c
+[19.709s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__functions.h
+[19.710s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/estimated_state.h
+[19.711s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[19.711s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[19.711s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[19.712s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[19.714s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[19.714s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[19.715s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[19.715s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.715s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[19.716s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__rosidl_typesupport_fastrtps_c.h
+[19.716s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__rosidl_typesupport_fastrtps_c.h
+[19.717s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[19.719s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[19.719s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[19.720s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[19.720s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/estimated_state.hpp
+[19.720s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/actuator.hpp
+[19.721s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[19.721s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__traits.hpp
+[19.722s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__builder.hpp
+[19.722s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__traits.hpp
+[19.723s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__struct.hpp
+[19.723s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__builder.hpp
+[19.723s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__struct.hpp
+[19.724s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[19.725s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[19.725s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.725s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[19.726s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__rosidl_typesupport_fastrtps_cpp.hpp
+[19.726s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__rosidl_typesupport_fastrtps_cpp.hpp
+[19.727s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[19.729s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[19.731s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.732s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[19.732s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[19.733s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[19.733s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__rosidl_typesupport_introspection_c.h
+[19.733s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__type_support.c
+[19.734s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__rosidl_typesupport_introspection_c.h
+[19.735s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__type_support.c
+[19.735s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.735s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[19.736s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[19.737s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[19.739s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[19.739s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[19.739s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[19.740s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[19.740s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__type_support.cpp
+[19.741s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/actuator__rosidl_typesupport_introspection_cpp.hpp
+[19.741s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__rosidl_typesupport_introspection_cpp.hpp
+[19.742s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/estimated_state__type_support.cpp
+[19.744s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[19.745s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[19.746s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[19.748s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[19.748s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[19.749s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[19.749s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.1-py3.10.egg-info
+[19.750s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[19.750s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[19.750s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[19.751s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[19.752s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[19.752s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[19.752s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.753s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[19.754s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[19.755s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[19.755s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[19.756s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg
+[19.756s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[19.757s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_actuator_s.c
+[19.757s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_estimated_state.py
+[19.758s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_actuator.py
+[19.759s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_estimated_state_s.c
+[19.759s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[19.760s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[19.916s] Listing '/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[19.916s] Compiling '/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[19.917s] Listing '/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[19.917s] Compiling '/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...
+[19.918s] Compiling '/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_actuator.py'...
+[19.918s] Compiling '/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_estimated_state.py'...
+[19.938s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[19.940s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[19.941s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[19.942s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[19.943s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[19.944s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[19.946s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[19.947s] -- Set runtime path of "/workspaces/mavlab/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[19.947s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/EstimatedState.idl
+[19.948s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Actuator.idl
+[19.948s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/EstimatedState.msg
+[19.948s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Actuator.msg
+[19.949s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[19.949s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[19.950s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[19.950s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[19.951s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[19.951s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[19.952s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[19.952s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[19.952s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[19.953s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[19.953s] -- Installing: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[19.954s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[19.956s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[19.956s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[19.957s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[19.958s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.958s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[19.959s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.960s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.960s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[19.961s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.962s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[19.962s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[19.964s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[19.964s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.965s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[19.965s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[19.966s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[19.966s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[19.967s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[19.967s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.968s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.968s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[19.968s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[19.969s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.970s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.970s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[19.971s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[19.971s] -- Up-to-date: /workspaces/mavlab/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[19.974s] Invoked command in '/workspaces/mavlab/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/ros2_ws/build/custom_interfaces

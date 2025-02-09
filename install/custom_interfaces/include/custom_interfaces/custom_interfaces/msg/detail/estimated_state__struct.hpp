@@ -15,6 +15,10 @@
 #include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
+// Include directives for member types
+// Member 'header'
+#include "std_msgs/msg/detail/header__struct.hpp"
+
 #ifndef _WIN32
 # define DEPRECATED__custom_interfaces__msg__EstimatedState __attribute__((deprecated))
 #else
@@ -34,6 +38,7 @@ struct EstimatedState_
   using Type = EstimatedState_<ContainerAllocator>;
 
   explicit EstimatedState_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : header(_init)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
@@ -44,12 +49,14 @@ struct EstimatedState_
       this->x = 0.0;
       this->y = 0.0;
       this->heading = 0.0;
+      this->propeller = 0.0;
+      this->rudder = 0.0;
     }
   }
 
   explicit EstimatedState_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : header(_alloc, _init)
   {
-    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
@@ -59,10 +66,15 @@ struct EstimatedState_
       this->x = 0.0;
       this->y = 0.0;
       this->heading = 0.0;
+      this->propeller = 0.0;
+      this->rudder = 0.0;
     }
   }
 
   // field types and members
+  using _header_type =
+    std_msgs::msg::Header_<ContainerAllocator>;
+  _header_type header;
   using _u_type =
     double;
   _u_type u;
@@ -81,8 +93,20 @@ struct EstimatedState_
   using _heading_type =
     double;
   _heading_type heading;
+  using _propeller_type =
+    double;
+  _propeller_type propeller;
+  using _rudder_type =
+    double;
+  _rudder_type rudder;
 
   // setters for named parameter idiom
+  Type & set__header(
+    const std_msgs::msg::Header_<ContainerAllocator> & _arg)
+  {
+    this->header = _arg;
+    return *this;
+  }
   Type & set__u(
     const double & _arg)
   {
@@ -117,6 +141,18 @@ struct EstimatedState_
     const double & _arg)
   {
     this->heading = _arg;
+    return *this;
+  }
+  Type & set__propeller(
+    const double & _arg)
+  {
+    this->propeller = _arg;
+    return *this;
+  }
+  Type & set__rudder(
+    const double & _arg)
+  {
+    this->rudder = _arg;
     return *this;
   }
 
@@ -162,6 +198,9 @@ struct EstimatedState_
   // comparison operators
   bool operator==(const EstimatedState_ & other) const
   {
+    if (this->header != other.header) {
+      return false;
+    }
     if (this->u != other.u) {
       return false;
     }
@@ -178,6 +217,12 @@ struct EstimatedState_
       return false;
     }
     if (this->heading != other.heading) {
+      return false;
+    }
+    if (this->propeller != other.propeller) {
+      return false;
+    }
+    if (this->rudder != other.rudder) {
       return false;
     }
     return true;

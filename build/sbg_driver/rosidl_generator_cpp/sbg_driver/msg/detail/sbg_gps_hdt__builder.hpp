@@ -21,48 +21,16 @@ namespace msg
 namespace builder
 {
 
-class Init_SbgGpsHdt_num_sv_used
-{
-public:
-  explicit Init_SbgGpsHdt_num_sv_used(::sbg_driver::msg::SbgGpsHdt & msg)
-  : msg_(msg)
-  {}
-  ::sbg_driver::msg::SbgGpsHdt num_sv_used(::sbg_driver::msg::SbgGpsHdt::_num_sv_used_type arg)
-  {
-    msg_.num_sv_used = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::sbg_driver::msg::SbgGpsHdt msg_;
-};
-
-class Init_SbgGpsHdt_num_sv_tracked
-{
-public:
-  explicit Init_SbgGpsHdt_num_sv_tracked(::sbg_driver::msg::SbgGpsHdt & msg)
-  : msg_(msg)
-  {}
-  Init_SbgGpsHdt_num_sv_used num_sv_tracked(::sbg_driver::msg::SbgGpsHdt::_num_sv_tracked_type arg)
-  {
-    msg_.num_sv_tracked = std::move(arg);
-    return Init_SbgGpsHdt_num_sv_used(msg_);
-  }
-
-private:
-  ::sbg_driver::msg::SbgGpsHdt msg_;
-};
-
 class Init_SbgGpsHdt_baseline
 {
 public:
   explicit Init_SbgGpsHdt_baseline(::sbg_driver::msg::SbgGpsHdt & msg)
   : msg_(msg)
   {}
-  Init_SbgGpsHdt_num_sv_tracked baseline(::sbg_driver::msg::SbgGpsHdt::_baseline_type arg)
+  ::sbg_driver::msg::SbgGpsHdt baseline(::sbg_driver::msg::SbgGpsHdt::_baseline_type arg)
   {
     msg_.baseline = std::move(arg);
-    return Init_SbgGpsHdt_num_sv_tracked(msg_);
+    return std::move(msg_);
   }
 
 private:

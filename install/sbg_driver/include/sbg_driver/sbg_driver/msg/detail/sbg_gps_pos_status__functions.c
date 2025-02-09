@@ -19,26 +19,11 @@ sbg_driver__msg__SbgGpsPosStatus__init(sbg_driver__msg__SbgGpsPosStatus * msg)
   }
   // status
   // type
-  // ifm
-  // spoofing
-  // osnma
   // gps_l1_used
   // gps_l2_used
   // gps_l5_used
   // glo_l1_used
   // glo_l2_used
-  // glo_l3_used
-  // gal_e1_used
-  // gal_e5a_used
-  // gal_e5b_used
-  // gal_e5alt_used
-  // gal_e6_used
-  // bds_b1_used
-  // bds_b2_used
-  // bds_b3_used
-  // qzss_l1_used
-  // qzss_l2_used
-  // qzss_l5_used
   return true;
 }
 
@@ -50,26 +35,11 @@ sbg_driver__msg__SbgGpsPosStatus__fini(sbg_driver__msg__SbgGpsPosStatus * msg)
   }
   // status
   // type
-  // ifm
-  // spoofing
-  // osnma
   // gps_l1_used
   // gps_l2_used
   // gps_l5_used
   // glo_l1_used
   // glo_l2_used
-  // glo_l3_used
-  // gal_e1_used
-  // gal_e5a_used
-  // gal_e5b_used
-  // gal_e5alt_used
-  // gal_e6_used
-  // bds_b1_used
-  // bds_b2_used
-  // bds_b3_used
-  // qzss_l1_used
-  // qzss_l2_used
-  // qzss_l5_used
 }
 
 bool
@@ -84,18 +54,6 @@ sbg_driver__msg__SbgGpsPosStatus__are_equal(const sbg_driver__msg__SbgGpsPosStat
   }
   // type
   if (lhs->type != rhs->type) {
-    return false;
-  }
-  // ifm
-  if (lhs->ifm != rhs->ifm) {
-    return false;
-  }
-  // spoofing
-  if (lhs->spoofing != rhs->spoofing) {
-    return false;
-  }
-  // osnma
-  if (lhs->osnma != rhs->osnma) {
     return false;
   }
   // gps_l1_used
@@ -118,54 +76,6 @@ sbg_driver__msg__SbgGpsPosStatus__are_equal(const sbg_driver__msg__SbgGpsPosStat
   if (lhs->glo_l2_used != rhs->glo_l2_used) {
     return false;
   }
-  // glo_l3_used
-  if (lhs->glo_l3_used != rhs->glo_l3_used) {
-    return false;
-  }
-  // gal_e1_used
-  if (lhs->gal_e1_used != rhs->gal_e1_used) {
-    return false;
-  }
-  // gal_e5a_used
-  if (lhs->gal_e5a_used != rhs->gal_e5a_used) {
-    return false;
-  }
-  // gal_e5b_used
-  if (lhs->gal_e5b_used != rhs->gal_e5b_used) {
-    return false;
-  }
-  // gal_e5alt_used
-  if (lhs->gal_e5alt_used != rhs->gal_e5alt_used) {
-    return false;
-  }
-  // gal_e6_used
-  if (lhs->gal_e6_used != rhs->gal_e6_used) {
-    return false;
-  }
-  // bds_b1_used
-  if (lhs->bds_b1_used != rhs->bds_b1_used) {
-    return false;
-  }
-  // bds_b2_used
-  if (lhs->bds_b2_used != rhs->bds_b2_used) {
-    return false;
-  }
-  // bds_b3_used
-  if (lhs->bds_b3_used != rhs->bds_b3_used) {
-    return false;
-  }
-  // qzss_l1_used
-  if (lhs->qzss_l1_used != rhs->qzss_l1_used) {
-    return false;
-  }
-  // qzss_l2_used
-  if (lhs->qzss_l2_used != rhs->qzss_l2_used) {
-    return false;
-  }
-  // qzss_l5_used
-  if (lhs->qzss_l5_used != rhs->qzss_l5_used) {
-    return false;
-  }
   return true;
 }
 
@@ -181,12 +91,6 @@ sbg_driver__msg__SbgGpsPosStatus__copy(
   output->status = input->status;
   // type
   output->type = input->type;
-  // ifm
-  output->ifm = input->ifm;
-  // spoofing
-  output->spoofing = input->spoofing;
-  // osnma
-  output->osnma = input->osnma;
   // gps_l1_used
   output->gps_l1_used = input->gps_l1_used;
   // gps_l2_used
@@ -197,30 +101,6 @@ sbg_driver__msg__SbgGpsPosStatus__copy(
   output->glo_l1_used = input->glo_l1_used;
   // glo_l2_used
   output->glo_l2_used = input->glo_l2_used;
-  // glo_l3_used
-  output->glo_l3_used = input->glo_l3_used;
-  // gal_e1_used
-  output->gal_e1_used = input->gal_e1_used;
-  // gal_e5a_used
-  output->gal_e5a_used = input->gal_e5a_used;
-  // gal_e5b_used
-  output->gal_e5b_used = input->gal_e5b_used;
-  // gal_e5alt_used
-  output->gal_e5alt_used = input->gal_e5alt_used;
-  // gal_e6_used
-  output->gal_e6_used = input->gal_e6_used;
-  // bds_b1_used
-  output->bds_b1_used = input->bds_b1_used;
-  // bds_b2_used
-  output->bds_b2_used = input->bds_b2_used;
-  // bds_b3_used
-  output->bds_b3_used = input->bds_b3_used;
-  // qzss_l1_used
-  output->qzss_l1_used = input->qzss_l1_used;
-  // qzss_l2_used
-  output->qzss_l2_used = input->qzss_l2_used;
-  // qzss_l5_used
-  output->qzss_l5_used = input->qzss_l5_used;
   return true;
 }
 

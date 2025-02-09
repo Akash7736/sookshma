@@ -17,18 +17,25 @@ extern "C"
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'header'
+#include "std_msgs/msg/detail/header__struct.h"
+
 /// Struct defined in msg/EstimatedState in the package custom_interfaces.
 /**
   * EstimatedState.msg
  */
 typedef struct custom_interfaces__msg__EstimatedState
 {
+  std_msgs__msg__Header header;
   double u;
   double v;
   double r;
   double x;
   double y;
   double heading;
+  double propeller;
+  double rudder;
 } custom_interfaces__msg__EstimatedState;
 
 // Struct for a sequence of custom_interfaces__msg__EstimatedState.

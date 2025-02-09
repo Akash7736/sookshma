@@ -59,11 +59,7 @@ module sbg_driver {
       geometry_msgs::msg::Vector3 position_accuracy;
 
       @verbatim (language="comment", text=
-        "Number of space vehicles tracked by the GNSS. 0xFF if N/A")
-      uint8 num_sv_tracked;
-
-      @verbatim (language="comment", text=
-        "Number of space vehicles used in GNSS solution. 0xFF if N/A")
+        "Number of space vehicles used in GNSS solution")
       uint8 num_sv_used;
 
       @verbatim (language="comment", text=

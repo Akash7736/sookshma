@@ -70,21 +70,6 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
         '_port_d_tx',
         '_port_e_rx',
         '_port_e_tx',
-        '_eth_0',
-        '_eth_1',
-        '_eth_2',
-        '_eth_3',
-        '_eth_4',
-        '_eth_0_rx',
-        '_eth_0_tx',
-        '_eth_1_rx',
-        '_eth_1_tx',
-        '_eth_2_rx',
-        '_eth_2_tx',
-        '_eth_3_rx',
-        '_eth_3_tx',
-        '_eth_4_rx',
-        '_eth_4_tx',
         '_can_rx',
         '_can_tx',
         '_can_status',
@@ -106,42 +91,12 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
         'port_d_tx': 'boolean',
         'port_e_rx': 'boolean',
         'port_e_tx': 'boolean',
-        'eth_0': 'boolean',
-        'eth_1': 'boolean',
-        'eth_2': 'boolean',
-        'eth_3': 'boolean',
-        'eth_4': 'boolean',
-        'eth_0_rx': 'boolean',
-        'eth_0_tx': 'boolean',
-        'eth_1_rx': 'boolean',
-        'eth_1_tx': 'boolean',
-        'eth_2_rx': 'boolean',
-        'eth_2_tx': 'boolean',
-        'eth_3_rx': 'boolean',
-        'eth_3_tx': 'boolean',
-        'eth_4_rx': 'boolean',
-        'eth_4_tx': 'boolean',
         'can_rx': 'boolean',
         'can_tx': 'boolean',
         'can_status': 'uint8',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
@@ -181,21 +136,6 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
         self.port_d_tx = kwargs.get('port_d_tx', bool())
         self.port_e_rx = kwargs.get('port_e_rx', bool())
         self.port_e_tx = kwargs.get('port_e_tx', bool())
-        self.eth_0 = kwargs.get('eth_0', bool())
-        self.eth_1 = kwargs.get('eth_1', bool())
-        self.eth_2 = kwargs.get('eth_2', bool())
-        self.eth_3 = kwargs.get('eth_3', bool())
-        self.eth_4 = kwargs.get('eth_4', bool())
-        self.eth_0_rx = kwargs.get('eth_0_rx', bool())
-        self.eth_0_tx = kwargs.get('eth_0_tx', bool())
-        self.eth_1_rx = kwargs.get('eth_1_rx', bool())
-        self.eth_1_tx = kwargs.get('eth_1_tx', bool())
-        self.eth_2_rx = kwargs.get('eth_2_rx', bool())
-        self.eth_2_tx = kwargs.get('eth_2_tx', bool())
-        self.eth_3_rx = kwargs.get('eth_3_rx', bool())
-        self.eth_3_tx = kwargs.get('eth_3_tx', bool())
-        self.eth_4_rx = kwargs.get('eth_4_rx', bool())
-        self.eth_4_tx = kwargs.get('eth_4_tx', bool())
         self.can_rx = kwargs.get('can_rx', bool())
         self.can_tx = kwargs.get('can_tx', bool())
         self.can_status = kwargs.get('can_status', int())
@@ -258,36 +198,6 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
         if self.port_e_rx != other.port_e_rx:
             return False
         if self.port_e_tx != other.port_e_tx:
-            return False
-        if self.eth_0 != other.eth_0:
-            return False
-        if self.eth_1 != other.eth_1:
-            return False
-        if self.eth_2 != other.eth_2:
-            return False
-        if self.eth_3 != other.eth_3:
-            return False
-        if self.eth_4 != other.eth_4:
-            return False
-        if self.eth_0_rx != other.eth_0_rx:
-            return False
-        if self.eth_0_tx != other.eth_0_tx:
-            return False
-        if self.eth_1_rx != other.eth_1_rx:
-            return False
-        if self.eth_1_tx != other.eth_1_tx:
-            return False
-        if self.eth_2_rx != other.eth_2_rx:
-            return False
-        if self.eth_2_tx != other.eth_2_tx:
-            return False
-        if self.eth_3_rx != other.eth_3_rx:
-            return False
-        if self.eth_3_tx != other.eth_3_tx:
-            return False
-        if self.eth_4_rx != other.eth_4_rx:
-            return False
-        if self.eth_4_tx != other.eth_4_tx:
             return False
         if self.can_rx != other.can_rx:
             return False
@@ -496,201 +406,6 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 isinstance(value, bool), \
                 "The 'port_e_tx' field must be of type 'bool'"
         self._port_e_tx = value
-
-    @builtins.property
-    def eth_0(self):
-        """Message field 'eth_0'."""
-        return self._eth_0
-
-    @eth_0.setter
-    def eth_0(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_0' field must be of type 'bool'"
-        self._eth_0 = value
-
-    @builtins.property
-    def eth_1(self):
-        """Message field 'eth_1'."""
-        return self._eth_1
-
-    @eth_1.setter
-    def eth_1(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_1' field must be of type 'bool'"
-        self._eth_1 = value
-
-    @builtins.property
-    def eth_2(self):
-        """Message field 'eth_2'."""
-        return self._eth_2
-
-    @eth_2.setter
-    def eth_2(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_2' field must be of type 'bool'"
-        self._eth_2 = value
-
-    @builtins.property
-    def eth_3(self):
-        """Message field 'eth_3'."""
-        return self._eth_3
-
-    @eth_3.setter
-    def eth_3(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_3' field must be of type 'bool'"
-        self._eth_3 = value
-
-    @builtins.property
-    def eth_4(self):
-        """Message field 'eth_4'."""
-        return self._eth_4
-
-    @eth_4.setter
-    def eth_4(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_4' field must be of type 'bool'"
-        self._eth_4 = value
-
-    @builtins.property
-    def eth_0_rx(self):
-        """Message field 'eth_0_rx'."""
-        return self._eth_0_rx
-
-    @eth_0_rx.setter
-    def eth_0_rx(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_0_rx' field must be of type 'bool'"
-        self._eth_0_rx = value
-
-    @builtins.property
-    def eth_0_tx(self):
-        """Message field 'eth_0_tx'."""
-        return self._eth_0_tx
-
-    @eth_0_tx.setter
-    def eth_0_tx(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_0_tx' field must be of type 'bool'"
-        self._eth_0_tx = value
-
-    @builtins.property
-    def eth_1_rx(self):
-        """Message field 'eth_1_rx'."""
-        return self._eth_1_rx
-
-    @eth_1_rx.setter
-    def eth_1_rx(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_1_rx' field must be of type 'bool'"
-        self._eth_1_rx = value
-
-    @builtins.property
-    def eth_1_tx(self):
-        """Message field 'eth_1_tx'."""
-        return self._eth_1_tx
-
-    @eth_1_tx.setter
-    def eth_1_tx(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_1_tx' field must be of type 'bool'"
-        self._eth_1_tx = value
-
-    @builtins.property
-    def eth_2_rx(self):
-        """Message field 'eth_2_rx'."""
-        return self._eth_2_rx
-
-    @eth_2_rx.setter
-    def eth_2_rx(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_2_rx' field must be of type 'bool'"
-        self._eth_2_rx = value
-
-    @builtins.property
-    def eth_2_tx(self):
-        """Message field 'eth_2_tx'."""
-        return self._eth_2_tx
-
-    @eth_2_tx.setter
-    def eth_2_tx(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_2_tx' field must be of type 'bool'"
-        self._eth_2_tx = value
-
-    @builtins.property
-    def eth_3_rx(self):
-        """Message field 'eth_3_rx'."""
-        return self._eth_3_rx
-
-    @eth_3_rx.setter
-    def eth_3_rx(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_3_rx' field must be of type 'bool'"
-        self._eth_3_rx = value
-
-    @builtins.property
-    def eth_3_tx(self):
-        """Message field 'eth_3_tx'."""
-        return self._eth_3_tx
-
-    @eth_3_tx.setter
-    def eth_3_tx(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_3_tx' field must be of type 'bool'"
-        self._eth_3_tx = value
-
-    @builtins.property
-    def eth_4_rx(self):
-        """Message field 'eth_4_rx'."""
-        return self._eth_4_rx
-
-    @eth_4_rx.setter
-    def eth_4_rx(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_4_rx' field must be of type 'bool'"
-        self._eth_4_rx = value
-
-    @builtins.property
-    def eth_4_tx(self):
-        """Message field 'eth_4_tx'."""
-        return self._eth_4_tx
-
-    @eth_4_tx.setter
-    def eth_4_tx(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'eth_4_tx' field must be of type 'bool'"
-        self._eth_4_tx = value
 
     @builtins.property
     def can_rx(self):

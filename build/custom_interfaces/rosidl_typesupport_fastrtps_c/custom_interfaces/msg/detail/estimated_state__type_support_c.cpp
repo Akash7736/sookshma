@@ -34,8 +34,23 @@ extern "C"
 {
 #endif
 
+#include "std_msgs/msg/detail/header__functions.h"  // header
 
 // forward declare type support functions
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_custom_interfaces
+size_t get_serialized_size_std_msgs__msg__Header(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_custom_interfaces
+size_t max_serialized_size_std_msgs__msg__Header(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_custom_interfaces
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, std_msgs, msg, Header)();
 
 
 using _EstimatedState__ros_msg_type = custom_interfaces__msg__EstimatedState;
@@ -49,6 +64,20 @@ static bool _EstimatedState__cdr_serialize(
     return false;
   }
   const _EstimatedState__ros_msg_type * ros_message = static_cast<const _EstimatedState__ros_msg_type *>(untyped_ros_message);
+  // Field name: header
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Header
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->header, cdr))
+    {
+      return false;
+    }
+  }
+
   // Field name: u
   {
     cdr << ros_message->u;
@@ -79,6 +108,16 @@ static bool _EstimatedState__cdr_serialize(
     cdr << ros_message->heading;
   }
 
+  // Field name: propeller
+  {
+    cdr << ros_message->propeller;
+  }
+
+  // Field name: rudder
+  {
+    cdr << ros_message->rudder;
+  }
+
   return true;
 }
 
@@ -91,6 +130,20 @@ static bool _EstimatedState__cdr_deserialize(
     return false;
   }
   _EstimatedState__ros_msg_type * ros_message = static_cast<_EstimatedState__ros_msg_type *>(untyped_ros_message);
+  // Field name: header
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Header
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->header))
+    {
+      return false;
+    }
+  }
+
   // Field name: u
   {
     cdr >> ros_message->u;
@@ -121,6 +174,16 @@ static bool _EstimatedState__cdr_deserialize(
     cdr >> ros_message->heading;
   }
 
+  // Field name: propeller
+  {
+    cdr >> ros_message->propeller;
+  }
+
+  // Field name: rudder
+  {
+    cdr >> ros_message->rudder;
+  }
+
   return true;
 }  // NOLINT(readability/fn_size)
 
@@ -138,6 +201,10 @@ size_t get_serialized_size_custom_interfaces__msg__EstimatedState(
   (void)padding;
   (void)wchar_size;
 
+  // field.name header
+
+  current_alignment += get_serialized_size_std_msgs__msg__Header(
+    &(ros_message->header), current_alignment);
   // field.name u
   {
     size_t item_size = sizeof(ros_message->u);
@@ -174,6 +241,18 @@ size_t get_serialized_size_custom_interfaces__msg__EstimatedState(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // field.name propeller
+  {
+    size_t item_size = sizeof(ros_message->propeller);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name rudder
+  {
+    size_t item_size = sizeof(ros_message->rudder);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -203,6 +282,25 @@ size_t max_serialized_size_custom_interfaces__msg__EstimatedState(
   full_bounded = true;
   is_plain = true;
 
+  // member: header
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_std_msgs__msg__Header(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
   // member: u
   {
     size_t array_size = 1;
@@ -251,6 +349,22 @@ size_t max_serialized_size_custom_interfaces__msg__EstimatedState(
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
+  // member: propeller
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: rudder
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -260,7 +374,7 @@ size_t max_serialized_size_custom_interfaces__msg__EstimatedState(
     using DataType = custom_interfaces__msg__EstimatedState;
     is_plain =
       (
-      offsetof(DataType, heading) +
+      offsetof(DataType, rudder) +
       last_member_size
       ) == ret_val;
   }

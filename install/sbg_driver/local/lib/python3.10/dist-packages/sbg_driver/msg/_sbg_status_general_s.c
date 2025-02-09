@@ -95,24 +95,6 @@ bool sbg_driver__msg__sbg_status_general__convert_from_py(PyObject * _pymsg, voi
     ros_message->temperature = (Py_True == field);
     Py_DECREF(field);
   }
-  {  // datalogger
-    PyObject * field = PyObject_GetAttrString(_pymsg, "datalogger");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->datalogger = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // cpu
-    PyObject * field = PyObject_GetAttrString(_pymsg, "cpu");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->cpu = (Py_True == field);
-    Py_DECREF(field);
-  }
 
   return true;
 }
@@ -184,28 +166,6 @@ PyObject * sbg_driver__msg__sbg_status_general__convert_to_py(void * raw_ros_mes
     field = PyBool_FromLong(ros_message->temperature ? 1 : 0);
     {
       int rc = PyObject_SetAttrString(_pymessage, "temperature", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // datalogger
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->datalogger ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "datalogger", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // cpu
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->cpu ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "cpu", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

@@ -74,16 +74,6 @@ static bool _SbgStatusGeneral__cdr_serialize(
     cdr << (ros_message->temperature ? true : false);
   }
 
-  // Field name: datalogger
-  {
-    cdr << (ros_message->datalogger ? true : false);
-  }
-
-  // Field name: cpu
-  {
-    cdr << (ros_message->cpu ? true : false);
-  }
-
   return true;
 }
 
@@ -131,20 +121,6 @@ static bool _SbgStatusGeneral__cdr_deserialize(
     ros_message->temperature = tmp ? true : false;
   }
 
-  // Field name: datalogger
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->datalogger = tmp ? true : false;
-  }
-
-  // Field name: cpu
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->cpu = tmp ? true : false;
-  }
-
   return true;
 }  // NOLINT(readability/fn_size)
 
@@ -189,18 +165,6 @@ size_t get_serialized_size_sbg_driver__msg__SbgStatusGeneral(
   // field.name temperature
   {
     size_t item_size = sizeof(ros_message->temperature);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name datalogger
-  {
-    size_t item_size = sizeof(ros_message->datalogger);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name cpu
-  {
-    size_t item_size = sizeof(ros_message->cpu);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -268,20 +232,6 @@ size_t max_serialized_size_sbg_driver__msg__SbgStatusGeneral(
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
-  // member: datalogger
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: cpu
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -291,7 +241,7 @@ size_t max_serialized_size_sbg_driver__msg__SbgStatusGeneral(
     using DataType = sbg_driver__msg__SbgStatusGeneral;
     is_plain =
       (
-      offsetof(DataType, cpu) +
+      offsetof(DataType, temperature) +
       last_member_size
       ) == ret_val;
   }

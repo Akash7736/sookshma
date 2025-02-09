@@ -37,7 +37,7 @@ void SbgGpsHdt_fini_function(void * message_memory)
   typed_message->~SbgGpsHdt();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember SbgGpsHdt_message_member_array[11] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember SbgGpsHdt_message_member_array[9] = {
   {
     "header",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
@@ -190,47 +190,13 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SbgGpsHdt_mes
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
-  },
-  {
-    "num_sv_tracked",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver::msg::SbgGpsHdt, num_sv_tracked),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "num_sv_used",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver::msg::SbgGpsHdt, num_sv_used),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers SbgGpsHdt_message_members = {
   "sbg_driver::msg",  // message namespace
   "SbgGpsHdt",  // message name
-  11,  // number of fields
+  9,  // number of fields
   sizeof(sbg_driver::msg::SbgGpsHdt),
   SbgGpsHdt_message_member_array,  // message members
   SbgGpsHdt_init_function,  // function to initialize message memory (memory has to be allocated)

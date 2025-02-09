@@ -51,8 +51,6 @@ struct SbgGpsHdt_
       this->pitch = 0.0f;
       this->pitch_acc = 0.0f;
       this->baseline = 0.0f;
-      this->num_sv_tracked = 0;
-      this->num_sv_used = 0;
     }
   }
 
@@ -70,8 +68,6 @@ struct SbgGpsHdt_
       this->pitch = 0.0f;
       this->pitch_acc = 0.0f;
       this->baseline = 0.0f;
-      this->num_sv_tracked = 0;
-      this->num_sv_used = 0;
     }
   }
 
@@ -103,12 +99,6 @@ struct SbgGpsHdt_
   using _baseline_type =
     float;
   _baseline_type baseline;
-  using _num_sv_tracked_type =
-    uint8_t;
-  _num_sv_tracked_type num_sv_tracked;
-  using _num_sv_used_type =
-    uint8_t;
-  _num_sv_used_type num_sv_used;
 
   // setters for named parameter idiom
   Type & set__header(
@@ -163,18 +153,6 @@ struct SbgGpsHdt_
     const float & _arg)
   {
     this->baseline = _arg;
-    return *this;
-  }
-  Type & set__num_sv_tracked(
-    const uint8_t & _arg)
-  {
-    this->num_sv_tracked = _arg;
-    return *this;
-  }
-  Type & set__num_sv_used(
-    const uint8_t & _arg)
-  {
-    this->num_sv_used = _arg;
     return *this;
   }
 
@@ -245,12 +223,6 @@ struct SbgGpsHdt_
       return false;
     }
     if (this->baseline != other.baseline) {
-      return false;
-    }
-    if (this->num_sv_tracked != other.num_sv_tracked) {
-      return false;
-    }
-    if (this->num_sv_used != other.num_sv_used) {
       return false;
     }
     return true;

@@ -60,7 +60,7 @@ module sbg_driver {
       float course;
 
       @verbatim (language="comment", text=
-        "1 sigma course accuracy")
+        "1 sgima course accuracy")
       float course_acc;
     };
   };

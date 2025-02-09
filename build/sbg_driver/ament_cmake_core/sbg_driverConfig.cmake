@@ -16,7 +16,7 @@ set(_sbg_driver_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT sbg_driver_FIND_QUIETLY)
-  message(STATUS "Found sbg_driver: 3.2.0 (${sbg_driver_DIR})")
+  message(STATUS "Found sbg_driver: 3.1.0 (${sbg_driver_DIR})")
 endif()
 
 # warn when using a deprecated package

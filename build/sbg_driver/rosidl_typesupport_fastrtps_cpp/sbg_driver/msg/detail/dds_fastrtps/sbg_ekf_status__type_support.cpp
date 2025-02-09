@@ -50,36 +50,20 @@ cdr_serialize(
   cdr << (ros_message.gps1_vel_used ? true : false);
   // Member: gps1_pos_used
   cdr << (ros_message.gps1_pos_used ? true : false);
+  // Member: gps1_course_used
+  cdr << (ros_message.gps1_course_used ? true : false);
   // Member: gps1_hdt_used
   cdr << (ros_message.gps1_hdt_used ? true : false);
   // Member: gps2_vel_used
   cdr << (ros_message.gps2_vel_used ? true : false);
   // Member: gps2_pos_used
   cdr << (ros_message.gps2_pos_used ? true : false);
+  // Member: gps2_course_used
+  cdr << (ros_message.gps2_course_used ? true : false);
   // Member: gps2_hdt_used
   cdr << (ros_message.gps2_hdt_used ? true : false);
   // Member: odo_used
   cdr << (ros_message.odo_used ? true : false);
-  // Member: dvl_bt_used
-  cdr << (ros_message.dvl_bt_used ? true : false);
-  // Member: dvl_wt_used
-  cdr << (ros_message.dvl_wt_used ? true : false);
-  // Member: user_pos_used
-  cdr << (ros_message.user_pos_used ? true : false);
-  // Member: user_vel_used
-  cdr << (ros_message.user_vel_used ? true : false);
-  // Member: user_heading_used
-  cdr << (ros_message.user_heading_used ? true : false);
-  // Member: usbl_used
-  cdr << (ros_message.usbl_used ? true : false);
-  // Member: air_data_used
-  cdr << (ros_message.air_data_used ? true : false);
-  // Member: zupt_used
-  cdr << (ros_message.zupt_used ? true : false);
-  // Member: align_valid
-  cdr << (ros_message.align_valid ? true : false);
-  // Member: depth_used
-  cdr << (ros_message.depth_used ? true : false);
   return true;
 }
 
@@ -148,6 +132,13 @@ cdr_deserialize(
     ros_message.gps1_pos_used = tmp ? true : false;
   }
 
+  // Member: gps1_course_used
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message.gps1_course_used = tmp ? true : false;
+  }
+
   // Member: gps1_hdt_used
   {
     uint8_t tmp;
@@ -169,6 +160,13 @@ cdr_deserialize(
     ros_message.gps2_pos_used = tmp ? true : false;
   }
 
+  // Member: gps2_course_used
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message.gps2_course_used = tmp ? true : false;
+  }
+
   // Member: gps2_hdt_used
   {
     uint8_t tmp;
@@ -181,76 +179,6 @@ cdr_deserialize(
     uint8_t tmp;
     cdr >> tmp;
     ros_message.odo_used = tmp ? true : false;
-  }
-
-  // Member: dvl_bt_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.dvl_bt_used = tmp ? true : false;
-  }
-
-  // Member: dvl_wt_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.dvl_wt_used = tmp ? true : false;
-  }
-
-  // Member: user_pos_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.user_pos_used = tmp ? true : false;
-  }
-
-  // Member: user_vel_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.user_vel_used = tmp ? true : false;
-  }
-
-  // Member: user_heading_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.user_heading_used = tmp ? true : false;
-  }
-
-  // Member: usbl_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.usbl_used = tmp ? true : false;
-  }
-
-  // Member: air_data_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.air_data_used = tmp ? true : false;
-  }
-
-  // Member: zupt_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.zupt_used = tmp ? true : false;
-  }
-
-  // Member: align_valid
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.align_valid = tmp ? true : false;
-  }
-
-  // Member: depth_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.depth_used = tmp ? true : false;
   }
 
   return true;
@@ -323,6 +251,12 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // Member: gps1_course_used
+  {
+    size_t item_size = sizeof(ros_message.gps1_course_used);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
   // Member: gps1_hdt_used
   {
     size_t item_size = sizeof(ros_message.gps1_hdt_used);
@@ -341,6 +275,12 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // Member: gps2_course_used
+  {
+    size_t item_size = sizeof(ros_message.gps2_course_used);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
   // Member: gps2_hdt_used
   {
     size_t item_size = sizeof(ros_message.gps2_hdt_used);
@@ -350,66 +290,6 @@ get_serialized_size(
   // Member: odo_used
   {
     size_t item_size = sizeof(ros_message.odo_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: dvl_bt_used
-  {
-    size_t item_size = sizeof(ros_message.dvl_bt_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: dvl_wt_used
-  {
-    size_t item_size = sizeof(ros_message.dvl_wt_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: user_pos_used
-  {
-    size_t item_size = sizeof(ros_message.user_pos_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: user_vel_used
-  {
-    size_t item_size = sizeof(ros_message.user_vel_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: user_heading_used
-  {
-    size_t item_size = sizeof(ros_message.user_heading_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: usbl_used
-  {
-    size_t item_size = sizeof(ros_message.usbl_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: air_data_used
-  {
-    size_t item_size = sizeof(ros_message.air_data_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: zupt_used
-  {
-    size_t item_size = sizeof(ros_message.zupt_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: align_valid
-  {
-    size_t item_size = sizeof(ros_message.align_valid);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: depth_used
-  {
-    size_t item_size = sizeof(ros_message.depth_used);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -509,6 +389,14 @@ max_serialized_size_SbgEkfStatus(
     current_alignment += array_size * sizeof(uint8_t);
   }
 
+  // Member: gps1_course_used
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
   // Member: gps1_hdt_used
   {
     size_t array_size = 1;
@@ -533,6 +421,14 @@ max_serialized_size_SbgEkfStatus(
     current_alignment += array_size * sizeof(uint8_t);
   }
 
+  // Member: gps2_course_used
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
   // Member: gps2_hdt_used
   {
     size_t array_size = 1;
@@ -549,86 +445,6 @@ max_serialized_size_SbgEkfStatus(
     current_alignment += array_size * sizeof(uint8_t);
   }
 
-  // Member: dvl_bt_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: dvl_wt_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: user_pos_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: user_vel_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: user_heading_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: usbl_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: air_data_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: zupt_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: align_valid
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: depth_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -637,7 +453,7 @@ max_serialized_size_SbgEkfStatus(
     using DataType = sbg_driver::msg::SbgEkfStatus;
     is_plain =
       (
-      offsetof(DataType, depth_used) +
+      offsetof(DataType, odo_used) +
       last_member_size
       ) == ret_val;
   }

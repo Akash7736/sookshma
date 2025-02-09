@@ -41,7 +41,7 @@ void sbg_driver__msg__SbgUtcTime__rosidl_typesupport_introspection_c__SbgUtcTime
   sbg_driver__msg__SbgUtcTime__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgUtcTime__rosidl_typesupport_introspection_c__SbgUtcTime_message_member_array[14] = {
+static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgUtcTime__rosidl_typesupport_introspection_c__SbgUtcTime_message_member_array[11] = {
   {
     "header",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -228,64 +228,13 @@ static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgUtc
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
-  },
-  {
-    "clk_bias_std",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver__msg__SbgUtcTime, clk_bias_std),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "clk_sf_error_std",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver__msg__SbgUtcTime, clk_sf_error_std),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "clk_residual_error",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(sbg_driver__msg__SbgUtcTime, clk_residual_error),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers sbg_driver__msg__SbgUtcTime__rosidl_typesupport_introspection_c__SbgUtcTime_message_members = {
   "sbg_driver__msg",  // message namespace
   "SbgUtcTime",  // message name
-  14,  // number of fields
+  11,  // number of fields
   sizeof(sbg_driver__msg__SbgUtcTime),
   sbg_driver__msg__SbgUtcTime__rosidl_typesupport_introspection_c__SbgUtcTime_message_member_array,  // message members
   sbg_driver__msg__SbgUtcTime__rosidl_typesupport_introspection_c__SbgUtcTime_init_function,  // function to initialize message memory (memory has to be allocated)

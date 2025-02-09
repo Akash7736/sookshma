@@ -57,20 +57,6 @@ inline void to_flow_style_yaml(
   {
     out << "temperature: ";
     rosidl_generator_traits::value_to_yaml(msg.temperature, out);
-    out << ", ";
-  }
-
-  // member: datalogger
-  {
-    out << "datalogger: ";
-    rosidl_generator_traits::value_to_yaml(msg.datalogger, out);
-    out << ", ";
-  }
-
-  // member: cpu
-  {
-    out << "cpu: ";
-    rosidl_generator_traits::value_to_yaml(msg.cpu, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -126,26 +112,6 @@ inline void to_block_style_yaml(
     }
     out << "temperature: ";
     rosidl_generator_traits::value_to_yaml(msg.temperature, out);
-    out << "\n";
-  }
-
-  // member: datalogger
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "datalogger: ";
-    rosidl_generator_traits::value_to_yaml(msg.datalogger, out);
-    out << "\n";
-  }
-
-  // member: cpu
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "cpu: ";
-    rosidl_generator_traits::value_to_yaml(msg.cpu, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

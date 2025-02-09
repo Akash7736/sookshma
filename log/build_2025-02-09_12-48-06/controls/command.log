@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/mavlab/build/controls': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/controls -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/install/controls
+Invoked command in '/workspaces/mavlab/build/controls' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/mavlab/ros2_ws/src/controls -DCMAKE_INSTALL_PREFIX=/workspaces/mavlab/install/controls
+Invoking command in '/workspaces/mavlab/build/controls': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/build/controls -- -j4 -l4
+Invoked command in '/workspaces/mavlab/build/controls' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/mavlab/build/controls -- -j4 -l4
+Invoking command in '/workspaces/mavlab/build/controls': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/build/controls
+Invoked command in '/workspaces/mavlab/build/controls' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/mavlab/build/controls

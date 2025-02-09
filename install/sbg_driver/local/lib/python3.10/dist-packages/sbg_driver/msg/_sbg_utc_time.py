@@ -7,8 +7,6 @@
 
 import builtins  # noqa: E402, I100
 
-import math  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -76,9 +74,6 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
         '_sec',
         '_nanosec',
         '_gps_tow',
-        '_clk_bias_std',
-        '_clk_sf_error_std',
-        '_clk_residual_error',
     ]
 
     _fields_and_field_types = {
@@ -93,9 +88,6 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
         'sec': 'uint8',
         'nanosec': 'uint32',
         'gps_tow': 'uint32',
-        'clk_bias_std': 'float',
-        'clk_sf_error_std': 'float',
-        'clk_residual_error': 'float',
     }
 
     SLOT_TYPES = (
@@ -110,9 +102,6 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint32'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint32'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -132,9 +121,6 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
         self.sec = kwargs.get('sec', int())
         self.nanosec = kwargs.get('nanosec', int())
         self.gps_tow = kwargs.get('gps_tow', int())
-        self.clk_bias_std = kwargs.get('clk_bias_std', float())
-        self.clk_sf_error_std = kwargs.get('clk_sf_error_std', float())
-        self.clk_residual_error = kwargs.get('clk_residual_error', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -186,12 +172,6 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
         if self.nanosec != other.nanosec:
             return False
         if self.gps_tow != other.gps_tow:
-            return False
-        if self.clk_bias_std != other.clk_bias_std:
-            return False
-        if self.clk_sf_error_std != other.clk_sf_error_std:
-            return False
-        if self.clk_residual_error != other.clk_residual_error:
             return False
         return True
 
@@ -362,48 +342,3 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
             assert value >= 0 and value < 4294967296, \
                 "The 'gps_tow' field must be an unsigned integer in [0, 4294967295]"
         self._gps_tow = value
-
-    @builtins.property
-    def clk_bias_std(self):
-        """Message field 'clk_bias_std'."""
-        return self._clk_bias_std
-
-    @clk_bias_std.setter
-    def clk_bias_std(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'clk_bias_std' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'clk_bias_std' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._clk_bias_std = value
-
-    @builtins.property
-    def clk_sf_error_std(self):
-        """Message field 'clk_sf_error_std'."""
-        return self._clk_sf_error_std
-
-    @clk_sf_error_std.setter
-    def clk_sf_error_std(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'clk_sf_error_std' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'clk_sf_error_std' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._clk_sf_error_std = value
-
-    @builtins.property
-    def clk_residual_error(self):
-        """Message field 'clk_residual_error'."""
-        return self._clk_residual_error
-
-    @clk_residual_error.setter
-    def clk_residual_error(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'clk_residual_error' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'clk_residual_error' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._clk_residual_error = value

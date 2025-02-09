@@ -30,9 +30,7 @@
     "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgGpsHdt.idl",
     "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgMagCalib.idl",
     "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgStatusAiding.idl",
-    "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgEkfStatus.idl",
-    "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgEkfVelBody.idl",
-    "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgEkfRotAccel.idl"
+    "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver:msg/SbgEkfStatus.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -142,8 +140,6 @@
     "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver/msg/SbgMagCalib.idl",
     "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver/msg/SbgStatusAiding.idl",
     "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver/msg/SbgEkfStatus.idl",
-    "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver/msg/SbgEkfVelBody.idl",
-    "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver/msg/SbgEkfRotAccel.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

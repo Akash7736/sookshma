@@ -64,21 +64,13 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
         '_mag_ref_used',
         '_gps1_vel_used',
         '_gps1_pos_used',
+        '_gps1_course_used',
         '_gps1_hdt_used',
         '_gps2_vel_used',
         '_gps2_pos_used',
+        '_gps2_course_used',
         '_gps2_hdt_used',
         '_odo_used',
-        '_dvl_bt_used',
-        '_dvl_wt_used',
-        '_user_pos_used',
-        '_user_vel_used',
-        '_user_heading_used',
-        '_usbl_used',
-        '_air_data_used',
-        '_zupt_used',
-        '_align_valid',
-        '_depth_used',
     ]
 
     _fields_and_field_types = {
@@ -91,33 +83,17 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
         'mag_ref_used': 'boolean',
         'gps1_vel_used': 'boolean',
         'gps1_pos_used': 'boolean',
+        'gps1_course_used': 'boolean',
         'gps1_hdt_used': 'boolean',
         'gps2_vel_used': 'boolean',
         'gps2_pos_used': 'boolean',
+        'gps2_course_used': 'boolean',
         'gps2_hdt_used': 'boolean',
         'odo_used': 'boolean',
-        'dvl_bt_used': 'boolean',
-        'dvl_wt_used': 'boolean',
-        'user_pos_used': 'boolean',
-        'user_vel_used': 'boolean',
-        'user_heading_used': 'boolean',
-        'usbl_used': 'boolean',
-        'air_data_used': 'boolean',
-        'zupt_used': 'boolean',
-        'align_valid': 'boolean',
-        'depth_used': 'boolean',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
@@ -148,21 +124,13 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
         self.mag_ref_used = kwargs.get('mag_ref_used', bool())
         self.gps1_vel_used = kwargs.get('gps1_vel_used', bool())
         self.gps1_pos_used = kwargs.get('gps1_pos_used', bool())
+        self.gps1_course_used = kwargs.get('gps1_course_used', bool())
         self.gps1_hdt_used = kwargs.get('gps1_hdt_used', bool())
         self.gps2_vel_used = kwargs.get('gps2_vel_used', bool())
         self.gps2_pos_used = kwargs.get('gps2_pos_used', bool())
+        self.gps2_course_used = kwargs.get('gps2_course_used', bool())
         self.gps2_hdt_used = kwargs.get('gps2_hdt_used', bool())
         self.odo_used = kwargs.get('odo_used', bool())
-        self.dvl_bt_used = kwargs.get('dvl_bt_used', bool())
-        self.dvl_wt_used = kwargs.get('dvl_wt_used', bool())
-        self.user_pos_used = kwargs.get('user_pos_used', bool())
-        self.user_vel_used = kwargs.get('user_vel_used', bool())
-        self.user_heading_used = kwargs.get('user_heading_used', bool())
-        self.usbl_used = kwargs.get('usbl_used', bool())
-        self.air_data_used = kwargs.get('air_data_used', bool())
-        self.zupt_used = kwargs.get('zupt_used', bool())
-        self.align_valid = kwargs.get('align_valid', bool())
-        self.depth_used = kwargs.get('depth_used', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -211,35 +179,19 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
             return False
         if self.gps1_pos_used != other.gps1_pos_used:
             return False
+        if self.gps1_course_used != other.gps1_course_used:
+            return False
         if self.gps1_hdt_used != other.gps1_hdt_used:
             return False
         if self.gps2_vel_used != other.gps2_vel_used:
             return False
         if self.gps2_pos_used != other.gps2_pos_used:
             return False
+        if self.gps2_course_used != other.gps2_course_used:
+            return False
         if self.gps2_hdt_used != other.gps2_hdt_used:
             return False
         if self.odo_used != other.odo_used:
-            return False
-        if self.dvl_bt_used != other.dvl_bt_used:
-            return False
-        if self.dvl_wt_used != other.dvl_wt_used:
-            return False
-        if self.user_pos_used != other.user_pos_used:
-            return False
-        if self.user_vel_used != other.user_vel_used:
-            return False
-        if self.user_heading_used != other.user_heading_used:
-            return False
-        if self.usbl_used != other.usbl_used:
-            return False
-        if self.air_data_used != other.air_data_used:
-            return False
-        if self.zupt_used != other.zupt_used:
-            return False
-        if self.align_valid != other.align_valid:
-            return False
-        if self.depth_used != other.depth_used:
             return False
         return True
 
@@ -368,6 +320,19 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
         self._gps1_pos_used = value
 
     @builtins.property
+    def gps1_course_used(self):
+        """Message field 'gps1_course_used'."""
+        return self._gps1_course_used
+
+    @gps1_course_used.setter
+    def gps1_course_used(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'gps1_course_used' field must be of type 'bool'"
+        self._gps1_course_used = value
+
+    @builtins.property
     def gps1_hdt_used(self):
         """Message field 'gps1_hdt_used'."""
         return self._gps1_hdt_used
@@ -407,6 +372,19 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
         self._gps2_pos_used = value
 
     @builtins.property
+    def gps2_course_used(self):
+        """Message field 'gps2_course_used'."""
+        return self._gps2_course_used
+
+    @gps2_course_used.setter
+    def gps2_course_used(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'gps2_course_used' field must be of type 'bool'"
+        self._gps2_course_used = value
+
+    @builtins.property
     def gps2_hdt_used(self):
         """Message field 'gps2_hdt_used'."""
         return self._gps2_hdt_used
@@ -431,133 +409,3 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 isinstance(value, bool), \
                 "The 'odo_used' field must be of type 'bool'"
         self._odo_used = value
-
-    @builtins.property
-    def dvl_bt_used(self):
-        """Message field 'dvl_bt_used'."""
-        return self._dvl_bt_used
-
-    @dvl_bt_used.setter
-    def dvl_bt_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'dvl_bt_used' field must be of type 'bool'"
-        self._dvl_bt_used = value
-
-    @builtins.property
-    def dvl_wt_used(self):
-        """Message field 'dvl_wt_used'."""
-        return self._dvl_wt_used
-
-    @dvl_wt_used.setter
-    def dvl_wt_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'dvl_wt_used' field must be of type 'bool'"
-        self._dvl_wt_used = value
-
-    @builtins.property
-    def user_pos_used(self):
-        """Message field 'user_pos_used'."""
-        return self._user_pos_used
-
-    @user_pos_used.setter
-    def user_pos_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'user_pos_used' field must be of type 'bool'"
-        self._user_pos_used = value
-
-    @builtins.property
-    def user_vel_used(self):
-        """Message field 'user_vel_used'."""
-        return self._user_vel_used
-
-    @user_vel_used.setter
-    def user_vel_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'user_vel_used' field must be of type 'bool'"
-        self._user_vel_used = value
-
-    @builtins.property
-    def user_heading_used(self):
-        """Message field 'user_heading_used'."""
-        return self._user_heading_used
-
-    @user_heading_used.setter
-    def user_heading_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'user_heading_used' field must be of type 'bool'"
-        self._user_heading_used = value
-
-    @builtins.property
-    def usbl_used(self):
-        """Message field 'usbl_used'."""
-        return self._usbl_used
-
-    @usbl_used.setter
-    def usbl_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'usbl_used' field must be of type 'bool'"
-        self._usbl_used = value
-
-    @builtins.property
-    def air_data_used(self):
-        """Message field 'air_data_used'."""
-        return self._air_data_used
-
-    @air_data_used.setter
-    def air_data_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'air_data_used' field must be of type 'bool'"
-        self._air_data_used = value
-
-    @builtins.property
-    def zupt_used(self):
-        """Message field 'zupt_used'."""
-        return self._zupt_used
-
-    @zupt_used.setter
-    def zupt_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'zupt_used' field must be of type 'bool'"
-        self._zupt_used = value
-
-    @builtins.property
-    def align_valid(self):
-        """Message field 'align_valid'."""
-        return self._align_valid
-
-    @align_valid.setter
-    def align_valid(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'align_valid' field must be of type 'bool'"
-        self._align_valid = value
-
-    @builtins.property
-    def depth_used(self):
-        """Message field 'depth_used'."""
-        return self._depth_used
-
-    @depth_used.setter
-    def depth_used(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'depth_used' field must be of type 'bool'"
-        self._depth_used = value

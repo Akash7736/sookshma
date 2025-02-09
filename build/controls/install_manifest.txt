@@ -1,0 +1,15 @@
+/workspaces/mavlab/install/controls/share/ament_index/resource_index/package_run_dependencies/controls
+/workspaces/mavlab/install/controls/share/ament_index/resource_index/parent_prefix_path/controls
+/workspaces/mavlab/install/controls/share/controls/environment/ament_prefix_path.sh
+/workspaces/mavlab/install/controls/share/controls/environment/ament_prefix_path.dsv
+/workspaces/mavlab/install/controls/share/controls/environment/path.sh
+/workspaces/mavlab/install/controls/share/controls/environment/path.dsv
+/workspaces/mavlab/install/controls/share/controls/local_setup.bash
+/workspaces/mavlab/install/controls/share/controls/local_setup.sh
+/workspaces/mavlab/install/controls/share/controls/local_setup.zsh
+/workspaces/mavlab/install/controls/share/controls/local_setup.dsv
+/workspaces/mavlab/install/controls/share/controls/package.dsv
+/workspaces/mavlab/install/controls/share/ament_index/resource_index/packages/controls
+/workspaces/mavlab/install/controls/share/controls/cmake/controlsConfig.cmake
+/workspaces/mavlab/install/controls/share/controls/cmake/controlsConfig-version.cmake
+/workspaces/mavlab/install/controls/share/controls/package.xml

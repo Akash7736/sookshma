@@ -94,8 +94,6 @@ CMakeFiles/sbg_driver: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/msg/SbgGps
 CMakeFiles/sbg_driver: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/msg/SbgMagCalib.msg
 CMakeFiles/sbg_driver: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/msg/SbgStatusAiding.msg
 CMakeFiles/sbg_driver: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/msg/SbgEkfStatus.msg
-CMakeFiles/sbg_driver: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/msg/SbgEkfVelBody.msg
-CMakeFiles/sbg_driver: /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/msg/SbgEkfRotAccel.msg
 CMakeFiles/sbg_driver: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/sbg_driver: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/sbg_driver: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl

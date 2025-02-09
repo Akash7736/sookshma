@@ -68,15 +68,6 @@ bool sbg_driver__msg__sbg_ship_motion_status__convert_from_py(PyObject * _pymsg,
     ros_message->heave_vel_aided = (Py_True == field);
     Py_DECREF(field);
   }
-  {  // surge_sway_included
-    PyObject * field = PyObject_GetAttrString(_pymsg, "surge_sway_included");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->surge_sway_included = (Py_True == field);
-    Py_DECREF(field);
-  }
   {  // period_available
     PyObject * field = PyObject_GetAttrString(_pymsg, "period_available");
     if (!field) {
@@ -93,15 +84,6 @@ bool sbg_driver__msg__sbg_ship_motion_status__convert_from_py(PyObject * _pymsg,
     }
     assert(PyBool_Check(field));
     ros_message->period_valid = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // swell_mode
-    PyObject * field = PyObject_GetAttrString(_pymsg, "swell_mode");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->swell_mode = (Py_True == field);
     Py_DECREF(field);
   }
 
@@ -148,17 +130,6 @@ PyObject * sbg_driver__msg__sbg_ship_motion_status__convert_to_py(void * raw_ros
       }
     }
   }
-  {  // surge_sway_included
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->surge_sway_included ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "surge_sway_included", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
   {  // period_available
     PyObject * field = NULL;
     field = PyBool_FromLong(ros_message->period_available ? 1 : 0);
@@ -175,17 +146,6 @@ PyObject * sbg_driver__msg__sbg_ship_motion_status__convert_to_py(void * raw_ros
     field = PyBool_FromLong(ros_message->period_valid ? 1 : 0);
     {
       int rc = PyObject_SetAttrString(_pymessage, "period_valid", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // swell_mode
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->swell_mode ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "swell_mode", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

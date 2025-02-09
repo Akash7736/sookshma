@@ -59,19 +59,9 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
         '_gps1_vel_recv',
         '_gps1_hdt_recv',
         '_gps1_utc_recv',
-        '_gps2_pos_recv',
-        '_gps2_vel_recv',
-        '_gps2_hdt_recv',
-        '_gps2_utc_recv',
         '_mag_recv',
         '_odo_recv',
         '_dvl_recv',
-        '_usbl_recv',
-        '_depth_recv',
-        '_air_data_recv',
-        '_user_pos_recv',
-        '_user_vel_recv',
-        '_user_heading_recv',
     ]
 
     _fields_and_field_types = {
@@ -79,32 +69,12 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
         'gps1_vel_recv': 'boolean',
         'gps1_hdt_recv': 'boolean',
         'gps1_utc_recv': 'boolean',
-        'gps2_pos_recv': 'boolean',
-        'gps2_vel_recv': 'boolean',
-        'gps2_hdt_recv': 'boolean',
-        'gps2_utc_recv': 'boolean',
         'mag_recv': 'boolean',
         'odo_recv': 'boolean',
         'dvl_recv': 'boolean',
-        'usbl_recv': 'boolean',
-        'depth_recv': 'boolean',
-        'air_data_recv': 'boolean',
-        'user_pos_recv': 'boolean',
-        'user_vel_recv': 'boolean',
-        'user_heading_recv': 'boolean',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
@@ -122,19 +92,9 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
         self.gps1_vel_recv = kwargs.get('gps1_vel_recv', bool())
         self.gps1_hdt_recv = kwargs.get('gps1_hdt_recv', bool())
         self.gps1_utc_recv = kwargs.get('gps1_utc_recv', bool())
-        self.gps2_pos_recv = kwargs.get('gps2_pos_recv', bool())
-        self.gps2_vel_recv = kwargs.get('gps2_vel_recv', bool())
-        self.gps2_hdt_recv = kwargs.get('gps2_hdt_recv', bool())
-        self.gps2_utc_recv = kwargs.get('gps2_utc_recv', bool())
         self.mag_recv = kwargs.get('mag_recv', bool())
         self.odo_recv = kwargs.get('odo_recv', bool())
         self.dvl_recv = kwargs.get('dvl_recv', bool())
-        self.usbl_recv = kwargs.get('usbl_recv', bool())
-        self.depth_recv = kwargs.get('depth_recv', bool())
-        self.air_data_recv = kwargs.get('air_data_recv', bool())
-        self.user_pos_recv = kwargs.get('user_pos_recv', bool())
-        self.user_vel_recv = kwargs.get('user_vel_recv', bool())
-        self.user_heading_recv = kwargs.get('user_heading_recv', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -173,31 +133,11 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
             return False
         if self.gps1_utc_recv != other.gps1_utc_recv:
             return False
-        if self.gps2_pos_recv != other.gps2_pos_recv:
-            return False
-        if self.gps2_vel_recv != other.gps2_vel_recv:
-            return False
-        if self.gps2_hdt_recv != other.gps2_hdt_recv:
-            return False
-        if self.gps2_utc_recv != other.gps2_utc_recv:
-            return False
         if self.mag_recv != other.mag_recv:
             return False
         if self.odo_recv != other.odo_recv:
             return False
         if self.dvl_recv != other.dvl_recv:
-            return False
-        if self.usbl_recv != other.usbl_recv:
-            return False
-        if self.depth_recv != other.depth_recv:
-            return False
-        if self.air_data_recv != other.air_data_recv:
-            return False
-        if self.user_pos_recv != other.user_pos_recv:
-            return False
-        if self.user_vel_recv != other.user_vel_recv:
-            return False
-        if self.user_heading_recv != other.user_heading_recv:
             return False
         return True
 
@@ -259,58 +199,6 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
         self._gps1_utc_recv = value
 
     @builtins.property
-    def gps2_pos_recv(self):
-        """Message field 'gps2_pos_recv'."""
-        return self._gps2_pos_recv
-
-    @gps2_pos_recv.setter
-    def gps2_pos_recv(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'gps2_pos_recv' field must be of type 'bool'"
-        self._gps2_pos_recv = value
-
-    @builtins.property
-    def gps2_vel_recv(self):
-        """Message field 'gps2_vel_recv'."""
-        return self._gps2_vel_recv
-
-    @gps2_vel_recv.setter
-    def gps2_vel_recv(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'gps2_vel_recv' field must be of type 'bool'"
-        self._gps2_vel_recv = value
-
-    @builtins.property
-    def gps2_hdt_recv(self):
-        """Message field 'gps2_hdt_recv'."""
-        return self._gps2_hdt_recv
-
-    @gps2_hdt_recv.setter
-    def gps2_hdt_recv(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'gps2_hdt_recv' field must be of type 'bool'"
-        self._gps2_hdt_recv = value
-
-    @builtins.property
-    def gps2_utc_recv(self):
-        """Message field 'gps2_utc_recv'."""
-        return self._gps2_utc_recv
-
-    @gps2_utc_recv.setter
-    def gps2_utc_recv(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'gps2_utc_recv' field must be of type 'bool'"
-        self._gps2_utc_recv = value
-
-    @builtins.property
     def mag_recv(self):
         """Message field 'mag_recv'."""
         return self._mag_recv
@@ -348,81 +236,3 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
                 isinstance(value, bool), \
                 "The 'dvl_recv' field must be of type 'bool'"
         self._dvl_recv = value
-
-    @builtins.property
-    def usbl_recv(self):
-        """Message field 'usbl_recv'."""
-        return self._usbl_recv
-
-    @usbl_recv.setter
-    def usbl_recv(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'usbl_recv' field must be of type 'bool'"
-        self._usbl_recv = value
-
-    @builtins.property
-    def depth_recv(self):
-        """Message field 'depth_recv'."""
-        return self._depth_recv
-
-    @depth_recv.setter
-    def depth_recv(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'depth_recv' field must be of type 'bool'"
-        self._depth_recv = value
-
-    @builtins.property
-    def air_data_recv(self):
-        """Message field 'air_data_recv'."""
-        return self._air_data_recv
-
-    @air_data_recv.setter
-    def air_data_recv(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'air_data_recv' field must be of type 'bool'"
-        self._air_data_recv = value
-
-    @builtins.property
-    def user_pos_recv(self):
-        """Message field 'user_pos_recv'."""
-        return self._user_pos_recv
-
-    @user_pos_recv.setter
-    def user_pos_recv(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'user_pos_recv' field must be of type 'bool'"
-        self._user_pos_recv = value
-
-    @builtins.property
-    def user_vel_recv(self):
-        """Message field 'user_vel_recv'."""
-        return self._user_vel_recv
-
-    @user_vel_recv.setter
-    def user_vel_recv(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'user_vel_recv' field must be of type 'bool'"
-        self._user_vel_recv = value
-
-    @builtins.property
-    def user_heading_recv(self):
-        """Message field 'user_heading_recv'."""
-        return self._user_heading_recv
-
-    @user_heading_recv.setter
-    def user_heading_recv(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'user_heading_recv' field must be of type 'bool'"
-        self._user_heading_recv = value

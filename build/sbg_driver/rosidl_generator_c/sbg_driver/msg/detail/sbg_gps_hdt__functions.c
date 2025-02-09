@@ -34,8 +34,6 @@ sbg_driver__msg__SbgGpsHdt__init(sbg_driver__msg__SbgGpsHdt * msg)
   // pitch
   // pitch_acc
   // baseline
-  // num_sv_tracked
-  // num_sv_used
   return true;
 }
 
@@ -55,8 +53,6 @@ sbg_driver__msg__SbgGpsHdt__fini(sbg_driver__msg__SbgGpsHdt * msg)
   // pitch
   // pitch_acc
   // baseline
-  // num_sv_tracked
-  // num_sv_used
 }
 
 bool
@@ -103,14 +99,6 @@ sbg_driver__msg__SbgGpsHdt__are_equal(const sbg_driver__msg__SbgGpsHdt * lhs, co
   if (lhs->baseline != rhs->baseline) {
     return false;
   }
-  // num_sv_tracked
-  if (lhs->num_sv_tracked != rhs->num_sv_tracked) {
-    return false;
-  }
-  // num_sv_used
-  if (lhs->num_sv_used != rhs->num_sv_used) {
-    return false;
-  }
   return true;
 }
 
@@ -144,10 +132,6 @@ sbg_driver__msg__SbgGpsHdt__copy(
   output->pitch_acc = input->pitch_acc;
   // baseline
   output->baseline = input->baseline;
-  // num_sv_tracked
-  output->num_sv_tracked = input->num_sv_tracked;
-  // num_sv_used
-  output->num_sv_used = input->num_sv_used;
   return true;
 }
 

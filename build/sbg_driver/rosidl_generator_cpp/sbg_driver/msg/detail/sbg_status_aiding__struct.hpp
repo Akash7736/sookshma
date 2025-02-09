@@ -42,19 +42,9 @@ struct SbgStatusAiding_
       this->gps1_vel_recv = false;
       this->gps1_hdt_recv = false;
       this->gps1_utc_recv = false;
-      this->gps2_pos_recv = false;
-      this->gps2_vel_recv = false;
-      this->gps2_hdt_recv = false;
-      this->gps2_utc_recv = false;
       this->mag_recv = false;
       this->odo_recv = false;
       this->dvl_recv = false;
-      this->usbl_recv = false;
-      this->depth_recv = false;
-      this->air_data_recv = false;
-      this->user_pos_recv = false;
-      this->user_vel_recv = false;
-      this->user_heading_recv = false;
     }
   }
 
@@ -68,19 +58,9 @@ struct SbgStatusAiding_
       this->gps1_vel_recv = false;
       this->gps1_hdt_recv = false;
       this->gps1_utc_recv = false;
-      this->gps2_pos_recv = false;
-      this->gps2_vel_recv = false;
-      this->gps2_hdt_recv = false;
-      this->gps2_utc_recv = false;
       this->mag_recv = false;
       this->odo_recv = false;
       this->dvl_recv = false;
-      this->usbl_recv = false;
-      this->depth_recv = false;
-      this->air_data_recv = false;
-      this->user_pos_recv = false;
-      this->user_vel_recv = false;
-      this->user_heading_recv = false;
     }
   }
 
@@ -97,18 +77,6 @@ struct SbgStatusAiding_
   using _gps1_utc_recv_type =
     bool;
   _gps1_utc_recv_type gps1_utc_recv;
-  using _gps2_pos_recv_type =
-    bool;
-  _gps2_pos_recv_type gps2_pos_recv;
-  using _gps2_vel_recv_type =
-    bool;
-  _gps2_vel_recv_type gps2_vel_recv;
-  using _gps2_hdt_recv_type =
-    bool;
-  _gps2_hdt_recv_type gps2_hdt_recv;
-  using _gps2_utc_recv_type =
-    bool;
-  _gps2_utc_recv_type gps2_utc_recv;
   using _mag_recv_type =
     bool;
   _mag_recv_type mag_recv;
@@ -118,24 +86,6 @@ struct SbgStatusAiding_
   using _dvl_recv_type =
     bool;
   _dvl_recv_type dvl_recv;
-  using _usbl_recv_type =
-    bool;
-  _usbl_recv_type usbl_recv;
-  using _depth_recv_type =
-    bool;
-  _depth_recv_type depth_recv;
-  using _air_data_recv_type =
-    bool;
-  _air_data_recv_type air_data_recv;
-  using _user_pos_recv_type =
-    bool;
-  _user_pos_recv_type user_pos_recv;
-  using _user_vel_recv_type =
-    bool;
-  _user_vel_recv_type user_vel_recv;
-  using _user_heading_recv_type =
-    bool;
-  _user_heading_recv_type user_heading_recv;
 
   // setters for named parameter idiom
   Type & set__gps1_pos_recv(
@@ -162,30 +112,6 @@ struct SbgStatusAiding_
     this->gps1_utc_recv = _arg;
     return *this;
   }
-  Type & set__gps2_pos_recv(
-    const bool & _arg)
-  {
-    this->gps2_pos_recv = _arg;
-    return *this;
-  }
-  Type & set__gps2_vel_recv(
-    const bool & _arg)
-  {
-    this->gps2_vel_recv = _arg;
-    return *this;
-  }
-  Type & set__gps2_hdt_recv(
-    const bool & _arg)
-  {
-    this->gps2_hdt_recv = _arg;
-    return *this;
-  }
-  Type & set__gps2_utc_recv(
-    const bool & _arg)
-  {
-    this->gps2_utc_recv = _arg;
-    return *this;
-  }
   Type & set__mag_recv(
     const bool & _arg)
   {
@@ -202,42 +128,6 @@ struct SbgStatusAiding_
     const bool & _arg)
   {
     this->dvl_recv = _arg;
-    return *this;
-  }
-  Type & set__usbl_recv(
-    const bool & _arg)
-  {
-    this->usbl_recv = _arg;
-    return *this;
-  }
-  Type & set__depth_recv(
-    const bool & _arg)
-  {
-    this->depth_recv = _arg;
-    return *this;
-  }
-  Type & set__air_data_recv(
-    const bool & _arg)
-  {
-    this->air_data_recv = _arg;
-    return *this;
-  }
-  Type & set__user_pos_recv(
-    const bool & _arg)
-  {
-    this->user_pos_recv = _arg;
-    return *this;
-  }
-  Type & set__user_vel_recv(
-    const bool & _arg)
-  {
-    this->user_vel_recv = _arg;
-    return *this;
-  }
-  Type & set__user_heading_recv(
-    const bool & _arg)
-  {
-    this->user_heading_recv = _arg;
     return *this;
   }
 
@@ -295,18 +185,6 @@ struct SbgStatusAiding_
     if (this->gps1_utc_recv != other.gps1_utc_recv) {
       return false;
     }
-    if (this->gps2_pos_recv != other.gps2_pos_recv) {
-      return false;
-    }
-    if (this->gps2_vel_recv != other.gps2_vel_recv) {
-      return false;
-    }
-    if (this->gps2_hdt_recv != other.gps2_hdt_recv) {
-      return false;
-    }
-    if (this->gps2_utc_recv != other.gps2_utc_recv) {
-      return false;
-    }
     if (this->mag_recv != other.mag_recv) {
       return false;
     }
@@ -314,24 +192,6 @@ struct SbgStatusAiding_
       return false;
     }
     if (this->dvl_recv != other.dvl_recv) {
-      return false;
-    }
-    if (this->usbl_recv != other.usbl_recv) {
-      return false;
-    }
-    if (this->depth_recv != other.depth_recv) {
-      return false;
-    }
-    if (this->air_data_recv != other.air_data_recv) {
-      return false;
-    }
-    if (this->user_pos_recv != other.user_pos_recv) {
-      return false;
-    }
-    if (this->user_vel_recv != other.user_vel_recv) {
-      return false;
-    }
-    if (this->user_heading_recv != other.user_heading_recv) {
       return false;
     }
     return true;

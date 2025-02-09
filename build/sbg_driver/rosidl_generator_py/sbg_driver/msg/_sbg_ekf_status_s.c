@@ -131,6 +131,15 @@ bool sbg_driver__msg__sbg_ekf_status__convert_from_py(PyObject * _pymsg, void * 
     ros_message->gps1_pos_used = (Py_True == field);
     Py_DECREF(field);
   }
+  {  // gps1_course_used
+    PyObject * field = PyObject_GetAttrString(_pymsg, "gps1_course_used");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->gps1_course_used = (Py_True == field);
+    Py_DECREF(field);
+  }
   {  // gps1_hdt_used
     PyObject * field = PyObject_GetAttrString(_pymsg, "gps1_hdt_used");
     if (!field) {
@@ -158,6 +167,15 @@ bool sbg_driver__msg__sbg_ekf_status__convert_from_py(PyObject * _pymsg, void * 
     ros_message->gps2_pos_used = (Py_True == field);
     Py_DECREF(field);
   }
+  {  // gps2_course_used
+    PyObject * field = PyObject_GetAttrString(_pymsg, "gps2_course_used");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->gps2_course_used = (Py_True == field);
+    Py_DECREF(field);
+  }
   {  // gps2_hdt_used
     PyObject * field = PyObject_GetAttrString(_pymsg, "gps2_hdt_used");
     if (!field) {
@@ -174,96 +192,6 @@ bool sbg_driver__msg__sbg_ekf_status__convert_from_py(PyObject * _pymsg, void * 
     }
     assert(PyBool_Check(field));
     ros_message->odo_used = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // dvl_bt_used
-    PyObject * field = PyObject_GetAttrString(_pymsg, "dvl_bt_used");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->dvl_bt_used = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // dvl_wt_used
-    PyObject * field = PyObject_GetAttrString(_pymsg, "dvl_wt_used");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->dvl_wt_used = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // user_pos_used
-    PyObject * field = PyObject_GetAttrString(_pymsg, "user_pos_used");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->user_pos_used = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // user_vel_used
-    PyObject * field = PyObject_GetAttrString(_pymsg, "user_vel_used");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->user_vel_used = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // user_heading_used
-    PyObject * field = PyObject_GetAttrString(_pymsg, "user_heading_used");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->user_heading_used = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // usbl_used
-    PyObject * field = PyObject_GetAttrString(_pymsg, "usbl_used");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->usbl_used = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // air_data_used
-    PyObject * field = PyObject_GetAttrString(_pymsg, "air_data_used");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->air_data_used = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // zupt_used
-    PyObject * field = PyObject_GetAttrString(_pymsg, "zupt_used");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->zupt_used = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // align_valid
-    PyObject * field = PyObject_GetAttrString(_pymsg, "align_valid");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->align_valid = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // depth_used
-    PyObject * field = PyObject_GetAttrString(_pymsg, "depth_used");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->depth_used = (Py_True == field);
     Py_DECREF(field);
   }
 
@@ -387,6 +315,17 @@ PyObject * sbg_driver__msg__sbg_ekf_status__convert_to_py(void * raw_ros_message
       }
     }
   }
+  {  // gps1_course_used
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->gps1_course_used ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "gps1_course_used", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // gps1_hdt_used
     PyObject * field = NULL;
     field = PyBool_FromLong(ros_message->gps1_hdt_used ? 1 : 0);
@@ -420,6 +359,17 @@ PyObject * sbg_driver__msg__sbg_ekf_status__convert_to_py(void * raw_ros_message
       }
     }
   }
+  {  // gps2_course_used
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->gps2_course_used ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "gps2_course_used", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // gps2_hdt_used
     PyObject * field = NULL;
     field = PyBool_FromLong(ros_message->gps2_hdt_used ? 1 : 0);
@@ -436,116 +386,6 @@ PyObject * sbg_driver__msg__sbg_ekf_status__convert_to_py(void * raw_ros_message
     field = PyBool_FromLong(ros_message->odo_used ? 1 : 0);
     {
       int rc = PyObject_SetAttrString(_pymessage, "odo_used", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // dvl_bt_used
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->dvl_bt_used ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "dvl_bt_used", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // dvl_wt_used
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->dvl_wt_used ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "dvl_wt_used", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // user_pos_used
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->user_pos_used ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "user_pos_used", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // user_vel_used
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->user_vel_used ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "user_vel_used", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // user_heading_used
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->user_heading_used ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "user_heading_used", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // usbl_used
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->usbl_used ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "usbl_used", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // air_data_used
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->air_data_used ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "air_data_used", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // zupt_used
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->zupt_used ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "zupt_used", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // align_valid
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->align_valid ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "align_valid", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // depth_used
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->depth_used ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "depth_used", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

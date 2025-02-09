@@ -85,7 +85,7 @@ class uwb_node(Node):
 
 
         self.pub = self.create_publisher(Vector3, '/uwb/loc', 10)
-        self.l = self.create_timer(timer_period_sec=2.0, callback= self.uwb_loc_pub)
+        self.l = self.create_timer(timer_period_sec= 0.05, callback= self.uwb_loc_pub)
         self.imu_sub = self.create_subscription(Imu, '/imu/data', self.imu_callback, 10)
         self.odom = self.create_publisher(Odometry, '/uwb/odom', 10)
         self.timer = self.create_timer(0.1, self.odom_callback)
@@ -128,8 +128,9 @@ class uwb_node(Node):
                     dis["r4"]=float(i["R"])
             # print(dis)
             if len(dis)<3:
-                print(f"No Fix.  {len(dis)} anchors detected")
                 self.get_logger().info(f"No Fix.  {len(dis)} anchors detected")
+                print(f"No Fix.  {len(dis)} anchors detected")
+                
             elif len(dis)==3:
                 print("3d fix")
                 try:

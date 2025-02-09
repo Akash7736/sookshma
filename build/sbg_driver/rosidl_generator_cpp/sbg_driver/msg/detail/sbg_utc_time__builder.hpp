@@ -21,64 +21,16 @@ namespace msg
 namespace builder
 {
 
-class Init_SbgUtcTime_clk_residual_error
-{
-public:
-  explicit Init_SbgUtcTime_clk_residual_error(::sbg_driver::msg::SbgUtcTime & msg)
-  : msg_(msg)
-  {}
-  ::sbg_driver::msg::SbgUtcTime clk_residual_error(::sbg_driver::msg::SbgUtcTime::_clk_residual_error_type arg)
-  {
-    msg_.clk_residual_error = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::sbg_driver::msg::SbgUtcTime msg_;
-};
-
-class Init_SbgUtcTime_clk_sf_error_std
-{
-public:
-  explicit Init_SbgUtcTime_clk_sf_error_std(::sbg_driver::msg::SbgUtcTime & msg)
-  : msg_(msg)
-  {}
-  Init_SbgUtcTime_clk_residual_error clk_sf_error_std(::sbg_driver::msg::SbgUtcTime::_clk_sf_error_std_type arg)
-  {
-    msg_.clk_sf_error_std = std::move(arg);
-    return Init_SbgUtcTime_clk_residual_error(msg_);
-  }
-
-private:
-  ::sbg_driver::msg::SbgUtcTime msg_;
-};
-
-class Init_SbgUtcTime_clk_bias_std
-{
-public:
-  explicit Init_SbgUtcTime_clk_bias_std(::sbg_driver::msg::SbgUtcTime & msg)
-  : msg_(msg)
-  {}
-  Init_SbgUtcTime_clk_sf_error_std clk_bias_std(::sbg_driver::msg::SbgUtcTime::_clk_bias_std_type arg)
-  {
-    msg_.clk_bias_std = std::move(arg);
-    return Init_SbgUtcTime_clk_sf_error_std(msg_);
-  }
-
-private:
-  ::sbg_driver::msg::SbgUtcTime msg_;
-};
-
 class Init_SbgUtcTime_gps_tow
 {
 public:
   explicit Init_SbgUtcTime_gps_tow(::sbg_driver::msg::SbgUtcTime & msg)
   : msg_(msg)
   {}
-  Init_SbgUtcTime_clk_bias_std gps_tow(::sbg_driver::msg::SbgUtcTime::_gps_tow_type arg)
+  ::sbg_driver::msg::SbgUtcTime gps_tow(::sbg_driver::msg::SbgUtcTime::_gps_tow_type arg)
   {
     msg_.gps_tow = std::move(arg);
-    return Init_SbgUtcTime_clk_bias_std(msg_);
+    return std::move(msg_);
   }
 
 private:

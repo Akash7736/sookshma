@@ -14,6 +14,10 @@
 #include "custom_interfaces/msg/detail/estimated_state__struct.hpp"
 #include "rosidl_runtime_cpp/traits.hpp"
 
+// Include directives for member types
+// Member 'header'
+#include "std_msgs/msg/detail/header__traits.hpp"
+
 namespace custom_interfaces
 {
 
@@ -25,6 +29,13 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
+  // member: header
+  {
+    out << "header: ";
+    to_flow_style_yaml(msg.header, out);
+    out << ", ";
+  }
+
   // member: u
   {
     out << "u: ";
@@ -64,6 +75,20 @@ inline void to_flow_style_yaml(
   {
     out << "heading: ";
     rosidl_generator_traits::value_to_yaml(msg.heading, out);
+    out << ", ";
+  }
+
+  // member: propeller
+  {
+    out << "propeller: ";
+    rosidl_generator_traits::value_to_yaml(msg.propeller, out);
+    out << ", ";
+  }
+
+  // member: rudder
+  {
+    out << "rudder: ";
+    rosidl_generator_traits::value_to_yaml(msg.rudder, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -72,6 +97,15 @@ inline void to_block_style_yaml(
   const EstimatedState & msg,
   std::ostream & out, size_t indentation = 0)
 {
+  // member: header
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "header:\n";
+    to_block_style_yaml(msg.header, out, indentation + 2);
+  }
+
   // member: u
   {
     if (indentation > 0) {
@@ -129,6 +163,26 @@ inline void to_block_style_yaml(
     }
     out << "heading: ";
     rosidl_generator_traits::value_to_yaml(msg.heading, out);
+    out << "\n";
+  }
+
+  // member: propeller
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "propeller: ";
+    rosidl_generator_traits::value_to_yaml(msg.propeller, out);
+    out << "\n";
+  }
+
+  // member: rudder
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "rudder: ";
+    rosidl_generator_traits::value_to_yaml(msg.rudder, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -179,11 +233,11 @@ inline const char * name<custom_interfaces::msg::EstimatedState>()
 
 template<>
 struct has_fixed_size<custom_interfaces::msg::EstimatedState>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, has_fixed_size<std_msgs::msg::Header>::value> {};
 
 template<>
 struct has_bounded_size<custom_interfaces::msg::EstimatedState>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, has_bounded_size<std_msgs::msg::Header>::value> {};
 
 template<>
 struct is_message<custom_interfaces::msg::EstimatedState>

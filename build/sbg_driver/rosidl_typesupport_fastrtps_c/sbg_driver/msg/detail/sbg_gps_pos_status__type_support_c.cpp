@@ -59,21 +59,6 @@ static bool _SbgGpsPosStatus__cdr_serialize(
     cdr << ros_message->type;
   }
 
-  // Field name: ifm
-  {
-    cdr << ros_message->ifm;
-  }
-
-  // Field name: spoofing
-  {
-    cdr << ros_message->spoofing;
-  }
-
-  // Field name: osnma
-  {
-    cdr << ros_message->osnma;
-  }
-
   // Field name: gps_l1_used
   {
     cdr << (ros_message->gps_l1_used ? true : false);
@@ -99,66 +84,6 @@ static bool _SbgGpsPosStatus__cdr_serialize(
     cdr << (ros_message->glo_l2_used ? true : false);
   }
 
-  // Field name: glo_l3_used
-  {
-    cdr << (ros_message->glo_l3_used ? true : false);
-  }
-
-  // Field name: gal_e1_used
-  {
-    cdr << (ros_message->gal_e1_used ? true : false);
-  }
-
-  // Field name: gal_e5a_used
-  {
-    cdr << (ros_message->gal_e5a_used ? true : false);
-  }
-
-  // Field name: gal_e5b_used
-  {
-    cdr << (ros_message->gal_e5b_used ? true : false);
-  }
-
-  // Field name: gal_e5alt_used
-  {
-    cdr << (ros_message->gal_e5alt_used ? true : false);
-  }
-
-  // Field name: gal_e6_used
-  {
-    cdr << (ros_message->gal_e6_used ? true : false);
-  }
-
-  // Field name: bds_b1_used
-  {
-    cdr << (ros_message->bds_b1_used ? true : false);
-  }
-
-  // Field name: bds_b2_used
-  {
-    cdr << (ros_message->bds_b2_used ? true : false);
-  }
-
-  // Field name: bds_b3_used
-  {
-    cdr << (ros_message->bds_b3_used ? true : false);
-  }
-
-  // Field name: qzss_l1_used
-  {
-    cdr << (ros_message->qzss_l1_used ? true : false);
-  }
-
-  // Field name: qzss_l2_used
-  {
-    cdr << (ros_message->qzss_l2_used ? true : false);
-  }
-
-  // Field name: qzss_l5_used
-  {
-    cdr << (ros_message->qzss_l5_used ? true : false);
-  }
-
   return true;
 }
 
@@ -179,21 +104,6 @@ static bool _SbgGpsPosStatus__cdr_deserialize(
   // Field name: type
   {
     cdr >> ros_message->type;
-  }
-
-  // Field name: ifm
-  {
-    cdr >> ros_message->ifm;
-  }
-
-  // Field name: spoofing
-  {
-    cdr >> ros_message->spoofing;
-  }
-
-  // Field name: osnma
-  {
-    cdr >> ros_message->osnma;
   }
 
   // Field name: gps_l1_used
@@ -231,90 +141,6 @@ static bool _SbgGpsPosStatus__cdr_deserialize(
     ros_message->glo_l2_used = tmp ? true : false;
   }
 
-  // Field name: glo_l3_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->glo_l3_used = tmp ? true : false;
-  }
-
-  // Field name: gal_e1_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->gal_e1_used = tmp ? true : false;
-  }
-
-  // Field name: gal_e5a_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->gal_e5a_used = tmp ? true : false;
-  }
-
-  // Field name: gal_e5b_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->gal_e5b_used = tmp ? true : false;
-  }
-
-  // Field name: gal_e5alt_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->gal_e5alt_used = tmp ? true : false;
-  }
-
-  // Field name: gal_e6_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->gal_e6_used = tmp ? true : false;
-  }
-
-  // Field name: bds_b1_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->bds_b1_used = tmp ? true : false;
-  }
-
-  // Field name: bds_b2_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->bds_b2_used = tmp ? true : false;
-  }
-
-  // Field name: bds_b3_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->bds_b3_used = tmp ? true : false;
-  }
-
-  // Field name: qzss_l1_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->qzss_l1_used = tmp ? true : false;
-  }
-
-  // Field name: qzss_l2_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->qzss_l2_used = tmp ? true : false;
-  }
-
-  // Field name: qzss_l5_used
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->qzss_l5_used = tmp ? true : false;
-  }
-
   return true;
 }  // NOLINT(readability/fn_size)
 
@@ -341,24 +167,6 @@ size_t get_serialized_size_sbg_driver__msg__SbgGpsPosStatus(
   // field.name type
   {
     size_t item_size = sizeof(ros_message->type);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name ifm
-  {
-    size_t item_size = sizeof(ros_message->ifm);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name spoofing
-  {
-    size_t item_size = sizeof(ros_message->spoofing);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name osnma
-  {
-    size_t item_size = sizeof(ros_message->osnma);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -389,78 +197,6 @@ size_t get_serialized_size_sbg_driver__msg__SbgGpsPosStatus(
   // field.name glo_l2_used
   {
     size_t item_size = sizeof(ros_message->glo_l2_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name glo_l3_used
-  {
-    size_t item_size = sizeof(ros_message->glo_l3_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name gal_e1_used
-  {
-    size_t item_size = sizeof(ros_message->gal_e1_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name gal_e5a_used
-  {
-    size_t item_size = sizeof(ros_message->gal_e5a_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name gal_e5b_used
-  {
-    size_t item_size = sizeof(ros_message->gal_e5b_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name gal_e5alt_used
-  {
-    size_t item_size = sizeof(ros_message->gal_e5alt_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name gal_e6_used
-  {
-    size_t item_size = sizeof(ros_message->gal_e6_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name bds_b1_used
-  {
-    size_t item_size = sizeof(ros_message->bds_b1_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name bds_b2_used
-  {
-    size_t item_size = sizeof(ros_message->bds_b2_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name bds_b3_used
-  {
-    size_t item_size = sizeof(ros_message->bds_b3_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name qzss_l1_used
-  {
-    size_t item_size = sizeof(ros_message->qzss_l1_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name qzss_l2_used
-  {
-    size_t item_size = sizeof(ros_message->qzss_l2_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name qzss_l5_used
-  {
-    size_t item_size = sizeof(ros_message->qzss_l5_used);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -507,27 +243,6 @@ size_t max_serialized_size_sbg_driver__msg__SbgGpsPosStatus(
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
-  // member: ifm
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: spoofing
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: osnma
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
   // member: gps_l1_used
   {
     size_t array_size = 1;
@@ -563,90 +278,6 @@ size_t max_serialized_size_sbg_driver__msg__SbgGpsPosStatus(
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
-  // member: glo_l3_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: gal_e1_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: gal_e5a_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: gal_e5b_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: gal_e5alt_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: gal_e6_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: bds_b1_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: bds_b2_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: bds_b3_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: qzss_l1_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: qzss_l2_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: qzss_l5_used
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -656,7 +287,7 @@ size_t max_serialized_size_sbg_driver__msg__SbgGpsPosStatus(
     using DataType = sbg_driver__msg__SbgGpsPosStatus;
     is_plain =
       (
-      offsetof(DataType, qzss_l5_used) +
+      offsetof(DataType, glo_l2_used) +
       last_member_size
       ) == ret_val;
   }

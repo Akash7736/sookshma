@@ -21,19 +21,9 @@ sbg_driver__msg__SbgStatusAiding__init(sbg_driver__msg__SbgStatusAiding * msg)
   // gps1_vel_recv
   // gps1_hdt_recv
   // gps1_utc_recv
-  // gps2_pos_recv
-  // gps2_vel_recv
-  // gps2_hdt_recv
-  // gps2_utc_recv
   // mag_recv
   // odo_recv
   // dvl_recv
-  // usbl_recv
-  // depth_recv
-  // air_data_recv
-  // user_pos_recv
-  // user_vel_recv
-  // user_heading_recv
   return true;
 }
 
@@ -47,19 +37,9 @@ sbg_driver__msg__SbgStatusAiding__fini(sbg_driver__msg__SbgStatusAiding * msg)
   // gps1_vel_recv
   // gps1_hdt_recv
   // gps1_utc_recv
-  // gps2_pos_recv
-  // gps2_vel_recv
-  // gps2_hdt_recv
-  // gps2_utc_recv
   // mag_recv
   // odo_recv
   // dvl_recv
-  // usbl_recv
-  // depth_recv
-  // air_data_recv
-  // user_pos_recv
-  // user_vel_recv
-  // user_heading_recv
 }
 
 bool
@@ -84,22 +64,6 @@ sbg_driver__msg__SbgStatusAiding__are_equal(const sbg_driver__msg__SbgStatusAidi
   if (lhs->gps1_utc_recv != rhs->gps1_utc_recv) {
     return false;
   }
-  // gps2_pos_recv
-  if (lhs->gps2_pos_recv != rhs->gps2_pos_recv) {
-    return false;
-  }
-  // gps2_vel_recv
-  if (lhs->gps2_vel_recv != rhs->gps2_vel_recv) {
-    return false;
-  }
-  // gps2_hdt_recv
-  if (lhs->gps2_hdt_recv != rhs->gps2_hdt_recv) {
-    return false;
-  }
-  // gps2_utc_recv
-  if (lhs->gps2_utc_recv != rhs->gps2_utc_recv) {
-    return false;
-  }
   // mag_recv
   if (lhs->mag_recv != rhs->mag_recv) {
     return false;
@@ -110,30 +74,6 @@ sbg_driver__msg__SbgStatusAiding__are_equal(const sbg_driver__msg__SbgStatusAidi
   }
   // dvl_recv
   if (lhs->dvl_recv != rhs->dvl_recv) {
-    return false;
-  }
-  // usbl_recv
-  if (lhs->usbl_recv != rhs->usbl_recv) {
-    return false;
-  }
-  // depth_recv
-  if (lhs->depth_recv != rhs->depth_recv) {
-    return false;
-  }
-  // air_data_recv
-  if (lhs->air_data_recv != rhs->air_data_recv) {
-    return false;
-  }
-  // user_pos_recv
-  if (lhs->user_pos_recv != rhs->user_pos_recv) {
-    return false;
-  }
-  // user_vel_recv
-  if (lhs->user_vel_recv != rhs->user_vel_recv) {
-    return false;
-  }
-  // user_heading_recv
-  if (lhs->user_heading_recv != rhs->user_heading_recv) {
     return false;
   }
   return true;
@@ -155,32 +95,12 @@ sbg_driver__msg__SbgStatusAiding__copy(
   output->gps1_hdt_recv = input->gps1_hdt_recv;
   // gps1_utc_recv
   output->gps1_utc_recv = input->gps1_utc_recv;
-  // gps2_pos_recv
-  output->gps2_pos_recv = input->gps2_pos_recv;
-  // gps2_vel_recv
-  output->gps2_vel_recv = input->gps2_vel_recv;
-  // gps2_hdt_recv
-  output->gps2_hdt_recv = input->gps2_hdt_recv;
-  // gps2_utc_recv
-  output->gps2_utc_recv = input->gps2_utc_recv;
   // mag_recv
   output->mag_recv = input->mag_recv;
   // odo_recv
   output->odo_recv = input->odo_recv;
   // dvl_recv
   output->dvl_recv = input->dvl_recv;
-  // usbl_recv
-  output->usbl_recv = input->usbl_recv;
-  // depth_recv
-  output->depth_recv = input->depth_recv;
-  // air_data_recv
-  output->air_data_recv = input->air_data_recv;
-  // user_pos_recv
-  output->user_pos_recv = input->user_pos_recv;
-  // user_vel_recv
-  output->user_vel_recv = input->user_vel_recv;
-  // user_heading_recv
-  output->user_heading_recv = input->user_heading_recv;
   return true;
 }
 

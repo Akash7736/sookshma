@@ -86,42 +86,6 @@ bool sbg_driver__msg__sbg_status_aiding__convert_from_py(PyObject * _pymsg, void
     ros_message->gps1_utc_recv = (Py_True == field);
     Py_DECREF(field);
   }
-  {  // gps2_pos_recv
-    PyObject * field = PyObject_GetAttrString(_pymsg, "gps2_pos_recv");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->gps2_pos_recv = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // gps2_vel_recv
-    PyObject * field = PyObject_GetAttrString(_pymsg, "gps2_vel_recv");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->gps2_vel_recv = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // gps2_hdt_recv
-    PyObject * field = PyObject_GetAttrString(_pymsg, "gps2_hdt_recv");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->gps2_hdt_recv = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // gps2_utc_recv
-    PyObject * field = PyObject_GetAttrString(_pymsg, "gps2_utc_recv");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->gps2_utc_recv = (Py_True == field);
-    Py_DECREF(field);
-  }
   {  // mag_recv
     PyObject * field = PyObject_GetAttrString(_pymsg, "mag_recv");
     if (!field) {
@@ -147,60 +111,6 @@ bool sbg_driver__msg__sbg_status_aiding__convert_from_py(PyObject * _pymsg, void
     }
     assert(PyBool_Check(field));
     ros_message->dvl_recv = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // usbl_recv
-    PyObject * field = PyObject_GetAttrString(_pymsg, "usbl_recv");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->usbl_recv = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // depth_recv
-    PyObject * field = PyObject_GetAttrString(_pymsg, "depth_recv");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->depth_recv = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // air_data_recv
-    PyObject * field = PyObject_GetAttrString(_pymsg, "air_data_recv");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->air_data_recv = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // user_pos_recv
-    PyObject * field = PyObject_GetAttrString(_pymsg, "user_pos_recv");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->user_pos_recv = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // user_vel_recv
-    PyObject * field = PyObject_GetAttrString(_pymsg, "user_vel_recv");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->user_vel_recv = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // user_heading_recv
-    PyObject * field = PyObject_GetAttrString(_pymsg, "user_heading_recv");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->user_heading_recv = (Py_True == field);
     Py_DECREF(field);
   }
 
@@ -269,50 +179,6 @@ PyObject * sbg_driver__msg__sbg_status_aiding__convert_to_py(void * raw_ros_mess
       }
     }
   }
-  {  // gps2_pos_recv
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->gps2_pos_recv ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "gps2_pos_recv", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // gps2_vel_recv
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->gps2_vel_recv ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "gps2_vel_recv", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // gps2_hdt_recv
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->gps2_hdt_recv ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "gps2_hdt_recv", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // gps2_utc_recv
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->gps2_utc_recv ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "gps2_utc_recv", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
   {  // mag_recv
     PyObject * field = NULL;
     field = PyBool_FromLong(ros_message->mag_recv ? 1 : 0);
@@ -340,72 +206,6 @@ PyObject * sbg_driver__msg__sbg_status_aiding__convert_to_py(void * raw_ros_mess
     field = PyBool_FromLong(ros_message->dvl_recv ? 1 : 0);
     {
       int rc = PyObject_SetAttrString(_pymessage, "dvl_recv", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // usbl_recv
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->usbl_recv ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "usbl_recv", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // depth_recv
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->depth_recv ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "depth_recv", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // air_data_recv
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->air_data_recv ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "air_data_recv", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // user_pos_recv
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->user_pos_recv ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "user_pos_recv", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // user_vel_recv
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->user_vel_recv ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "user_vel_recv", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // user_heading_recv
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->user_heading_recv ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "user_heading_recv", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

@@ -57,10 +57,6 @@ typedef struct sbg_driver__msg__SbgGpsHdt
   float pitch_acc;
   /// The distance between the main and aux antenna in meters.
   float baseline;
-  /// Number of space vehicle tracked in true heading solution. 0xFF if N/A
-  uint8_t num_sv_tracked;
-  /// Number of used space vehicle in true heading solution. 0xFF if N/A
-  uint8_t num_sv_used;
 } sbg_driver__msg__SbgGpsHdt;
 
 // Struct for a sequence of sbg_driver__msg__SbgGpsHdt.

@@ -26,21 +26,13 @@ sbg_driver__msg__SbgEkfStatus__init(sbg_driver__msg__SbgEkfStatus * msg)
   // mag_ref_used
   // gps1_vel_used
   // gps1_pos_used
+  // gps1_course_used
   // gps1_hdt_used
   // gps2_vel_used
   // gps2_pos_used
+  // gps2_course_used
   // gps2_hdt_used
   // odo_used
-  // dvl_bt_used
-  // dvl_wt_used
-  // user_pos_used
-  // user_vel_used
-  // user_heading_used
-  // usbl_used
-  // air_data_used
-  // zupt_used
-  // align_valid
-  // depth_used
   return true;
 }
 
@@ -59,21 +51,13 @@ sbg_driver__msg__SbgEkfStatus__fini(sbg_driver__msg__SbgEkfStatus * msg)
   // mag_ref_used
   // gps1_vel_used
   // gps1_pos_used
+  // gps1_course_used
   // gps1_hdt_used
   // gps2_vel_used
   // gps2_pos_used
+  // gps2_course_used
   // gps2_hdt_used
   // odo_used
-  // dvl_bt_used
-  // dvl_wt_used
-  // user_pos_used
-  // user_vel_used
-  // user_heading_used
-  // usbl_used
-  // air_data_used
-  // zupt_used
-  // align_valid
-  // depth_used
 }
 
 bool
@@ -118,6 +102,10 @@ sbg_driver__msg__SbgEkfStatus__are_equal(const sbg_driver__msg__SbgEkfStatus * l
   if (lhs->gps1_pos_used != rhs->gps1_pos_used) {
     return false;
   }
+  // gps1_course_used
+  if (lhs->gps1_course_used != rhs->gps1_course_used) {
+    return false;
+  }
   // gps1_hdt_used
   if (lhs->gps1_hdt_used != rhs->gps1_hdt_used) {
     return false;
@@ -130,52 +118,16 @@ sbg_driver__msg__SbgEkfStatus__are_equal(const sbg_driver__msg__SbgEkfStatus * l
   if (lhs->gps2_pos_used != rhs->gps2_pos_used) {
     return false;
   }
+  // gps2_course_used
+  if (lhs->gps2_course_used != rhs->gps2_course_used) {
+    return false;
+  }
   // gps2_hdt_used
   if (lhs->gps2_hdt_used != rhs->gps2_hdt_used) {
     return false;
   }
   // odo_used
   if (lhs->odo_used != rhs->odo_used) {
-    return false;
-  }
-  // dvl_bt_used
-  if (lhs->dvl_bt_used != rhs->dvl_bt_used) {
-    return false;
-  }
-  // dvl_wt_used
-  if (lhs->dvl_wt_used != rhs->dvl_wt_used) {
-    return false;
-  }
-  // user_pos_used
-  if (lhs->user_pos_used != rhs->user_pos_used) {
-    return false;
-  }
-  // user_vel_used
-  if (lhs->user_vel_used != rhs->user_vel_used) {
-    return false;
-  }
-  // user_heading_used
-  if (lhs->user_heading_used != rhs->user_heading_used) {
-    return false;
-  }
-  // usbl_used
-  if (lhs->usbl_used != rhs->usbl_used) {
-    return false;
-  }
-  // air_data_used
-  if (lhs->air_data_used != rhs->air_data_used) {
-    return false;
-  }
-  // zupt_used
-  if (lhs->zupt_used != rhs->zupt_used) {
-    return false;
-  }
-  // align_valid
-  if (lhs->align_valid != rhs->align_valid) {
-    return false;
-  }
-  // depth_used
-  if (lhs->depth_used != rhs->depth_used) {
     return false;
   }
   return true;
@@ -207,36 +159,20 @@ sbg_driver__msg__SbgEkfStatus__copy(
   output->gps1_vel_used = input->gps1_vel_used;
   // gps1_pos_used
   output->gps1_pos_used = input->gps1_pos_used;
+  // gps1_course_used
+  output->gps1_course_used = input->gps1_course_used;
   // gps1_hdt_used
   output->gps1_hdt_used = input->gps1_hdt_used;
   // gps2_vel_used
   output->gps2_vel_used = input->gps2_vel_used;
   // gps2_pos_used
   output->gps2_pos_used = input->gps2_pos_used;
+  // gps2_course_used
+  output->gps2_course_used = input->gps2_course_used;
   // gps2_hdt_used
   output->gps2_hdt_used = input->gps2_hdt_used;
   // odo_used
   output->odo_used = input->odo_used;
-  // dvl_bt_used
-  output->dvl_bt_used = input->dvl_bt_used;
-  // dvl_wt_used
-  output->dvl_wt_used = input->dvl_wt_used;
-  // user_pos_used
-  output->user_pos_used = input->user_pos_used;
-  // user_vel_used
-  output->user_vel_used = input->user_vel_used;
-  // user_heading_used
-  output->user_heading_used = input->user_heading_used;
-  // usbl_used
-  output->usbl_used = input->usbl_used;
-  // air_data_used
-  output->air_data_used = input->air_data_used;
-  // zupt_used
-  output->zupt_used = input->zupt_used;
-  // align_valid
-  output->align_valid = input->align_valid;
-  // depth_used
-  output->depth_used = input->depth_used;
   return true;
 }
 

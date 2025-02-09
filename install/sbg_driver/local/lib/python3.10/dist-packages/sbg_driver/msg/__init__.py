@@ -3,9 +3,7 @@ from sbg_driver.msg._sbg_air_data_status import SbgAirDataStatus  # noqa: F401
 from sbg_driver.msg._sbg_ekf_euler import SbgEkfEuler  # noqa: F401
 from sbg_driver.msg._sbg_ekf_nav import SbgEkfNav  # noqa: F401
 from sbg_driver.msg._sbg_ekf_quat import SbgEkfQuat  # noqa: F401
-from sbg_driver.msg._sbg_ekf_rot_accel import SbgEkfRotAccel  # noqa: F401
 from sbg_driver.msg._sbg_ekf_status import SbgEkfStatus  # noqa: F401
-from sbg_driver.msg._sbg_ekf_vel_body import SbgEkfVelBody  # noqa: F401
 from sbg_driver.msg._sbg_event import SbgEvent  # noqa: F401
 from sbg_driver.msg._sbg_gps_hdt import SbgGpsHdt  # noqa: F401
 from sbg_driver.msg._sbg_gps_pos import SbgGpsPos  # noqa: F401

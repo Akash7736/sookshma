@@ -2,12 +2,15 @@
 // with input from custom_interfaces/msg/EstimatedState.msg
 // generated code does not contain a copyright notice
 
+#include "std_msgs/msg/Header.idl"
 
 module custom_interfaces {
   module msg {
     @verbatim (language="comment", text=
       "EstimatedState.msg")
     struct EstimatedState {
+      std_msgs::msg::Header header;
+
       double u;
 
       double v;
@@ -19,6 +22,10 @@ module custom_interfaces {
       double y;
 
       double heading;
+
+      double propeller;
+
+      double rudder;
     };
   };
 };

@@ -46,7 +46,6 @@ sbg_driver__msg__SbgGpsPos__init(sbg_driver__msg__SbgGpsPos * msg)
     sbg_driver__msg__SbgGpsPos__fini(msg);
     return false;
   }
-  // num_sv_tracked
   // num_sv_used
   // base_station_id
   // diff_age
@@ -71,7 +70,6 @@ sbg_driver__msg__SbgGpsPos__fini(sbg_driver__msg__SbgGpsPos * msg)
   // undulation
   // position_accuracy
   geometry_msgs__msg__Vector3__fini(&msg->position_accuracy);
-  // num_sv_tracked
   // num_sv_used
   // base_station_id
   // diff_age
@@ -123,10 +121,6 @@ sbg_driver__msg__SbgGpsPos__are_equal(const sbg_driver__msg__SbgGpsPos * lhs, co
   if (!geometry_msgs__msg__Vector3__are_equal(
       &(lhs->position_accuracy), &(rhs->position_accuracy)))
   {
-    return false;
-  }
-  // num_sv_tracked
-  if (lhs->num_sv_tracked != rhs->num_sv_tracked) {
     return false;
   }
   // num_sv_used
@@ -182,8 +176,6 @@ sbg_driver__msg__SbgGpsPos__copy(
   {
     return false;
   }
-  // num_sv_tracked
-  output->num_sv_tracked = input->num_sv_tracked;
   // num_sv_used
   output->num_sv_used = input->num_sv_used;
   // base_station_id

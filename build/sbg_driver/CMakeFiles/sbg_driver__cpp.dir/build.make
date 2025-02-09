@@ -178,14 +178,6 @@ CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_status.h
 CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_status__builder.hpp
 CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_status__struct.hpp
 CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_status__traits.hpp
-CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_vel_body.hpp
-CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__builder.hpp
-CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__struct.hpp
-CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__traits.hpp
-CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_rot_accel.hpp
-CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__builder.hpp
-CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__struct.hpp
-CMakeFiles/sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__traits.hpp
 
 rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -230,8 +222,6 @@ rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp: rosidl_adapter/sbg_d
 rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp: rosidl_adapter/sbg_driver/msg/SbgMagCalib.idl
 rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp: rosidl_adapter/sbg_driver/msg/SbgStatusAiding.idl
 rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp: rosidl_adapter/sbg_driver/msg/SbgEkfStatus.idl
-rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp: rosidl_adapter/sbg_driver/msg/SbgEkfVelBody.idl
-rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp: rosidl_adapter/sbg_driver/msg/SbgEkfRotAccel.idl
 rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -630,30 +620,6 @@ rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_status__struct.hpp: rosidl_ge
 rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_status__traits.hpp: rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_status__traits.hpp
 
-rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_vel_body.hpp: rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_vel_body.hpp
-
-rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__builder.hpp: rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__builder.hpp
-
-rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__struct.hpp: rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__struct.hpp
-
-rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__traits.hpp: rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__traits.hpp
-
-rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_rot_accel.hpp: rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_rot_accel.hpp
-
-rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__builder.hpp: rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__builder.hpp
-
-rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__struct.hpp: rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__struct.hpp
-
-rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__traits.hpp: rosidl_generator_cpp/sbg_driver/msg/sbg_gps_vel_status.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__traits.hpp
-
 sbg_driver__cpp: CMakeFiles/sbg_driver__cpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_air_data__builder.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_air_data__struct.hpp
@@ -670,15 +636,9 @@ sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_nav__traits.
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_quat__builder.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_quat__struct.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_quat__traits.hpp
-sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__builder.hpp
-sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__struct.hpp
-sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__traits.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_status__builder.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_status__struct.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_status__traits.hpp
-sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__builder.hpp
-sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__struct.hpp
-sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__traits.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_event__builder.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_event__struct.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/detail/sbg_event__traits.hpp
@@ -750,9 +710,7 @@ sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_air_data_status.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_euler.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_nav.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_quat.hpp
-sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_rot_accel.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_status.hpp
-sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_vel_body.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_event.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_gps_hdt.hpp
 sbg_driver__cpp: rosidl_generator_cpp/sbg_driver/msg/sbg_gps_pos.hpp

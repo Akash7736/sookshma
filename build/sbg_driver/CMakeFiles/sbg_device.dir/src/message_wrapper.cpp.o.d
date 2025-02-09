@@ -5,29 +5,29 @@ CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o: \
  /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComLib.h \
  /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h \
  /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgConfig.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/features-time64.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgTypes.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
  /usr/include/aarch64-linux-gnu/bits/timesize.h \
  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
  /usr/include/aarch64-linux-gnu/bits/long-double.h \
  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
- /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h /usr/include/errno.h \
- /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/aarch64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
- /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h \
- /usr/include/inttypes.h \
- /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
- /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
  /usr/include/aarch64-linux-gnu/bits/types.h \
  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
  /usr/include/aarch64-linux-gnu/bits/time64.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h \
+ /usr/include/assert.h /usr/include/errno.h \
+ /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/aarch64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
@@ -36,29 +36,19 @@ CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
  /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
- /usr/include/aarch64-linux-gnu/bits/uio_lim.h /usr/include/c++/11/math.h \
- /usr/include/c++/11/cmath \
+ /usr/include/aarch64-linux-gnu/bits/uio_lim.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+ /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
- /usr/include/c++/11/pstl/pstl_config.h \
- /usr/include/c++/11/bits/cpp_type_traits.h \
- /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
- /usr/include/aarch64-linux-gnu/bits/math-vector.h \
- /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/aarch64-linux-gnu/bits/floatn.h \
- /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
- /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
- /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
- /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
- /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/11/bits/std_abs.h /usr/include/stdlib.h \
- /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+ /usr/include/c++/11/pstl/pstl_config.h /usr/include/stdlib.h \
  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/aarch64-linux-gnu/sys/types.h \
@@ -83,6 +73,103 @@ CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/c++/11/bits/std_abs.h /usr/include/stdio.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio_lim.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/time.h \
+ /usr/include/aarch64-linux-gnu/bits/time.h \
+ /usr/include/aarch64-linux-gnu/bits/timex.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgDebug.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgPlatform.h \
+ /usr/include/unistd.h /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+ /usr/include/aarch64-linux-gnu/bits/environments.h \
+ /usr/include/aarch64-linux-gnu/bits/confname.h \
+ /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+ /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/crc/sbgCrc.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceUdp.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceSerial.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceFile.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/splitBuffer/sbgSplitBuffer.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBuffer.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBufferLE.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBufferCommon.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBufferBE.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/network/sbgNetwork.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/swap/sbgSwap.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgECanId.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComIds.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmd.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdAdvanced.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgEComIds.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../protocol/sbgEComProtocol.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogs.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/../sbgEComIds.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogAirData.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogDebug.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/../protocol/sbgEComProtocol.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogDepth.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogDiag.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogDvl.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogEkf.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogEvent.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogGps.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogImu.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogImuRaw.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogMag.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogOdometer.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogShipMotion.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogStatus.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogUsbl.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../binaryLogs/sbgEComBinaryLogUtc.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdAirData.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdDvl.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdEthernet.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdEvent.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdFeatures.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdGnss.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdInfo.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdInterface.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdLicense.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECanId.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSettings.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/protocol/sbgEComProtocol.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/binaryLogs/sbgEComBinaryLogs.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComVersion.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComGetVersion.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComIds.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/include/sbg_driver/sbg_matrix3.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h \
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h \
+ /usr/include/c++/11/cmath /usr/include/c++/11/bits/cpp_type_traits.h \
+ /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
+ /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+ /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+ /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
  /usr/include/c++/11/bits/specfun.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/bits/functexcept.h \
@@ -109,99 +196,6 @@ CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
- /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
- /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
- /usr/include/stdio.h \
- /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
- /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
- /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/aarch64-linux-gnu/bits/stdio_lim.h /usr/include/string.h \
- /usr/include/strings.h /usr/include/time.h \
- /usr/include/aarch64-linux-gnu/bits/time.h \
- /usr/include/aarch64-linux-gnu/bits/timex.h \
- /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgTypes.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/debug/sbgDebug.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/platform/sbgPlatform.h \
- /usr/include/unistd.h /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
- /usr/include/aarch64-linux-gnu/bits/environments.h \
- /usr/include/aarch64-linux-gnu/bits/confname.h \
- /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
- /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
- /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/debug/sbgDebug.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/crc/sbgCrc.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceUdp.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceSerial.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterfaceFile.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/interfaces/sbgInterface.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/splitBuffer/sbgSplitBuffer.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBuffer.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBufferLE.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBufferCommon.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/streamBuffer/sbgStreamBufferBE.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/network/sbgNetwork.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/common/swap/sbgSwap.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgECanId.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComIds.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmd.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdAdvanced.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgECom.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLog.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComIds.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogAirData.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDepth.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDiag.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/protocol/sbgEComProtocol.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogDvl.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEkf.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEkfRotAccel.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogEvent.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssHdt.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssPos.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogGnssVel.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogImu.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogMag.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogOdometer.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogRawData.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogSat.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/defs/sbgEComDefsGnss.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogShipMotion.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogStatus.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogUsbl.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/logs/sbgEComLogUtc.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/protocol/sbgEComProtocol.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdAirData.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdApi.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdDvl.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdEthernet.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdEvent.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdFeatures.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdGnss.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdInfo.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdInterface.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdLicense.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSettings.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComVersion.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/external/sbgECom/src/sbgEComGetVersion.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/include/sbg_driver/sbg_matrix3.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
@@ -704,7 +698,6 @@ CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/include/sbg_driver/sbg_utm.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
@@ -750,7 +743,8 @@ CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o: \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.h \
- /usr/include/c++/11/cfloat \
+ /usr/include/c++/11/math.h /usr/include/c++/11/cfloat \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
  /opt/ros/humble/include/tf2/tf2/visibility_control.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
@@ -778,12 +772,6 @@ CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp \
- /opt/ros/humble/include/nmea_msgs/nmea_msgs/msg/sentence.hpp \
- /opt/ros/humble/include/nmea_msgs/nmea_msgs/msg/detail/sentence__struct.hpp \
- /opt/ros/humble/include/nmea_msgs/nmea_msgs/msg/detail/sentence__builder.hpp \
- /opt/ros/humble/include/nmea_msgs/nmea_msgs/msg/detail/sentence__traits.hpp \
- /opt/ros/humble/include/nmea_msgs/nmea_msgs/msg/detail/sentence__type_support.hpp \
- /opt/ros/humble/include/nmea_msgs/nmea_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/sbg_status.hpp \
  /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_status__struct.hpp \
  /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_status_general__struct.hpp \
@@ -820,14 +808,6 @@ CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o: \
  /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_nav__struct.hpp \
  /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_nav__builder.hpp \
  /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_nav__traits.hpp \
- /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_vel_body.hpp \
- /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__struct.hpp \
- /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__builder.hpp \
- /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_vel_body__traits.hpp \
- /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/sbg_ekf_rot_accel.hpp \
- /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__struct.hpp \
- /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__builder.hpp \
- /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ekf_rot_accel__traits.hpp \
  /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/sbg_ship_motion.hpp \
  /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ship_motion__struct.hpp \
  /workspaces/mavlab/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_ship_motion_status__struct.hpp \
@@ -938,5 +918,4 @@ CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o: \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
  /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h \
- /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/include/sbg_driver/sbg_ros_helpers.h
+ /workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h

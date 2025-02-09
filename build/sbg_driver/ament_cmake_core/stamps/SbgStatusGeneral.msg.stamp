@@ -20,11 +20,3 @@ bool settings
 # General Temperature
 # True when temperature is within specified limits.
 bool temperature
-
-# General Datalogger
-# True when the datalogger is working correctly.
-bool datalogger
-
-# General CPU
-# True if the CPU headroom is correct.
-bool cpu

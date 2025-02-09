@@ -8,12 +8,8 @@ msg/SbgEkfNav.idl
 msg/SbgEkfNav.msg
 msg/SbgEkfQuat.idl
 msg/SbgEkfQuat.msg
-msg/SbgEkfRotAccel.idl
-msg/SbgEkfRotAccel.msg
 msg/SbgEkfStatus.idl
 msg/SbgEkfStatus.msg
-msg/SbgEkfVelBody.idl
-msg/SbgEkfVelBody.msg
 msg/SbgEvent.idl
 msg/SbgEvent.msg
 msg/SbgGpsHdt.idl

@@ -248,7 +248,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/sbg_driver-3.2.0-py3.10.egg-info" TYPE DIRECTORY FILES "/workspaces/mavlab/build/sbg_driver/ament_cmake_python/sbg_driver/sbg_driver.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info" TYPE DIRECTORY FILES "/workspaces/mavlab/build/sbg_driver/ament_cmake_python/sbg_driver/sbg_driver.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -468,14 +468,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbg_driver/msg" TYPE FILE FILES "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver/msg/SbgEkfVelBody.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbg_driver/msg" TYPE FILE FILES "/workspaces/mavlab/build/sbg_driver/rosidl_adapter/sbg_driver/msg/SbgEkfRotAccel.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbg_driver/msg" TYPE FILE FILES "/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/msg/SbgGpsVelStatus.msg")
 endif()
 
@@ -585,14 +577,6 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbg_driver/msg" TYPE FILE FILES "/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/msg/SbgEkfStatus.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbg_driver/msg" TYPE FILE FILES "/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/msg/SbgEkfVelBody.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbg_driver/msg" TYPE FILE FILES "/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver/msg/SbgEkfRotAccel.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

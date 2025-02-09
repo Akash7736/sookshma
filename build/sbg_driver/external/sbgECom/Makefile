@@ -209,30 +209,6 @@ common/crc/sbgCrc.c.s:
 	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.s
 .PHONY : common/crc/sbgCrc.c.s
 
-common/debug/sbgDebug.o: common/debug/sbgDebug.c.o
-.PHONY : common/debug/sbgDebug.o
-
-# target to build an object file
-common/debug/sbgDebug.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o
-.PHONY : common/debug/sbgDebug.c.o
-
-common/debug/sbgDebug.i: common/debug/sbgDebug.c.i
-.PHONY : common/debug/sbgDebug.i
-
-# target to preprocess a source file
-common/debug/sbgDebug.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.i
-.PHONY : common/debug/sbgDebug.c.i
-
-common/debug/sbgDebug.s: common/debug/sbgDebug.c.s
-.PHONY : common/debug/sbgDebug.s
-
-# target to generate assembly for a file
-common/debug/sbgDebug.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.s
-.PHONY : common/debug/sbgDebug.c.s
-
 common/interfaces/sbgInterface.o: common/interfaces/sbgInterface.c.o
 .PHONY : common/interfaces/sbgInterface.o
 
@@ -425,30 +401,6 @@ common/streamBuffer/sbgStreamBuffer.c.s:
 	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.s
 .PHONY : common/streamBuffer/sbgStreamBuffer.c.s
 
-common/string/sbgString.o: common/string/sbgString.c.o
-.PHONY : common/string/sbgString.o
-
-# target to build an object file
-common/string/sbgString.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/common/string/sbgString.c.o
-.PHONY : common/string/sbgString.c.o
-
-common/string/sbgString.i: common/string/sbgString.c.i
-.PHONY : common/string/sbgString.i
-
-# target to preprocess a source file
-common/string/sbgString.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/common/string/sbgString.c.i
-.PHONY : common/string/sbgString.c.i
-
-common/string/sbgString.s: common/string/sbgString.c.s
-.PHONY : common/string/sbgString.s
-
-# target to generate assembly for a file
-common/string/sbgString.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/common/string/sbgString.c.s
-.PHONY : common/string/sbgString.c.s
-
 common/swap/sbgSwap.o: common/swap/sbgSwap.c.o
 .PHONY : common/swap/sbgSwap.o
 
@@ -497,6 +449,438 @@ common/version/sbgVersion.c.s:
 	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.s
 .PHONY : common/version/sbgVersion.c.s
 
+src/binaryLogs/sbgEComBinaryLogAirData.o: src/binaryLogs/sbgEComBinaryLogAirData.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogAirData.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogAirData.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogAirData.c.o
+
+src/binaryLogs/sbgEComBinaryLogAirData.i: src/binaryLogs/sbgEComBinaryLogAirData.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogAirData.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogAirData.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogAirData.c.i
+
+src/binaryLogs/sbgEComBinaryLogAirData.s: src/binaryLogs/sbgEComBinaryLogAirData.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogAirData.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogAirData.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogAirData.c.s
+
+src/binaryLogs/sbgEComBinaryLogDebug.o: src/binaryLogs/sbgEComBinaryLogDebug.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogDebug.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogDebug.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogDebug.c.o
+
+src/binaryLogs/sbgEComBinaryLogDebug.i: src/binaryLogs/sbgEComBinaryLogDebug.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogDebug.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogDebug.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogDebug.c.i
+
+src/binaryLogs/sbgEComBinaryLogDebug.s: src/binaryLogs/sbgEComBinaryLogDebug.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogDebug.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogDebug.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogDebug.c.s
+
+src/binaryLogs/sbgEComBinaryLogDepth.o: src/binaryLogs/sbgEComBinaryLogDepth.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogDepth.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogDepth.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogDepth.c.o
+
+src/binaryLogs/sbgEComBinaryLogDepth.i: src/binaryLogs/sbgEComBinaryLogDepth.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogDepth.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogDepth.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogDepth.c.i
+
+src/binaryLogs/sbgEComBinaryLogDepth.s: src/binaryLogs/sbgEComBinaryLogDepth.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogDepth.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogDepth.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogDepth.c.s
+
+src/binaryLogs/sbgEComBinaryLogDiag.o: src/binaryLogs/sbgEComBinaryLogDiag.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogDiag.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogDiag.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogDiag.c.o
+
+src/binaryLogs/sbgEComBinaryLogDiag.i: src/binaryLogs/sbgEComBinaryLogDiag.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogDiag.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogDiag.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogDiag.c.i
+
+src/binaryLogs/sbgEComBinaryLogDiag.s: src/binaryLogs/sbgEComBinaryLogDiag.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogDiag.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogDiag.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogDiag.c.s
+
+src/binaryLogs/sbgEComBinaryLogDvl.o: src/binaryLogs/sbgEComBinaryLogDvl.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogDvl.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogDvl.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogDvl.c.o
+
+src/binaryLogs/sbgEComBinaryLogDvl.i: src/binaryLogs/sbgEComBinaryLogDvl.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogDvl.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogDvl.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogDvl.c.i
+
+src/binaryLogs/sbgEComBinaryLogDvl.s: src/binaryLogs/sbgEComBinaryLogDvl.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogDvl.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogDvl.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogDvl.c.s
+
+src/binaryLogs/sbgEComBinaryLogEkf.o: src/binaryLogs/sbgEComBinaryLogEkf.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogEkf.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogEkf.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogEkf.c.o
+
+src/binaryLogs/sbgEComBinaryLogEkf.i: src/binaryLogs/sbgEComBinaryLogEkf.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogEkf.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogEkf.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogEkf.c.i
+
+src/binaryLogs/sbgEComBinaryLogEkf.s: src/binaryLogs/sbgEComBinaryLogEkf.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogEkf.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogEkf.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogEkf.c.s
+
+src/binaryLogs/sbgEComBinaryLogEvent.o: src/binaryLogs/sbgEComBinaryLogEvent.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogEvent.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogEvent.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogEvent.c.o
+
+src/binaryLogs/sbgEComBinaryLogEvent.i: src/binaryLogs/sbgEComBinaryLogEvent.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogEvent.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogEvent.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogEvent.c.i
+
+src/binaryLogs/sbgEComBinaryLogEvent.s: src/binaryLogs/sbgEComBinaryLogEvent.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogEvent.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogEvent.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogEvent.c.s
+
+src/binaryLogs/sbgEComBinaryLogGps.o: src/binaryLogs/sbgEComBinaryLogGps.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogGps.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogGps.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogGps.c.o
+
+src/binaryLogs/sbgEComBinaryLogGps.i: src/binaryLogs/sbgEComBinaryLogGps.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogGps.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogGps.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogGps.c.i
+
+src/binaryLogs/sbgEComBinaryLogGps.s: src/binaryLogs/sbgEComBinaryLogGps.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogGps.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogGps.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogGps.c.s
+
+src/binaryLogs/sbgEComBinaryLogImu.o: src/binaryLogs/sbgEComBinaryLogImu.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogImu.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogImu.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogImu.c.o
+
+src/binaryLogs/sbgEComBinaryLogImu.i: src/binaryLogs/sbgEComBinaryLogImu.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogImu.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogImu.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogImu.c.i
+
+src/binaryLogs/sbgEComBinaryLogImu.s: src/binaryLogs/sbgEComBinaryLogImu.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogImu.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogImu.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogImu.c.s
+
+src/binaryLogs/sbgEComBinaryLogImuRaw.o: src/binaryLogs/sbgEComBinaryLogImuRaw.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogImuRaw.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogImuRaw.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogImuRaw.c.o
+
+src/binaryLogs/sbgEComBinaryLogImuRaw.i: src/binaryLogs/sbgEComBinaryLogImuRaw.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogImuRaw.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogImuRaw.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogImuRaw.c.i
+
+src/binaryLogs/sbgEComBinaryLogImuRaw.s: src/binaryLogs/sbgEComBinaryLogImuRaw.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogImuRaw.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogImuRaw.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogImuRaw.c.s
+
+src/binaryLogs/sbgEComBinaryLogMag.o: src/binaryLogs/sbgEComBinaryLogMag.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogMag.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogMag.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogMag.c.o
+
+src/binaryLogs/sbgEComBinaryLogMag.i: src/binaryLogs/sbgEComBinaryLogMag.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogMag.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogMag.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogMag.c.i
+
+src/binaryLogs/sbgEComBinaryLogMag.s: src/binaryLogs/sbgEComBinaryLogMag.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogMag.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogMag.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogMag.c.s
+
+src/binaryLogs/sbgEComBinaryLogOdometer.o: src/binaryLogs/sbgEComBinaryLogOdometer.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogOdometer.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogOdometer.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogOdometer.c.o
+
+src/binaryLogs/sbgEComBinaryLogOdometer.i: src/binaryLogs/sbgEComBinaryLogOdometer.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogOdometer.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogOdometer.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogOdometer.c.i
+
+src/binaryLogs/sbgEComBinaryLogOdometer.s: src/binaryLogs/sbgEComBinaryLogOdometer.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogOdometer.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogOdometer.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogOdometer.c.s
+
+src/binaryLogs/sbgEComBinaryLogShipMotion.o: src/binaryLogs/sbgEComBinaryLogShipMotion.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogShipMotion.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogShipMotion.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogShipMotion.c.o
+
+src/binaryLogs/sbgEComBinaryLogShipMotion.i: src/binaryLogs/sbgEComBinaryLogShipMotion.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogShipMotion.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogShipMotion.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogShipMotion.c.i
+
+src/binaryLogs/sbgEComBinaryLogShipMotion.s: src/binaryLogs/sbgEComBinaryLogShipMotion.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogShipMotion.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogShipMotion.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogShipMotion.c.s
+
+src/binaryLogs/sbgEComBinaryLogStatus.o: src/binaryLogs/sbgEComBinaryLogStatus.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogStatus.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogStatus.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogStatus.c.o
+
+src/binaryLogs/sbgEComBinaryLogStatus.i: src/binaryLogs/sbgEComBinaryLogStatus.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogStatus.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogStatus.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogStatus.c.i
+
+src/binaryLogs/sbgEComBinaryLogStatus.s: src/binaryLogs/sbgEComBinaryLogStatus.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogStatus.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogStatus.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogStatus.c.s
+
+src/binaryLogs/sbgEComBinaryLogUsbl.o: src/binaryLogs/sbgEComBinaryLogUsbl.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogUsbl.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogUsbl.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogUsbl.c.o
+
+src/binaryLogs/sbgEComBinaryLogUsbl.i: src/binaryLogs/sbgEComBinaryLogUsbl.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogUsbl.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogUsbl.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogUsbl.c.i
+
+src/binaryLogs/sbgEComBinaryLogUsbl.s: src/binaryLogs/sbgEComBinaryLogUsbl.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogUsbl.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogUsbl.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogUsbl.c.s
+
+src/binaryLogs/sbgEComBinaryLogUtc.o: src/binaryLogs/sbgEComBinaryLogUtc.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogUtc.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogUtc.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogUtc.c.o
+
+src/binaryLogs/sbgEComBinaryLogUtc.i: src/binaryLogs/sbgEComBinaryLogUtc.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogUtc.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogUtc.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogUtc.c.i
+
+src/binaryLogs/sbgEComBinaryLogUtc.s: src/binaryLogs/sbgEComBinaryLogUtc.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogUtc.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogUtc.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogUtc.c.s
+
+src/binaryLogs/sbgEComBinaryLogs.o: src/binaryLogs/sbgEComBinaryLogs.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogs.o
+
+# target to build an object file
+src/binaryLogs/sbgEComBinaryLogs.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o
+.PHONY : src/binaryLogs/sbgEComBinaryLogs.c.o
+
+src/binaryLogs/sbgEComBinaryLogs.i: src/binaryLogs/sbgEComBinaryLogs.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogs.i
+
+# target to preprocess a source file
+src/binaryLogs/sbgEComBinaryLogs.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.i
+.PHONY : src/binaryLogs/sbgEComBinaryLogs.c.i
+
+src/binaryLogs/sbgEComBinaryLogs.s: src/binaryLogs/sbgEComBinaryLogs.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogs.s
+
+# target to generate assembly for a file
+src/binaryLogs/sbgEComBinaryLogs.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.s
+.PHONY : src/binaryLogs/sbgEComBinaryLogs.c.s
+
+src/commands/sbgEComCmd.o: src/commands/sbgEComCmd.c.o
+.PHONY : src/commands/sbgEComCmd.o
+
+# target to build an object file
+src/commands/sbgEComCmd.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o
+.PHONY : src/commands/sbgEComCmd.c.o
+
+src/commands/sbgEComCmd.i: src/commands/sbgEComCmd.c.i
+.PHONY : src/commands/sbgEComCmd.i
+
+# target to preprocess a source file
+src/commands/sbgEComCmd.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.i
+.PHONY : src/commands/sbgEComCmd.c.i
+
+src/commands/sbgEComCmd.s: src/commands/sbgEComCmd.c.s
+.PHONY : src/commands/sbgEComCmd.s
+
+# target to generate assembly for a file
+src/commands/sbgEComCmd.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.s
+.PHONY : src/commands/sbgEComCmd.c.s
+
 src/commands/sbgEComCmdAdvanced.o: src/commands/sbgEComCmdAdvanced.c.o
 .PHONY : src/commands/sbgEComCmdAdvanced.o
 
@@ -544,30 +928,6 @@ src/commands/sbgEComCmdAirData.s: src/commands/sbgEComCmdAirData.c.s
 src/commands/sbgEComCmdAirData.c.s:
 	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.s
 .PHONY : src/commands/sbgEComCmdAirData.c.s
-
-src/commands/sbgEComCmdApi.o: src/commands/sbgEComCmdApi.c.o
-.PHONY : src/commands/sbgEComCmdApi.o
-
-# target to build an object file
-src/commands/sbgEComCmdApi.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o
-.PHONY : src/commands/sbgEComCmdApi.c.o
-
-src/commands/sbgEComCmdApi.i: src/commands/sbgEComCmdApi.c.i
-.PHONY : src/commands/sbgEComCmdApi.i
-
-# target to preprocess a source file
-src/commands/sbgEComCmdApi.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.i
-.PHONY : src/commands/sbgEComCmdApi.c.i
-
-src/commands/sbgEComCmdApi.s: src/commands/sbgEComCmdApi.c.s
-.PHONY : src/commands/sbgEComCmdApi.s
-
-# target to generate assembly for a file
-src/commands/sbgEComCmdApi.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.s
-.PHONY : src/commands/sbgEComCmdApi.c.s
 
 src/commands/sbgEComCmdCommon.o: src/commands/sbgEComCmdCommon.c.o
 .PHONY : src/commands/sbgEComCmdCommon.o
@@ -905,509 +1265,29 @@ src/commands/sbgEComCmdSettings.c.s:
 	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.s
 .PHONY : src/commands/sbgEComCmdSettings.c.s
 
-src/defs/sbgEComDefsGnss.o: src/defs/sbgEComDefsGnss.c.o
-.PHONY : src/defs/sbgEComDefsGnss.o
+src/commands/transfer/sbgEComTransfer.o: src/commands/transfer/sbgEComTransfer.c.o
+.PHONY : src/commands/transfer/sbgEComTransfer.o
 
 # target to build an object file
-src/defs/sbgEComDefsGnss.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o
-.PHONY : src/defs/sbgEComDefsGnss.c.o
+src/commands/transfer/sbgEComTransfer.c.o:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o
+.PHONY : src/commands/transfer/sbgEComTransfer.c.o
 
-src/defs/sbgEComDefsGnss.i: src/defs/sbgEComDefsGnss.c.i
-.PHONY : src/defs/sbgEComDefsGnss.i
-
-# target to preprocess a source file
-src/defs/sbgEComDefsGnss.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.i
-.PHONY : src/defs/sbgEComDefsGnss.c.i
-
-src/defs/sbgEComDefsGnss.s: src/defs/sbgEComDefsGnss.c.s
-.PHONY : src/defs/sbgEComDefsGnss.s
-
-# target to generate assembly for a file
-src/defs/sbgEComDefsGnss.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.s
-.PHONY : src/defs/sbgEComDefsGnss.c.s
-
-src/logs/sbgEComLog.o: src/logs/sbgEComLog.c.o
-.PHONY : src/logs/sbgEComLog.o
-
-# target to build an object file
-src/logs/sbgEComLog.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o
-.PHONY : src/logs/sbgEComLog.c.o
-
-src/logs/sbgEComLog.i: src/logs/sbgEComLog.c.i
-.PHONY : src/logs/sbgEComLog.i
+src/commands/transfer/sbgEComTransfer.i: src/commands/transfer/sbgEComTransfer.c.i
+.PHONY : src/commands/transfer/sbgEComTransfer.i
 
 # target to preprocess a source file
-src/logs/sbgEComLog.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.i
-.PHONY : src/logs/sbgEComLog.c.i
+src/commands/transfer/sbgEComTransfer.c.i:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.i
+.PHONY : src/commands/transfer/sbgEComTransfer.c.i
 
-src/logs/sbgEComLog.s: src/logs/sbgEComLog.c.s
-.PHONY : src/logs/sbgEComLog.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLog.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.s
-.PHONY : src/logs/sbgEComLog.c.s
-
-src/logs/sbgEComLogAirData.o: src/logs/sbgEComLogAirData.c.o
-.PHONY : src/logs/sbgEComLogAirData.o
-
-# target to build an object file
-src/logs/sbgEComLogAirData.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o
-.PHONY : src/logs/sbgEComLogAirData.c.o
-
-src/logs/sbgEComLogAirData.i: src/logs/sbgEComLogAirData.c.i
-.PHONY : src/logs/sbgEComLogAirData.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogAirData.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.i
-.PHONY : src/logs/sbgEComLogAirData.c.i
-
-src/logs/sbgEComLogAirData.s: src/logs/sbgEComLogAirData.c.s
-.PHONY : src/logs/sbgEComLogAirData.s
+src/commands/transfer/sbgEComTransfer.s: src/commands/transfer/sbgEComTransfer.c.s
+.PHONY : src/commands/transfer/sbgEComTransfer.s
 
 # target to generate assembly for a file
-src/logs/sbgEComLogAirData.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.s
-.PHONY : src/logs/sbgEComLogAirData.c.s
-
-src/logs/sbgEComLogDepth.o: src/logs/sbgEComLogDepth.c.o
-.PHONY : src/logs/sbgEComLogDepth.o
-
-# target to build an object file
-src/logs/sbgEComLogDepth.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o
-.PHONY : src/logs/sbgEComLogDepth.c.o
-
-src/logs/sbgEComLogDepth.i: src/logs/sbgEComLogDepth.c.i
-.PHONY : src/logs/sbgEComLogDepth.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogDepth.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.i
-.PHONY : src/logs/sbgEComLogDepth.c.i
-
-src/logs/sbgEComLogDepth.s: src/logs/sbgEComLogDepth.c.s
-.PHONY : src/logs/sbgEComLogDepth.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogDepth.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.s
-.PHONY : src/logs/sbgEComLogDepth.c.s
-
-src/logs/sbgEComLogDiag.o: src/logs/sbgEComLogDiag.c.o
-.PHONY : src/logs/sbgEComLogDiag.o
-
-# target to build an object file
-src/logs/sbgEComLogDiag.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o
-.PHONY : src/logs/sbgEComLogDiag.c.o
-
-src/logs/sbgEComLogDiag.i: src/logs/sbgEComLogDiag.c.i
-.PHONY : src/logs/sbgEComLogDiag.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogDiag.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.i
-.PHONY : src/logs/sbgEComLogDiag.c.i
-
-src/logs/sbgEComLogDiag.s: src/logs/sbgEComLogDiag.c.s
-.PHONY : src/logs/sbgEComLogDiag.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogDiag.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.s
-.PHONY : src/logs/sbgEComLogDiag.c.s
-
-src/logs/sbgEComLogDvl.o: src/logs/sbgEComLogDvl.c.o
-.PHONY : src/logs/sbgEComLogDvl.o
-
-# target to build an object file
-src/logs/sbgEComLogDvl.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o
-.PHONY : src/logs/sbgEComLogDvl.c.o
-
-src/logs/sbgEComLogDvl.i: src/logs/sbgEComLogDvl.c.i
-.PHONY : src/logs/sbgEComLogDvl.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogDvl.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.i
-.PHONY : src/logs/sbgEComLogDvl.c.i
-
-src/logs/sbgEComLogDvl.s: src/logs/sbgEComLogDvl.c.s
-.PHONY : src/logs/sbgEComLogDvl.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogDvl.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.s
-.PHONY : src/logs/sbgEComLogDvl.c.s
-
-src/logs/sbgEComLogEkf.o: src/logs/sbgEComLogEkf.c.o
-.PHONY : src/logs/sbgEComLogEkf.o
-
-# target to build an object file
-src/logs/sbgEComLogEkf.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o
-.PHONY : src/logs/sbgEComLogEkf.c.o
-
-src/logs/sbgEComLogEkf.i: src/logs/sbgEComLogEkf.c.i
-.PHONY : src/logs/sbgEComLogEkf.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogEkf.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.i
-.PHONY : src/logs/sbgEComLogEkf.c.i
-
-src/logs/sbgEComLogEkf.s: src/logs/sbgEComLogEkf.c.s
-.PHONY : src/logs/sbgEComLogEkf.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogEkf.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.s
-.PHONY : src/logs/sbgEComLogEkf.c.s
-
-src/logs/sbgEComLogEkfRotAccel.o: src/logs/sbgEComLogEkfRotAccel.c.o
-.PHONY : src/logs/sbgEComLogEkfRotAccel.o
-
-# target to build an object file
-src/logs/sbgEComLogEkfRotAccel.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o
-.PHONY : src/logs/sbgEComLogEkfRotAccel.c.o
-
-src/logs/sbgEComLogEkfRotAccel.i: src/logs/sbgEComLogEkfRotAccel.c.i
-.PHONY : src/logs/sbgEComLogEkfRotAccel.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogEkfRotAccel.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.i
-.PHONY : src/logs/sbgEComLogEkfRotAccel.c.i
-
-src/logs/sbgEComLogEkfRotAccel.s: src/logs/sbgEComLogEkfRotAccel.c.s
-.PHONY : src/logs/sbgEComLogEkfRotAccel.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogEkfRotAccel.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.s
-.PHONY : src/logs/sbgEComLogEkfRotAccel.c.s
-
-src/logs/sbgEComLogEvent.o: src/logs/sbgEComLogEvent.c.o
-.PHONY : src/logs/sbgEComLogEvent.o
-
-# target to build an object file
-src/logs/sbgEComLogEvent.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o
-.PHONY : src/logs/sbgEComLogEvent.c.o
-
-src/logs/sbgEComLogEvent.i: src/logs/sbgEComLogEvent.c.i
-.PHONY : src/logs/sbgEComLogEvent.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogEvent.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.i
-.PHONY : src/logs/sbgEComLogEvent.c.i
-
-src/logs/sbgEComLogEvent.s: src/logs/sbgEComLogEvent.c.s
-.PHONY : src/logs/sbgEComLogEvent.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogEvent.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.s
-.PHONY : src/logs/sbgEComLogEvent.c.s
-
-src/logs/sbgEComLogGnssHdt.o: src/logs/sbgEComLogGnssHdt.c.o
-.PHONY : src/logs/sbgEComLogGnssHdt.o
-
-# target to build an object file
-src/logs/sbgEComLogGnssHdt.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o
-.PHONY : src/logs/sbgEComLogGnssHdt.c.o
-
-src/logs/sbgEComLogGnssHdt.i: src/logs/sbgEComLogGnssHdt.c.i
-.PHONY : src/logs/sbgEComLogGnssHdt.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogGnssHdt.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.i
-.PHONY : src/logs/sbgEComLogGnssHdt.c.i
-
-src/logs/sbgEComLogGnssHdt.s: src/logs/sbgEComLogGnssHdt.c.s
-.PHONY : src/logs/sbgEComLogGnssHdt.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogGnssHdt.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.s
-.PHONY : src/logs/sbgEComLogGnssHdt.c.s
-
-src/logs/sbgEComLogGnssPos.o: src/logs/sbgEComLogGnssPos.c.o
-.PHONY : src/logs/sbgEComLogGnssPos.o
-
-# target to build an object file
-src/logs/sbgEComLogGnssPos.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o
-.PHONY : src/logs/sbgEComLogGnssPos.c.o
-
-src/logs/sbgEComLogGnssPos.i: src/logs/sbgEComLogGnssPos.c.i
-.PHONY : src/logs/sbgEComLogGnssPos.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogGnssPos.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.i
-.PHONY : src/logs/sbgEComLogGnssPos.c.i
-
-src/logs/sbgEComLogGnssPos.s: src/logs/sbgEComLogGnssPos.c.s
-.PHONY : src/logs/sbgEComLogGnssPos.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogGnssPos.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.s
-.PHONY : src/logs/sbgEComLogGnssPos.c.s
-
-src/logs/sbgEComLogGnssVel.o: src/logs/sbgEComLogGnssVel.c.o
-.PHONY : src/logs/sbgEComLogGnssVel.o
-
-# target to build an object file
-src/logs/sbgEComLogGnssVel.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o
-.PHONY : src/logs/sbgEComLogGnssVel.c.o
-
-src/logs/sbgEComLogGnssVel.i: src/logs/sbgEComLogGnssVel.c.i
-.PHONY : src/logs/sbgEComLogGnssVel.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogGnssVel.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.i
-.PHONY : src/logs/sbgEComLogGnssVel.c.i
-
-src/logs/sbgEComLogGnssVel.s: src/logs/sbgEComLogGnssVel.c.s
-.PHONY : src/logs/sbgEComLogGnssVel.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogGnssVel.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.s
-.PHONY : src/logs/sbgEComLogGnssVel.c.s
-
-src/logs/sbgEComLogImu.o: src/logs/sbgEComLogImu.c.o
-.PHONY : src/logs/sbgEComLogImu.o
-
-# target to build an object file
-src/logs/sbgEComLogImu.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o
-.PHONY : src/logs/sbgEComLogImu.c.o
-
-src/logs/sbgEComLogImu.i: src/logs/sbgEComLogImu.c.i
-.PHONY : src/logs/sbgEComLogImu.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogImu.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.i
-.PHONY : src/logs/sbgEComLogImu.c.i
-
-src/logs/sbgEComLogImu.s: src/logs/sbgEComLogImu.c.s
-.PHONY : src/logs/sbgEComLogImu.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogImu.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.s
-.PHONY : src/logs/sbgEComLogImu.c.s
-
-src/logs/sbgEComLogMag.o: src/logs/sbgEComLogMag.c.o
-.PHONY : src/logs/sbgEComLogMag.o
-
-# target to build an object file
-src/logs/sbgEComLogMag.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o
-.PHONY : src/logs/sbgEComLogMag.c.o
-
-src/logs/sbgEComLogMag.i: src/logs/sbgEComLogMag.c.i
-.PHONY : src/logs/sbgEComLogMag.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogMag.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.i
-.PHONY : src/logs/sbgEComLogMag.c.i
-
-src/logs/sbgEComLogMag.s: src/logs/sbgEComLogMag.c.s
-.PHONY : src/logs/sbgEComLogMag.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogMag.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.s
-.PHONY : src/logs/sbgEComLogMag.c.s
-
-src/logs/sbgEComLogOdometer.o: src/logs/sbgEComLogOdometer.c.o
-.PHONY : src/logs/sbgEComLogOdometer.o
-
-# target to build an object file
-src/logs/sbgEComLogOdometer.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o
-.PHONY : src/logs/sbgEComLogOdometer.c.o
-
-src/logs/sbgEComLogOdometer.i: src/logs/sbgEComLogOdometer.c.i
-.PHONY : src/logs/sbgEComLogOdometer.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogOdometer.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.i
-.PHONY : src/logs/sbgEComLogOdometer.c.i
-
-src/logs/sbgEComLogOdometer.s: src/logs/sbgEComLogOdometer.c.s
-.PHONY : src/logs/sbgEComLogOdometer.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogOdometer.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.s
-.PHONY : src/logs/sbgEComLogOdometer.c.s
-
-src/logs/sbgEComLogRawData.o: src/logs/sbgEComLogRawData.c.o
-.PHONY : src/logs/sbgEComLogRawData.o
-
-# target to build an object file
-src/logs/sbgEComLogRawData.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o
-.PHONY : src/logs/sbgEComLogRawData.c.o
-
-src/logs/sbgEComLogRawData.i: src/logs/sbgEComLogRawData.c.i
-.PHONY : src/logs/sbgEComLogRawData.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogRawData.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.i
-.PHONY : src/logs/sbgEComLogRawData.c.i
-
-src/logs/sbgEComLogRawData.s: src/logs/sbgEComLogRawData.c.s
-.PHONY : src/logs/sbgEComLogRawData.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogRawData.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.s
-.PHONY : src/logs/sbgEComLogRawData.c.s
-
-src/logs/sbgEComLogSat.o: src/logs/sbgEComLogSat.c.o
-.PHONY : src/logs/sbgEComLogSat.o
-
-# target to build an object file
-src/logs/sbgEComLogSat.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o
-.PHONY : src/logs/sbgEComLogSat.c.o
-
-src/logs/sbgEComLogSat.i: src/logs/sbgEComLogSat.c.i
-.PHONY : src/logs/sbgEComLogSat.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogSat.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.i
-.PHONY : src/logs/sbgEComLogSat.c.i
-
-src/logs/sbgEComLogSat.s: src/logs/sbgEComLogSat.c.s
-.PHONY : src/logs/sbgEComLogSat.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogSat.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.s
-.PHONY : src/logs/sbgEComLogSat.c.s
-
-src/logs/sbgEComLogShipMotion.o: src/logs/sbgEComLogShipMotion.c.o
-.PHONY : src/logs/sbgEComLogShipMotion.o
-
-# target to build an object file
-src/logs/sbgEComLogShipMotion.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o
-.PHONY : src/logs/sbgEComLogShipMotion.c.o
-
-src/logs/sbgEComLogShipMotion.i: src/logs/sbgEComLogShipMotion.c.i
-.PHONY : src/logs/sbgEComLogShipMotion.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogShipMotion.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.i
-.PHONY : src/logs/sbgEComLogShipMotion.c.i
-
-src/logs/sbgEComLogShipMotion.s: src/logs/sbgEComLogShipMotion.c.s
-.PHONY : src/logs/sbgEComLogShipMotion.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogShipMotion.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.s
-.PHONY : src/logs/sbgEComLogShipMotion.c.s
-
-src/logs/sbgEComLogStatus.o: src/logs/sbgEComLogStatus.c.o
-.PHONY : src/logs/sbgEComLogStatus.o
-
-# target to build an object file
-src/logs/sbgEComLogStatus.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o
-.PHONY : src/logs/sbgEComLogStatus.c.o
-
-src/logs/sbgEComLogStatus.i: src/logs/sbgEComLogStatus.c.i
-.PHONY : src/logs/sbgEComLogStatus.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogStatus.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.i
-.PHONY : src/logs/sbgEComLogStatus.c.i
-
-src/logs/sbgEComLogStatus.s: src/logs/sbgEComLogStatus.c.s
-.PHONY : src/logs/sbgEComLogStatus.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogStatus.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.s
-.PHONY : src/logs/sbgEComLogStatus.c.s
-
-src/logs/sbgEComLogUsbl.o: src/logs/sbgEComLogUsbl.c.o
-.PHONY : src/logs/sbgEComLogUsbl.o
-
-# target to build an object file
-src/logs/sbgEComLogUsbl.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o
-.PHONY : src/logs/sbgEComLogUsbl.c.o
-
-src/logs/sbgEComLogUsbl.i: src/logs/sbgEComLogUsbl.c.i
-.PHONY : src/logs/sbgEComLogUsbl.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogUsbl.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.i
-.PHONY : src/logs/sbgEComLogUsbl.c.i
-
-src/logs/sbgEComLogUsbl.s: src/logs/sbgEComLogUsbl.c.s
-.PHONY : src/logs/sbgEComLogUsbl.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogUsbl.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.s
-.PHONY : src/logs/sbgEComLogUsbl.c.s
-
-src/logs/sbgEComLogUtc.o: src/logs/sbgEComLogUtc.c.o
-.PHONY : src/logs/sbgEComLogUtc.o
-
-# target to build an object file
-src/logs/sbgEComLogUtc.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o
-.PHONY : src/logs/sbgEComLogUtc.c.o
-
-src/logs/sbgEComLogUtc.i: src/logs/sbgEComLogUtc.c.i
-.PHONY : src/logs/sbgEComLogUtc.i
-
-# target to preprocess a source file
-src/logs/sbgEComLogUtc.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.i
-.PHONY : src/logs/sbgEComLogUtc.c.i
-
-src/logs/sbgEComLogUtc.s: src/logs/sbgEComLogUtc.c.s
-.PHONY : src/logs/sbgEComLogUtc.s
-
-# target to generate assembly for a file
-src/logs/sbgEComLogUtc.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.s
-.PHONY : src/logs/sbgEComLogUtc.c.s
+src/commands/transfer/sbgEComTransfer.c.s:
+	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.s
+.PHONY : src/commands/transfer/sbgEComTransfer.c.s
 
 src/protocol/sbgEComProtocol.o: src/protocol/sbgEComProtocol.c.o
 .PHONY : src/protocol/sbgEComProtocol.o
@@ -1481,30 +1361,6 @@ src/sbgEComGetVersion.c.s:
 	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.s
 .PHONY : src/sbgEComGetVersion.c.s
 
-src/transfer/sbgEComTransfer.o: src/transfer/sbgEComTransfer.c.o
-.PHONY : src/transfer/sbgEComTransfer.o
-
-# target to build an object file
-src/transfer/sbgEComTransfer.c.o:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o
-.PHONY : src/transfer/sbgEComTransfer.c.o
-
-src/transfer/sbgEComTransfer.i: src/transfer/sbgEComTransfer.c.i
-.PHONY : src/transfer/sbgEComTransfer.i
-
-# target to preprocess a source file
-src/transfer/sbgEComTransfer.c.i:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.i
-.PHONY : src/transfer/sbgEComTransfer.c.i
-
-src/transfer/sbgEComTransfer.s: src/transfer/sbgEComTransfer.c.s
-.PHONY : src/transfer/sbgEComTransfer.s
-
-# target to generate assembly for a file
-src/transfer/sbgEComTransfer.c.s:
-	cd /workspaces/mavlab/build/sbg_driver && $(MAKE) $(MAKESILENT) -f external/sbgECom/CMakeFiles/sbgECom.dir/build.make external/sbgECom/CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.s
-.PHONY : src/transfer/sbgEComTransfer.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1522,9 +1378,6 @@ help:
 	@echo "... common/crc/sbgCrc.o"
 	@echo "... common/crc/sbgCrc.i"
 	@echo "... common/crc/sbgCrc.s"
-	@echo "... common/debug/sbgDebug.o"
-	@echo "... common/debug/sbgDebug.i"
-	@echo "... common/debug/sbgDebug.s"
 	@echo "... common/interfaces/sbgInterface.o"
 	@echo "... common/interfaces/sbgInterface.i"
 	@echo "... common/interfaces/sbgInterface.s"
@@ -1549,24 +1402,72 @@ help:
 	@echo "... common/streamBuffer/sbgStreamBuffer.o"
 	@echo "... common/streamBuffer/sbgStreamBuffer.i"
 	@echo "... common/streamBuffer/sbgStreamBuffer.s"
-	@echo "... common/string/sbgString.o"
-	@echo "... common/string/sbgString.i"
-	@echo "... common/string/sbgString.s"
 	@echo "... common/swap/sbgSwap.o"
 	@echo "... common/swap/sbgSwap.i"
 	@echo "... common/swap/sbgSwap.s"
 	@echo "... common/version/sbgVersion.o"
 	@echo "... common/version/sbgVersion.i"
 	@echo "... common/version/sbgVersion.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogAirData.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogAirData.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogAirData.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDebug.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDebug.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDebug.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDepth.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDepth.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDepth.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDiag.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDiag.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDiag.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDvl.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDvl.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogDvl.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogEkf.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogEkf.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogEkf.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogEvent.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogEvent.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogEvent.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogGps.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogGps.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogGps.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogImu.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogImu.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogImu.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogImuRaw.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogImuRaw.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogImuRaw.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogMag.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogMag.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogMag.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogOdometer.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogOdometer.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogOdometer.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogShipMotion.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogShipMotion.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogShipMotion.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogStatus.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogStatus.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogStatus.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogUsbl.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogUsbl.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogUsbl.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogUtc.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogUtc.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogUtc.s"
+	@echo "... src/binaryLogs/sbgEComBinaryLogs.o"
+	@echo "... src/binaryLogs/sbgEComBinaryLogs.i"
+	@echo "... src/binaryLogs/sbgEComBinaryLogs.s"
+	@echo "... src/commands/sbgEComCmd.o"
+	@echo "... src/commands/sbgEComCmd.i"
+	@echo "... src/commands/sbgEComCmd.s"
 	@echo "... src/commands/sbgEComCmdAdvanced.o"
 	@echo "... src/commands/sbgEComCmdAdvanced.i"
 	@echo "... src/commands/sbgEComCmdAdvanced.s"
 	@echo "... src/commands/sbgEComCmdAirData.o"
 	@echo "... src/commands/sbgEComCmdAirData.i"
 	@echo "... src/commands/sbgEComCmdAirData.s"
-	@echo "... src/commands/sbgEComCmdApi.o"
-	@echo "... src/commands/sbgEComCmdApi.i"
-	@echo "... src/commands/sbgEComCmdApi.s"
 	@echo "... src/commands/sbgEComCmdCommon.o"
 	@echo "... src/commands/sbgEComCmdCommon.i"
 	@echo "... src/commands/sbgEComCmdCommon.s"
@@ -1609,69 +1510,9 @@ help:
 	@echo "... src/commands/sbgEComCmdSettings.o"
 	@echo "... src/commands/sbgEComCmdSettings.i"
 	@echo "... src/commands/sbgEComCmdSettings.s"
-	@echo "... src/defs/sbgEComDefsGnss.o"
-	@echo "... src/defs/sbgEComDefsGnss.i"
-	@echo "... src/defs/sbgEComDefsGnss.s"
-	@echo "... src/logs/sbgEComLog.o"
-	@echo "... src/logs/sbgEComLog.i"
-	@echo "... src/logs/sbgEComLog.s"
-	@echo "... src/logs/sbgEComLogAirData.o"
-	@echo "... src/logs/sbgEComLogAirData.i"
-	@echo "... src/logs/sbgEComLogAirData.s"
-	@echo "... src/logs/sbgEComLogDepth.o"
-	@echo "... src/logs/sbgEComLogDepth.i"
-	@echo "... src/logs/sbgEComLogDepth.s"
-	@echo "... src/logs/sbgEComLogDiag.o"
-	@echo "... src/logs/sbgEComLogDiag.i"
-	@echo "... src/logs/sbgEComLogDiag.s"
-	@echo "... src/logs/sbgEComLogDvl.o"
-	@echo "... src/logs/sbgEComLogDvl.i"
-	@echo "... src/logs/sbgEComLogDvl.s"
-	@echo "... src/logs/sbgEComLogEkf.o"
-	@echo "... src/logs/sbgEComLogEkf.i"
-	@echo "... src/logs/sbgEComLogEkf.s"
-	@echo "... src/logs/sbgEComLogEkfRotAccel.o"
-	@echo "... src/logs/sbgEComLogEkfRotAccel.i"
-	@echo "... src/logs/sbgEComLogEkfRotAccel.s"
-	@echo "... src/logs/sbgEComLogEvent.o"
-	@echo "... src/logs/sbgEComLogEvent.i"
-	@echo "... src/logs/sbgEComLogEvent.s"
-	@echo "... src/logs/sbgEComLogGnssHdt.o"
-	@echo "... src/logs/sbgEComLogGnssHdt.i"
-	@echo "... src/logs/sbgEComLogGnssHdt.s"
-	@echo "... src/logs/sbgEComLogGnssPos.o"
-	@echo "... src/logs/sbgEComLogGnssPos.i"
-	@echo "... src/logs/sbgEComLogGnssPos.s"
-	@echo "... src/logs/sbgEComLogGnssVel.o"
-	@echo "... src/logs/sbgEComLogGnssVel.i"
-	@echo "... src/logs/sbgEComLogGnssVel.s"
-	@echo "... src/logs/sbgEComLogImu.o"
-	@echo "... src/logs/sbgEComLogImu.i"
-	@echo "... src/logs/sbgEComLogImu.s"
-	@echo "... src/logs/sbgEComLogMag.o"
-	@echo "... src/logs/sbgEComLogMag.i"
-	@echo "... src/logs/sbgEComLogMag.s"
-	@echo "... src/logs/sbgEComLogOdometer.o"
-	@echo "... src/logs/sbgEComLogOdometer.i"
-	@echo "... src/logs/sbgEComLogOdometer.s"
-	@echo "... src/logs/sbgEComLogRawData.o"
-	@echo "... src/logs/sbgEComLogRawData.i"
-	@echo "... src/logs/sbgEComLogRawData.s"
-	@echo "... src/logs/sbgEComLogSat.o"
-	@echo "... src/logs/sbgEComLogSat.i"
-	@echo "... src/logs/sbgEComLogSat.s"
-	@echo "... src/logs/sbgEComLogShipMotion.o"
-	@echo "... src/logs/sbgEComLogShipMotion.i"
-	@echo "... src/logs/sbgEComLogShipMotion.s"
-	@echo "... src/logs/sbgEComLogStatus.o"
-	@echo "... src/logs/sbgEComLogStatus.i"
-	@echo "... src/logs/sbgEComLogStatus.s"
-	@echo "... src/logs/sbgEComLogUsbl.o"
-	@echo "... src/logs/sbgEComLogUsbl.i"
-	@echo "... src/logs/sbgEComLogUsbl.s"
-	@echo "... src/logs/sbgEComLogUtc.o"
-	@echo "... src/logs/sbgEComLogUtc.i"
-	@echo "... src/logs/sbgEComLogUtc.s"
+	@echo "... src/commands/transfer/sbgEComTransfer.o"
+	@echo "... src/commands/transfer/sbgEComTransfer.i"
+	@echo "... src/commands/transfer/sbgEComTransfer.s"
 	@echo "... src/protocol/sbgEComProtocol.o"
 	@echo "... src/protocol/sbgEComProtocol.i"
 	@echo "... src/protocol/sbgEComProtocol.s"
@@ -1681,9 +1522,6 @@ help:
 	@echo "... src/sbgEComGetVersion.o"
 	@echo "... src/sbgEComGetVersion.i"
 	@echo "... src/sbgEComGetVersion.s"
-	@echo "... src/transfer/sbgEComTransfer.o"
-	@echo "... src/transfer/sbgEComTransfer.i"
-	@echo "... src/transfer/sbgEComTransfer.s"
 .PHONY : help
 
 

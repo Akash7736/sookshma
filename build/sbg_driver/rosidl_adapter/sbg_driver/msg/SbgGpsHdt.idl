@@ -57,14 +57,6 @@ module sbg_driver {
       @verbatim (language="comment", text=
         "The distance between the main and aux antenna in meters.")
       float baseline;
-
-      @verbatim (language="comment", text=
-        "Number of space vehicle tracked in true heading solution. 0xFF if N/A")
-      uint8 num_sv_tracked;
-
-      @verbatim (language="comment", text=
-        "Number of used space vehicle in true heading solution. 0xFF if N/A")
-      uint8 num_sv_used;
     };
   };
 };

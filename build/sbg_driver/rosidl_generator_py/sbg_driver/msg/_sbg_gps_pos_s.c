@@ -147,15 +147,6 @@ bool sbg_driver__msg__sbg_gps_pos__convert_from_py(PyObject * _pymsg, void * _ro
     }
     Py_DECREF(field);
   }
-  {  // num_sv_tracked
-    PyObject * field = PyObject_GetAttrString(_pymsg, "num_sv_tracked");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->num_sv_tracked = (uint8_t)PyLong_AsUnsignedLong(field);
-    Py_DECREF(field);
-  }
   {  // num_sv_used
     PyObject * field = PyObject_GetAttrString(_pymsg, "num_sv_used");
     if (!field) {
@@ -307,17 +298,6 @@ PyObject * sbg_driver__msg__sbg_gps_pos__convert_to_py(void * raw_ros_message)
     }
     {
       int rc = PyObject_SetAttrString(_pymessage, "position_accuracy", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // num_sv_tracked
-    PyObject * field = NULL;
-    field = PyLong_FromUnsignedLong(ros_message->num_sv_tracked);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "num_sv_tracked", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

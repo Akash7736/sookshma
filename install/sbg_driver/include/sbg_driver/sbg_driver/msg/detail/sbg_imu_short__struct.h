@@ -46,8 +46,8 @@ typedef struct sbg_driver__msg__SbgImuShort
   ///   z: Z axis of the device frame
   ///
   /// ENU convention:
-  ///   x: Y axis of the device frame
-  ///   y: X axis of the device frame
+  ///   x: X axis of the device frame
+  ///   y: -Y axis of the device frame
   ///   z: -Z axis of the device frame
   geometry_msgs__msg__Vector3 delta_velocity;
   /// X, Y, Z delta angle. Unit is 67108864 LSB for 1 rad.s^-1.
@@ -58,8 +58,8 @@ typedef struct sbg_driver__msg__SbgImuShort
   ///   z: Z axis of the device frame
   ///
   /// ENU convention:
-  ///   x: Y axis of the device frame
-  ///   y: X axis of the device frame
+  ///   x: X axis of the device frame
+  ///   y: -Y axis of the device frame
   ///   z: -Z axis of the device frame
   geometry_msgs__msg__Vector3 delta_angle;
   /// IMU average temperature. Unit is 256 LSB for 1°C.

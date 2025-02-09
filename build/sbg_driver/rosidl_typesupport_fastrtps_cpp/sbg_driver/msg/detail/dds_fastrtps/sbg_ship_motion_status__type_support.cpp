@@ -36,14 +36,10 @@ cdr_serialize(
   cdr << (ros_message.heave_valid ? true : false);
   // Member: heave_vel_aided
   cdr << (ros_message.heave_vel_aided ? true : false);
-  // Member: surge_sway_included
-  cdr << (ros_message.surge_sway_included ? true : false);
   // Member: period_available
   cdr << (ros_message.period_available ? true : false);
   // Member: period_valid
   cdr << (ros_message.period_valid ? true : false);
-  // Member: swell_mode
-  cdr << (ros_message.swell_mode ? true : false);
   return true;
 }
 
@@ -67,13 +63,6 @@ cdr_deserialize(
     ros_message.heave_vel_aided = tmp ? true : false;
   }
 
-  // Member: surge_sway_included
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.surge_sway_included = tmp ? true : false;
-  }
-
   // Member: period_available
   {
     uint8_t tmp;
@@ -86,13 +75,6 @@ cdr_deserialize(
     uint8_t tmp;
     cdr >> tmp;
     ros_message.period_valid = tmp ? true : false;
-  }
-
-  // Member: swell_mode
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.swell_mode = tmp ? true : false;
   }
 
   return true;
@@ -123,12 +105,6 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: surge_sway_included
-  {
-    size_t item_size = sizeof(ros_message.surge_sway_included);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // Member: period_available
   {
     size_t item_size = sizeof(ros_message.period_available);
@@ -138,12 +114,6 @@ get_serialized_size(
   // Member: period_valid
   {
     size_t item_size = sizeof(ros_message.period_valid);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: swell_mode
-  {
-    size_t item_size = sizeof(ros_message.swell_mode);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -187,14 +157,6 @@ max_serialized_size_SbgShipMotionStatus(
     current_alignment += array_size * sizeof(uint8_t);
   }
 
-  // Member: surge_sway_included
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
   // Member: period_available
   {
     size_t array_size = 1;
@@ -211,14 +173,6 @@ max_serialized_size_SbgShipMotionStatus(
     current_alignment += array_size * sizeof(uint8_t);
   }
 
-  // Member: swell_mode
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -227,7 +181,7 @@ max_serialized_size_SbgShipMotionStatus(
     using DataType = sbg_driver::msg::SbgShipMotionStatus;
     is_plain =
       (
-      offsetof(DataType, swell_mode) +
+      offsetof(DataType, period_valid) +
       last_member_size
       ) == ret_val;
   }

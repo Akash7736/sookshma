@@ -31,8 +31,8 @@ module sbg_driver {
         "  z: Z axis of the device frame" "\n"
         "" "\n"
         "ENU convention:" "\n"
-        "  x: Y axis of the device frame" "\n"
-        "  y: X axis of the device frame" "\n"
+        "  x: X axis of the device frame" "\n"
+        "  y: -Y axis of the device frame" "\n"
         "  z: -Z axis of the device frame")
       @unit (value="m/s^2")
       geometry_msgs::msg::Vector3 accel;
@@ -46,8 +46,8 @@ module sbg_driver {
         "  z: Z axis of the device frame" "\n"
         "" "\n"
         "ENU convention:" "\n"
-        "  x: Y axis of the device frame" "\n"
-        "  y: X axis of the device frame" "\n"
+        "  x: X axis of the device frame" "\n"
+        "  y: -Y axis of the device frame" "\n"
         "  z: -Z axis of the device frame")
       @unit (value="rad/s")
       geometry_msgs::msg::Vector3 gyro;
@@ -66,8 +66,8 @@ module sbg_driver {
         "  z: Z axis of the device frame" "\n"
         "" "\n"
         "ENU convention:" "\n"
-        "  x: Y axis of the device frame" "\n"
-        "  y: X axis of the device frame" "\n"
+        "  x: X axis of the device frame" "\n"
+        "  y: -Y axis of the device frame" "\n"
         "  z: -Z axis of the device frame")
       @unit (value="m/s2")
       geometry_msgs::msg::Vector3 delta_vel;
@@ -81,8 +81,8 @@ module sbg_driver {
         "  z: Z axis of the device frame" "\n"
         "" "\n"
         "ENU convention:" "\n"
-        "  x: Y axis of the device frame" "\n"
-        "  y: X axis of the device frame" "\n"
+        "  x: X axis of the device frame" "\n"
+        "  y: -Y axis of the device frame" "\n"
         "  z: -Z axis of the device frame")
       @unit (value="rad/s")
       geometry_msgs::msg::Vector3 delta_angle;

@@ -21,32 +21,16 @@ namespace msg
 namespace builder
 {
 
-class Init_SbgShipMotionStatus_swell_mode
-{
-public:
-  explicit Init_SbgShipMotionStatus_swell_mode(::sbg_driver::msg::SbgShipMotionStatus & msg)
-  : msg_(msg)
-  {}
-  ::sbg_driver::msg::SbgShipMotionStatus swell_mode(::sbg_driver::msg::SbgShipMotionStatus::_swell_mode_type arg)
-  {
-    msg_.swell_mode = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::sbg_driver::msg::SbgShipMotionStatus msg_;
-};
-
 class Init_SbgShipMotionStatus_period_valid
 {
 public:
   explicit Init_SbgShipMotionStatus_period_valid(::sbg_driver::msg::SbgShipMotionStatus & msg)
   : msg_(msg)
   {}
-  Init_SbgShipMotionStatus_swell_mode period_valid(::sbg_driver::msg::SbgShipMotionStatus::_period_valid_type arg)
+  ::sbg_driver::msg::SbgShipMotionStatus period_valid(::sbg_driver::msg::SbgShipMotionStatus::_period_valid_type arg)
   {
     msg_.period_valid = std::move(arg);
-    return Init_SbgShipMotionStatus_swell_mode(msg_);
+    return std::move(msg_);
   }
 
 private:
@@ -69,32 +53,16 @@ private:
   ::sbg_driver::msg::SbgShipMotionStatus msg_;
 };
 
-class Init_SbgShipMotionStatus_surge_sway_included
-{
-public:
-  explicit Init_SbgShipMotionStatus_surge_sway_included(::sbg_driver::msg::SbgShipMotionStatus & msg)
-  : msg_(msg)
-  {}
-  Init_SbgShipMotionStatus_period_available surge_sway_included(::sbg_driver::msg::SbgShipMotionStatus::_surge_sway_included_type arg)
-  {
-    msg_.surge_sway_included = std::move(arg);
-    return Init_SbgShipMotionStatus_period_available(msg_);
-  }
-
-private:
-  ::sbg_driver::msg::SbgShipMotionStatus msg_;
-};
-
 class Init_SbgShipMotionStatus_heave_vel_aided
 {
 public:
   explicit Init_SbgShipMotionStatus_heave_vel_aided(::sbg_driver::msg::SbgShipMotionStatus & msg)
   : msg_(msg)
   {}
-  Init_SbgShipMotionStatus_surge_sway_included heave_vel_aided(::sbg_driver::msg::SbgShipMotionStatus::_heave_vel_aided_type arg)
+  Init_SbgShipMotionStatus_period_available heave_vel_aided(::sbg_driver::msg::SbgShipMotionStatus::_heave_vel_aided_type arg)
   {
     msg_.heave_vel_aided = std::move(arg);
-    return Init_SbgShipMotionStatus_surge_sway_included(msg_);
+    return Init_SbgShipMotionStatus_period_available(msg_);
   }
 
 private:

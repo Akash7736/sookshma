@@ -28,8 +28,6 @@
     "/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver:msg/SbgGpsHdt.msg",
     "/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver:msg/SbgMagCalib.msg",
     "/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver:msg/SbgStatusAiding.msg",
-    "/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver:msg/SbgEkfStatus.msg",
-    "/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver:msg/SbgEkfVelBody.msg",
-    "/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver:msg/SbgEkfRotAccel.msg"
+    "/workspaces/mavlab/ros2_ws/src/sbg_ros2_driver:msg/SbgEkfStatus.msg"
   ]
 }

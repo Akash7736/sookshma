@@ -39,12 +39,6 @@ typedef struct sbg_driver__msg__SbgStatusGeneral
   /// General Temperature
   /// True when temperature is within specified limits.
   bool temperature;
-  /// General Datalogger
-  /// True when the datalogger is working correctly.
-  bool datalogger;
-  /// General CPU
-  /// True if the CPU headroom is correct.
-  bool cpu;
 } sbg_driver__msg__SbgStatusGeneral;
 
 // Struct for a sequence of sbg_driver__msg__SbgStatusGeneral.
